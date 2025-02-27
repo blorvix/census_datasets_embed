@@ -1,0 +1,77 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "POP": {
+      "label": "Population",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGEGRP": {
+      "label": "Age Group",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Geographic Summary Level",
+      "concept": "Selectable Geographies",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "FIPS State code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE_SEX": {
+      "label": "Race and sex group",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HISP": {
+      "label": "Ethnic origin",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "FIPS County code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

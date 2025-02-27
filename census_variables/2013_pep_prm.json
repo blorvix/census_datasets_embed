@@ -1,0 +1,60 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "POP": {
+      "label": "Resident population total",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CTYNAME": {
+      "label": "County name",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STNAME": {
+      "label": "State name",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_": {
+      "label": "Estimate Date",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

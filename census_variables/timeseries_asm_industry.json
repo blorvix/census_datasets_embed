@@ -1,0 +1,1678 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "BENHEA": {
+      "label": "Employer's cost for health insurance ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEC_S": {
+      "label": "Relative standard error for estimate of employer's cost for defined contribution plans (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATE_F": {
+      "label": "Flag for materials and supplies inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPB_F": {
+      "label": "Flag for work-in-process inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHADVT": {
+      "label": "Advertising and promotional services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCTOT_S_F": {
+      "label": "Flag for relative standard error for estimate of total miscellaneous receipts",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENEFIT_S_F": {
+      "label": "Flag for relative standard error for estimate of total fringe benefits",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPE_S_F": {
+      "label": "Flag for relative standard error for estimate of work-in-process inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRFUS_F": {
+      "label": "Flag for refuse removal (including hazardous waste) services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEC_F": {
+      "label": "Flag for employer's cost for defined contribution plans",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTT_F": {
+      "label": "Flag for total other operating expenses",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRFUS_S": {
+      "label": "Relative standard error for estimate of refuse removal (including hazardous waste) services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTFU_F": {
+      "label": "Flag for cost of purchased fuels consumed",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECGEN": {
+      "label": "Quantity of generated electricity (1,000 kWh)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW_S_F": {
+      "label": "Flag for relative standard error for estimate of production workers average for year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT_S": {
+      "label": "Relative standard error for estimate of total cost of materials (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTT_S_F": {
+      "label": "Flag for relative standard error for estimate of total other operating expenses",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPTOT_S_F": {
+      "label": "Flag for relative standard error for estimate of total rental payments or lease payments",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENOTH": {
+      "label": "Employer's cost for other fringe benefits ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPB": {
+      "label": "Work-in-process inventories, beginning of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEB": {
+      "label": "Employer's cost for defined benefit pension plans ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEC": {
+      "label": "Employer's cost for defined contribution plans ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEC_S_F": {
+      "label": "Flag for relative standard error for estimate of employer's cost for defined contribution plans",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATE_S": {
+      "label": "Relative standard error for estimate of materials and supplies inventories, end of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPE": {
+      "label": "Work-in-process inventories, end of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPB_S": {
+      "label": "Relative standard error for estimate of work-in-process inventories, beginning of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTELEC_S_F": {
+      "label": "Flag for relative standard error for estimate of cost of purchased electricity",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHOEXP_S": {
+      "label": "Relative standard error for estimate of all other operating expenses (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_S": {
+      "label": "Relative standard error for estimate of total value of shipments and receipts for services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPTOT_F": {
+      "label": "Flag for total rental payments or lease payments",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPTOT_S": {
+      "label": "Relative standard error for estimate of total rental payments or lease payments (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHADVT_S": {
+      "label": "Relative standard error for estimate of advertising and promotional services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEB_S": {
+      "label": "Relative standard error for estimate of employer's cost for defined benefit pension plans (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHPRTE": {
+      "label": "Purchased professional and technical services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_F": {
+      "label": "Flag for total value of shipments and receipts for services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS_TTL": {
+      "label": "Meaning of 2012 NAICS code",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEB_F": {
+      "label": "Flag for employer's cost for defined benefit pension plans",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHOEXP_F": {
+      "label": "Flag for all other operating expenses",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW": {
+      "label": "Production workers average for year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTFU_S": {
+      "label": "Relative standard error for estimate of cost of purchased fuels (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRFUS": {
+      "label": "Refuse removal (including hazardous waste) services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTFU": {
+      "label": "Cost of purchased fuels consumed ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT_S_F": {
+      "label": "Flag for relative standard error of total capital expenditures (new and used)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTEMP": {
+      "label": "Temporary staff and leased employee expenses ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTCNT_S_F": {
+      "label": "Flag for relative standard error for estimate of cost of contract work",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN": {
+      "label": "Annual payroll ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCMPQ": {
+      "label": "Expensed computer hardware and other equipment ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCRSLTT_S_F": {
+      "label": "Flag for relative standard error for estimate of value of resales",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHADVT_F": {
+      "label": "Flag for advertising and promotional services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW_F": {
+      "label": "Flag for production workers average for year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENHEA_S_F": {
+      "label": "Flag for relative standard error for estimate of employer's cost for health insurance",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCOTH": {
+      "label": "Other miscellaneous receipts ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHO_S": {
+      "label": "Relative standard error of all other expenditures for machinery and equipment (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPTOT": {
+      "label": "Total rental payments or lease payments ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW_S": {
+      "label": "Relative standard error for estimate of production workers average for year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPBLD": {
+      "label": "Rental payments or lease payments for buildings and other structures ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS_F": {
+      "label": "Flag for production workers annual hours",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINB": {
+      "label": "Finished goods inventories, beginning of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINE": {
+      "label": "Finished goods inventories, end of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCOTH_S_F": {
+      "label": "Flag for relative standard error for estimate of other miscellaneous receipts",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW": {
+      "label": "Production workers annual wages ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "US": {
+      "label": "Total for US",
+      "concept": "Selectable Geographies",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMPRT_S_F": {
+      "label": "Flag for relative standard error for estimate of cost of materials, parts, containers, packaging, etc. used",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DPRTOT": {
+      "label": "Total Depreciation ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHA_S_F": {
+      "label": "Flag for relative standard error of automobiles, trucks, etc. for highway use",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW_S": {
+      "label": "Relative standard error for estimate of production workers annual wages (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT_F": {
+      "label": "Flag for total capital expenditures (new and used)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHO": {
+      "label": "Capital expenditures on all other machinery and equipment ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP": {
+      "label": "Number of employees",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCTOT": {
+      "label": "Total miscellaneous receipts ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRPR": {
+      "label": "Repair and maintenance services of buildings and/or machinery ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHO_F": {
+      "label": "Flag for capital expenditures on all other machinery and equipment",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHPRTE_F": {
+      "label": "Flag for purchased professional and technical services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW_F": {
+      "label": "Flag for production workers annual wages",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECPCH": {
+      "label": "Quantity of electricity purchased for heat and power (1,000 kWh)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT_S": {
+      "label": "Relative standard error of total capital expenditures (new and used) (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHC": {
+      "label": "Capital expenditures on computers and peripheral data processing equipment ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHPRTE_S": {
+      "label": "Relative standard error for estimate of purchased professional and technical services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHA": {
+      "label": "Capital expenditures on automobiles, trucks, etc. for highway use ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCH_F": {
+      "label": "Flag for capital expenditures on machinery and equipment (new and used)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTEMP_S": {
+      "label": "Relative standard error for estimate of temporary staff and leased employee expenses (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTCNT_S": {
+      "label": "Relative standard error for estimate of cost of contract work (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINE_S_F": {
+      "label": "Flag for relative standard error for estimate of finished goods inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTAX_F": {
+      "label": "Flag for taxes and license fees",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_S_F": {
+      "label": "Flag for relative standard error for estimate of total value of shipments and receipts for services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTEMP_F": {
+      "label": "Flag for temporary staff and leased employee expenses",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTRSL": {
+      "label": "Cost of resales ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD_S": {
+      "label": "Relative standard error for estimate of value added (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECSLD": {
+      "label": "Quantity of electricity sold or transferred",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECPCH_S": {
+      "label": "Relative standard error for estimate of quantity of electricity purchased for heat and power (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCH_S": {
+      "label": "Relative standard error of machinery and equipment (new and used) (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTCNT_F": {
+      "label": "Flag for cost of contract work",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS_S_F": {
+      "label": "Flag for relative standard error for estimate of production workers annual hours",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT_F": {
+      "label": "Flag for total cost of materials",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTE": {
+      "label": "Total inventories, end of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD_F": {
+      "label": "Flag for value added",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHEXSO": {
+      "label": "Expensed purchases of software ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPMCH": {
+      "label": "Rental payments or lease payments for machinery and equipment rentals ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCH_S_F": {
+      "label": "Flag for relative standard error of machinery and equipment (new and used)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTB": {
+      "label": "Total inventories, beginning of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECPCH_F": {
+      "label": "Flag for quantity of electricity purchased for heat and power",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTAX": {
+      "label": "Taxes and license fees ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHO_S_F": {
+      "label": "Flag for relative standard error of all other expenditures for machinery and equipment",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATE_S_F": {
+      "label": "Flag for relative standard error for estimate of materials and supplies inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCCNTTT_S_F": {
+      "label": "Flag for relative standard error for estimate of contract receipts",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTT_S": {
+      "label": "Relative standard error for estimate of total other operating expenses (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCOTH_S": {
+      "label": "Relative standard error for estimate of other miscellaneous receipts (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCRSLTT_S": {
+      "label": "Relative standard error for estimate of value of resales (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCRSLTT": {
+      "label": "Value of resales ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS": {
+      "label": "Production workers annual hours (1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTRAN_F": {
+      "label": "Flag for value of interplant transfers for shipments and receipts for services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCMPQ_S_F": {
+      "label": "Flag for relative standard error for estimate of expensed computer hardware and other equipment",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTRAN_S": {
+      "label": "Relative standard error for estimate of value of interplant transfers for shipments and receipts for services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCOTH_F": {
+      "label": "Flag for other miscellaneous receipts",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINE_F": {
+      "label": "Flag for finished goods inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT": {
+      "label": "Total capital expenditures (new and used) ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPBLD_F": {
+      "label": "Flag for rental payments or lease payments for buildings and other structures",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINE_S": {
+      "label": "Relative standard error for estimate of finished goods inventories, end of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTFU_S_F": {
+      "label": "Flag for relative standard error for estimate of cost of purchased fuels",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXBLD": {
+      "label": "Capital expenditures on buildings and other structures (new and used) ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPMCH_S_F": {
+      "label": "Flag for relative standard error for estimate of rental payments or lease payments for machinery and equipment rentals",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCSVC": {
+      "label": "Communication services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECSLD_S_F": {
+      "label": "Flag for relative standard error for estimate of quantity of electricity sold or transferred",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINB_S_F": {
+      "label": "Flag for relative standard error for estimate of finished goods inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT": {
+      "label": "Total cost of materials ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCRSLTT_F": {
+      "label": "Flag for value of resales",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPBLD_S": {
+      "label": "Relative standard error for estimate of rental payments or lease payments for buildings and other structures (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTPLM": {
+      "label": "Value of primary and secondary product shipments and receipts for services made in industry ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHADVT_S_F": {
+      "label": "Flag for relative standard error for estimate of advertising and promotional services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRPR_F": {
+      "label": "Flag for repair and maintenance services of buildings and/or machinery",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECGEN_F": {
+      "label": "Flag for quantity of generated electricity",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECGEN_S": {
+      "label": "Relative standard error for estimate of quantity of generated electricity (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHDAPR": {
+      "label": "Data processing and other purchased computer services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHA_S": {
+      "label": "Relative standard error of automobiles, trucks, etc. for highway use (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTPLM_F": {
+      "label": "Flag for value of primary and secondary product shipments and receipts for services made in industry",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCMPQ_F": {
+      "label": "Flag for expensed computer hardware and other equipment",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTAX_S": {
+      "label": "Relative standard error for estimate of taxes and license fees (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DPRTOT_S": {
+      "label": "Relative standard error of total depreciation (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD_S_F": {
+      "label": "Flag for relative standard error for estimate of value added",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCH": {
+      "label": "Capital expenditures on machinery and equipment (new and used) ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRPR_S": {
+      "label": "Relative standard error for estimate of repair and maintenance services of buildings and/or machinery (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHA_F": {
+      "label": "Flag for capital expenditures on automobiles, trucks, etc. for highway use",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRPR_S_F": {
+      "label": "Flag for relative standard error for estimate of repair and maintenance services of buildings and/or machinery",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENOTH_S": {
+      "label": "Relative standard error for estimate of employer's cost for other fringe benefits (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCMPQ_S": {
+      "label": "Relative standard error for estimate of expensed computer hardware and other equipment (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTPLM_S": {
+      "label": "Relative standard error for estimate of value of primary and secondary product shipments and receipts for services made in industry (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENPEB_S_F": {
+      "label": "Flag for relative standard error for estimate of employer's cost for defined benefit pension plans",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECGEN_S_F": {
+      "label": "Flag for relative standard error for estimate of quantity of generated electricity",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_S_F": {
+      "label": "Flag for relative standard error for estimate of number of employees",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTRAN": {
+      "label": "Value of interplant transfers for shipments and receipts for services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENEFIT_F": {
+      "label": "Flag for total fringe benefits",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPE_F": {
+      "label": "Flag for work-in-process inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTE_F": {
+      "label": "Flag for total inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTE_S_F": {
+      "label": "Flag for relative standard error for estimate of total inventories, end of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCCNTTT_F": {
+      "label": "Flag for contract receipts",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTRSL_S": {
+      "label": "Relative standard error for estimate of cost of resales (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DPRTOT_F": {
+      "label": "Flag for total Depreciation",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT": {
+      "label": "Total value of shipments and receipts for services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTRSL_F": {
+      "label": "Flag for cost of resales",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTE_S": {
+      "label": "Relative standard error for estimate of total inventories, end of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS_S": {
+      "label": "Relative standard error for estimate of production workers annual hours (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENHEA_S": {
+      "label": "Relative standard error for estimate of employer's cost for health insurance (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DPRTOT_S_F": {
+      "label": "Flag for relative standard error of total depreciation",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTRAN_S_F": {
+      "label": "Flag for relative standard error for estimate of value of interplant transfers for shipments and receipts for services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHDAPR_S_F": {
+      "label": "Flag for relative standard error for estimate of data processing and other purchased computer services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENHEA_F": {
+      "label": "Flag for employer's cost for health insurance",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTELEC_F": {
+      "label": "Flag for cost of purchased electricity",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTT": {
+      "label": "Total other operating expenses ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCCNTTT_S": {
+      "label": "Relative standard error for estimate of contract receipts (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPE_S": {
+      "label": "Relative standard error for estimate of work-in-process inventories, end of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTELEC_S": {
+      "label": "Relative standard error for estimate of cost of purchased electricity (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTB_S": {
+      "label": "Relative standard error for estimate of total inventories, beginning of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHC_S_F": {
+      "label": "Flag for relative standard error of computers and peripheral data processing equipment",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHEXSO_F": {
+      "label": "Flag for expensed purchases of software",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCSVC_S": {
+      "label": "Relative standard error for estimate of communication services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATB_S_F": {
+      "label": "Flag for relative standard error for estimate of materials and supplies inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_S": {
+      "label": "Relative standard error for estimate of number of employees (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTB_F": {
+      "label": "Flag for total inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS": {
+      "label": "NAICS code",
+      "concept": "Economic Statistics",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECPCH_S_F": {
+      "label": "Flag for relative standard error for estimate of quantity of electricity purchased for heat and power",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHEXSO_S": {
+      "label": "Relative standard error for estimate of expensed purchases of software (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD": {
+      "label": "Value added ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTPLM_S_F": {
+      "label": "Flag for relative standard error for estimate of value of primary and secondary product shipments and receipts for services made in industry",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHDAPR_S": {
+      "label": "Relative standard error for estimate of data processing and other purchased computer services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_F": {
+      "label": "Flag for number of employees",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHPRTE_S_F": {
+      "label": "Flag for relative standard error for estimate of purchased professional and technical services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_TTL": {
+      "label": "label Geographic area name",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW_S_F": {
+      "label": "Flag for relative standard error for estimate of production workers annual wages",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVWIPB_S_F": {
+      "label": "Flag for relative standard error for estimate of work-in-process inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPMCH_F": {
+      "label": "Flag for rental payments or lease payments for machinery and equipment rentals",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHOEXP_S_F": {
+      "label": "Flag for relative standard error for estimate of all other operating expenses",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_S": {
+      "label": "Relative standard error for estimate of annual payroll (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_F": {
+      "label": "Flag for annual payroll",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHC_S": {
+      "label": "Relative standard error of computers and peripheral data processing equipment (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMPRT": {
+      "label": "Cost of materials, parts, containers, packaging, etc. used ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT_S_F": {
+      "label": "Flag for relative standard error for estimate of total cost of materials",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCSVC_F": {
+      "label": "Flag for communication services",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXMCHC_F": {
+      "label": "Flag for capital expenditures on computers and peripheral data processing equipment",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENEFIT_S": {
+      "label": "Relative standard error for estimate of total fringe benefits (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVTOTB_S_F": {
+      "label": "Flag for relative standard error for estimate of total inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCCNTTT": {
+      "label": "Contract receipts ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENOTH_F": {
+      "label": "Flag for employer's cost for other fringe benefits",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTELEC": {
+      "label": "Cost of purchased electricity ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHCSVC_S_F": {
+      "label": "Flag for relative standard error for estimate of communication services",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATB_F": {
+      "label": "Flag for materials and supplies inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECSLD_F": {
+      "label": "Flag for quantity of electricity sold or transferred (1,000 kWh)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINB_S": {
+      "label": "Relative standard error for estimate of finished goods inventories, beginning of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENOTH_S_F": {
+      "label": "Flag for relative standard error for estimate of employer's cost for other fringe benefits",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXBLD_S_F": {
+      "label": "Flag for relative standard error of buildings and other structures (new and used)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPMCH_S": {
+      "label": "Relative standard error for estimate of rental payments or lease payments for machinery and equipment rentals (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ELECSLD_S": {
+      "label": "Relative standard error for estimate of quantity of electricity sold or transferred (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVFINB_F": {
+      "label": "Flag for finished goods inventories, beginning of year",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHOEXP": {
+      "label": "All other operating expenses ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTRSL_S_F": {
+      "label": "Flag for relative standard error for estimate of cost of resales",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXBLD_F": {
+      "label": "Flag for capital expenditures on buildings and other structures (new and used)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTCNT": {
+      "label": "Cost of contract work ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RPBLD_S_F": {
+      "label": "Flag for relative standard error for estimate of rental payments or lease payments for buildings and other structures",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCTOT_S": {
+      "label": "Relative standard error for estimate of total miscellaneous receipts (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHRFUS_S_F": {
+      "label": "Flag for relative standard error for estimate of refuse removal (including hazardous waste) services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHDAPR_F": {
+      "label": "Flag for data processing and other purchased computer services",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATB_S": {
+      "label": "Relative standard error for estimate of materials and supplies inventories, beginning of year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BENEFIT": {
+      "label": "Total fringe benefits ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHEXSO_S_F": {
+      "label": "Flag for relative standard error for estimate of expensed purchases of software",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOTYPE": {
+      "label": "Geography Summary Level",
+      "concept": "Geographic Characteristics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATB": {
+      "label": "Materials and supplies inventories, beginning of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXBLD_S": {
+      "label": "Relative standard error of buildings and other structures (new and used) (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMPRT_S": {
+      "label": "Relative standard error for estimate of cost of materials, parts, containers, packaging, etc. used (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INVMATE": {
+      "label": "Materials and supplies inventories, end of year ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_S_F": {
+      "label": "Flag for relative standard error for estimate of annual payroll",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMPRT_F": {
+      "label": "Flag for cost of materials, parts, containers, packaging, etc. used",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSCTOT_F": {
+      "label": "Flag for total miscellaneous receipts",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTAX_S_F": {
+      "label": "Flag for relative standard error for estimate of taxes and license fees",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCHTEMP_S_F": {
+      "label": "Flag for relative standard error for estimate of temporary staff and leased employee expenses",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

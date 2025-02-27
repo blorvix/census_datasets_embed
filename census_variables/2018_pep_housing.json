@@ -1,0 +1,105 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "DATE_CODE": {
+      "label": "Estimate Date",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "9": "7/1/2016 population estimate",
+          "8": "7/1/2015 population estimate",
+          "7": "7/1/2014 population estimate",
+          "6": "7/1/2013 population estimate",
+          "5": "7/1/2012 population estimate",
+          "4": "7/1/2011 population estimate",
+          "3": "7/1/2010 population estimate",
+          "2": "4/1/2010 population estimates base",
+          "1": "4/1/2010 Census Population"
+        }
+      }
+    },
+    "SUMLEV": {
+      "label": "Summary level",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HUEST": {
+      "label": "Housing Unit Estimate",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS Code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "Geography Name",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Division code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Region code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_DESC": {
+      "label": "Description of DATE values",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

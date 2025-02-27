@@ -1,0 +1,199 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "V3D": {
+      "label": "Vius Table 3D Indicator",
+      "concept": "Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS213D",
+      "limit": 0
+    },
+    "VEHTYPE": {
+      "label": "Vehicle type code",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211D",
+      "limit": 0,
+      "attributes": "VEHTYPE_LABEL"
+    },
+    "V1D": {
+      "label": "Vius Table 1D Indicator",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS211D",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VMILE": {
+      "label": "Vehicle miles (millions)",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "float",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "VMILE_F"
+    },
+    "TCONFIG": {
+      "label": "Trailer configuration code",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211D",
+      "limit": 0,
+      "attributes": "TCONFIG_LABEL"
+    },
+    "VCOUNT": {
+      "label": "Number of vehicles (thousands)",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "float",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "VCOUNT_F"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRICHAR": {
+      "label": "Primary characteristic code",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "PRICHAR_LABEL"
+    },
+    "VMILE_S": {
+      "label": "Coefficient of variation for vehicle miles (%)",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "float",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "VMILE_S_F"
+    },
+    "PRIVALUE": {
+      "label": "Primary value code",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "PRIVALUE_LABEL"
+    },
+    "V4B": {
+      "label": "Vius Table 4B Indicator",
+      "concept": "Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "string",
+      "group": "VIUS214B",
+      "limit": 0
+    },
+    "AMILE_S": {
+      "label": "Coefficient of variation for average miles per vehicle (%)",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "float",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "AMILE_S_F"
+    },
+    "V2D": {
+      "label": "Vius Table 2D Indicator",
+      "concept": "Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS212D",
+      "limit": 0
+    },
+    "VCOUNT_S": {
+      "label": "Coefficient of variation for number of vehicles (%)",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "float",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "VCOUNT_S_F"
+    },
+    "GVWR": {
+      "label": "Gross vehicle weight rating",
+      "concept": "Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213D",
+      "limit": 0,
+      "attributes": "GVWR_LABEL"
+    },
+    "HBSTATE": {
+      "label": "Home base state code",
+      "concept": "Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS214B",
+      "limit": 0,
+      "attributes": "HBSTATE_LABEL"
+    },
+    "AMILE": {
+      "label": "Average miles per vehicle (thousands)",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "float",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "AMILE_F"
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Overweight Permits by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021;Overweight Permits and Commercial Activity by Home Base State for the U.S. (excluding New Hampshire) : 2021",
+      "predicateType": "string",
+      "group": "VIUS213D,VIUS212D,VIUS211D,VIUS214B",
+      "limit": 0,
+      "attributes": "GEO_ID_F,NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BUSE": {
+      "label": "Business use code",
+      "concept": "Overweight Permits by Registration State and Business Use for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS212D",
+      "limit": 0,
+      "attributes": "BUSE_LABEL"
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "DATE_CODE": {
+      "label": "Estimate Date",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "April 1, 2010 Census population or housing unit count",
+          "2": "April 1, 2010 population or housing unit estimates base",
+          "3": "July 1, 2010 population or housing unit estimate",
+          "4": "July 1, 2011 population or housing unit estimate",
+          "5": "July 1, 2012 population or housing unit estimate",
+          "6": "July 1, 2013 population or housing unit estimate",
+          "7": "July 1, 2014 population or housing unit estimate",
+          "8": "July 1, 2015 population or housing unit estimate",
+          "9": "July 1, 2016 population or housing unit estimate",
+          "10": "July 1, 2017 population or housing unit estimate",
+          "11": "July 1, 2018 population or housing unit estimate",
+          "12": "July 1, 2019 population or housing unit estimate"
+        }
+      }
+    },
+    "SEX": {
+      "label": "Sex",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Both Sexes",
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGE_DESC": {
+      "label": "Description of AGE values",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "99": "Age 99",
+          "98": "Age 98",
+          "97": "Age 97",
+          "96": "Age 96",
+          "95": "Age 95",
+          "94": "Age 94",
+          "93": "Age 93",
+          "92": "Age 92",
+          "91": "Age 91",
+          "90": "Age 90",
+          "89": "Age 89",
+          "88": "Age 88",
+          "87": "Age 87",
+          "86": "Age 86",
+          "85": "Age 85",
+          "84": "Age 84",
+          "83": "Age 83",
+          "82": "Age 82",
+          "81": "Age 81",
+          "80": "Age 80",
+          "79": "Age 79",
+          "78": "Age 78",
+          "77": "Age 77",
+          "76": "Age 76",
+          "75": "Age 75",
+          "74": "Age 74",
+          "73": "Age 73",
+          "72": "Age 72",
+          "71": "Age 71",
+          "70": "Age 70",
+          "69": "Age 69",
+          "68": "Age 68",
+          "67": "Age 67",
+          "66": "Age 66",
+          "65": "Age 65",
+          "64": "Age 64",
+          "63": "Age 63",
+          "62": "Age 62",
+          "61": "Age 61",
+          "60": "Age 60",
+          "59": "Age 59",
+          "58": "Age 58",
+          "57": "Age 57",
+          "56": "Age 56",
+          "55": "Age 55",
+          "54": "Age 54",
+          "53": "Age 53",
+          "52": "Age 52",
+          "51": "Age 51",
+          "50": "Age 50",
+          "49": "Age 49",
+          "48": "Age 48",
+          "47": "Age 47",
+          "46": "Age 46",
+          "45": "Age 45",
+          "44": "Age 44",
+          "43": "Age 43",
+          "42": "Age 42",
+          "41": "Age 41",
+          "40": "Age 40",
+          "39": "Age 39",
+          "38": "Age 38",
+          "37": "Age 37",
+          "36": "Age 36",
+          "35": "Age 35",
+          "34": "Age 34",
+          "33": "Age 33",
+          "32": "Age 32",
+          "31": "Age 31",
+          "30": "Age 30",
+          "29": "Age 29",
+          "28": "Age 28",
+          "27": "Age 27",
+          "26": "Age 26",
+          "25": "Age 25",
+          "24": "Age 24",
+          "23": "Age 23",
+          "22": "Age 22",
+          "21": "Age 21",
+          "20": "Age 20",
+          "19": "Age 19",
+          "18": "Age 18",
+          "17": "Age 17",
+          "16": "Age 16",
+          "15": "Age 15",
+          "14": "Age 14",
+          "13": "Age 13",
+          "12": "Age 12",
+          "11": "Age 11",
+          "10": "Age 10",
+          "9": "Age 9",
+          "8": "Age 8",
+          "7": "Age 7",
+          "6": "Age 6",
+          "5": "Age 5",
+          "4": "Age 4",
+          "3": "Age 3",
+          "2": "Age 2",
+          "1": "Age 1",
+          "999": "All Ages",
+          "0": "Under 1",
+          "100": "100 years and over"
+        }
+      }
+    },
+    "POP": {
+      "label": "Population",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE": {
+      "label": "Race",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "11": "Native Hawaiian and Other Pacific Islander alone or in combination",
+          "10": "Asian alone or in combination",
+          "9": "American Indian and Alaska Native alone or in combination",
+          "8": "Black alone or in combination",
+          "7": "White alone or in combination",
+          "6": "Two or more races",
+          "5": "Native Hawaiian and Other Pacific Islander alone",
+          "4": "Asian alone",
+          "3": "American Indian and Alaska Native alone",
+          "2": "Black alone",
+          "1": "White alone",
+          "0": "All races"
+        }
+      }
+    },
+    "DATE_DESC": {
+      "label": "Description of DATE values",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Population Universe",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGE": {
+      "label": "Age",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HISP": {
+      "label": "Hispanic Origin",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hispanic",
+          "1": "Non Hispanic",
+          "0": "Both Hispanic origins"
+        }
+      }
+    }
+  }
+}

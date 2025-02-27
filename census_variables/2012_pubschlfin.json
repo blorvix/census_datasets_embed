@@ -1,0 +1,492 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "LOCROTHR": {
+      "label": "Other local revenues (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LONGISSU": {
+      "label": "Long-term debt issued during the fiscal year (Thousands of Dollars)",
+      "concept": "Debt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TPAYOTH": {
+      "label": "Payments to Other Governments (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TLOCREV": {
+      "label": "Total Revenue from Local Sources (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSSVC": {
+      "label": "Total Current Spending for Support Services (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPCSTOT": {
+      "label": "PER PUPIL-TOTAL CURRENT SPENDING (ELEMENTARY-SECONDARY)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTLOTHG": {
+      "label": "Percent - Revenue from other local governments",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPSTOTAL": {
+      "label": "Per Pupil - Total Current Spending for Support Services",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCAPOUT": {
+      "label": "Total Capital Outlay Expenditure (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPSSCHAD": {
+      "label": "Per Pupil - School administration",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LONGRET": {
+      "label": "Long-term debt retired during the fiscal year (Thousands of Dollars)",
+      "concept": "Debt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURONON": {
+      "label": "Other Current Spending (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSGEN": {
+      "label": "General administration (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DEBTOUT": {
+      "label": "Long-term debt outstanding at end of fiscal year (Thousands of Dollars)",
+      "concept": "Debt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NCESID": {
+      "label": "NCES ID Code",
+      "concept": "Administrative data",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ENROLL": {
+      "label": "Fall Membership",
+      "concept": "Administrative data",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LOCROSCH": {
+      "label": "Revenue from other school systems (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPSGENAD": {
+      "label": "Per Pupil - General administration",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURIBEN": {
+      "label": "Employee benefits for instruction (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTLTAXP": {
+      "label": "Percent - Taxes and parent government contributions",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FEDRSPEC": {
+      "label": "Federal revenue through the state - Children with disabilities - IDEA (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TOTALREV": {
+      "label": "TOTAL ELEMENTARY-SECONDARY REVENUE (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TOTALEXP": {
+      "label": "TOTAL ELEMENTARY-SECONDARY EXPENDITURE (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTLTOT": {
+      "label": "Percent - Total Revenue from Local Sources",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPSALWG": {
+      "label": "Per Pupil - Total salaries and wages",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAME": {
+      "label": "School System Name",
+      "concept": "Administrative data",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONUM": {
+      "label": "ANSI State and County Code",
+      "concept": "Selectable Geography",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPEMPBEN": {
+      "label": "Per Pupil - Total employee benefit payments",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTTOTAL": {
+      "label": "PERCENT - TOTAL ELEMENTARY-SECONDARY REVENUE",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TFEDREV": {
+      "label": "Total Revenue from Federal Sources (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TSTREV": {
+      "label": "Total Revenue from State Sources (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FEDRNUTR": {
+      "label": "Federal revenue through the state - Child nutrition programs (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "IDCENSUS": {
+      "label": "School System Identification Number",
+      "concept": "Administrative data",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSSTA": {
+      "label": "Instructional staff support (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURINST": {
+      "label": "Total Current Spending for Instruction (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTFCOMP": {
+      "label": "Percent - Compensatory (Title I)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTLCHAR": {
+      "label": "Percent - Charges",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSPND": {
+      "label": "TOTAL CURRENT SPENDING (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSOTH": {
+      "label": "Other and nonspecified (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPIEMBEN": {
+      "label": "Per Pupil - Employee benefits",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTSTOT": {
+      "label": "Percent - Total Revenue from State Sources",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSSCH": {
+      "label": "School administration (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FEDRCOMP": {
+      "label": "Federal revenue through the state - Title I (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "Consolidated Statistical Area",
+      "concept": "Selectable Geography",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TEMPBENE": {
+      "label": "Total employee benefit payments (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LOCRCHAR": {
+      "label": "Charges (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STRTRANS": {
+      "label": "Transportation programs (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TINTRST": {
+      "label": "Interest on School System Indebtedness (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TSALWAGE": {
+      "label": "Total salaries and wages (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LOCRCICO": {
+      "label": "Revenue from cities and counties (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPSPUPIL": {
+      "label": "Per Pupil - Pupil support",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPITOTAL": {
+      "label": "Per Pupil - Total Current Spending for Instruction",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURSPUP": {
+      "label": "Pupil support (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTSFORM": {
+      "label": "Percent - General formula assistance",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STROTHR": {
+      "label": "All other revenues from state sources (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPSSTAFF": {
+      "label": "Per Pupil - Instructional staff support",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LOCRTAX": {
+      "label": "All taxes (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STRSPEC": {
+      "label": "Special education programs (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FEDROTHR": {
+      "label": "All other federal aid (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LOCRPAR": {
+      "label": "Parent government contributions (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Core-Based Statistical Area",
+      "concept": "Selectable Geography",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STRFORM": {
+      "label": "General formula assistance (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LOCRPROP": {
+      "label": "Property taxes (Thousands of Dollars)",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PPISALWG": {
+      "label": "Per Pupil - Salaries and wages",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TCURISAL": {
+      "label": "Salaries and wages for instruction (Thousands of Dollars)",
+      "concept": "Expenditure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTFTOT": {
+      "label": "Percent - Total Revenue from Federal Sources",
+      "concept": "Revenue",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

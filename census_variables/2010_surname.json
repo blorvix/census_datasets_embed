@@ -1,0 +1,81 @@
+{
+  "variables": {
+    "PCTAPI": {
+      "label": "Percent Non-Hispanic Asian and Native Hawaiian and Other Pacific Islander Alone",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTBLACK": {
+      "label": "Percent Non-Hispanic Black or African American Alone",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTAIAN": {
+      "label": "Percent Non-Hispanic American Indian and Alaska Native Alone",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CUM_PROP100K": {
+      "label": "Cumulative proportion per 100,000 population",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PROP100K": {
+      "label": "Proportion per 100,000 population for name",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTWHITE": {
+      "label": "Percent Non-Hispanic White Alone",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RANK": {
+      "label": "National Rank",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNT": {
+      "label": "Frequency: number of occurrences nationally",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCT2PRACE": {
+      "label": "Percent Non-Hispanic Two or More Races",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCTHISPANIC": {
+      "label": "Percent Hispanic or Latino origin",
+      "concept": "Surnames Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAME": {
+      "label": "Surname",
+      "concept": "Surnames Variables",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

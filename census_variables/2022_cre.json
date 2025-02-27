@@ -1,0 +1,125 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRED3_PE": {
+      "label": "Rate of individuals with three or more components of social vulnerability",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "float",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "PRED3_PM"
+    },
+    "GEO_ID": {
+      "label": "Geographic Identifier",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "string",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "NAME,WATER_TRACT"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRACT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRED3_E": {
+      "label": "Estimated number of individuals with three or more components of social vulnerability",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "int",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "PRED3_M"
+    },
+    "PRED0_PE": {
+      "label": "Rate of individuals with zero components of social vulnerability",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "float",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "PRED0_PM"
+    },
+    "PRED12_PE": {
+      "label": "Rate of individuals with one-two components of social vulnerability",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "float",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "PRED12_PM"
+    },
+    "PRED12_E": {
+      "label": "Estimated number of individuals with one-two components of social vulnerability",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "int",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "PRED12_M"
+    },
+    "POPUNI": {
+      "label": "Population Universe",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "int",
+      "group": "CRE",
+      "limit": 0
+    },
+    "PRED0_E": {
+      "label": "Estimated number of individuals with zero components of social vulnerability",
+      "concept": "Community Resilience Estimates",
+      "predicateType": "int",
+      "group": "CRE",
+      "limit": 0,
+      "attributes": "PRED0_M"
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

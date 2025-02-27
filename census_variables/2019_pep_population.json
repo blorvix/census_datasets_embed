@@ -1,0 +1,195 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "EUPB": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DENSITY": {
+      "label": "Density",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Population Universe",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_CODE": {
+      "label": "Estimate Date",
+      "concept": "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2019",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "PEPANNRES",
+      "limit": 0,
+      "attributes": "DATE_DESC",
+      "values": {
+        "item": {
+          "1": "4/1/2010 Census population",
+          "2": "4/1/2010 population estimates base",
+          "3": "7/1/2010 population estimate",
+          "4": "7/1/2011 population estimate",
+          "5": "7/1/2012 population estimate",
+          "6": "7/1/2013 population estimate",
+          "7": "7/1/2014 population estimate",
+          "8": "7/1/2015 population estimate",
+          "9": "7/1/2016 population estimate",
+          "10": "7/1/2017 population estimate",
+          "11": "7/1/2018 population estimate",
+          "12": "7/1/2019 population estimate"
+        }
+      }
+    },
+    "PLACE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "METDIV": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FUNCSTAT": {
+      "label": "Functional Status Code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "A": "identifies an active government providing primary general-purpose functions",
+          "B": "identifies an active government that is partially consolidated with another government but with separate officials providing primary general-purpose functions",
+          "C": "identifies an active government consolidated with another government with a single set of officials",
+          "F": "identifies a fictitious entity created to fill the Census Bureau's geographic hierarchy",
+          "G": "identifies an active government that is subordinate to another unit of government",
+          "I": "identifies an inactive governmental unit that has the power to provide primary special-purpose functions",
+          "N": "identifies a nonfunctioning legal entity",
+          "S": "identifies a statistical entity"
+        }
+      }
+    },
+    "REGION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POP": {
+      "label": "Population",
+      "concept": "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2019",
+      "predicateType": "int",
+      "group": "PEPANNRES",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2019",
+      "predicateType": "string",
+      "group": "PEPANNRES",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONCITY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRIMGEOFLAG": {
+      "label": "Primitive Geography Flag",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "ESTPLACE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EUCOUSUB": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

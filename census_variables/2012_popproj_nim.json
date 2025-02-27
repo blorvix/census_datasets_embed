@@ -1,0 +1,637 @@
+{
+  "variables": {
+    "NIM_71": {
+      "label": "Net number of migrants age 71",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_70": {
+      "label": "Net number of migrants age 70",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_75": {
+      "label": "Net number of migrants age 75",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_31": {
+      "label": "Net number of migrants age 31",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_74": {
+      "label": "Net number of migrants age 74",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_30": {
+      "label": "Net number of migrants age 30",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_73": {
+      "label": "Net number of migrants age 73",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_72": {
+      "label": "Net number of migrants age 72",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_79": {
+      "label": "Net number of migrants age 79",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_35": {
+      "label": "Net number of migrants age 35",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_78": {
+      "label": "Net number of migrants age 78",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_34": {
+      "label": "Net number of migrants age 34",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_77": {
+      "label": "Net number of migrants age 77",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_33": {
+      "label": "Net number of migrants age 33",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_76": {
+      "label": "Net number of migrants age 76",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_32": {
+      "label": "Net number of migrants age 32",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_39": {
+      "label": "Net number of migrants age 39",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_38": {
+      "label": "Net number of migrants age 38",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_37": {
+      "label": "Net number of migrants age 37",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_36": {
+      "label": "Net number of migrants age 36",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year of projection",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TOTAL_NIM": {
+      "label": "Total net international migrants",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_82": {
+      "label": "Net number of migrants age 82",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_81": {
+      "label": "Net number of migrants age 81",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_80": {
+      "label": "Net number of migrants age 80",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_42": {
+      "label": "Net number of migrants age 42",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_85": {
+      "label": "Net number of migrants age 85",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_41": {
+      "label": "Net number of migrants age 41",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_84": {
+      "label": "Net number of migrants age 84",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_40": {
+      "label": "Net number of migrants age 40",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_83": {
+      "label": "Net number of migrants age 83",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_46": {
+      "label": "Net number of migrants age 46",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_45": {
+      "label": "Net number of migrants age 45",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_44": {
+      "label": "Net number of migrants age 44",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_43": {
+      "label": "Net number of migrants age 43",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_49": {
+      "label": "Net number of migrants age 49",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_48": {
+      "label": "Net number of migrants age 48",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_47": {
+      "label": "Net number of migrants age 47",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE_HISP": {
+      "label": "Race and Hispanic origin group",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_9": {
+      "label": "Net number of migrants age 9",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_6": {
+      "label": "Net number of migrants age 6",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_5": {
+      "label": "Net number of migrants age 5",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_8": {
+      "label": "Net number of migrants age 8",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_7": {
+      "label": "Net number of migrants age 7",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_2": {
+      "label": "Net number of migrants age 2",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_53": {
+      "label": "Net number of migrants age 53",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_1": {
+      "label": "Net number of migrants age 1",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_52": {
+      "label": "Net number of migrants age 52",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_4": {
+      "label": "Net number of migrants age 4",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_51": {
+      "label": "Net number of migrants age 51",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_3": {
+      "label": "Net number of migrants age 3",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_50": {
+      "label": "Net number of migrants age 50",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_57": {
+      "label": "Net number of migrants age 57",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_13": {
+      "label": "Net number of migrants age 13",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_56": {
+      "label": "Net number of migrants age 56",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_12": {
+      "label": "Net number of migrants age 12",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_0": {
+      "label": "Net number of migrants age 0",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_55": {
+      "label": "Net number of migrants age 55",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_11": {
+      "label": "Net number of migrants age 11",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_54": {
+      "label": "Net number of migrants age 54",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_10": {
+      "label": "Net number of migrants age 10",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_17": {
+      "label": "Net number of migrants age 17",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_16": {
+      "label": "Net number of migrants age 16",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_59": {
+      "label": "Net number of migrants age 59",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_15": {
+      "label": "Net number of migrants age 15",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_58": {
+      "label": "Net number of migrants age 58",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_14": {
+      "label": "Net number of migrants age 14",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_19": {
+      "label": "Net number of migrants age 19",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_18": {
+      "label": "Net number of migrants age 18",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_60": {
+      "label": "Net number of migrants age 60",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_64": {
+      "label": "Net number of migrants age 64",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_20": {
+      "label": "Net number of migrants age 20",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_63": {
+      "label": "Net number of migrants age 63",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_62": {
+      "label": "Net number of migrants age 62",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_61": {
+      "label": "Net number of migrants age 61",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_68": {
+      "label": "Net number of migrants age 68",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_24": {
+      "label": "Net number of migrants age 24",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_67": {
+      "label": "Net number of migrants age 67",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_23": {
+      "label": "Net number of migrants age 23",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_66": {
+      "label": "Net number of migrants age 66",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_22": {
+      "label": "Net number of migrants age 22",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_65": {
+      "label": "Net number of migrants age 65",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_21": {
+      "label": "Net number of migrants age 21",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_28": {
+      "label": "Net number of migrants age 28",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_27": {
+      "label": "Net number of migrants age 27",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_26": {
+      "label": "Net number of migrants age 26",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_69": {
+      "label": "Net number of migrants age 69",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_25": {
+      "label": "Net number of migrants age 25",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM_29": {
+      "label": "Net number of migrants age 29",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

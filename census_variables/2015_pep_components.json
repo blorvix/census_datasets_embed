@@ -1,0 +1,179 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "NETMIG": {
+      "label": "Net migration in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Summary Level",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RDEATH": {
+      "label": "Death rate in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS code",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "All geo names seperated by commas",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DEATHS": {
+      "label": "Deaths in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RDOMESTICMIG": {
+      "label": "Net domestic migration rate in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RNETMIG": {
+      "label": "Net migration rate in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Census Division Code",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATURALINC": {
+      "label": "Natural increase in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Census Regional Code",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RESIDUAL": {
+      "label": "Residual for period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INTERNATIONALMIG": {
+      "label": "Net international migration in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PERIOD": {
+      "label": "Period",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RINTERNATIONALMIG": {
+      "label": "Net international migration rate in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RNATURALINC": {
+      "label": "Natural increase rate in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RBIRTH": {
+      "label": "Birth rate in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DOMESTICMIG": {
+      "label": "Net domestic migration in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BIRTHS": {
+      "label": "Births in period",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

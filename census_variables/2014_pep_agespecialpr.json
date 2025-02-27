@@ -1,0 +1,84 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "CTYNAME": {
+      "label": "County name",
+      "concept": "Estimate Variables",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POP": {
+      "label": "Resident Population",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGECAT": {
+      "label": "Age Category",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Summary level",
+      "concept": "Estimate Variables",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STNAME": {
+      "label": "State name",
+      "concept": "Estimate Variables",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_": {
+      "label": "Estimate Date",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

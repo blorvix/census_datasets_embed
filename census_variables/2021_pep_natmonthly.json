@@ -1,0 +1,196 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "SEX": {
+      "label": "Sex",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "SEX_DESC",
+      "values": {
+        "item": {
+          "0": "Both Sexes",
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "MONTHLY": {
+      "label": "Estimate Date By Month",
+      "concept": "Monthly Population Estimates for the United States: April 1, 2020 to December 1, 2022",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "NA_EST2021_POP",
+      "limit": 0,
+      "attributes": "MONTHLY_DESC",
+      "values": {
+        "item": {
+          "22": "12/1/2021 population estimate",
+          "23": "1/1/2022 population estimate",
+          "24": "2/1/2022 population estimate",
+          "25": "3/1/2022 population estimate",
+          "26": "4/1/2022 population estimate",
+          "27": "5/1/2022 population estimate",
+          "28": "6/1/2022 population estimate",
+          "29": "7/1/2022 population estimate",
+          "30": "8/1/2022 population estimate",
+          "31": "9/1/2022 population estimate",
+          "10": "12/1/2020 population estimate",
+          "32": "10/1/2022 population estimate",
+          "11": "1/1/2021 population estimate",
+          "33": "11/1/2022 population estimate",
+          "12": "2/1/2021 population estimate",
+          "34": "12/1/2022 population estimate",
+          "13": "3/1/2021 population estimate",
+          "14": "4/1/2021 population estimate",
+          "15": "5/1/2021 population estimate",
+          "16": "6/1/2021 population estimate",
+          "17": "7/1/2021 population estimate",
+          "18": "8/1/2021 population estimate",
+          "19": "9/1/2021 population estimate",
+          "2": "4/1/2020 population estimates base",
+          "3": "5/1/2020 population estimate",
+          "4": "6/1/2020 population estimate",
+          "5": "7/1/2020 population estimate",
+          "6": "8/1/2020 population estimate",
+          "7": "9/1/2020 population estimate",
+          "8": "10/1/2020 population estimate",
+          "9": "11/1/2020 population estimate",
+          "20": "10/1/2021 population estimate",
+          "21": "11/1/2021 population estimate"
+        }
+      }
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "Monthly Population Estimates for the United States: April 1, 2020 to December 1, 2022",
+      "predicateType": "string",
+      "group": "NA_EST2021_POP",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "POP": {
+      "label": "Population",
+      "concept": "Monthly Population Estimates for the United States: April 1, 2020 to December 1, 2022",
+      "predicateType": "int",
+      "group": "NA_EST2021_POP",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE": {
+      "label": "Race",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "RACE_DESC",
+      "values": {
+        "item": {
+          "0": "All races",
+          "11": "Native Hawaiian and Other Pacific Islander alone or in combination",
+          "1": "White alone",
+          "2": "Black alone",
+          "3": "American Indian and Alaska Native alone",
+          "4": "Asian alone",
+          "5": "Native Hawaiian and Other Pacific Islander alone",
+          "6": "Two or more races",
+          "7": "White alone or in combination",
+          "8": "Black alone or in combination",
+          "9": "American Indian and Alaska Native alone or in combination",
+          "10": "Asian alone or in combination"
+        }
+      }
+    },
+    "UNIVERSE": {
+      "label": "Population Universe",
+      "concept": "Monthly Population Estimates for the United States: April 1, 2020 to December 1, 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "NA_EST2021_POP",
+      "limit": 0,
+      "attributes": "UNIVERSE_DESC",
+      "values": {
+        "item": {
+          "P": "Resident population plus Armed Forces overseas",
+          "R": "Resident population",
+          "C": "Civilian population",
+          "H": "Household population",
+          "N": "Civilian noninstitutionalized population"
+        }
+      }
+    },
+    "AGE": {
+      "label": "Age",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "AGE_DESC",
+      "values": {
+        "item": {
+          "100": "100+ Years",
+          "999": "All ages"
+        }
+      }
+    },
+    "HISP": {
+      "label": "Hispanic Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "HISP_DESC",
+      "values": {
+        "item": {
+          "0": "Both Hispanic origins",
+          "1": "Non Hispanic",
+          "2": "Hispanic"
+        }
+      }
+    }
+  }
+}

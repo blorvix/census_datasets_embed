@@ -1,0 +1,59 @@
+{
+  "variables": {
+    "POP": {
+      "label": "Resident Population",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE5": {
+      "label": "Race",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_": {
+      "label": "Estimate Date",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGE": {
+      "label": "Single years of Age: 0-99, 100+",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HISP": {
+      "label": "Hispanic Origin",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

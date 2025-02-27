@@ -1,0 +1,1818 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "TM8184": {
+      "label": "Do You Feel That Neighborhood Conditions",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8182": {
+      "label": "Odors, Smoke, or Gas Fumes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8182"
+          }
+        ]
+      }
+    },
+    "TM8180": {
+      "label": "Industries, Businesses, or Other Non Res",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8180"
+          }
+        ]
+      }
+    },
+    "RRP": {
+      "label": "Ed. Rel. to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "TM8106": {
+      "label": "A Toilet, Hot Water Heater, or Other Plu",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8106"
+          }
+        ]
+      }
+    },
+    "TM8348": {
+      "label": "If Your Hshld. Had a Problem With Which",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "Most of the Help I/we Need",
+          "01": "All of the Help I/we Need",
+          "00": "Not in Sample",
+          "03": "Very Little of the Help I/we Need",
+          "04": "No Help"
+        }
+      }
+    },
+    "TM8346": {
+      "label": "If Your Hshld. Had a Problem With Which",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not in Sample",
+          "01": "All of the Help I/we Need",
+          "02": "Most of the Help I/we Need",
+          "04": "No Help",
+          "03": "Very Little of the Help I/we Need"
+        }
+      }
+    },
+    "TM8344": {
+      "label": "If Your Hshld. Had a Problem With Which",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "Most of the Help I/we Need",
+          "00": "Not in Sample",
+          "01": "All of the Help I/we Need",
+          "03": "Very Little of the Help I/we Need",
+          "04": "No Help"
+        }
+      }
+    },
+    "TM8102": {
+      "label": "Leaking Roof or Ceiling",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8102"
+          }
+        ]
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074023",
+            "max": "998986814",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "TM8188": {
+      "label": "Parks and Recreational Facilities",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8188"
+          }
+        ]
+      }
+    },
+    "TM8100": {
+      "label": "How Many Rooms Are There in Your Home Co",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8100"
+          }
+        ]
+      }
+    },
+    "TM8342": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8342"
+          }
+        ]
+      }
+    },
+    "TM8340": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8186": {
+      "label": "Hospitals, Health Clinics, and Doctors",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8186"
+          }
+        ]
+      }
+    },
+    "TM8174": {
+      "label": "Crime",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8174"
+          }
+        ]
+      }
+    },
+    "TM8172": {
+      "label": "Streets in Need of Repair",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8172"
+          }
+        ]
+      }
+    },
+    "TM8170": {
+      "label": "Street Noise or Heavy Street Traffic",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8170"
+          }
+        ]
+      }
+    },
+    "PNUM": {
+      "label": "Ed. Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "780",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "TM8338": {
+      "label": "Had Someone Who Needed to See a Dentist",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8338"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM8336": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8336"
+          }
+        ]
+      }
+    },
+    "TM8334": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8178": {
+      "label": "Rundown or Abandoned Houses or Buildings",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8178"
+          }
+        ]
+      }
+    },
+    "TM8332": {
+      "label": "Had Someone in Your Hshld. Who Needed to",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8332"
+          }
+        ]
+      }
+    },
+    "TM8176": {
+      "label": "Trash, Litter, or Garbage in the Streets",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8176"
+          }
+        ]
+      }
+    },
+    "TM8330": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8330"
+          }
+        ]
+      }
+    },
+    "TM8360": {
+      "label": "Did Not Have Enough Money, Food Stamps,",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8360"
+          }
+        ]
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "4",
+            "description": "Continuous values of ROTATION"
+          }
+        ]
+      }
+    },
+    "SEX": {
+      "label": "Sex of This Pers. Ed. and Imp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "TM8126": {
+      "label": "Open Cracks or Holes in the Walls or Cei",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "337000",
+            "description": "Continuous values of TM8126"
+          }
+        ]
+      }
+    },
+    "TM8368": {
+      "label": "Thinking About the Past Month, How Many",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8368"
+          }
+        ]
+      }
+    },
+    "TM8006": {
+      "label": "Clothes Dryer",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "240",
+            "description": "Continuous values of TM8006"
+          }
+        ]
+      }
+    },
+    "TM8366": {
+      "label": "Some Other Reason",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8366"
+          }
+        ]
+      }
+    },
+    "TM8364": {
+      "label": "Did Not Have Transportation Transportati",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8364"
+          }
+        ]
+      }
+    },
+    "TM8122": {
+      "label": "Holes in the Floor Large Enough to Trip",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "200000",
+            "description": "Continuous values of TM8122"
+          }
+        ]
+      }
+    },
+    "TM8002": {
+      "label": "Washing Machine",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8002"
+          }
+        ]
+      }
+    },
+    "TM8362": {
+      "label": "Did Not Have Working Appliances for Stor",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8362"
+          }
+        ]
+      }
+    },
+    "TM8000": {
+      "label": "Chk. Item T1 Is This the Ref. Pers. Ques",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8196": {
+      "label": "Neighborhood Stores",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8196"
+          }
+        ]
+      }
+    },
+    "TM8350": {
+      "label": "Which of These Statements Best Describe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes, Respondent Lost Time",
+          "02": "Yes, Spouse Lost Time",
+          "04": "No",
+          "00": "Not Appl.",
+          "03": "Both, Respondent and Spouse Lost Time"
+        }
+      }
+    },
+    "TM8194": {
+      "label": "Fire Department Srvc.s",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8194"
+          }
+        ]
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "3.8141722E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "TM8192": {
+      "label": "Police Srvc.s",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8192"
+          }
+        ]
+      }
+    },
+    "TM8190": {
+      "label": "Pub. Transportation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8190"
+          }
+        ]
+      }
+    },
+    "TM8118": {
+      "label": "Rats, Mice, Roaches, or Other Insects",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "305",
+            "description": "Continuous values of TM8118"
+          }
+        ]
+      }
+    },
+    "TM8358": {
+      "label": "Four Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8358"
+          }
+        ]
+      }
+    },
+    "TM8356": {
+      "label": "Three Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8356"
+          }
+        ]
+      }
+    },
+    "TM8114": {
+      "label": "Exposed Electrical Wires",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "308",
+            "description": "Continuous values of TM8114"
+          }
+        ]
+      }
+    },
+    "TM8354": {
+      "label": "Two Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8354"
+          }
+        ]
+      }
+    },
+    "TM8198": {
+      "label": "Quality of Education in Local Schools",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8198"
+          }
+        ]
+      }
+    },
+    "TM8110": {
+      "label": "Broken Windows",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "86",
+            "description": "Continuous values of TM8110"
+          }
+        ]
+      }
+    },
+    "TM8352": {
+      "label": "Last Month",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8352"
+          }
+        ]
+      }
+    },
+    "TM8140": {
+      "label": "The Amt. of Privacy Your Home Offers",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8140"
+          }
+        ]
+      }
+    },
+    "TM8308": {
+      "label": "Was Evicted From Your Home/apartment for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8308"
+          }
+        ]
+      }
+    },
+    "TM8306": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8306"
+          }
+        ]
+      }
+    },
+    "TM8304": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TMENTRY": {
+      "label": "Respondents Entry Add. Id",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TMENTRY"
+          }
+        ]
+      }
+    },
+    "TM8148": {
+      "label": "Do You Feel That the Conditions in This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8302": {
+      "label": "Did Not Pay the Full Amt. of the Rent or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8302"
+          }
+        ]
+      }
+    },
+    "TM8300": {
+      "label": "During the Past 12 Mths., Has There Been",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8146": {
+      "label": "Your Rel. With Neighbors",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8146"
+          }
+        ]
+      }
+    },
+    "TM8026": {
+      "label": "Gas or Electric Stove With or Without Ov",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8026"
+          }
+        ]
+      }
+    },
+    "TM8144": {
+      "label": "The Convenience of Your Home to Stores a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8144"
+          }
+        ]
+      }
+    },
+    "TM8142": {
+      "label": "The Sec or Safety of Your Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8142"
+          }
+        ]
+      }
+    },
+    "TM8022": {
+      "label": "Color Television",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "172",
+            "description": "Continuous values of TM8022"
+          }
+        ]
+      }
+    },
+    "TM8130": {
+      "label": "The Gen. State of Repair of Your Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8130"
+          }
+        ]
+      }
+    },
+    "ITEM36B": {
+      "label": "CC Item 36b Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "03": "Temply. Absent",
+          "21": "Condemned",
+          "01": "Intv. D",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "06": "Other Type A",
+          "10": "Occ. by Pers. With Ure",
+          "12": "Under Constr., Not Ready",
+          "22": "Other Type C Deleted Sample Adj. Error",
+          "04": "Refused",
+          "09": "Vacant",
+          "25": "Moved within country beyond limit",
+          "05": "Unable To Locate",
+          "13": "Conv. to Temp. Bus. or Storage",
+          "14": "Unocc. Site for Mobile Home, Trailer, or",
+          "16": "Other Type B Ent HH Inst or Temp Inel",
+          "20": "Merged",
+          "02": "No One Home",
+          "15": "Permit Granted, Constr. Not Started",
+          "17": "Demolished",
+          "18": "House or Trailer Moved",
+          "28": "Merged HHLDS across panels",
+          "11": "Unfit or To Be Demolished",
+          "26": "All Sample Pers. Relisted on New CC",
+          "19": "Conv. to Perm. Bus. or Storage"
+        }
+      }
+    },
+    "TM8370": {
+      "label": "Short on Its Food Budget Last Month",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "500",
+            "description": "Continuous values of TM8370"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "73",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat. If a Pers. Marital Stat. C",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "0": "Not a Sample Pers. in This Month",
+          "5": "Separated",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "22",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "PNPT": {
+      "label": "Pers. No. of Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "38561",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "TM8018": {
+      "label": "Food Freezer Separate From Refrigerator",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8018"
+          }
+        ]
+      }
+    },
+    "TM8138": {
+      "label": "The Coolness of Your Home in Summer",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8138"
+          }
+        ]
+      }
+    },
+    "TM8014": {
+      "label": "Refrigerator",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8014"
+          }
+        ]
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8136": {
+      "label": "The Warmth of Your Home in Winter",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8136"
+          }
+        ]
+      }
+    },
+    "PPMIS": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00002": "Non Intv.",
+          "00001": "Intv."
+        }
+      }
+    },
+    "TM8134": {
+      "label": "The Furnishings in Your Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8134"
+          }
+        ]
+      }
+    },
+    "TM8010": {
+      "label": "Dishwasher",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "176",
+            "description": "Continuous values of TM8010"
+          }
+        ]
+      }
+    },
+    "TM8132": {
+      "label": "The Amt. of Room or Space Your Home Has",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "900000",
+            "description": "Continuous values of TM8132"
+          }
+        ]
+      }
+    },
+    "TM8162": {
+      "label": "We Are Int.ed in Finding Out If People D",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8042": {
+      "label": "Personal Computer",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8042"
+          }
+        ]
+      }
+    },
+    "TM8160": {
+      "label": "How About Your Home Do You Consider It V",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "04": "No",
+          "00": "Not Appl.",
+          "02": "Yes, Spouse Lost Time",
+          "03": "Both, Respondent and Spouse Lost Time",
+          "01": "Yes, Respondent Lost Time"
+        }
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code From the Mst/grin File",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "26": "Michigan",
+          "28": "Mississippi",
+          "15": "Hawaii",
+          "39": "Ohio",
+          "62": "Iowa, North Dakota, South Dakota",
+          "04": "Arizona",
+          "48": "Texas",
+          "54": "West Virginia",
+          "61": "Maine, Vermont",
+          "42": "Pennsylvania",
+          "44": "Rhode Island",
+          "49": "Utah",
+          "06": "California",
+          "08": "Colorado",
+          "53": "Washington",
+          "13": "Georgia",
+          "35": "New Mexico",
+          "36": "New York",
+          "41": "Oregon",
+          "24": "Maryland",
+          "25": "Massachusetts",
+          "27": "Minnesota",
+          "17": "Illinois",
+          "20": "Kansas",
+          "29": "Missouri",
+          "51": "Virginia",
+          "33": "New Hampshire",
+          "55": "Wisconsin",
+          "34": "New Jersey",
+          "40": "Oklahoma",
+          "63": "ALASKA, IDAHO, MONTANA, WYOMING",
+          "22": "Louisiana",
+          "01": "Alabama",
+          "05": "Arkansas",
+          "09": "Connecticut",
+          "31": "Nebraska",
+          "10": "Delaware",
+          "37": "North Carolina",
+          "11": "District of Columbia",
+          "45": "South Carolina",
+          "47": "Tennessee",
+          "32": "Nevada",
+          "12": "Florida",
+          "18": "Indiana",
+          "21": "Kentucky"
+        }
+      }
+    },
+    "WAVE": {
+      "label": "Wave Within Panel Year",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "2",
+            "max": "7",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "TMHHPNUM": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999",
+            "description": "Continuous values of TMHHPNUM"
+          }
+        ]
+      }
+    },
+    "TM8328": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8326": {
+      "label": "Had Srvc. Disconnected by the Telephone",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "13",
+            "description": "Continuous values of TM8326"
+          }
+        ]
+      }
+    },
+    "TM8324": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "160",
+            "description": "Continuous values of TM8324"
+          }
+        ]
+      }
+    },
+    "TM8204": {
+      "label": "Do You Feel That the Srvc.s in Your Area",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8322": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8202": {
+      "label": "Education or Training Opportunities in t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "879000",
+            "description": "Continuous values of TM8202"
+          }
+        ]
+      }
+    },
+    "TM8320": {
+      "label": "Had Srvc. Turned Off by the Gas or Elect",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8320"
+          }
+        ]
+      }
+    },
+    "TM8200": {
+      "label": "Safety in Local Schools",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8200"
+          }
+        ]
+      }
+    },
+    "TM8046": {
+      "label": "Telephone",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8046"
+          }
+        ]
+      }
+    },
+    "AGE": {
+      "label": "Ed. and Imp. Age As of Last Birthday.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Less Than 1 Full Year",
+          "001": "1 Yr. Etc."
+        }
+      }
+    },
+    "TM8030": {
+      "label": "Microwave Oven",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8030"
+          }
+        ]
+      }
+    },
+    "TM8152": {
+      "label": "On a Scale of 1 to 10, How Would You Rat",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "140",
+            "description": "Continuous values of TM8152"
+          }
+        ]
+      }
+    },
+    "TM8150": {
+      "label": "On a Scale of 1 to 10, How Would You Rat",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8150"
+          }
+        ]
+      }
+    },
+    "ADDID": {
+      "label": "Add. Id This Fld. Diff. Hshlds. Within t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "73",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "TM8318": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM8318"
+          }
+        ]
+      }
+    },
+    "TM8316": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "RACE": {
+      "label": "Race of This Pers. Ed. and Imp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "TM8038": {
+      "label": "Air Conditioner Central or Room",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1988",
+            "description": "Continuous values of TM8038"
+          }
+        ]
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 15",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM8314": {
+      "label": "Did Not Pay the Full Amt. of the Gas, Oi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9",
+            "description": "Continuous values of TM8314"
+          }
+        ]
+      }
+    },
+    "TM8158": {
+      "label": "Do You Consider Your Neighborhood Very S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes, Respondent Lost Time",
+          "04": "No",
+          "00": "Not Appl.",
+          "02": "Yes, Spouse Lost Time",
+          "03": "Both, Respondent and Spouse Lost Time"
+        }
+      }
+    },
+    "TM8312": {
+      "label": "Who Helped",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8312"
+          }
+        ]
+      }
+    },
+    "TM8034": {
+      "label": "Videocassette Recorder Vcr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2000000",
+            "description": "Continuous values of TM8034"
+          }
+        ]
+      }
+    },
+    "TM8310": {
+      "label": "Did Any Pers. or Organization Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8156": {
+      "label": "When You Go Out, Do You Ever Carry Anyth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "TM8154": {
+      "label": "In the Past Month, Have There Been Any T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    }
+  }
+}

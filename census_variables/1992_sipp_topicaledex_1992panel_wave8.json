@@ -1,0 +1,262 @@
+{
+  "variables": {
+    "TM9670": {
+      "label": "TM9670",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9670"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "ENTRY",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "84",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "SUSEQNUM": {
+      "label": "SUSEQNUM",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "17137",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "WAVE": {
+      "label": "WAVE",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "5",
+            "max": "8",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "PNUM": {
+      "label": "PNUM",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "807",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "TMTEDFIN": {
+      "label": "TMTEDFIN",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "06500": "Amt. From $6000 6999",
+          "09500": "Amt. From $9000 9999",
+          "04500": "Amt. From $4100 4999",
+          "07500": "Amt. From $7000 7999",
+          "10500": "Amt. From $10000 10999",
+          "05500": "Amt. From $5000 5999",
+          "08500": "Amt. From $8000 8999",
+          "11000": "Amt. From $11000 +"
+        }
+      }
+    },
+    "TM9638": {
+      "label": "TM9638",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9638"
+          }
+        ]
+      }
+    },
+    "TM9646": {
+      "label": "TM9646",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9646"
+          }
+        ]
+      }
+    },
+    "TM9658": {
+      "label": "TM9658",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9658"
+          }
+        ]
+      }
+    },
+    "TM9666": {
+      "label": "TM9666",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9634": {
+      "label": "TM9634",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9642": {
+      "label": "TM9642",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9642"
+          }
+        ]
+      }
+    },
+    "ID": {
+      "label": "ID",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074069",
+            "max": "999944294",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "TM9654": {
+      "label": "TM9654",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9662": {
+      "label": "TM9662",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9674": {
+      "label": "TM9674",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9630": {
+      "label": "TM9630",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9630"
+          }
+        ]
+      }
+    },
+    "TM9650": {
+      "label": "TM9650",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9650"
+          }
+        ]
+      }
+    }
+  }
+}

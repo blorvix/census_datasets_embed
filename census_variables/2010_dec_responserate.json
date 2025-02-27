@@ -1,0 +1,108 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "CD": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUSUB": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Combined codes for the reference geography",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRACT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FSRR2010": {
+      "label": "Final Self Response Rate 2010",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TTRACT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONCIT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

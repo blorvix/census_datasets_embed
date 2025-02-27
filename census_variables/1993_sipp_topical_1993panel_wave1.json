@@ -1,0 +1,4406 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "TM8064": {
+      "label": "When Did _ First Start Receiving Food St",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8064"
+          }
+        ]
+      }
+    },
+    "IMP8516": {
+      "label": "Top. Module Imp. Flag #54 Imp. for Tm851",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8062": {
+      "label": "When Did _ First Start Receiving Food St",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8062"
+          }
+        ]
+      }
+    },
+    "IMP8510": {
+      "label": "Top. Module Imp. Flag #52 Imp. for Tm851",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8060": {
+      "label": "Has _ Ever Been Authorized to Receive Fo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8512": {
+      "label": "Top. Module Imp. Flag #53 Imp. for Tm851",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8508": {
+      "label": "Chk. Item A7.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP8080": {
+      "label": "Top. Module Imp. Flag #8 Imp. for Tm8080",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "RRP": {
+      "label": "Ed. Rel. to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "TM8506": {
+      "label": "When Did _ Begin to Receive Inc. Type Yr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8506"
+          }
+        ]
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "IMP8082": {
+      "label": "Top. Module Imp. Flag #9 Imp. for Tm8082",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8504": {
+      "label": "When Did _ Begin to Receive Inc. Type Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "13200",
+            "description": "Continuous values of TM8504"
+          }
+        ]
+      }
+    },
+    "TM8502": {
+      "label": "Chk. Item A4.2 Are Inc. Types 1 10, 20 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8624": {
+      "label": "When Did _ Begin to Receive Wic Yr.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "48000",
+            "description": "Continuous values of TM8624"
+          }
+        ]
+      }
+    },
+    "TM8500": {
+      "label": "Chk. Item A4.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8622": {
+      "label": "When Did _ Begin to Receive Wic Mth.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8622"
+          }
+        ]
+      }
+    },
+    "TM8620": {
+      "label": "Chk. Item A7.3 Is the 4 Mths. Ago Box Ma",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8068": {
+      "label": "For How Long Did _ Receive Food Stamps T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "750000",
+            "description": "Continuous values of TM8068"
+          }
+        ]
+      }
+    },
+    "IMP8518": {
+      "label": "Top. Module Imp. Flag #55 Imp. for Tm851",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8066": {
+      "label": "For How Long Did _ Receive Food Stamps T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8066"
+          }
+        ]
+      }
+    },
+    "TM8052": {
+      "label": "Chk. Item T1 Is _ 18 Yrs. of Age or Over",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8294": {
+      "label": "What Was the Reason _ Did Not Work At a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "5": "Child 21 or Older",
+          "4": "Child under 21",
+          "2": "Spouse",
+          "6": "Other Rel.",
+          "1": "Parent",
+          "3": "Ex Spouse"
+        }
+      }
+    },
+    "IMP8404": {
+      "label": "Top. Module Imp. Flag #42 Imp. for Tm840",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8292": {
+      "label": "When Was the Last Time That _ Went 6 Mth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8292"
+          }
+        ]
+      }
+    },
+    "IMP8406": {
+      "label": "Top. Module Imp. Flag #43 Imp. for Tm840",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8290": {
+      "label": "When Was the Last Time That _ Went 6 Mth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8290"
+          }
+        ]
+      }
+    },
+    "IMP8522": {
+      "label": "Top. Module Imp. Flag #56 Imp. for Tm852",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8524": {
+      "label": "Top. Module Imp. Flag #57 Imp. for Tm852",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8088": {
+      "label": "Top. Module Imp. Flag #12 Imp. for Tm808",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8084": {
+      "label": "Top. Module Imp. Flag #10 Imp. for Tm808",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8086": {
+      "label": "Top. Module Imp. Flag #11 Imp. for Tm808",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8618": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8618"
+          }
+        ]
+      }
+    },
+    "TM3600": {
+      "label": "You Said _ Rec. Was Authorized to Receiv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "06": "Supp. Unemp. Benefits",
+          "31": "Fed. Civil Srvc. or Other Fed. Civilian",
+          "23": "Foster child care payments",
+          "25": "Wic Women, Infants and Chld. Nutrition P",
+          "30": "Pension from company or union",
+          "52": "Lump sum payments",
+          "32": "U.S. Military Ret. Pay Ret.",
+          "54": "Nat. Guard or Reserve Pay",
+          "02": "U.S. Gov. Railroad Ret. Pay",
+          "03": "Fededral Supp. Sec Inc. Ssi State Admini",
+          "27": "Food stamps",
+          "29": "Alimony payments",
+          "10": "Workers Comp.",
+          "55": "Incidental or casual earnings",
+          "12": "Emp. or Union Temp. Sickness Policy",
+          "11": "State Temp. Sickness or Disab. Benefits",
+          "35": "Local Gov. Pensions",
+          "40": "GI bill education benefits",
+          "00": "Not Appl.",
+          "28": "Child support payments",
+          "51": "Money From Rel.s or Friends",
+          "53": "Inc. From Roomers or Boarders",
+          "34": "State Gov. Pensions",
+          "36": "Inc. Form Paid Up Life Ins. Policies or",
+          "07": "Other Unemp. Comp.",
+          "56": "Other Cash Inc. Not Included Elsewhere",
+          "21": "Gen. Asst. or Gen. Relief",
+          "24": "Other Welfare",
+          "37": "Estates and trusts",
+          "01": "Soc. Sec",
+          "05": "State Unemp. Comp.",
+          "08": "Veterans Comp. or Pensio",
+          "50": "Inc. Asst. From a Charitable Group",
+          "13": "Payments Form a Sickness, Accident or Di",
+          "38": "Other Payments for Ret., Disab. or Survi",
+          "41": "Other Va Education Benefits",
+          "20": "Aid to Fams. With Dependent Chld. Afdc,"
+        }
+      }
+    },
+    "TM8616": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8616"
+          }
+        ]
+      }
+    },
+    "IMP8094": {
+      "label": "Top. Module Imp. Flag #14 Imp. for Tm809",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8614": {
+      "label": "Chk. Item A7.2 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8090": {
+      "label": "Top. Module Imp. Flag #13 Imp. for Tm809",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8612": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8612"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM8610": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8610"
+          }
+        ]
+      }
+    },
+    "TM8058": {
+      "label": "Has _ Ever Applied for the Fed. Gov.s Fo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8056": {
+      "label": "Besides This Per. of Time, Have There Be",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8054": {
+      "label": "Chk. Item T2 Is Food Stamps Code 27 Mark",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8416": {
+      "label": "Top. Module Imp. Flag #46 Imp. for Tm841",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8086": {
+      "label": "When Did _ First Strt Receiving Afdc Adc",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8086"
+          }
+        ]
+      }
+    },
+    "IMP8418": {
+      "label": "Top. Module Imp. Flag #47 Imp. for Tm841",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8084": {
+      "label": "When Did _ First Start Receiving Afdc Ad",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8084"
+          }
+        ]
+      }
+    },
+    "IMP8412": {
+      "label": "Top. Module Imp. Flag #45 Imp. for Tm841",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8082": {
+      "label": "Has _ Ever Rec. Afdc Adc Benefits",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "SEX": {
+      "label": "Sex of This Pers. Ed. and Imp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "TM8080": {
+      "label": "Has _ Ever Applied for Benefits From the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP8410": {
+      "label": "Top. Module Imp. Flag #44 Imp. for Tm841",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8408": {
+      "label": "Chk. Item A7.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8406": {
+      "label": "When Did _ Begin to Receive Inc. Type",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8406"
+          }
+        ]
+      }
+    },
+    "TM8524": {
+      "label": "When Did _ Begin to Receive Wic Yr.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8524"
+          }
+        ]
+      }
+    },
+    "TM8404": {
+      "label": "When Did _ Begin to Receive Inc. Type",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8404"
+          }
+        ]
+      }
+    },
+    "TM8522": {
+      "label": "When Did _ Begin to Receive Wic Mth.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8522"
+          }
+        ]
+      }
+    },
+    "TM8402": {
+      "label": "Chk. Item A4.2 Are Inc. Types 1 10, 20 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8520": {
+      "label": "Is the 4 Mths. Ago Box Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8400": {
+      "label": "Chk. Item A4.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8088": {
+      "label": "For How Long Did _ Receive Afdc Adc That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8088"
+          }
+        ]
+      }
+    },
+    "TM8074": {
+      "label": "Chk. Item T3 Is _ a Designated Parent or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP8306": {
+      "label": "Top. Module Imp. Flag #35 Imp. for Tm830",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8072": {
+      "label": "How Many Times in All Have There Been Wh",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of TM8072"
+          }
+        ]
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "4.221323E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "IMP8422": {
+      "label": "Top. Module Imp. Flag #48 Imp. for Tm842",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8304": {
+      "label": "Top. Module Imp. Flag #34 Imp. for Tm830",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMPIND": {
+      "label": "Top. Module Imp. Flag #28 Imp. for Tmind",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8424": {
+      "label": "Top. Module Imp. Flag #49 Imp. for Tm842",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8518": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8518"
+          }
+        ]
+      }
+    },
+    "TM8516": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8516"
+          }
+        ]
+      }
+    },
+    "TM8514": {
+      "label": "Chk. Item A7.2 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8512": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "350",
+            "description": "Continuous values of TM8512"
+          }
+        ]
+      }
+    },
+    "TM8510": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8510"
+          }
+        ]
+      }
+    },
+    "TM8078": {
+      "label": "Besides This Per. of Time, Have There Be",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8076": {
+      "label": "Chk. Item T4 Is Afdc Code 20 Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8140": {
+      "label": "Chk. Item T10 Is This HU Pub. or Subsidi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP8712": {
+      "label": "Top. Module Imp. Flag #69 Imp. for Tm871",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8710": {
+      "label": "Top. Module Imp. Flag #68 Imp. for Tm871",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8276": {
+      "label": "Top. Module Imp. Flag #19 Imp. for Tm827",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8278": {
+      "label": "Top. Module Imp. Flag #20 Imp. for Tm827",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8272": {
+      "label": "Top. Module Imp. Flag #17 Imp. for Tm827",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8150": {
+      "label": "Top. Module Imp. Flag #33 Imp. for Tm815",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8274": {
+      "label": "Top. Module Imp. Flag #18 Imp. for Tm827",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8818": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8818"
+          }
+        ]
+      }
+    },
+    "TM8706": {
+      "label": "When Did _ Begin to Receive Inc. Type Yr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8706"
+          }
+        ]
+      }
+    },
+    "TM8704": {
+      "label": "When Did _ Begin to Receive Inc. Type Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8704"
+          }
+        ]
+      }
+    },
+    "TM8702": {
+      "label": "Chk. Item A4.2 Are Inc. Types 1 10, 20 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8824": {
+      "label": "When Did _ Begin to Receive Wic Yr.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8824"
+          }
+        ]
+      }
+    },
+    "TM8700": {
+      "label": "Chk. Item A4.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8822": {
+      "label": "When Did _ Begin to Receive Wic Mth.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8822"
+          }
+        ]
+      }
+    },
+    "TM8148": {
+      "label": "Chk. Item T11 Is One or More of the Foll",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8820": {
+      "label": "Is the 4 Mths. Ago Box Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8146": {
+      "label": "For How Long Has _ Been Living in Pub. o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8146"
+          }
+        ]
+      }
+    },
+    "TM8268": {
+      "label": "When Did _ Start Working for Name of Emp",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8268"
+          }
+        ]
+      }
+    },
+    "TM8144": {
+      "label": "For How Long Has _ Been Living in Pub. o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "82",
+            "description": "Continuous values of TM8144"
+          }
+        ]
+      }
+    },
+    "IMP8716": {
+      "label": "Top. Module Imp. Flag #70 Imp. for Tm871",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8266": {
+      "label": "Did _ Work for and Emp. on That Job or J",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8142": {
+      "label": "For How Long Has _ Been Living in Pub. o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8142"
+          }
+        ]
+      }
+    },
+    "IMP8718": {
+      "label": "Top. Module Imp. Flag #71 Imp. for Tm871",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8250": {
+      "label": "Before This Job When Did _ Last Work At",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8250"
+          }
+        ]
+      }
+    },
+    "IMP8724": {
+      "label": "Top. Module Imp. Flag #73 Imp. for Tm872",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8130": {
+      "label": "We Have Recorded That _ Is Cov. by a Pri",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of TM8130"
+          }
+        ]
+      }
+    },
+    "ITEM36B": {
+      "label": "CC Item 36b Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "03": "Temply. Absent",
+          "16": "Entire HH Instit. or Temply. Ineligible",
+          "21": "Condemned",
+          "01": "Intved.",
+          "12": "Under Constr., Not Ready",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "06": "Other Type A",
+          "10": "Occ. by Pers. With Ure",
+          "22": "Other Type C Deleted Sample Adj. Error",
+          "04": "Refused",
+          "09": "Vacant",
+          "13": "Conv. to Temp. Bus. or Storage",
+          "14": "Unocc. Site for Mobile Home, Trailer, or",
+          "25": "Moved within country beyond limit",
+          "05": "Unable To Locate",
+          "20": "Merged",
+          "02": "No One Home",
+          "15": "Permit Granted, Constr. Not Started 16 O",
+          "17": "Demolished",
+          "18": "House or Trailer Moved",
+          "11": "Unfit or To Be Demolished",
+          "26": "All Sample Pers. Relisted on New CC",
+          "19": "Conv. to Perm. Bus. or Storage"
+        }
+      }
+    },
+    "IMP8604": {
+      "label": "Top. Module Imp. Flag #58 Imp. for Tm860",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8722": {
+      "label": "Top. Module Imp. Flag #72 Imp. for Tm872",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "PNPT": {
+      "label": "Pers. No. of Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "IMP8286": {
+      "label": "Top. Module Imp. Flag #22 Imp. for Tm828",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8288": {
+      "label": "Top. Module Imp. Flag #23 Imp. for Tm828",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8282": {
+      "label": "Top. Module Imp. Flag #21 Imp. for Tm828",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8808": {
+      "label": "Is the Yes Box Marked for 4 Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP8290": {
+      "label": "Top. Module Imp. Flag #24 Imp. for Tm829",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8816": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8816"
+          }
+        ]
+      }
+    },
+    "IMP8292": {
+      "label": "Top. Module Imp. Flag #26 Imp. for Tm829",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8814": {
+      "label": "Is the Yes Box Marked for 4 Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM3800": {
+      "label": "You Said _ Rec. Was Authorized to Receiv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Other Welfare",
+          "27": "Food stamps",
+          "06": "Supp. Unemp. Benefits",
+          "08": "Veterans Comp. or Pensio",
+          "50": "Inc. Asst. From a Charitable Group",
+          "51": "Money From Rel.s or Friends",
+          "34": "State Gov. Pensions",
+          "56": "Other Cash Inc. Not Included Elsewhere",
+          "01": "Soc. Sec",
+          "30": "Pension from company or union",
+          "38": "Other Payments for Ret., Disab. or Survi",
+          "00": "Not Appl.",
+          "53": "Inc. From Roomers or Boarders",
+          "55": "Incidental or casual earnings",
+          "13": "Payments Form a Sickness, Accident or Di",
+          "23": "Foster child care payments",
+          "03": "Fededral Supp. Sec Inc. Ssi State Admini",
+          "31": "Fed. Civil Srvc. or Other Fed. Civilian",
+          "10": "Workers Comp.",
+          "35": "Local Gov. Pensions",
+          "21": "Gen. Asst. or Gen. Relief",
+          "07": "Other Unemp. Comp.",
+          "32": "U.S. Military Ret. Pay Ret.",
+          "12": "Emp. or Union Temp. Sickness Policy",
+          "36": "Inc. Form Paid Up Life Ins. Policies or",
+          "02": "U.S. Gov. Railroad Ret. Pay",
+          "28": "Child support payments",
+          "52": "Lump sum payments",
+          "11": "State Temp. Sickness or Disab. Benefits",
+          "37": "Estates and trusts",
+          "20": "Aid to Fams. With Dependent Chld. Afdc,",
+          "40": "GI bill education benefits",
+          "41": "Other Va Education Benefits",
+          "25": "Wic Women, Infants and Chld. Nutrition P",
+          "05": "State Unemp. Comp.",
+          "29": "Alimony payments",
+          "54": "Nat. Guard or Reserve Pay"
+        }
+      }
+    },
+    "TM8812": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8812"
+          }
+        ]
+      }
+    },
+    "TM8810": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8810"
+          }
+        ]
+      }
+    },
+    "TM8138": {
+      "label": "Chk. Item T9 Is _ the Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM3000": {
+      "label": "You Said _ Rec. Was Authorized to Receiv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "53": "Inc. From Roomers or Boarders",
+          "13": "Payments Form a Sickness, Accident or Di",
+          "01": "Soc. Sec",
+          "25": "Wic Women, Infants and Chld. Nutrition P",
+          "27": "Food stamps",
+          "50": "Inc. Asst. From a Charitable Group",
+          "51": "Money From Rel.s or Friends",
+          "52": "Lump sum payments",
+          "55": "Incidental or casual earnings",
+          "20": "Aid to Fams. With Dependent Chld. Afdc,",
+          "07": "Other Unemp. Comp.",
+          "32": "U.S. Military Ret. Pay Ret.",
+          "56": "Other Cash Inc. Not Included Elsewhere",
+          "00": "Not Appl.",
+          "08": "Veterans Comp. or Pensio",
+          "34": "State Gov. Pensions",
+          "36": "Inc. Form Paid Up Life Ins. Policies or",
+          "23": "Foster child care payments",
+          "24": "Other Welfare",
+          "06": "Supp. Unemp. Benefits",
+          "28": "Child support payments",
+          "31": "Fed. Civil Srvc. or Other Fed. Civilian",
+          "54": "Nat. Guard or Reserve Pay",
+          "41": "Other Va Education Benefits",
+          "02": "U.S. Gov. Railroad Ret. Pay",
+          "05": "State Unemp. Comp.",
+          "30": "Pension from company or union",
+          "03": "Fededral Supp. Sec Inc. Ssi State Admini",
+          "29": "Alimony payments",
+          "10": "Workers Comp.",
+          "11": "State Temp. Sickness or Disab. Benefits",
+          "12": "Emp. or Union Temp. Sickness Policy",
+          "35": "Local Gov. Pensions",
+          "37": "Estates and trusts",
+          "40": "GI bill education benefits",
+          "38": "Other Payments for Ret., Disab. or Survi",
+          "21": "Gen. Asst. or Gen. Relief"
+        }
+      }
+    },
+    "TM8136": {
+      "label": "We Have Recorded That _ Is Not Cov. by a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8136"
+          }
+        ]
+      }
+    },
+    "TM8254": {
+      "label": "Chk. Item T20 Is the Yr. 1981 or Later",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP8606": {
+      "label": "Top. Module Imp. Flag #59 Imp. for Tm860",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8134": {
+      "label": "We Have Recorded That _ Is Not Cov. by a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8134"
+          }
+        ]
+      }
+    },
+    "TM8252": {
+      "label": "Before This Job When Did _ Last Work At",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8252"
+          }
+        ]
+      }
+    },
+    "TM8132": {
+      "label": "We Have Recorded That _ Was Not Cov. by",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999999",
+            "description": "Continuous values of TM8132"
+          }
+        ]
+      }
+    },
+    "TM8284": {
+      "label": "Chk. Item T18 Is There a Yr. in Tm8274 o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP8616": {
+      "label": "Top. Module Imp. Flag #62 Imp. for Tm861",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP829A": {
+      "label": "Top. Module Imp. Flag #25 Imp. for Tm829",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8282": {
+      "label": "Since the Beginning of 1981 How Many Yrs",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8282"
+          }
+        ]
+      }
+    },
+    "IMP8610": {
+      "label": "Top. Module Imp. Flag #60 Imp. for Tm861",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8280": {
+      "label": "Chk. Item T17 Is the Yr. in Tm8274 1981",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP8612": {
+      "label": "Top. Module Imp. Flag #61 Imp. for Tm861",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code From the Mst/grin File",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "26": "Michigan",
+          "28": "Mississippi",
+          "15": "Hawaii",
+          "39": "Ohio",
+          "62": "Iowa, North Dakota, South Dakota",
+          "04": "Arizona",
+          "48": "Texas",
+          "54": "West Virginia",
+          "61": "Maine, Vermont",
+          "42": "Pennsylvania",
+          "44": "Rhode Island",
+          "49": "Utah",
+          "06": "California",
+          "08": "Colorado",
+          "53": "Washington",
+          "13": "Georgia",
+          "35": "New Mexico",
+          "36": "New York",
+          "41": "Oregon",
+          "24": "Maryland",
+          "25": "Massachusetts",
+          "27": "Minnesota",
+          "17": "Illinois",
+          "20": "Kansas",
+          "29": "Missouri",
+          "51": "Virginia",
+          "33": "New Hampshire",
+          "55": "Wisconsin",
+          "34": "New Jersey",
+          "40": "Oklahoma",
+          "63": "ALASKA, IDAHO, MONTANA, WYOMING",
+          "22": "Louisiana",
+          "01": "Alabama",
+          "05": "Arkansas",
+          "09": "Connecticut",
+          "31": "Nebraska",
+          "10": "Delaware",
+          "37": "North Carolina",
+          "11": "District of Columbia",
+          "45": "South Carolina",
+          "47": "Tennessee",
+          "32": "Nevada",
+          "12": "Florida",
+          "18": "Indiana",
+          "21": "Kentucky"
+        }
+      }
+    },
+    "IMP8058": {
+      "label": "Top. Module Imp. Flag #1 Imp. for Tm8058",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8294": {
+      "label": "Top. Module Imp. Flag #27 Imp. for Tm829",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8608": {
+      "label": "Chk. Item A7.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. Within Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "9",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "TM8606": {
+      "label": "When Did _ Begin to Receive Inc. Type Yr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8606"
+          }
+        ]
+      }
+    },
+    "IMP8060": {
+      "label": "Top. Module Imp. Flag #2 Imp. for Tm8060",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8724": {
+      "label": "When Did _ Begin to Receive Wic Yr.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8724"
+          }
+        ]
+      }
+    },
+    "TM8604": {
+      "label": "When Did _ Begin to Receive Inc. Type Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8604"
+          }
+        ]
+      }
+    },
+    "TM8722": {
+      "label": "When Did _ Begin to Receive Wic Mth.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "10000",
+            "description": "Continuous values of TM8722"
+          }
+        ]
+      }
+    },
+    "TM8602": {
+      "label": "Chk. Item A4.2 Are Inc. Types 1 10, 20 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8720": {
+      "label": "Is the 4 Mths. Ago Box Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8600": {
+      "label": "Chk. Item A4.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM4000": {
+      "label": "You Said _ Rec. Was Authorized to Receiv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "03": "Fededral Supp. Sec Inc. Ssi State Admini",
+          "25": "Wic Women, Infants and Chld. Nutrition P",
+          "31": "Fed. Civil Srvc. or Other Fed. Civilian",
+          "35": "Local Gov. Pensions",
+          "40": "GI bill education benefits",
+          "51": "Money From Rel.s or Friends",
+          "01": "Soc. Sec",
+          "05": "State Unemp. Comp.",
+          "28": "Child support payments",
+          "13": "Payments Form a Sickness, Accident or Di",
+          "38": "Other Payments for Ret., Disab. or Survi",
+          "41": "Other Va Education Benefits",
+          "27": "Food stamps",
+          "29": "Alimony payments",
+          "08": "Veterans Comp. or Pensio",
+          "30": "Pension from company or union",
+          "24": "Other Welfare",
+          "06": "Supp. Unemp. Benefits",
+          "53": "Inc. From Roomers or Boarders",
+          "10": "Workers Comp.",
+          "32": "U.S. Military Ret. Pay Ret.",
+          "34": "State Gov. Pensions",
+          "21": "Gen. Asst. or Gen. Relief",
+          "00": "Not Appl.",
+          "23": "Foster child care payments",
+          "02": "U.S. Gov. Railroad Ret. Pay",
+          "50": "Inc. Asst. From a Charitable Group",
+          "52": "Lump sum payments",
+          "56": "Other Cash Inc. Not Included Elsewhere",
+          "36": "Inc. Form Paid Up Life Ins. Policies or",
+          "55": "Incidental or casual earnings",
+          "37": "Estates and trusts",
+          "20": "Aid to Fams. With Dependent Chld. Afdc,",
+          "07": "Other Unemp. Comp.",
+          "12": "Emp. or Union Temp. Sickness Policy",
+          "54": "Nat. Guard or Reserve Pay",
+          "11": "State Temp. Sickness or Disab. Benefits"
+        }
+      }
+    },
+    "IMP8618": {
+      "label": "Top. Module Imp. Flag #63 Imp. for Tm861",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8288": {
+      "label": "About How Many Times Has _ Gone 6 Mths.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "339000",
+            "description": "Continuous values of TM8288"
+          }
+        ]
+      }
+    },
+    "AGE": {
+      "label": "Ed. and Imp. Age As of Last Birthday",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Less Than 1 Full Year",
+          "001": "1 Yr. Etc."
+        }
+      }
+    },
+    "TM8286": {
+      "label": "People Spend Time Out of the Labor Forc",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8272": {
+      "label": "What Was the Main Reason _ Stopped Worki",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "03": "Childs Grandparent",
+          "13": "Child Not Born As of Last Mth. Skip to N",
+          "01": "Childs Other Parent/ Stepparent",
+          "07": "Child in Nursery/preschool",
+          "09": "Child in Kindergarten, Elementary or Sec",
+          "10": "Child Cares for Self",
+          "11": "_ Works At Home",
+          "12": "_ Cares for Child At Work in Class/whil",
+          "04": "Other Rel. of Child",
+          "06": "Child in Day/grp. Care Center",
+          "08": "Child in Organized School Based Activity",
+          "02": "Childs Brother/sister",
+          "05": "Nonrel. of Child If 6 Thru 12 Skip to Tm"
+        }
+      }
+    },
+    "IMP8504": {
+      "label": "Top. Module Imp. Flag #50 Imp. for Tm850",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8624": {
+      "label": "Top. Module Imp. Flag #65 Imp. for Tm862",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8506": {
+      "label": "Top. Module Imp. Flag #51 Imp. for Tm850",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8270": {
+      "label": "When Did _ Start Working for Name of Emp",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8270"
+          }
+        ]
+      }
+    },
+    "TM8150": {
+      "label": "Is _ on a Waiting List for Pub. or Subsi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP8622": {
+      "label": "Top. Module Imp. Flag #64 Imp. for Tm862",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8066": {
+      "label": "Top. Module Imp. Flag #5 Imp. for Tm8066",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8068": {
+      "label": "Top. Module Imp. Flag #6 Imp. for Tm8068",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8062": {
+      "label": "Top. Module Imp. Flag #3 Imp. for Tm8062",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8708": {
+      "label": "Is the Yes Box Marked for 4 Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8064": {
+      "label": "Top. Module Imp. Flag #4 Imp. for Tm8064",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "ADDID": {
+      "label": "Add. Id This Fld. Diff. Hshlds. Within t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "94",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "TM8718": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1995",
+            "description": "Continuous values of TM8718"
+          }
+        ]
+      }
+    },
+    "IMP8072": {
+      "label": "Top. Module Imp. Flag #7 Imp. for Tm8072",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8716": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8716"
+          }
+        ]
+      }
+    },
+    "TM8714": {
+      "label": "Is the Yes Box Marked for 4 Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8712": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8712"
+          }
+        ]
+      }
+    },
+    "RACE": {
+      "label": "Race of This Pers. Ed. and Imp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "TM8710": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8710"
+          }
+        ]
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 1",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM8278": {
+      "label": "How Many Yrs. Were There When _ Worked A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "50",
+            "description": "Continuous values of TM8278"
+          }
+        ]
+      }
+    },
+    "TM8276": {
+      "label": "Since Yr. in Tm8274 Has _ Always Worked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "01": "Yes",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "TM8274": {
+      "label": "In What Yr. Did _ First Work Six Straigh",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8274"
+          }
+        ]
+      }
+    },
+    "IMP8118": {
+      "label": "Top. Module Imp. Flag #21 Imp. for Tm811",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8110": {
+      "label": "Top. Module Imp. Flag #20 Imp. for Tm811",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8234": {
+      "label": "Top. Module Imp. Flag #6 Imp. for Tm8234",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8108": {
+      "label": "For How Long Did _ Receive Ssi That Time",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8108"
+          }
+        ]
+      }
+    },
+    "TM8106": {
+      "label": "When Did _ First Start Receiving Ssi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8106"
+          }
+        ]
+      }
+    },
+    "TM8228": {
+      "label": "About How Many Pers. Are Were Emp. by _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "25 to 99",
+          "00": "Not Appl.",
+          "03": "100 to 499",
+          "01": "Under 25"
+        }
+      }
+    },
+    "TM8104": {
+      "label": "When Did _ First Start Receiving Ssi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8104"
+          }
+        ]
+      }
+    },
+    "TM8226": {
+      "label": "Did _ Emp. Operate in More Than One Loca",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8102": {
+      "label": "Has _ Ever Rec. Ssi Benefits",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999944306",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "TM8224": {
+      "label": "About How Many Pers. Were Emp. by _ Emp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "03": "100 to 999",
+          "02": "25 to 99",
+          "00": "Not Appl.",
+          "01": "Under 25"
+        }
+      }
+    },
+    "TM8100": {
+      "label": "Has _ Ever Applied for Benefits From the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8222": {
+      "label": "Is An Emp. No. Entered",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8220": {
+      "label": "When Did _ Start Working for Read Name E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8220"
+          }
+        ]
+      }
+    },
+    "IMP8126": {
+      "label": "Top. Module Imp. Flag #24 Imp. for Tm812",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8246": {
+      "label": "Top. Module Imp. Flag #10 Imp. for Tm824",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8128": {
+      "label": "Top. Module Imp. Flag #25 Imp. for Tm812",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8248": {
+      "label": "Top. Module Imp. Flag #11 Imp. for Tm824",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8122": {
+      "label": "Top. Module Imp. Flag #23 Imp. for Tm812",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8242": {
+      "label": "Top. Module Imp. Flag #8 Imp. for Tm8242",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8244": {
+      "label": "Top. Module Imp. Flag #9 Imp. for Tm8244",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8120": {
+      "label": "Top. Module Imp. Flag #22 Imp. for Tm812",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8240": {
+      "label": "Top. Module Imp. Flag #7 Imp. for Tm8240",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "PNUM": {
+      "label": "Ed. Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "962",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "TM3200": {
+      "label": "You Said _ Rec. Was Authorized to Receiv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Soc. Sec",
+          "24": "Other Welfare",
+          "10": "Workers Comp.",
+          "12": "Emp. or Union Temp. Sickness Policy",
+          "51": "Money From Rel.s or Friends",
+          "30": "Pension from company or union",
+          "55": "Incidental or casual earnings",
+          "13": "Payments Form a Sickness, Accident or Di",
+          "50": "Inc. Asst. From a Charitable Group",
+          "52": "Lump sum payments",
+          "54": "Nat. Guard or Reserve Pay",
+          "36": "Inc. Form Paid Up Life Ins. Policies or",
+          "38": "Other Payments for Ret., Disab. or Survi",
+          "03": "Fededral Supp. Sec Inc. Ssi State Admini",
+          "23": "Foster child care payments",
+          "02": "U.S. Gov. Railroad Ret. Pay",
+          "05": "State Unemp. Comp.",
+          "07": "Other Unemp. Comp.",
+          "37": "Estates and trusts",
+          "41": "Other Va Education Benefits",
+          "20": "Aid to Fams. With Dependent Chld. Afdc,",
+          "27": "Food stamps",
+          "28": "Child support payments",
+          "53": "Inc. From Roomers or Boarders",
+          "32": "U.S. Military Ret. Pay Ret.",
+          "34": "State Gov. Pensions",
+          "35": "Local Gov. Pensions",
+          "00": "Not Appl.",
+          "25": "Wic Women, Infants and Chld. Nutrition P",
+          "06": "Supp. Unemp. Benefits",
+          "29": "Alimony payments",
+          "31": "Fed. Civil Srvc. or Other Fed. Civilian",
+          "40": "GI bill education benefits",
+          "21": "Gen. Asst. or Gen. Relief",
+          "08": "Veterans Comp. or Pensio",
+          "11": "State Temp. Sickness or Disab. Benefits",
+          "56": "Other Cash Inc. Not Included Elsewhere"
+        }
+      }
+    },
+    "TM8218": {
+      "label": "When Did _ Start Working for Read Name o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999999",
+            "description": "Continuous values of TM8218"
+          }
+        ]
+      }
+    },
+    "TM8216": {
+      "label": "Chk. Item T14 What Is the Id No. of This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8216"
+          }
+        ]
+      }
+    },
+    "IMPOCC": {
+      "label": "Top. Module Imp. Flag #29 Imp. for Tmind",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8214": {
+      "label": "Chk. Item T14 What Is the Id No. of This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "220000",
+            "description": "Continuous values of TM8214"
+          }
+        ]
+      }
+    },
+    "TM8210": {
+      "label": "Chk. Item T13 Is Worked Code 170 Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP8804": {
+      "label": "Top. Module Imp. Flag #74 Imp. for Tm880",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8806": {
+      "label": "Top. Module Imp. Flag #75 Imp. for Tm880",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "4",
+            "description": "Continuous values of ROTATION"
+          }
+        ]
+      }
+    },
+    "IMP8812": {
+      "label": "Top. Module Imp. Flag #77 Imp. for Tm881",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8240": {
+      "label": "When Did _ Last Work At a Paid Job or Bu",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8240"
+          }
+        ]
+      }
+    },
+    "IMP8136": {
+      "label": "Top. Module Imp. Flag #29 Imp. for Tm813",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8810": {
+      "label": "Top. Module Imp. Flag #76 Imp. for Tm881",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8132": {
+      "label": "Top. Module Imp. Flag #27 Imp. for Tm813",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8134": {
+      "label": "Top. Module Imp. Flag #28 Imp. for Tm813",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8250": {
+      "label": "Top. Module Imp. Flag #12 Imp. for Tm825",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8252": {
+      "label": "Top. Module Imp. Flag #13 Imp. for Tm825",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8130": {
+      "label": "Top. Module Imp. Flag #26 Imp. for Tm813",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8806": {
+      "label": "When Did _ Begin to Receive Inc. Type Yr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8806"
+          }
+        ]
+      }
+    },
+    "TM8804": {
+      "label": "When Did _ Begin to Receive Inc. Type Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8804"
+          }
+        ]
+      }
+    },
+    "TM8802": {
+      "label": "Are Inc. Types 1 10, 20 35, 40 or 41 Mar",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8128": {
+      "label": "We Have Recorded That _ Is Cov. by a Pri",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "425000",
+            "description": "Continuous values of TM8128"
+          }
+        ]
+      }
+    },
+    "TM8800": {
+      "label": "Is the Yes Box Marked for 4 Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8126": {
+      "label": "We Have Recorded That _ Is Cov. by a Pri",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "750000",
+            "description": "Continuous values of TM8126"
+          }
+        ]
+      }
+    },
+    "TM8248": {
+      "label": "Before This Job When Did _ Last Work At",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8248"
+          }
+        ]
+      }
+    },
+    "TM8124": {
+      "label": "Chk. Item T8 Was _ Cov. by a Health Ins.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8246": {
+      "label": "What Is the Main Reason _ Never Worked 2",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "06": "Dont Know",
+          "05": "Qualifying Widow Er With Dependent Child",
+          "02": "Married, Filing a Joint Return",
+          "01": "A Single Taxpayer",
+          "03": "Married, Filing Separately",
+          "04": "Unmarried Head of Household"
+        }
+      }
+    },
+    "TM8122": {
+      "label": "Earlier We Recorded That Was Cov. by Use",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "250000",
+            "description": "Continuous values of TM8122"
+          }
+        ]
+      }
+    },
+    "IMP8816": {
+      "label": "Top. Module Imp. Flag #78 Imp. for Tm881",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8244": {
+      "label": "When Did _ Last Work At a Paid Job or Bu",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8244"
+          }
+        ]
+      }
+    },
+    "IMP8818": {
+      "label": "Top. Module Imp. Flag #79 Imp. for Tm881",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8120": {
+      "label": "Earlier We Recorded That Was Cov. by Use",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "480000",
+            "description": "Continuous values of TM8120"
+          }
+        ]
+      }
+    },
+    "TM8242": {
+      "label": "When Did _ Last Work At a Paid Job or Bu",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "150000",
+            "description": "Continuous values of TM8242"
+          }
+        ]
+      }
+    },
+    "IMP8822": {
+      "label": "Top. Module Imp. Flag #80 Imp. for Tm882",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8704": {
+      "label": "Top. Module Imp. Flag #66 Imp. for Tm870",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8824": {
+      "label": "Top. Module Imp. Flag #81 Imp. for Tm882",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8268": {
+      "label": "Top. Module Imp. Flag #15 Imp. for Tm826",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8144": {
+      "label": "Top. Module Imp. Flag #31 Imp. for Tm814",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8146": {
+      "label": "Top. Module Imp. Flag #32 Imp. for Tm814",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8266": {
+      "label": "Top. Module Imp. Flag #14 Imp. for Tm826",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8142": {
+      "label": "Top. Module Imp. Flag #30 Imp. for Tm814",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8270": {
+      "label": "Top. Module Imp. Flag #16 Imp. for Tm827",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8118": {
+      "label": "Earlier We Recorded That Was Cov. by Use",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM8118"
+          }
+        ]
+      }
+    },
+    "TM8236": {
+      "label": "For How Many Yrs. Has _ Done the Kind of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "50",
+            "description": "Continuous values of TM8236"
+          }
+        ]
+      }
+    },
+    "TM8116": {
+      "label": "Chk. Item T7 Is Ssi or Afdc Codes 3, 4,",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8234": {
+      "label": "For How Many Yrs. Has _ Done the Kind of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8234"
+          }
+        ]
+      }
+    },
+    "TM8114": {
+      "label": "Chk. Item T6 Is Medicaid Code 173 Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP8706": {
+      "label": "Top. Module Imp. Flag #67 Imp. for Tm870",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8110": {
+      "label": "For How Long Did _ Receive Ssi That Time",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "24",
+            "description": "Continuous values of TM8110"
+          }
+        ]
+      }
+    },
+    "IMP8316": {
+      "label": "Top. Module Imp. Flag #38 Imp. for Tm831",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8318": {
+      "label": "Top. Module Imp. Flag #39 Imp. for Tm831",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8312": {
+      "label": "Top. Module Imp. Flag #37 Imp. for Tm831",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8310": {
+      "label": "Top. Module Imp. Flag #36 Imp. for Tm831",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8308": {
+      "label": "Is the Yes Box Marked for 4 Mths. Ago",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8306": {
+      "label": "When Did _ Begin to Receive Inc. Type",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8306"
+          }
+        ]
+      }
+    },
+    "TM8304": {
+      "label": "When Did _ Begin to Receive Inc. Type",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8304"
+          }
+        ]
+      }
+    },
+    "TM8302": {
+      "label": "Chk. Item A4.2 Are Inc. Types 1 10, 20 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8424": {
+      "label": "When Did _ Begin to Receive Wic",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8424"
+          }
+        ]
+      }
+    },
+    "TM8300": {
+      "label": "Chk. Item A4.1 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8422": {
+      "label": "When Did _ Begin to Receive Wic",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8422"
+          }
+        ]
+      }
+    },
+    "TM8420": {
+      "label": "Chk. Item A7.3 Is the 4 Mths. Ago Box Ma",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8096": {
+      "label": "Chk. Item T5 Is Ssi Codes 3 or 4 Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8094": {
+      "label": "How Many Times in All Have There Been Wh",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "14",
+            "description": "Continuous values of TM8094"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "94",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "IMP8324": {
+      "label": "Top. Module Imp. Flag #41 Imp. for Tm832",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "23",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat. If a Pers. Marital Stat. C",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "0": "Not a Sample Pers. in This Month",
+          "5": "Separated",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "TM8090": {
+      "label": "For How Long Did _ Receive Afdc Adc That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "21",
+            "description": "Continuous values of TM8090"
+          }
+        ]
+      }
+    },
+    "IMP8322": {
+      "label": "Top. Module Imp. Flag #40 Imp. for Tm832",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "19864",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "TM8418": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8418"
+          }
+        ]
+      }
+    },
+    "TM8416": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8416"
+          }
+        ]
+      }
+    },
+    "TM3400": {
+      "label": "You Said _ Rec. Was Authorized to Receiv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "U.S. Gov. Railroad Ret. Pay",
+          "35": "Local Gov. Pensions",
+          "36": "Inc. Form Paid Up Life Ins. Policies or",
+          "24": "Other Welfare",
+          "30": "Pension from company or union",
+          "10": "Workers Comp.",
+          "11": "State Temp. Sickness or Disab. Benefits",
+          "06": "Supp. Unemp. Benefits",
+          "52": "Lump sum payments",
+          "40": "GI bill education benefits",
+          "41": "Other Va Education Benefits",
+          "25": "Wic Women, Infants and Chld. Nutrition P",
+          "07": "Other Unemp. Comp.",
+          "31": "Fed. Civil Srvc. or Other Fed. Civilian",
+          "38": "Other Payments for Ret., Disab. or Survi",
+          "21": "Gen. Asst. or Gen. Relief",
+          "01": "Soc. Sec",
+          "23": "Foster child care payments",
+          "27": "Food stamps",
+          "28": "Child support payments",
+          "54": "Nat. Guard or Reserve Pay",
+          "13": "Payments Form a Sickness, Accident or Di",
+          "12": "Emp. or Union Temp. Sickness Policy",
+          "00": "Not Appl.",
+          "29": "Alimony payments",
+          "08": "Veterans Comp. or Pensio",
+          "55": "Incidental or casual earnings",
+          "37": "Estates and trusts",
+          "03": "Fededral Supp. Sec Inc. Ssi State Admini",
+          "32": "U.S. Military Ret. Pay Ret.",
+          "56": "Other Cash Inc. Not Included Elsewhere",
+          "20": "Aid to Fams. With Dependent Chld. Afdc,",
+          "05": "State Unemp. Comp.",
+          "50": "Inc. Asst. From a Charitable Group",
+          "51": "Money From Rel.s or Friends",
+          "53": "Inc. From Roomers or Boarders",
+          "34": "State Gov. Pensions"
+        }
+      }
+    },
+    "TM8414": {
+      "label": "Chk. Item A7.2 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8412": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8412"
+          }
+        ]
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8410": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "850",
+            "description": "Continuous values of TM8410"
+          }
+        ]
+      }
+    },
+    "TM8098": {
+      "label": "Besides This Per. of Time, Have There Be",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8218": {
+      "label": "Top. Module Imp. Flag #1 Imp. for Tm8218",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "PPMIS5": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Nonintv.",
+          "1": "Intved."
+        }
+      }
+    },
+    "PPMIS4": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Nonintv.",
+          "1": "Intved."
+        }
+      }
+    },
+    "PPMIS3": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Nonintv.",
+          "1": "Intved."
+        }
+      }
+    },
+    "PPMIS2": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intved.",
+          "2": "Nonintv."
+        }
+      }
+    },
+    "PPMIS1": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Nonintv.",
+          "1": "Intved."
+        }
+      }
+    },
+    "TM8324": {
+      "label": "When Did _ Begin to Receive Wic Yr.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8324"
+          }
+        ]
+      }
+    },
+    "TM8322": {
+      "label": "When Did _ Begin to Receive Wic Mth.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8322"
+          }
+        ]
+      }
+    },
+    "TM8320": {
+      "label": "Chk. Item A7.3 Is the 4 Mths. Ago Box Ma",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8200": {
+      "label": "Chk. Item T12 Is _ 18 to 64 Yrs. Old",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8108": {
+      "label": "Top. Module Imp. Flag #19 Imp. for Tm810",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8228": {
+      "label": "Top. Module Imp. Flag #5 Imp. for Tm8228",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8104": {
+      "label": "Top. Module Imp. Flag #17 Imp. for Tm810",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8224": {
+      "label": "Top. Module Imp. Flag #3 Imp. for Tm8224",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8106": {
+      "label": "Top. Module Imp. Flag #18 Imp. for Tm810",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8226": {
+      "label": "Top. Module Imp. Flag #4 Imp. for Tm8226",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8100": {
+      "label": "Top. Module Imp. Flag #15 Imp. for Tm810",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8220": {
+      "label": "Top. Module Imp. Flag #2 Imp. for Tm8220",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8102": {
+      "label": "Top. Module Imp. Flag #16 Imp. for Tm810",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8318": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "300000",
+            "description": "Continuous values of TM8318"
+          }
+        ]
+      }
+    },
+    "TM8316": {
+      "label": "When Did _ Begin to Receive Food Stamps",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8316"
+          }
+        ]
+      }
+    },
+    "TMIND4": {
+      "label": "What Kind of Company, Business, or Occup",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "905",
+            "description": "Continuous values of TMIND4"
+          }
+        ]
+      }
+    },
+    "TM8314": {
+      "label": "Chk. Item A7.2 Is the Yes Box Marked for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TMIND3": {
+      "label": "What Was the Name of _ Emp. or Bus. At T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "991",
+            "description": "Continuous values of TMIND3"
+          }
+        ]
+      }
+    },
+    "TM8312": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8312"
+          }
+        ]
+      }
+    },
+    "TM8310": {
+      "label": "When Did _ Begin to Receive Soc. Sec/rai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "375000",
+            "description": "Continuous values of TM8310"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2920 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "AITSCE": {
+      "label": "American Indian Tribal Subdivision (Census)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Place (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "American Indian Area/Alaska Native Area/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1307": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Husband-wife family!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1306": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Husband-wife family",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1306A"
+    },
+    "SF1DP1305": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Husband-wife family",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1304": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1304A"
+    },
+    "SF1DP1309": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Male householder, no wife present",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1308": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Husband-wife family!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1308A"
+    },
+    "SF1DP1303": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1302": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1302A"
+    },
+    "SF1DP1301": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1300": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1300A"
+    },
+    "CD113": {
+      "label": "Congressional District (113th)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "TRACT": {
+      "label": "Census Tract",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1219": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Cuban",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1339": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1339ERR"
+    },
+    "SF1DP1218": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Puerto Rican",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1218A"
+    },
+    "SF1DP1338": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1338A"
+    },
+    "SF1DP1217": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Puerto Rican",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1337": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1337ERR"
+    },
+    "SF1DP1216": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Mexican",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1216A"
+    },
+    "SF1DP1332": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals 65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1332A"
+    },
+    "SF1DP1211": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1211ERR"
+    },
+    "SF1DP1331": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals 65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1210": {
+      "label": "Percent!!RACE!!Race alone or in combination with one or more other races: [4]!!Some Other Race",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1210A"
+    },
+    "SF1DP1330": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1330A"
+    },
+    "SF1DP1336": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Average family size [7]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1336A,SF1DP1336ERR"
+    },
+    "SF1DP1215": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Mexican",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1335": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Average family size [7]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1214": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1214A"
+    },
+    "SF1DP1334": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Average household size",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1334A,SF1DP1334ERR"
+    },
+    "SF1DP1213": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1333": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Average household size",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1212": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1212A"
+    },
+    "GEOVARIANT": {
+      "label": "Geographic variant",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1109": {
+      "label": "Number!!SEX AND AGE!!Female population!!15 to 19 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1108": {
+      "label": "Percent!!SEX AND AGE!!Female population!!10 to 14 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1108A"
+    },
+    "SF1DP1229": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!White alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1349": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!Sold, not occupied",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1107": {
+      "label": "Number!!SEX AND AGE!!Female population!!10 to 14 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1228": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1228A"
+    },
+    "SF1DP1348": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For sale only",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1348A"
+    },
+    "SF1DP1106": {
+      "label": "Percent!!SEX AND AGE!!Female population!!5 to 9 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1106A"
+    },
+    "SF1DP1227": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1343": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For rent",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1101": {
+      "label": "Number!!SEX AND AGE!!Female population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1222": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Other Hispanic or Latino [5]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1222A"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1342": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1342A"
+    },
+    "SF1DP1100": {
+      "label": "Percent!!SEX AND AGE!!Male population!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1100A"
+    },
+    "SF1DP1221": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Other Hispanic or Latino [5]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1341": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1341ERR"
+    },
+    "SF1DP1220": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population!!Hispanic or Latino (of any race)!!Cuban",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1220A"
+    },
+    "SF1DP1340": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1340A"
+    },
+    "SF1DP1105": {
+      "label": "Number!!SEX AND AGE!!Female population!!5 to 9 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1347": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For sale only",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1226": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1226A"
+    },
+    "SF1DP1104": {
+      "label": "Percent!!SEX AND AGE!!Female population!!Under 5 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1104A"
+    },
+    "SF1DP1346": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!Rented, not occupied",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1346A"
+    },
+    "SF1DP1225": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1225ERR"
+    },
+    "SF1DP1103": {
+      "label": "Number!!SEX AND AGE!!Female population!!Under 5 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1345": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!Rented, not occupied",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1224": {
+      "label": "Percent!!HISPANIC OR LATINO!!Total population!!Not Hispanic or Latino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1224A"
+    },
+    "SF1DP1344": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For rent",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1344A"
+    },
+    "SF1DP1102": {
+      "label": "Percent!!SEX AND AGE!!Female population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1102A"
+    },
+    "SF1DP1223": {
+      "label": "Number!!HISPANIC OR LATINO!!Total population!!Not Hispanic or Latino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1318": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1318A"
+    },
+    "SF1DP1317": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1316": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Female householder, no husband present!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1316A"
+    },
+    "SF1DP1315": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Female householder, no husband present!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1319": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1310": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Male householder, no wife present",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1310A"
+    },
+    "SF1DP1314": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Female householder, no husband present",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1314A"
+    },
+    "SF1DP1313": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Female householder, no husband present",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1312": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Male householder, no wife present!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1312A"
+    },
+    "SF1DP1311": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families) [7]!!Male householder, no wife present!!With own children under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1329": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1208": {
+      "label": "Percent!!RACE!!Race alone or in combination with one or more other races: [4]!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1208A"
+    },
+    "SF1DP1328": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Female!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1328A"
+    },
+    "SF1DP1207": {
+      "label": "Number!!RACE!!Race alone or in combination with one or more other races: [4]!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1327": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Female!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1206": {
+      "label": "Percent!!RACE!!Race alone or in combination with one or more other races: [4]!!Asian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1206A"
+    },
+    "SF1DP1326": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Female",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1326A"
+    },
+    "SF1DP1205": {
+      "label": "Number!!RACE!!Race alone or in combination with one or more other races: [4]!!Asian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1209": {
+      "label": "Number!!RACE!!Race alone or in combination with one or more other races: [4]!!Some Other Race",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1321": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Male",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1200": {
+      "label": "Percent!!RACE!!Race alone or in combination with one or more other races: [4]!!White",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1200A"
+    },
+    "SF1DP1320": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1320A"
+    },
+    "SF1DP1325": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Female",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1204": {
+      "label": "Percent!!RACE!!Race alone or in combination with one or more other races: [4]!!American Indian and Alaska Native",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1204A"
+    },
+    "SF1DP1324": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Male!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1324A"
+    },
+    "SF1DP1203": {
+      "label": "Number!!RACE!!Race alone or in combination with one or more other races: [4]!!American Indian and Alaska Native",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1323": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Male!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1202": {
+      "label": "Percent!!RACE!!Race alone or in combination with one or more other races: [4]!!Black or African American",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1202A"
+    },
+    "SF1DP1322": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households [7]!!Householder living alone!!Male",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1322A"
+    },
+    "SF1DP1201": {
+      "label": "Number!!RACE!!Race alone or in combination with one or more other races: [4]!!Black or African American",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1019": {
+      "label": "Number!!SEX AND AGE!!Total population!!40 to 44 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1139": {
+      "label": "Number!!SEX AND AGE!!Female population!!Median age (years)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1018": {
+      "label": "Percent!!SEX AND AGE!!Total population!!35 to 39 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1018A"
+    },
+    "SF1DP1134": {
+      "label": "Percent!!SEX AND AGE!!Female population!!75 to 79 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1134A"
+    },
+    "SF1DP1013": {
+      "label": "Number!!SEX AND AGE!!Total population!!25 to 29 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1255": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some Other Race alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1133": {
+      "label": "Number!!SEX AND AGE!!Female population!!75 to 79 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1012": {
+      "label": "Percent!!SEX AND AGE!!Total population!!20 to 24 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1012A"
+    },
+    "SF1DP1254": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1254A"
+    },
+    "SF1DP1132": {
+      "label": "Percent!!SEX AND AGE!!Female population!!70 to 74 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1132A"
+    },
+    "SF1DP1253": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1011": {
+      "label": "Number!!SEX AND AGE!!Total population!!20 to 24 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1131": {
+      "label": "Number!!SEX AND AGE!!Female population!!70 to 74 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1010": {
+      "label": "Percent!!SEX AND AGE!!Total population!!15 to 19 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1010A"
+    },
+    "SF1DP1252": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Asian alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1252A"
+    },
+    "SF1DP1138": {
+      "label": "Percent!!SEX AND AGE!!Female population!!85 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1138A"
+    },
+    "SF1DP1259": {
+      "label": "Number!!RELATIONSHIP!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1259ERR"
+    },
+    "SF1DP1017": {
+      "label": "Number!!SEX AND AGE!!Total population!!35 to 39 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1137": {
+      "label": "Number!!SEX AND AGE!!Female population!!85 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1016": {
+      "label": "Percent!!SEX AND AGE!!Total population!!30 to 34 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1016A"
+    },
+    "SF1DP1258": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or More Races",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1258A"
+    },
+    "SF1DP1136": {
+      "label": "Percent!!SEX AND AGE!!Female population!!80 to 84 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1136A"
+    },
+    "SF1DP1257": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or More Races",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1015": {
+      "label": "Number!!SEX AND AGE!!Total population!!30 to 34 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1135": {
+      "label": "Number!!SEX AND AGE!!Female population!!80 to 84 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1014": {
+      "label": "Percent!!SEX AND AGE!!Total population!!25 to 29 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1014A"
+    },
+    "SF1DP1256": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some Other Race alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1256A"
+    },
+    "SF1DP1130": {
+      "label": "Percent!!SEX AND AGE!!Female population!!65 to 69 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1130A"
+    },
+    "SF1DP1372": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units!!Average household size of renter-occupied units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1372A,SF1DP1372ERR"
+    },
+    "SF1DP1251": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Asian alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1371": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units!!Average household size of renter-occupied units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1250": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!American Indian and Alaska Native alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1250A"
+    },
+    "SF1DP1370": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units!!Population in renter-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1370A,SF1DP1370ERR"
+    },
+    "SF1DP1029": {
+      "label": "Number!!SEX AND AGE!!Total population!!65 to 69 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1145": {
+      "label": "Number!!SEX AND AGE!!Female population!!21 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1024": {
+      "label": "Percent!!SEX AND AGE!!Total population!!50 to 54 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1024A"
+    },
+    "SF1DP1266": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Spouse [6]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1266A"
+    },
+    "SF1DP1144": {
+      "label": "Percent!!SEX AND AGE!!Female population!!18 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1144A"
+    },
+    "SF1DP1265": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Spouse [6]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1023": {
+      "label": "Number!!SEX AND AGE!!Total population!!50 to 54 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1143": {
+      "label": "Number!!SEX AND AGE!!Female population!!18 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1022": {
+      "label": "Percent!!SEX AND AGE!!Total population!!45 to 49 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1022A"
+    },
+    "SF1DP1264": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Householder",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1264A"
+    },
+    "SF1DP1142": {
+      "label": "Percent!!SEX AND AGE!!Female population!!16 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1142A"
+    },
+    "SF1DP1263": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Householder",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1021": {
+      "label": "Number!!SEX AND AGE!!Total population!!45 to 49 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1149": {
+      "label": "Number!!SEX AND AGE!!Female population!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1028": {
+      "label": "Percent!!SEX AND AGE!!Total population!!60 to 64 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1028A"
+    },
+    "SF1DP1148": {
+      "label": "Percent!!SEX AND AGE!!Female population!!62 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1148A"
+    },
+    "SF1DP1269": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Child!!Own child under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1027": {
+      "label": "Number!!SEX AND AGE!!Total population!!60 to 64 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1147": {
+      "label": "Number!!SEX AND AGE!!Female population!!62 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1268": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Child",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1268A"
+    },
+    "SF1DP1026": {
+      "label": "Percent!!SEX AND AGE!!Total population!!55 to 59 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1026A"
+    },
+    "SF1DP1146": {
+      "label": "Percent!!SEX AND AGE!!Female population!!21 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1146A"
+    },
+    "SF1DP1267": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Child",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1025": {
+      "label": "Number!!SEX AND AGE!!Total population!!55 to 59 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1141": {
+      "label": "Number!!SEX AND AGE!!Female population!!16 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1020": {
+      "label": "Percent!!SEX AND AGE!!Total population!!40 to 44 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1020A"
+    },
+    "SF1DP1262": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1262A"
+    },
+    "SF1DP1140": {
+      "label": "Percent!!SEX AND AGE!!Female population!!Median age (years)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1140A,SF1DP1140ERR"
+    },
+    "SF1DP1261": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1261ERR"
+    },
+    "SF1DP1260": {
+      "label": "Percent!!RELATIONSHIP!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1260A"
+    },
+    "COUSUB": {
+      "label": "County Subdivision (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1119": {
+      "label": "Number!!SEX AND AGE!!Female population!!40 to 44 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1118": {
+      "label": "Percent!!SEX AND AGE!!Female population!!35 to 39 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1118A"
+    },
+    "SF1DP1239": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Some Other Race alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1117": {
+      "label": "Number!!SEX AND AGE!!Female population!!35 to 39 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1359": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1359ERR"
+    },
+    "SF1DP1238": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1238A"
+    },
+    "SF1DP1354": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!All other vacants",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1354A"
+    },
+    "SF1DP1112": {
+      "label": "Percent!!SEX AND AGE!!Female population!!20 to 24 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1112A"
+    },
+    "SF1DP1233": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!American Indian and Alaska Native alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1111": {
+      "label": "Number!!SEX AND AGE!!Female population!!20 to 24 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1353": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!All other vacants",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1232": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Black or African American alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1232A"
+    },
+    "SF1DP1110": {
+      "label": "Percent!!SEX AND AGE!!Female population!!15 to 19 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1110A"
+    },
+    "SF1DP1352": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For seasonal, recreational, or occasional use",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1352A"
+    },
+    "SF1DP1231": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Black or African American alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1351": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For seasonal, recreational, or occasional use",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1230": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!White alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1230A"
+    },
+    "SF1DP1116": {
+      "label": "Percent!!SEX AND AGE!!Female population!!30 to 34 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1116A"
+    },
+    "SF1DP1358": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Rental vacancy rate (percent) [9]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1358A,SF1DP1358ERR"
+    },
+    "SF1DP1237": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1115": {
+      "label": "Number!!SEX AND AGE!!Female population!!30 to 34 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1357": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Rental vacancy rate (percent) [9]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1357A"
+    },
+    "SF1DP1236": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Asian alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1236A"
+    },
+    "SF1DP1114": {
+      "label": "Percent!!SEX AND AGE!!Female population!!25 to 29 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1114A"
+    },
+    "SF1DP1356": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Homeowner vacancy rate (percent) [8]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1356A,SF1DP1356ERR"
+    },
+    "SF1DP1235": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Asian alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1355": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Homeowner vacancy rate (percent) [8]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1355A"
+    },
+    "SF1DP1113": {
+      "label": "Number!!SEX AND AGE!!Female population!!25 to 29 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1234": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!American Indian and Alaska Native alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1234A"
+    },
+    "SF1DP1350": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!Sold, not occupied",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1350A"
+    },
+    "CONCIT": {
+      "label": "Consolidated City",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1009": {
+      "label": "Number!!SEX AND AGE!!Total population!!15 to 19 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1129": {
+      "label": "Number!!SEX AND AGE!!Female population!!65 to 69 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1008": {
+      "label": "Percent!!SEX AND AGE!!Total population!!10 to 14 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1008A"
+    },
+    "SF1DP1128": {
+      "label": "Percent!!SEX AND AGE!!Female population!!60 to 64 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1128A"
+    },
+    "SF1DP1007": {
+      "label": "Number!!SEX AND AGE!!Total population!!10 to 14 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1249": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!American Indian and Alaska Native alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1365": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units!!Average household size of owner-occupied units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1123": {
+      "label": "Number!!SEX AND AGE!!Female population!!50 to 54 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1244": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1244A"
+    },
+    "SF1DP1002": {
+      "label": "Percent!!SEX AND AGE!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1002A"
+    },
+    "SF1DP1364": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units!!Population in owner-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1364A,SF1DP1364ERR"
+    },
+    "SF1DP1122": {
+      "label": "Percent!!SEX AND AGE!!Female population!!45 to 49 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1122A"
+    },
+    "SF1DP1243": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1001": {
+      "label": "Number!!SEX AND AGE!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1001ERR"
+    },
+    "SF1DP1121": {
+      "label": "Number!!SEX AND AGE!!Female population!!45 to 49 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1363": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units!!Population in owner-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1242": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Two or More Races",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1242A"
+    },
+    "SF1DP1120": {
+      "label": "Percent!!SEX AND AGE!!Female population!!40 to 44 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1120A"
+    },
+    "SF1DP1362": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1362A"
+    },
+    "SF1DP1241": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Two or More Races",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1369": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units!!Population in renter-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1127": {
+      "label": "Number!!SEX AND AGE!!Female population!!60 to 64 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1248": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Black or African American alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1248A"
+    },
+    "SF1DP1006": {
+      "label": "Percent!!SEX AND AGE!!Total population!!5 to 9 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1006A"
+    },
+    "SF1DP1126": {
+      "label": "Percent!!SEX AND AGE!!Female population!!55 to 59 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1126A"
+    },
+    "SF1DP1368": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1368A"
+    },
+    "SF1DP1247": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Black or African American alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1005": {
+      "label": "Number!!SEX AND AGE!!Total population!!5 to 9 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1367": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1125": {
+      "label": "Number!!SEX AND AGE!!Female population!!55 to 59 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1004": {
+      "label": "Percent!!SEX AND AGE!!Total population!!Under 5 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1004A"
+    },
+    "SF1DP1246": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1246A"
+    },
+    "SF1DP1366": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units!!Average household size of owner-occupied units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1366A,SF1DP1366ERR"
+    },
+    "SF1DP1124": {
+      "label": "Percent!!SEX AND AGE!!Female population!!50 to 54 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1124A"
+    },
+    "SF1DP1245": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1003": {
+      "label": "Number!!SEX AND AGE!!Total population!!Under 5 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1361": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1240": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino!!Some Other Race alone",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1240A"
+    },
+    "SF1DP1360": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1360A"
+    },
+    "ANRC": {
+      "label": "Alaska Native Regional Corporation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1178": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1178A"
+    },
+    "SF1DP1057": {
+      "label": "Number!!SEX AND AGE!!Male population!!10 to 14 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1299": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1299ERR"
+    },
+    "SF1DP1177": {
+      "label": "Number!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1056": {
+      "label": "Percent!!SEX AND AGE!!Male population!!5 to 9 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1056A"
+    },
+    "SF1DP1298": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population!!Female",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1298A"
+    },
+    "SF1DP1176": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Other Asian [1]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1176A"
+    },
+    "SF1DP1297": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population!!Female",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1055": {
+      "label": "Number!!SEX AND AGE!!Male population!!5 to 9 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1175": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Other Asian [1]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1296": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population!!Male",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1296A"
+    },
+    "SF1DP1054": {
+      "label": "Percent!!SEX AND AGE!!Male population!!Under 5 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1054A"
+    },
+    "SF1DP1059": {
+      "label": "Number!!SEX AND AGE!!Male population!!15 to 19 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1179": {
+      "label": "Number!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1058": {
+      "label": "Percent!!SEX AND AGE!!Male population!!10 to 14 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1058A"
+    },
+    "SF1DP1170": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Japanese",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1170A"
+    },
+    "SF1DP1291": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population!!Female",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1290": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population!!Male",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1290A"
+    },
+    "SF1DP1174": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Vietnamese",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1174A"
+    },
+    "SF1DP1053": {
+      "label": "Number!!SEX AND AGE!!Male population!!Under 5 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1295": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population!!Male",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1173": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Vietnamese",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1294": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1294A"
+    },
+    "SF1DP1052": {
+      "label": "Percent!!SEX AND AGE!!Male population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1052A"
+    },
+    "SF1DP1172": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Korean",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1172A"
+    },
+    "SF1DP1293": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1051": {
+      "label": "Number!!SEX AND AGE!!Male population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1171": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Korean",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1292": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population!!Female",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1292A"
+    },
+    "SF1DP1050": {
+      "label": "Percent!!SEX AND AGE!!Total population!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1050A"
+    },
+    "SF1DP1189": {
+      "label": "Number!!RACE!!Total population!!Two or More Races",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1068": {
+      "label": "Percent!!SEX AND AGE!!Male population!!35 to 39 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1068A"
+    },
+    "SF1DP1188": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Some Other Race",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1188A"
+    },
+    "SF1DP1067": {
+      "label": "Number!!SEX AND AGE!!Male population!!35 to 39 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1187": {
+      "label": "Number!!RACE!!Total population!!One Race!!Some Other Race",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1066": {
+      "label": "Percent!!SEX AND AGE!!Male population!!30 to 34 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1066A"
+    },
+    "SF1DP1186": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander [2]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1186A"
+    },
+    "SF1DP1065": {
+      "label": "Number!!SEX AND AGE!!Male population!!30 to 34 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1069": {
+      "label": "Number!!SEX AND AGE!!Male population!!40 to 44 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1181": {
+      "label": "Number!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1060": {
+      "label": "Percent!!SEX AND AGE!!Male population!!15 to 19 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1060A"
+    },
+    "SF1DP1180": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1180A"
+    },
+    "SF1DP1185": {
+      "label": "Number!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander [2]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1064": {
+      "label": "Percent!!SEX AND AGE!!Male population!!25 to 29 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1064A"
+    },
+    "SF1DP1184": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Samoan",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1184A"
+    },
+    "SF1DP1063": {
+      "label": "Number!!SEX AND AGE!!Male population!!25 to 29 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1183": {
+      "label": "Number!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Samoan",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1062": {
+      "label": "Percent!!SEX AND AGE!!Male population!!20 to 24 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1062A"
+    },
+    "SF1DP1182": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1182A"
+    },
+    "SF1DP1061": {
+      "label": "Number!!SEX AND AGE!!Male population!!20 to 24 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1156": {
+      "label": "Percent!!RACE!!Total population!!One Race!!White",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1156A"
+    },
+    "SF1DP1277": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Nonrelatives",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1035": {
+      "label": "Number!!SEX AND AGE!!Total population!!80 to 84 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1155": {
+      "label": "Number!!RACE!!Total population!!One Race!!White",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1034": {
+      "label": "Percent!!SEX AND AGE!!Total population!!75 to 79 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1034A"
+    },
+    "SF1DP1276": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Other relatives!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1276A"
+    },
+    "SF1DP1154": {
+      "label": "Percent!!RACE!!Total population!!One Race",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1154A"
+    },
+    "SF1DP1033": {
+      "label": "Number!!SEX AND AGE!!Total population!!75 to 79 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1275": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Other relatives!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1153": {
+      "label": "Number!!RACE!!Total population!!One Race",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1032": {
+      "label": "Percent!!SEX AND AGE!!Total population!!70 to 74 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1032A"
+    },
+    "SF1DP1274": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Other relatives!!Under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1274A"
+    },
+    "SF1DP1039": {
+      "label": "Number!!SEX AND AGE!!Total population!!Median age (years)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1159": {
+      "label": "Number!!RACE!!Total population!!One Race!!American Indian and Alaska Native",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1038": {
+      "label": "Percent!!SEX AND AGE!!Total population!!85 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1038A"
+    },
+    "SF1DP1158": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Black or African American",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1158A"
+    },
+    "SF1DP1279": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!Under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1037": {
+      "label": "Number!!SEX AND AGE!!Total population!!85 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1157": {
+      "label": "Number!!RACE!!Total population!!One Race!!Black or African American",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1278": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Nonrelatives",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1278A"
+    },
+    "SF1DP1036": {
+      "label": "Percent!!SEX AND AGE!!Total population!!80 to 84 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1036A"
+    },
+    "SF1DP1152": {
+      "label": "Percent!!RACE!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1152A"
+    },
+    "SF1DP1273": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Other relatives!!Under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1031": {
+      "label": "Number!!SEX AND AGE!!Total population!!70 to 74 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1151": {
+      "label": "Number!!RACE!!Total population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1151ERR"
+    },
+    "SF1DP1030": {
+      "label": "Percent!!SEX AND AGE!!Total population!!65 to 69 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1030A"
+    },
+    "SF1DP1272": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Other relatives",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1272A"
+    },
+    "SF1DP1150": {
+      "label": "Percent!!SEX AND AGE!!Female population!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1150A"
+    },
+    "SF1DP1271": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Other relatives",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1270": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Child!!Own child under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1270A"
+    },
+    "SF1DP1167": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Filipino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1288": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1288A"
+    },
+    "SF1DP1046": {
+      "label": "Percent!!SEX AND AGE!!Total population!!21 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1046A"
+    },
+    "SF1DP1166": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Chinese",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1166A"
+    },
+    "SF1DP1045": {
+      "label": "Number!!SEX AND AGE!!Total population!!21 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1287": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1165": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Chinese",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1286": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1286A"
+    },
+    "SF1DP1044": {
+      "label": "Percent!!SEX AND AGE!!Total population!!18 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1044A"
+    },
+    "SF1DP1164": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Asian Indian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1164A"
+    },
+    "SF1DP1285": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1285ERR"
+    },
+    "SF1DP1043": {
+      "label": "Number!!SEX AND AGE!!Total population!!18 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1049": {
+      "label": "Number!!SEX AND AGE!!Total population!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1169": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Japanese",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1048": {
+      "label": "Percent!!SEX AND AGE!!Total population!!62 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1048A"
+    },
+    "SF1DP1168": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian!!Filipino",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1168A"
+    },
+    "SF1DP1047": {
+      "label": "Number!!SEX AND AGE!!Total population!!62 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1289": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population!!Male",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1280": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!Under 18 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1280A"
+    },
+    "SF1DP1163": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian!!Asian Indian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1042": {
+      "label": "Percent!!SEX AND AGE!!Total population!!16 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1042A"
+    },
+    "SF1DP1284": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!Unmarried partner",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1284A"
+    },
+    "SF1DP1162": {
+      "label": "Percent!!RACE!!Total population!!One Race!!Asian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1162A"
+    },
+    "SF1DP1283": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!Unmarried partner",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1041": {
+      "label": "Number!!SEX AND AGE!!Total population!!16 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1161": {
+      "label": "Number!!RACE!!Total population!!One Race!!Asian",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1282": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1282A"
+    },
+    "SF1DP1040": {
+      "label": "Percent!!SEX AND AGE!!Total population!!Median age (years)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1040A,SF1DP1040ERR"
+    },
+    "SF1DP1160": {
+      "label": "Percent!!RACE!!Total population!!One Race!!American Indian and Alaska Native",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1160A"
+    },
+    "SF1DP1281": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1099": {
+      "label": "Number!!SEX AND AGE!!Male population!!65 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1098": {
+      "label": "Percent!!SEX AND AGE!!Male population!!62 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1098A"
+    },
+    "SF1DP1093": {
+      "label": "Number!!SEX AND AGE!!Male population!!18 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1092": {
+      "label": "Percent!!SEX AND AGE!!Male population!!16 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1092A"
+    },
+    "SF1DP1091": {
+      "label": "Number!!SEX AND AGE!!Male population!!16 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1090": {
+      "label": "Percent!!SEX AND AGE!!Male population!!Median age (years)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "string",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1090A,SF1DP1090ERR"
+    },
+    "SF1DP1097": {
+      "label": "Number!!SEX AND AGE!!Male population!!62 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1096": {
+      "label": "Percent!!SEX AND AGE!!Male population!!21 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1096A"
+    },
+    "SF1DP1095": {
+      "label": "Number!!SEX AND AGE!!Male population!!21 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1094": {
+      "label": "Percent!!SEX AND AGE!!Male population!!18 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1094A"
+    },
+    "AIHHTLI": {
+      "label": "American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1079": {
+      "label": "Number!!SEX AND AGE!!Male population!!65 to 69 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1199": {
+      "label": "Number!!RACE!!Race alone or in combination with one or more other races: [4]!!White",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1078": {
+      "label": "Percent!!SEX AND AGE!!Male population!!60 to 64 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1078A"
+    },
+    "SF1DP1198": {
+      "label": "Percent!!RACE!!Total population!!Two or More Races!!White; Some Other Race [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1198A"
+    },
+    "SF1DP1077": {
+      "label": "Number!!SEX AND AGE!!Male population!!60 to 64 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1197": {
+      "label": "Number!!RACE!!Total population!!Two or More Races!!White; Some Other Race [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1076": {
+      "label": "Percent!!SEX AND AGE!!Male population!!55 to 59 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1076A"
+    },
+    "SF1DP1192": {
+      "label": "Percent!!RACE!!Total population!!Two or More Races!!White; American Indian and Alaska Native [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1192A"
+    },
+    "SF1DP1071": {
+      "label": "Number!!SEX AND AGE!!Male population!!45 to 49 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1191": {
+      "label": "Number!!RACE!!Total population!!Two or More Races!!White; American Indian and Alaska Native [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1070": {
+      "label": "Percent!!SEX AND AGE!!Male population!!40 to 44 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1070A"
+    },
+    "SF1DP1190": {
+      "label": "Percent!!RACE!!Total population!!Two or More Races",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1190A"
+    },
+    "SF1DP1196": {
+      "label": "Percent!!RACE!!Total population!!Two or More Races!!White; Black or African American [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1196A"
+    },
+    "SF1DP1075": {
+      "label": "Number!!SEX AND AGE!!Male population!!55 to 59 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1195": {
+      "label": "Number!!RACE!!Total population!!Two or More Races!!White; Black or African American [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1074": {
+      "label": "Percent!!SEX AND AGE!!Male population!!50 to 54 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1074A"
+    },
+    "SF1DP1194": {
+      "label": "Percent!!RACE!!Total population!!Two or More Races!!White; Asian [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1194A"
+    },
+    "SF1DP1073": {
+      "label": "Number!!SEX AND AGE!!Male population!!50 to 54 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1193": {
+      "label": "Number!!RACE!!Total population!!Two or More Races!!White; Asian [3]",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1072": {
+      "label": "Percent!!SEX AND AGE!!Male population!!45 to 49 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1072A"
+    },
+    "LSAD_NAME": {
+      "label": "Legal/Statistical Area Description name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SF1DP1089": {
+      "label": "Number!!SEX AND AGE!!Male population!!Median age (years)",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1088": {
+      "label": "Percent!!SEX AND AGE!!Male population!!85 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1088A"
+    },
+    "SF1DP1087": {
+      "label": "Number!!SEX AND AGE!!Male population!!85 years and over",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1082": {
+      "label": "Percent!!SEX AND AGE!!Male population!!70 to 74 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1082A"
+    },
+    "SF1DP1081": {
+      "label": "Number!!SEX AND AGE!!Male population!!70 to 74 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1080": {
+      "label": "Percent!!SEX AND AGE!!Male population!!65 to 69 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1080A"
+    },
+    "SF1DP1086": {
+      "label": "Percent!!SEX AND AGE!!Male population!!80 to 84 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1086A"
+    },
+    "SF1DP1085": {
+      "label": "Number!!SEX AND AGE!!Male population!!80 to 84 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    },
+    "SF1DP1084": {
+      "label": "Percent!!SEX AND AGE!!Male population!!75 to 79 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "float",
+      "group": "113DP1",
+      "limit": 0,
+      "attributes": "SF1DP1084A"
+    },
+    "SF1DP1083": {
+      "label": "Number!!SEX AND AGE!!Male population!!75 to 79 years",
+      "concept": "Profile of General Population and Housing Characteristics: 2010",
+      "predicateType": "int",
+      "group": "113DP1",
+      "limit": 0
+    }
+  }
+}

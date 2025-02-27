@@ -1,0 +1,277 @@
+{
+  "variables": {
+    "TM9670": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "84",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key N",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "18385",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. Within Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "5",
+            "max": "8",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "PNUM": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "862",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "TMTEDFIN": {
+      "label": "Total Amt. of Ed. Asst. Rec. During the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "06500": "Amt. From $6000 6999",
+          "09500": "Amt. From $9000 9999",
+          "07500": "Amt. From $7000 7999",
+          "10500": "Amt. From $10000 10999",
+          "05500": "Amt. From $5000  5999",
+          "04500": "Amt. From $4100  4999",
+          "08500": "Amt. From $8000 8999",
+          "11000": "Amt. From $11000 +"
+        }
+      }
+    },
+    "TM9638": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9646": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9658": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9666": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9634": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9642": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999369802",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "TM9654": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9662": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9674": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9630": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    },
+    "TM9650": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Percent"
+          }
+        ]
+      }
+    }
+  }
+}

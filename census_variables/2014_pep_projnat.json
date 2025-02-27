@@ -1,0 +1,101 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "POP": {
+      "label": "Population",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "concept": "Estimates",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "United States",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATIVITY": {
+      "label": "Nativity",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year of projection: July 1, 2014-July 1, 2060",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Summary Level",
+      "concept": "Estimates",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE_HISP": {
+      "label": "Race and Hispanic Origin",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "Name of geography",
+      "concept": "Estimates",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "concept": "Estimates",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGE": {
+      "label": "Age",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "ANRC": {
+      "label": "Alaska Native Regional Corporation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOVARIANT": {
+      "label": "Geographic variant",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUSUB": {
+      "label": "County Subdivision (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CQR4O": {
+      "label": "Vacant Housing Units!!Original",
+      "concept": "Vacant Housing Units [2]",
+      "predicateType": "int",
+      "group": "UCQR4",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Place (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LSAD_NAME": {
+      "label": "Legal/Statistical Area Description name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "Total Population [2];Group Quarters Population [2];Total Housing Units [2];Vacant Housing Units [2]",
+      "predicateType": "string",
+      "group": "UCQR4,UCQR3,UCQR2,UCQR1",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRACT": {
+      "label": "Census Tract",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CQR2R": {
+      "label": "Group Quarters Population!!Revised",
+      "concept": "Group Quarters Population [2]",
+      "predicateType": "int",
+      "group": "UCQR2",
+      "limit": 0
+    },
+    "CQR1R": {
+      "label": "Total Population!!Revised",
+      "concept": "Total Population [2]",
+      "predicateType": "int",
+      "group": "UCQR1",
+      "limit": 0
+    },
+    "CQR4R": {
+      "label": "Vacant Housing Units!!Revised",
+      "concept": "Vacant Housing Units [2]",
+      "predicateType": "int",
+      "group": "UCQR4",
+      "limit": 0
+    },
+    "CQR1O": {
+      "label": "Total Population!!Original",
+      "concept": "Total Population [2]",
+      "group": "UCQR1",
+      "limit": 0
+    },
+    "CQR3R": {
+      "label": "Total Housing Units!!Revised",
+      "concept": "Total Housing Units [2]",
+      "predicateType": "int",
+      "group": "UCQR3",
+      "limit": 0
+    },
+    "CQR3O": {
+      "label": "Total Housing Units!!Original",
+      "concept": "Total Housing Units [2]",
+      "predicateType": "int",
+      "group": "UCQR3",
+      "limit": 0
+    },
+    "CQR2O": {
+      "label": "Group Quarters Population!!Original",
+      "concept": "Group Quarters Population [2]",
+      "predicateType": "int",
+      "group": "UCQR2",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "American Indian Area/Alaska Native Area/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONCIT": {
+      "label": "Consolidated City",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

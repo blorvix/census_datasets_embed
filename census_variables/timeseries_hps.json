@@ -1,0 +1,857 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "LONGCOVID_1_TOTAL": {
+      "label": "Adults who previously had COVID-19, with symptoms lasting 3 months or longer",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "LONGCOVID_1_MOE"
+    },
+    "WACTIVITY_RATE": {
+      "label": "Percentage of adults in households where someone worked onsite at a workplace in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "WACTIVITY_RT_MOE"
+    },
+    "CTCUSENEW_TOTAL": {
+      "label": "Adults living in households that received the Child Tax Credit on their 2021 Federal tax return in the last 4 weeks who either mostly spent it or used it to pay down debt",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CTCUSENEW_MOE"
+    },
+    "CHILDCARE_2_TOTAL": {
+      "label": "Adults in households where children under 5 were unable to attend daycare or another childcare arrangement in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CHILDCARE_2_MOE"
+    },
+    "UNITS_TOTAL": {
+      "label": "Total Population Age 18+",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "FOODFORCHLD1_UNIV": {
+      "label": "Universe for Adults in households where children currently receive food assistance",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "YR_WEEK_NUM": {
+      "label": "Data Collection Week within Year",
+      "concept": "All HPS Indicators",
+      "predicateType": "string",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "EVICTFOR_RATE": {
+      "label": "Percentage of adults in households not current on rent or mortgage where eviction or foreclosure in the next two months is either very likely or somewhat likely",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "EVICTFOR_RT_MOE"
+    },
+    "VACCINE_RATE": {
+      "label": "Percentage of adults in households who have received a COVID-19 vaccine",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "VACCINE_RT_MOE"
+    },
+    "LFNEXT_RATE": {
+      "label": "Percentage of adults in households who expect someone in their household to have a loss in employment income in the next 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "LFNEXT_RT_MOE"
+    },
+    "FOODASSIS_RATE": {
+      "label": "Percentage of adults in households with children enrolled in public or private school where students received food assistance from school in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODASSIS_RT_MOE"
+    },
+    "PRICEINCR_TOTAL": {
+      "label": "Adults who think prices have increased in the area where they live and shop in the last two months",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "PRICEINCR_MOE"
+    },
+    "ENERGYBILL_UNIV": {
+      "label": "Universe for Adults in households that were unable to pay an energy bill in full in the last 12 months",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HINSEC_1_UNIV": {
+      "label": "Universe for Adults in households who missed last month's rent or mortgage payment, or who have slight or no confidence that their household can pay next month's rent or mortgage on time",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "CTCUSENEW_UNIV": {
+      "label": "Universe for Adults living in households that received the Child Tax Credit on their 2021 Federal tax return in the last 4 weeks who either mostly spent it or used it to pay down debt",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "TELEWORK_2_RATE": {
+      "label": "Percentage of adults in households where at least one adult has teleworked because of the coronavirus pandemic in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "TELEWORK_2_RT_MOE"
+    },
+    "JOBLOSS_RATE": {
+      "label": "Percentage of adults in households where someone had a loss in employment income since March 13, 2020",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "JOBLOSS_RT_MOE"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EXPENSE_TOTAL": {
+      "label": "Adults in households where it has been somewhat or very difficult to pay for usual household expenses in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "EXPENSE_MOE"
+    },
+    "HLTHDLY_UNIV": {
+      "label": "Universe for Adults in households who delayed getting medical care because of the COVID-19 pandemic in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "DISPLACEDTIME_UNIV": {
+      "label": "Universe for Adults in households who were displaced from their homes for at least one month because of a natural disaster in the past year",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "CTCUSE_UNIV": {
+      "label": "Universe for Adults in households that received a Child Tax Credit payment in the last 4 weeks who either mostly spent it or used it to pay down debt",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "SECONDED_UNIV": {
+      "label": "Universe for Adults in households where at least one adult was planning on taking post-secondary classes this fall, but for whom those plans have either been canceled or changed in some significant way",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "FOODFORCHLD_UNIV": {
+      "label": "Universe for Adults in households where children received food assistance in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "CHILDCARE_RATE": {
+      "label": "Percentage of adults in households where children were unable to attend daycare or another childcare arrangement because of the coronavirus pandemic in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CHILDCARE_RT_MOE"
+    },
+    "COL_START_DATE": {
+      "label": "Data Collection Start Date",
+      "concept": "All HPS Indicators",
+      "predicateType": "string",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "CHILDCARE_TOTAL": {
+      "label": "Adults in households where children were unable to attend daycare or another childcare arrangement because of the coronavirus pandemic in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CHILDCARE_MOE"
+    },
+    "LFNEXT_TOTAL": {
+      "label": "Adults in households who expect someone in their household to have a loss in employment income in the next 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "LFNEXT_MOE"
+    },
+    "EVICTFOR_TOTAL": {
+      "label": "Adults in households not current on rent or mortgage where eviction or foreclosure in the next two months is either very likely or somewhat likely",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "EVICTFOR_MOE"
+    },
+    "TELEWORK_2_TOTAL": {
+      "label": "Adults in households where at least one adult has teleworked because of the coronavirus pandemic in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "TELEWORK_2_MOE"
+    },
+    "CHILDCARE_2_RATE": {
+      "label": "Percentage of adults in households where children under 5 were unable to attend daycare or another childcare arrangement in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CHILDCARE_2_RT_MOE"
+    },
+    "PLNDTRIP_RATE": {
+      "label": "Percentage of adults in households who are planning to take any overnight trips or trips to places more than 100 miles away in the next 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "PLNDTRIP_RT_MOE"
+    },
+    "LONGCOVID_1_RATE": {
+      "label": "Percentage of adults who previously had COVID-19, with symptoms lasting 3 months or longer",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "LONGCOVID_1_RT_MOE"
+    },
+    "PRICEWORRY_RATE": {
+      "label": "Percentage of adults who are somewhat or very concerned that prices will increase in the next six months",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "PRICEWORRY_RT_MOE"
+    },
+    "CHILDTELE_RATE": {
+      "label": "Percentage of adults in households where children had an appointment with a doctor, nurse, or other health professional by video or by phone in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CHILDTELE_RT_MOE"
+    },
+    "ENERGYBILL_TOTAL": {
+      "label": "Adults in households that were unable to pay an energy bill in full in the last 12 months",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "ENERGYBILL_MOE"
+    },
+    "CTCUSENEW_RATE": {
+      "label": "Percentage of adults living in households that received the Child Tax Credit on their 2021 Federal tax return in the last 4 weeks who either mostly spent it or used it to pay down debt",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CTCUSENEW_RT_MOE"
+    },
+    "EVICTFOR_UNIV": {
+      "label": "Universe for Adults in households not current on rent or mortgage where eviction or foreclosure in the next two months is either very likely or somewhat likely",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HINSEC_TOTAL": {
+      "label": "Adults in households who are not current on rent or mortgage payments and who have slight or no confidence that their household can pay next month's rent or mortgage on time",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HINSEC_MOE"
+    },
+    "FOODSCARCE_TOTAL": {
+      "label": "Adults in households where there was either sometimes or often not enough to eat in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODSCARCE_MOE"
+    },
+    "EDMVD_UNIV": {
+      "label": "Universe for Adults in households with children in public or private school, where classes were taught in a distance learning format, or changed in some other way",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "SURVEY_YEAR": {
+      "label": "Data Collection Year",
+      "concept": "All HPS Indicators",
+      "required": "true",
+      "predicateType": "string",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "SECONDED_TOTAL": {
+      "label": "Adults in households where at least one adult was planning on taking post-secondary classes this fall, but for whom those plans have either been canceled or changed in some significant way",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "SECONDED_MOE"
+    },
+    "EXPENSE_UNIV": {
+      "label": "Universe for Adults in households where it has been somewhat or very difficult to pay for usual household expenses in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HHTELHLTH_RATE": {
+      "label": "Percentage of adults in households who had an appointment with a doctor, nurse, or other health professional by video or by phone in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HHTELHLTH_RT_MOE"
+    },
+    "JOBLOSS_UNIV": {
+      "label": "Universe for Adults in households where someone had a loss in employment income since March 13, 2020",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HINSEC_RATE": {
+      "label": "Percentage of adults in households who are not current on rent or mortgage payments and who have slight or no confidence that their household can pay next month's rent or mortgage on time",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HINSEC_RT_MOE"
+    },
+    "LFNEXT_UNIV": {
+      "label": "Universe for Adults in households who expect someone in their household to have a loss in employment income in the next 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "JOBLOSS_TOTAL": {
+      "label": "Adults in households where someone had a loss in employment income since March 13, 2020",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "JOBLOSS_MOE"
+    },
+    "PRICEWORRY_TOTAL": {
+      "label": "Adults who are somewhat or very concerned that prices will increase in the next six months",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "PRICEWORRY_MOE"
+    },
+    "HHTELHLTH_TOTAL": {
+      "label": "Adults in households who had an appointment with a doctor, nurse, or other health professional by video or by phone in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HHTELHLTH_MOE"
+    },
+    "HLTHDLY_TOTAL": {
+      "label": "Adults in households who delayed getting medical care because of the COVID-19 pandemic in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HLTHDLY_MOE"
+    },
+    "GETVACC_TOTAL": {
+      "label": "Adults in households who have not received a COVID-19 vaccine (but definitely will once available)",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "GETVACC_MOE"
+    },
+    "EDMVD_TOTAL": {
+      "label": "Adults in households with children in public or private school, where classes were taught in a distance learning format, or changed in some other way",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "EDMVD_MOE"
+    },
+    "HHTELHLTH_UNIV": {
+      "label": "Universe for Adults in households who had an appointment with a doctor, nurse, or other health professional by video or by phone in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "TELEWORK_RATE": {
+      "label": "Percentage of adults in households where at least one adult has substituted some or all of their typical in-person work for telework because of the coronavirus pandemic",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "TELEWORK_RT_MOE"
+    },
+    "TELEWORK_2_UNIV": {
+      "label": "Universe for Adults in households where at least one adult has teleworked because of the coronavirus pandemic in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "SECONDED_RATE": {
+      "label": "Percentage of adults in households where at least one adult was planning on taking post-secondary classes this fall, but for whom those plans have either been canceled or changed in some significant way",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "SECONDED_RT_MOE"
+    },
+    "DISPLACEDTIME_RATE": {
+      "label": "Percentage of adults in households who were displaced from their homes for at least one month because of a natural disaster in the past year",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "DISPLACEDTIME_RT_MOE"
+    },
+    "FOODSCARCE_RATE": {
+      "label": "Percentage of adults in households where there was either sometimes or often not enough to eat in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODSCARCE_RT_MOE"
+    },
+    "FOODFORCHLD_RATE": {
+      "label": "Percentage of adults in households where children received food assistance in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODFORCHLD_RT_MOE"
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CHILDCARE_UNIV": {
+      "label": "Universe for Adults in households where children were unable to attend daycare or another childcare arrangement because of the coronavirus pandemic in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HLTHDLY_RATE": {
+      "label": "Percentage of adults in households who delayed getting medical care because of the COVID-19 pandemic in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HLTHDLY_RT_MOE"
+    },
+    "FOODFORCHLD_TOTAL": {
+      "label": "Adults in households where children received food assistance in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODFORCHLD_MOE"
+    },
+    "CHILDCARE_2_UNIV": {
+      "label": "Universe for Adults in households where children under 5 were unable to attend daycare or another childcare arrangement in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "DISPLACED_RATE": {
+      "label": "Percentage of adults in households who were displaced from their homes because of a natural disaster in the past year",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "DISPLACED_RT_MOE"
+    },
+    "PLNDTRIP_TOTAL": {
+      "label": "Adults who are planning to take any overnight trips or trips to places more than 100 miles away in the next 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "PLNDTRIP_MOE"
+    },
+    "TELEWORK_TOTAL": {
+      "label": "Adults in households where at least one adult has substituted some or all of their typical in-person work for telework because of the coronavirus pandemic",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "TELEWORK_MOE"
+    },
+    "GETVACC_UNIV": {
+      "label": "Universe for Adults in households who have not received a COVID-19 vaccine (but definitely will once available)",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "WACTIVITY_TOTAL": {
+      "label": "Adults in households where someone worked onsite at a workplace in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "WACTIVITY_MOE"
+    },
+    "WACTIVITY_UNIV": {
+      "label": "Universe for Adults in households where someone worked onsite at a workplace in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "DISPLACED_TOTAL": {
+      "label": "Adults in households who were displaced from their homes because of a natural disaster in the past year",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "DISPLACED_MOE"
+    },
+    "LONGCOVID_1_UNIV": {
+      "label": "Universe for Adults who previously had COVID-19, with symptoms lasting 3 months or longer",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HINSEC_UNIV": {
+      "label": "Universe for Adults in households who are not current on rent or mortgage payments and who have slight or no confidence that their household can pay next month's rent or mortgage on time",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "FOODFORCHLD1_RATE": {
+      "label": "Percentage of adults in households where children currently receive food assistance",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODFORCHLD1_RT_MOE"
+    },
+    "PRICEINCR_RATE": {
+      "label": "Percentage of adults who think prices have increased in the area where they live and shop in the last two months",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "PRICEINCR_RT_MOE"
+    },
+    "VACCINE_UNIV": {
+      "label": "Universe for Adults in households who have received a COVID-19 vaccine",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "CHILDTELE_TOTAL": {
+      "label": "Adults in households where children had an appointment with a doctor, nurse, or other health professional by video or by phone in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CHILDTELE_MOE"
+    },
+    "DISPLACEDTIME_TOTAL": {
+      "label": "Adults in households who were displaced from their homes for at least one month because of a natural disaster in the past year",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "DISPLACEDTIME_MOE"
+    },
+    "ENERGYBILL_RATE": {
+      "label": "Percentage of adults in households that were unable to pay an energy bill in full in the last 12 months",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "ENERGYBILL_RT_MOE"
+    },
+    "VACCINE_TOTAL": {
+      "label": "Adults in households who have received a COVID-19 vaccine",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "VACCINE_MOE"
+    },
+    "GASIMPACT_UNIV": {
+      "label": "Universe for Adults who changed driving behavior in the last 7 days due to the cost of gas",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "HINSEC_1_TOTAL": {
+      "label": "Adults in households who missed last month's rent or mortgage payment, or who have slight or no confidence that their household can pay next month's rent or mortgage on time",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HINSEC_1_MOE"
+    },
+    "FOODFORCHLD1_TOTAL": {
+      "label": "Adults in households where children currently receive food assistance",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODFORCHLD1_MOE"
+    },
+    "EXPENSE_RATE": {
+      "label": "Percentage of adults in households where it has been somewhat or very difficult to pay for usual household expenses in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "EXPENSE_RT_MOE"
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COL_END_DATE": {
+      "label": "Data Collection End Date",
+      "concept": "All HPS Indicators",
+      "predicateType": "string",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "PRICEINCR_UNIV": {
+      "label": "Universe for Adults who think prices have increased in the area where they live and shop in the last two months",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "FOODASSIS_TOTAL": {
+      "label": "Adults in households with children enrolled in public or private school where students received food assistance from school in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "FOODASSIS_MOE"
+    },
+    "CTCUSE_RATE": {
+      "label": "Percentage of adults in households that received a Child Tax Credit payment in the last 4 weeks who either mostly spent it or used it to pay down debt",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CTCUSE_RT_MOE"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FOODSCARCE_UNIV": {
+      "label": "Universe for Adults in households where there was either sometimes or often not enough to eat in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "GASIMPACT_RATE": {
+      "label": "Percentage of adults who changed driving behavior in the last 7 days due to the cost of gas",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "GASIMPACT_RT_MOE"
+    },
+    "WEEK": {
+      "label": "Household Pulse Survey Week",
+      "concept": "All HPS Indicators",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "TELEWORK_UNIV": {
+      "label": "Universe for Adults in households where at least one adult has substituted some or all of their typical in-person work for telework because of the coronavirus pandemic",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "GASIMPACT_TOTAL": {
+      "label": "Adults who changed driving behavior in the last 7 days due to the cost of gas",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "GASIMPACT_MOE"
+    },
+    "HINSEC_1_RATE": {
+      "label": "Percentage of adults in households who missed last month's rent or mortgage payment, or who have slight or no confidence that their household can pay next month's rent or mortgage on time",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "HINSEC_1_RT_MOE"
+    },
+    "CHILDTELE_UNIV": {
+      "label": "Universe for Adults in households where children had an appointment with a doctor, nurse, or other health professional by video or by phone in the last 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "PLNDTRIP_UNIV": {
+      "label": "Universe for Adults who are planning to take any overnight trips or trips to places more than 100 miles away in the next 4 weeks",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "All HPS Indicators",
+      "predicateType": "string",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "FOODASSIS_UNIV": {
+      "label": "Universe for Adults in households with children enrolled in public or private school where students received food assistance from school in the last 7 days",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "CTCUSE_TOTAL": {
+      "label": "Adults in households that received a Child Tax Credit payment in the last 4 weeks who either mostly spent it or used it to pay down debt",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "CTCUSE_MOE"
+    },
+    "CBSA": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EDMVD_RATE": {
+      "label": "Percentage of adults in households with children in public or private school, where classes were taught in a distance learning format, or changed in some other way",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "EDMVD_RT_MOE"
+    },
+    "DISPLACED_UNIV": {
+      "label": "Universe for Adults in households who were displaced from their homes because of a natural disaster in the past year",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    },
+    "GETVACC_RATE": {
+      "label": "Percentage of adults in households who have not received a COVID-19 vaccine (but definitely will once available)",
+      "concept": "All HPS Indicators",
+      "predicateType": "float",
+      "group": "HPS00",
+      "limit": 0,
+      "attributes": "GETVACC_RT_MOE"
+    },
+    "PRICEWORRY_UNIV": {
+      "label": "Universe for Adults who are somewhat or very concerned that prices will increase in the next six months",
+      "concept": "All HPS Indicators",
+      "predicateType": "int",
+      "group": "HPS00",
+      "limit": 0
+    }
+  }
+}

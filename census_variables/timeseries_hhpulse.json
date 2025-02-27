@@ -1,0 +1,178 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "TOTAL": {
+      "label": "Estimate Total",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "int",
+      "group": "HPS01",
+      "limit": 0,
+      "attributes": "TOTAL_MOE"
+    },
+    "MEASURE_NAME": {
+      "label": "Household Pulse Survey Estimate Name",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "RATE": {
+      "label": "Estimate Percentage",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "float",
+      "group": "HPS01",
+      "limit": 0,
+      "attributes": "RATE_MOE"
+    },
+    "YR_CYCLE_NUM": {
+      "label": "Data Collection Cycle within Year",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "UNITS_TOTAL": {
+      "label": "Total Population Age 18+",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "int",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "SURVEY_YEAR": {
+      "label": "Data Collection Year",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COL_END_DATE": {
+      "label": "Data Collection End Date",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "MEASURE_LABEL": {
+      "label": "Household Pulse Survey Estimate Label",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PHASE": {
+      "label": "Household Pulse Survey Phase",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Metropolitan/Micropolitan Statistical Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MEASURE_DESCRIPTION": {
+      "label": "Household Pulse Survey Estimate Description",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "GEO_NAME": {
+      "label": "Geography Name",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Defined Group of Reporting Units Used to Generate Estimate",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "int",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "COL_START_DATE": {
+      "label": "Data Collection Start Date",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    },
+    "CYCLE": {
+      "label": "Household Pulse Survey Cycle",
+      "concept": "All HPS Indicators for Phase 4.0 and Later",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "HPS01",
+      "limit": 0
+    }
+  }
+}

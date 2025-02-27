@@ -1,0 +1,8391 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ALTM9640": {
+      "label": "Imp. Flag for Tm9640.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9640"
+        }
+      }
+    },
+    "ALTM9520": {
+      "label": "Imp. Flag for Tm9520.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9520"
+          }
+        ]
+      }
+    },
+    "ALTM9642": {
+      "label": "Impuation Flag for Tm9642.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9642"
+        }
+      }
+    },
+    "UTM9700": {
+      "label": "Uned. Tm9700",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9700"
+          }
+        ]
+      }
+    },
+    "UTM9702": {
+      "label": "Uned. Tm9702",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9702"
+          }
+        ]
+      }
+    },
+    "ALTM9636": {
+      "label": "Imp. Flag for Tm9636.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9636"
+        }
+      }
+    },
+    "UTM9704": {
+      "label": "Uned. Tm9704",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9704"
+          }
+        ]
+      }
+    },
+    "TM8508": {
+      "label": "Who Paid for This Most Recent Pgm. Emp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "ALTM9516": {
+      "label": "Imp. Flag for Tm9516.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9516"
+          }
+        ]
+      }
+    },
+    "TM9716": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9716"
+          }
+        ]
+      }
+    },
+    "ALTM9638": {
+      "label": "Imp. Flag for Tm9638.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9638"
+        }
+      }
+    },
+    "UTM9706": {
+      "label": "Uned. Tm9706",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9706"
+          }
+        ]
+      }
+    },
+    "TM8506": {
+      "label": "Who Paid for This Most Recent Pgm. Self",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "ALTM9518": {
+      "label": "Imp. Flag for Tm9518.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9518"
+          }
+        ]
+      }
+    },
+    "TM8628": {
+      "label": "Mth. of Widowhood/divorce: Second Marria",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8628"
+          }
+        ]
+      }
+    },
+    "TM9714": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9714"
+          }
+        ]
+      }
+    },
+    "ALTM9632": {
+      "label": "Imp. Flag for Tm9632.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9632"
+        }
+      }
+    },
+    "TM8504": {
+      "label": "For How Many Wks. Did _ Att. This Most R",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "13200",
+            "description": "Continuous values of TM8504"
+          }
+        ]
+      }
+    },
+    "UTM9708": {
+      "label": "Uned. Tm9708",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9708"
+          }
+        ]
+      }
+    },
+    "TM8626": {
+      "label": "Did _ Second Marriage End in Widowhood o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Divorce",
+          "0": "Not in Univ.",
+          "1": "Widowhood"
+        }
+      }
+    },
+    "ALTM9512": {
+      "label": "Imp. Flag for Tm9512.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9512"
+          }
+        ]
+      }
+    },
+    "TM9712": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9712"
+          }
+        ]
+      }
+    },
+    "TM8502": {
+      "label": "For How Many Wks. Did _ Att. This Most R",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "250",
+            "description": "Continuous values of TM8502"
+          }
+        ]
+      }
+    },
+    "ALTM9634": {
+      "label": "Imp. Flag for Tm9634.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9634"
+        }
+      }
+    },
+    "TM8624": {
+      "label": "Yr. of Second Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "48000",
+            "description": "Continuous values of TM8624"
+          }
+        ]
+      }
+    },
+    "ALTM9514": {
+      "label": "Imp. Flag for Tm9514.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9514"
+          }
+        ]
+      }
+    },
+    "TM9710": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9710"
+          }
+        ]
+      }
+    },
+    "TM8500": {
+      "label": "When Did _ Start This Most Recent Traini",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8500"
+          }
+        ]
+      }
+    },
+    "TM8622": {
+      "label": "Mth. of Second Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8622"
+          }
+        ]
+      }
+    },
+    "TM8620": {
+      "label": "Chk. Item T12 How Many Times Has _ Been",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not in Univ.",
+          "1": "Widowhood",
+          "2": "Divorce"
+        }
+      }
+    },
+    "IMP0002": {
+      "label": "Imp. Flag: Tm8700 Tm8702",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Logical Assignment Based on Tm87041 or 2",
+          "0": "Not Imp.",
+          "3": "Logical Assignment Based on Counter",
+          "1": "Imp.",
+          "4": "Logical Assignment Based on Mth. Entered",
+          "5": "Imp.: Set According to Mth. of Intv."
+        }
+      }
+    },
+    "TM8618": {
+      "label": "Yr. _ Stopped Living With First Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8618"
+          }
+        ]
+      }
+    },
+    "TM9708": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9708"
+          }
+        ]
+      }
+    },
+    "TM8616": {
+      "label": "Mth. _ Stopped Living With First Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8616"
+          }
+        ]
+      }
+    },
+    "TM9706": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9706"
+          }
+        ]
+      }
+    },
+    "TM8614": {
+      "label": "Chk. Item T11 Is Widowhood Marked in Tm8",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Widowhood",
+          "0": "Not in Univ.",
+          "2": "Divorce"
+        }
+      }
+    },
+    "TM9704": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9704"
+          }
+        ]
+      }
+    },
+    "TM8736": {
+      "label": "When Did _ Come to the United States to",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "1970 to 1974",
+          "0": "Not in Univ.",
+          "3": "1965 to 1969",
+          "5": "1975 to 1979",
+          "1": "1911 to 1959",
+          "2": "1960 to 1964",
+          "6": "1980 to 1981",
+          "7": "1982 to 1984",
+          "8": "1985 to 1993"
+        }
+      }
+    },
+    "TM8612": {
+      "label": "Yr. of Widowhood/divorce: First Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8612"
+          }
+        ]
+      }
+    },
+    "TM9702": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9702"
+          }
+        ]
+      }
+    },
+    "TM8734": {
+      "label": "Is _ a Naturalized Citizen of the United",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Yr. And/or Mth. Was Not Acceptable",
+          "2": "Mth. Was Not Acceptable",
+          "0": "Not in Univ.",
+          "1": "Everything Is Acceptable"
+        }
+      }
+    },
+    "TM8610": {
+      "label": "Mth. of Widowhood/divorce: First Marriag",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8610"
+          }
+        ]
+      }
+    },
+    "TM9700": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "108",
+            "description": "Continuous values of TM9700"
+          }
+        ]
+      }
+    },
+    "TM8732": {
+      "label": "Chk. Item T17 Respondent Was Foreign Bor",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not in Univ.",
+          "1": "Widowhood",
+          "2": "Divorce"
+        }
+      }
+    },
+    "IMP1214": {
+      "label": "Imp. Flag Tm8312, Tm8314",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8730": {
+      "label": "In What State or Foreign Country Was _ B",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "44": "Texas",
+          "45": "Utah",
+          "05": "California",
+          "50": "Wisconsin",
+          "52": "United States Unknown State",
+          "13": "Idaho",
+          "19": "Louisiana",
+          "77": "Mexico",
+          "41": "South Carolina",
+          "00": "Not in Univ.",
+          "88": "Central America",
+          "46": "Vermont",
+          "07": "Connecticut",
+          "62": "Austria",
+          "65": "Cuba",
+          "22": "Massachusetts",
+          "23": "Michigan",
+          "24": "Minnesota",
+          "28": "Nebraska",
+          "29": "Nevada",
+          "80": "Poland",
+          "42": "South Dakota",
+          "86": "Other Europe",
+          "43": "Tennessee",
+          "87": "Other Asia",
+          "12": "Hawaii",
+          "17": "Kansas",
+          "20": "Maine",
+          "64": "China",
+          "66": "Czechoslovakia",
+          "67": "Dominican Repub.",
+          "68": "Germany",
+          "25": "Mississippi",
+          "69": "Greece",
+          "32": "New Mexico",
+          "35": "North Dakota",
+          "82": "Sweden",
+          "01": "Alabama",
+          "89": "South America",
+          "02": "Alaska",
+          "03": "Arizona",
+          "91": "Africa",
+          "10": "Florida",
+          "11": "Georgia",
+          "16": "Iowa",
+          "61": "Outlying Area of U. S.",
+          "36": "Ohio",
+          "37": "Oklahoma",
+          "38": "Oregon",
+          "90": "Middle East",
+          "92": "Overseas Country Unknown",
+          "15": "Indiana",
+          "18": "Kentucky",
+          "60": "Puerto Rico",
+          "63": "Canada",
+          "27": "Montana",
+          "75": "Japan",
+          "76": "Korea",
+          "34": "North Carolina",
+          "79": "Philippines",
+          "81": "Portugal",
+          "83": "United Kingdom",
+          "84": "U. S. S. R.",
+          "85": "Vietnam",
+          "04": "Arkansas",
+          "49": "West Virginia",
+          "99": "Otherspecify",
+          "14": "Illinois",
+          "26": "Missouri",
+          "70": "Hungary",
+          "72": "Ireland",
+          "73": "Italy",
+          "47": "Virginia",
+          "48": "Washington",
+          "06": "Colorado",
+          "51": "Wyoming",
+          "71": "India",
+          "74": "Jamaica",
+          "33": "New York",
+          "78": "Norway",
+          "39": "Pennsylvania",
+          "40": "Rhode Island",
+          "08": "Delaware",
+          "09": "District of Columbia",
+          "21": "Maryland",
+          "30": "New Hampshire",
+          "31": "New Jersey"
+        }
+      }
+    },
+    "SEX": {
+      "label": "Sex",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "ALTM9662": {
+      "label": "Imp. Flag for Tm9662.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9662"
+        }
+      }
+    },
+    "ALTM9542": {
+      "label": "Imp. Flag for Tm9542.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9542"
+          }
+        ]
+      }
+    },
+    "UTM9600": {
+      "label": "Uned. Tm9600",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "206",
+            "description": "Continuous values of UTM9600"
+          }
+        ]
+      }
+    },
+    "ALTM9664": {
+      "label": "Imp. Flag for Tm9664.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9664"
+        }
+      }
+    },
+    "ALTM9422": {
+      "label": "Imp. Flag for Tm9422.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9422"
+          }
+        ]
+      }
+    },
+    "UTM9602": {
+      "label": "Uned. Tm9602",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9602"
+          }
+        ]
+      }
+    },
+    "UTM9604": {
+      "label": "Uned. Tm9604",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9604"
+          }
+        ]
+      }
+    },
+    "UTM9606": {
+      "label": "Uned. Tm9606",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9606"
+          }
+        ]
+      }
+    },
+    "TM8408": {
+      "label": "Has _ Rec. a High School Diploma Include",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "UTM9608": {
+      "label": "Uned. Tm9608",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9608"
+          }
+        ]
+      }
+    },
+    "TM9618": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9618"
+          }
+        ]
+      }
+    },
+    "TM8768": {
+      "label": "Chk. Item T20 Birth Year: Last Child If",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8768"
+          }
+        ]
+      }
+    },
+    "TM8406": {
+      "label": "When Did _ Last Att. Elementary or High",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8648": {
+      "label": "In What Mth. and Yr. Was _ Widowed/divor",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8648"
+          }
+        ]
+      }
+    },
+    "TM9616": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9616"
+          }
+        ]
+      }
+    },
+    "TM8766": {
+      "label": "Chk. Item T20 Birth Month: Last Child If",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8766"
+          }
+        ]
+      }
+    },
+    "TM8404": {
+      "label": "When Did _ Last Att. Elementary or High",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8404"
+          }
+        ]
+      }
+    },
+    "TM8646": {
+      "label": "Mth. of Widowhood/divorce: Cur. or Most",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999",
+            "description": "Continuous values of TM8646"
+          }
+        ]
+      }
+    },
+    "TM9614": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9614"
+          }
+        ]
+      }
+    },
+    "IMP4858": {
+      "label": "Imp. Flag: Tm8448 Tm8458",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8764": {
+      "label": "Chk. Item T20 Pers. Number: First Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "10000",
+            "description": "Continuous values of TM8764"
+          }
+        ]
+      }
+    },
+    "TM8402": {
+      "label": "When Did _ Last Att. Elementary or High",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8402"
+          }
+        ]
+      }
+    },
+    "TM8644": {
+      "label": "Chk. Item T15 Cur. Marital Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Widowed",
+          "1": "Married, Spouse Present Skip to Tm8700",
+          "0": "Not in Univ.",
+          "4": "Divorced",
+          "5": "Separated Skip to Tm8652",
+          "2": "Married, Spouse Absent Skip to Tm8700"
+        }
+      }
+    },
+    "TM9612": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9612"
+          }
+        ]
+      }
+    },
+    "TM8762": {
+      "label": "Chk. Item T20 Birth Year: First Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22000",
+            "description": "Continuous values of TM8762"
+          }
+        ]
+      }
+    },
+    "TM8400": {
+      "label": "Chk. Item T6 Has _ Completed the 12th Gr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8642": {
+      "label": "Yr. of Cur. or Most Recent Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8642"
+          }
+        ]
+      }
+    },
+    "TM9610": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "108",
+            "description": "Continuous values of TM9610"
+          }
+        ]
+      }
+    },
+    "TM8760": {
+      "label": "Chk. Item T20 Birth Month: First Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26000",
+            "description": "Continuous values of TM8760"
+          }
+        ]
+      }
+    },
+    "TM8640": {
+      "label": "Mth. of Cur. or Most Recent Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "400",
+            "description": "Continuous values of TM8640"
+          }
+        ]
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "4.221323E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "ALTM9650": {
+      "label": "Imp. Flag for Tm9650.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9650"
+        }
+      }
+    },
+    "ALTM9652": {
+      "label": "Imp. Flag for Tm9652.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9652"
+        }
+      }
+    },
+    "UTM9710": {
+      "label": "Uned. Tm9710",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9710"
+          }
+        ]
+      }
+    },
+    "UTM9712": {
+      "label": "Uned. Tm9712",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9712"
+          }
+        ]
+      }
+    },
+    "UTM9714": {
+      "label": "Uned. Tm9714",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9714"
+          }
+        ]
+      }
+    },
+    "TM9608": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM9608"
+          }
+        ]
+      }
+    },
+    "ALTM9648": {
+      "label": "Imp. Flag for Tm9648.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9648"
+        }
+      }
+    },
+    "UTM9716": {
+      "label": "Uned. Tm9716",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9716"
+          }
+        ]
+      }
+    },
+    "TM8638": {
+      "label": "Chk. Item T14 Has a Wave 2 Intv. Been Ob",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Everything Is Acceptable",
+          "3": "Yr. And/or Mth. Was Not Acceptable",
+          "2": "Mth. Was Not Acceptable",
+          "0": "Not in Univ."
+        }
+      }
+    },
+    "TM9606": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "605",
+            "description": "Continuous values of TM9606"
+          }
+        ]
+      }
+    },
+    "ALTM9522": {
+      "label": "Imp. Flag for Tm9522.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9522"
+          }
+        ]
+      }
+    },
+    "TM8636": {
+      "label": "Yr. _ Stopped Living With Second Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8636"
+          }
+        ]
+      }
+    },
+    "TM9604": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9604"
+          }
+        ]
+      }
+    },
+    "ALTM9644": {
+      "label": "Imp. Flag for Tm9644.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9644"
+        }
+      }
+    },
+    "TM8758": {
+      "label": "Are All of _ Chld. Cur. Living in This H",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Widowhood",
+          "0": "Not in Univ.",
+          "2": "Divorce"
+        }
+      }
+    },
+    "TM8634": {
+      "label": "Mth. _ Stopped Living With Second Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8634"
+          }
+        ]
+      }
+    },
+    "ALTM9524": {
+      "label": "Imp. Flag for Tm9524.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9524"
+          }
+        ]
+      }
+    },
+    "TM9602": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9602"
+          }
+        ]
+      }
+    },
+    "ALTM9646": {
+      "label": "Imp. Flag for Tm9646.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9646"
+        }
+      }
+    },
+    "TM8756": {
+      "label": "Chk. Item T19 Is _ 65 Yrs. of Age or Old",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Widowhood",
+          "0": "Not in Univ.",
+          "2": "Divorce"
+        }
+      }
+    },
+    "TM8632": {
+      "label": "Chk. Item T13 Is Widowhood Marked in Tm8",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Widowhood",
+          "2": "Divorce",
+          "0": "Not in Univ."
+        }
+      }
+    },
+    "TM9600": {
+      "label": "Pers. No. in Row K Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9600"
+          }
+        ]
+      }
+    },
+    "TM8512": {
+      "label": "Who Paid for This Most Recent Pgm. Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8754": {
+      "label": "How Many Chld., If Any, Has _ Ever Had D",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "6",
+            "description": "Continuous values of TM8754"
+          }
+        ]
+      }
+    },
+    "TM8630": {
+      "label": "Yr. of Widowhood, Divorce: Second Marria",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "75000",
+            "description": "Continuous values of TM8630"
+          }
+        ]
+      }
+    },
+    "TM8510": {
+      "label": "Who Paid for This Most Recent Pgm. Fed.,",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8752": {
+      "label": "How Many Chld., If Any, Is _ the Father",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "7",
+            "description": "Continuous values of TM8752"
+          }
+        ]
+      }
+    },
+    "TM8750": {
+      "label": "Chk. Item T18 What Is _ Age and Sex",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not in Univ.",
+          "1": "Everything Is Acceptable",
+          "2": "Mth. Was Not Acceptable",
+          "3": "Yr. And/or Mth. Was Not Acceptable"
+        }
+      }
+    },
+    "UTM9620": {
+      "label": "Uned. Tm9620",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9620"
+          }
+        ]
+      }
+    },
+    "ALTM9684": {
+      "label": "Imp. Flag for Tm9684.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9684"
+        }
+      }
+    },
+    "ALTM9680": {
+      "label": "Imp. Flag for Tm9680.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9680"
+        }
+      }
+    },
+    "ALTM9682": {
+      "label": "Imp. Flag for Tm9682.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9682"
+        }
+      }
+    },
+    "TM8706": {
+      "label": "Before Living Here, Where Did _ Live Dif",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "44": "Texas",
+          "49": "West Virginia",
+          "14": "Illinois",
+          "19": "Louisiana",
+          "21": "Maryland",
+          "23": "Michigan",
+          "46": "Vermont",
+          "47": "Virginia",
+          "08": "Delaware",
+          "09": "District of Columbia",
+          "52": "United States State Unknown",
+          "13": "Idaho",
+          "16": "Iowa",
+          "18": "Kentucky",
+          "24": "Minnesota",
+          "27": "Montana",
+          "43": "Tennessee",
+          "02": "Alaska",
+          "03": "Arizona",
+          "06": "Colorado",
+          "15": "Indiana",
+          "32": "New Mexico",
+          "42": "South Dakota",
+          "10": "Florida",
+          "25": "Mississippi",
+          "33": "New York",
+          "34": "North Carolina",
+          "40": "Rhode Island",
+          "41": "South Carolina",
+          "00": "Not in Univ.",
+          "04": "Arkansas",
+          "50": "Wisconsin",
+          "26": "Missouri",
+          "30": "New Hampshire",
+          "31": "New Jersey",
+          "35": "North Dakota",
+          "01": "Alabama",
+          "07": "Connecticut",
+          "29": "Nevada",
+          "37": "Oklahoma",
+          "45": "Utah",
+          "05": "California",
+          "51": "Wyoming",
+          "11": "Georgia",
+          "17": "Kansas",
+          "22": "Massachusetts",
+          "36": "Ohio",
+          "38": "Oregon",
+          "39": "Pennsylvania",
+          "48": "Washington",
+          "12": "Hawaii",
+          "20": "Maine",
+          "28": "Nebraska"
+        }
+      }
+    },
+    "TM8704": {
+      "label": "Before Living Here, Where Did _ Live Sam",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Divorce",
+          "1": "Widowhood",
+          "0": "Not in Univ."
+        }
+      }
+    },
+    "ALTM9676": {
+      "label": "Imp. Flag for Tm9676.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9676"
+        }
+      }
+    },
+    "TM8702": {
+      "label": "Yr. _ Moved Into This Home/apartment/mob",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8702"
+          }
+        ]
+      }
+    },
+    "ALTM9556": {
+      "label": "Imp. Flag for Tm9556.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9556"
+          }
+        ]
+      }
+    },
+    "TM8700": {
+      "label": "Mth. _ Moved Into This Home/apartment/mo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8700"
+          }
+        ]
+      }
+    },
+    "ALTM9678": {
+      "label": "Imp. Flag for Tm9678",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9678"
+        }
+      }
+    },
+    "PNPT": {
+      "label": "Pers. No. of Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "ALTM9672": {
+      "label": "Imp. Flag for Tm9672.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9672"
+        }
+      }
+    },
+    "ALTM9552": {
+      "label": "Imp. Flag for Tm9552.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9552"
+          }
+        ]
+      }
+    },
+    "UTM9610": {
+      "label": "Uned. Tm9610",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9610"
+          }
+        ]
+      }
+    },
+    "ALTM9674": {
+      "label": "Imp. Flag for Tm9674.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9674"
+        }
+      }
+    },
+    "ALTM9554": {
+      "label": "Imp. Flag for Tm9554.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9554"
+          }
+        ]
+      }
+    },
+    "UTM9612": {
+      "label": "Uned. Tm9612",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9612"
+          }
+        ]
+      }
+    },
+    "UTM9614": {
+      "label": "Uned. Tm9614",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9614"
+          }
+        ]
+      }
+    },
+    "ALTM9670": {
+      "label": "Imp. Flag for Tm9670.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9670"
+        }
+      }
+    },
+    "ALTM9550": {
+      "label": "Imp. Flag for Tm9550.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9550"
+          }
+        ]
+      }
+    },
+    "UTM9616": {
+      "label": "Uned. Tm9616",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9616"
+          }
+        ]
+      }
+    },
+    "ALTM9548": {
+      "label": "Imp. Flag for Tm9548.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9548"
+          }
+        ]
+      }
+    },
+    "ALTM9428": {
+      "label": "Imp. Flag for Tm9428.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9428"
+          }
+        ]
+      }
+    },
+    "UTM9618": {
+      "label": "Uned. Tm9618",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9618"
+          }
+        ]
+      }
+    },
+    "ALTM9544": {
+      "label": "Imp. Flag for Tm9544.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9544"
+          }
+        ]
+      }
+    },
+    "ALTM9666": {
+      "label": "Imp. Flag for Tm9666.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9666"
+        }
+      }
+    },
+    "ALTM9424": {
+      "label": "Imp. Flag for Tm9424.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9424"
+          }
+        ]
+      }
+    },
+    "ALTM9546": {
+      "label": "Imp. Flag for Tm9546.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9546"
+          }
+        ]
+      }
+    },
+    "ALTM9668": {
+      "label": "Imp. Flag for Tm9668.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9668"
+        }
+      }
+    },
+    "ALTM9426": {
+      "label": "Imp. Flag for Tm9426",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9426"
+          }
+        ]
+      }
+    },
+    "IMP2628": {
+      "label": "Imp. Flag: Tm8726 Tm8728",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "2": "Imp.: Logical Assignment Based on Tm8714",
+          "4": "Logical Assignment Based on Counter",
+          "0": "Not Imp.",
+          "3": "Logical Assignment Based on Tm8716 Is Le"
+        }
+      }
+    },
+    "UTM9640": {
+      "label": "Uned. Tm9640",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "54",
+            "description": "Continuous values of UTM9640"
+          }
+        ]
+      }
+    },
+    "ALTM9584": {
+      "label": "Imputaiton Flag for Tm9584.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9584"
+          }
+        ]
+      }
+    },
+    "UTM9520": {
+      "label": "Uned. Tm9520",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9520"
+          }
+        ]
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "63",
+            "description": "Continuous values of STATE"
+          }
+        ]
+      }
+    },
+    "UTM9642": {
+      "label": "Uned. Tm9642",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "60",
+            "description": "Continuous values of UTM9642"
+          }
+        ]
+      }
+    },
+    "ALTM9586": {
+      "label": "Imp. Flag for Tm9586.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9586"
+          }
+        ]
+      }
+    },
+    "UTM9522": {
+      "label": "Uned. Tm9522",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9522"
+          }
+        ]
+      }
+    },
+    "UTM9644": {
+      "label": "Uned. Tm9644",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "60",
+            "description": "Continuous values of UTM9644"
+          }
+        ]
+      }
+    },
+    "ALTM9580": {
+      "label": "Imp. Flag for Tm9580.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9580"
+          }
+        ]
+      }
+    },
+    "UTM9524": {
+      "label": "Uned. Tm9524",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9524"
+          }
+        ]
+      }
+    },
+    "UTM9646": {
+      "label": "Uned. Tm9646",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9646"
+          }
+        ]
+      }
+    },
+    "ALTM9460": {
+      "label": "Imp. Flag for Tm9460.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9460"
+          }
+        ]
+      }
+    },
+    "ALTM9582": {
+      "label": "Imp. Flag for Tm9582.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9582"
+          }
+        ]
+      }
+    },
+    "UTM9648": {
+      "label": "Uned. Tm9648",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9648"
+          }
+        ]
+      }
+    },
+    "TM8728": {
+      "label": "Date of Res.: to Yr. This Corresponds to",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8728"
+          }
+        ]
+      }
+    },
+    "TM8608": {
+      "label": "Did _ First Marriage End in Widowhood or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not in Univ.",
+          "1": "Widowhood",
+          "2": "Divorce"
+        }
+      }
+    },
+    "TM8726": {
+      "label": "Date of Res.: to Mth. This Corresponds t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "703",
+            "description": "Continuous values of TM8726"
+          }
+        ]
+      }
+    },
+    "TM8606": {
+      "label": "Yr. of First Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8606"
+          }
+        ]
+      }
+    },
+    "ALTM9698": {
+      "label": "Imp. Flag for Tm9698.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9698"
+        }
+      }
+    },
+    "ALTM9456": {
+      "label": "Imp. Flag for Tm9456.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9456"
+          }
+        ]
+      }
+    },
+    "TM8724": {
+      "label": "Date of Res.: From Yr. This Corresponds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8724"
+          }
+        ]
+      }
+    },
+    "TM8604": {
+      "label": "Mth. of First Marriage",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8604"
+          }
+        ]
+      }
+    },
+    "ALTM9578": {
+      "label": "Imp. Flag for Tm9578.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9578"
+          }
+        ]
+      }
+    },
+    "ALTM9458": {
+      "label": "Imp. Flag for Tm9458.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9458"
+          }
+        ]
+      }
+    },
+    "TM8722": {
+      "label": "Date of Res.: From Mth. This Corresponds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "10000",
+            "description": "Continuous values of TM8722"
+          }
+        ]
+      }
+    },
+    "TM8602": {
+      "label": "How Many Times Has _ Been Married",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not in Univ.",
+          "3": "3",
+          "2": "2",
+          "1": "1 Skip to Tm8638",
+          "4": "4+"
+        }
+      }
+    },
+    "TM8720": {
+      "label": "State or Foreign Country Described in Tm",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "45": "Utah",
+          "02": "Alaska",
+          "03": "Arizona",
+          "50": "Wisconsin",
+          "12": "Hawaii",
+          "76": "Korea",
+          "37": "Oklahoma",
+          "39": "Pennsylvania",
+          "42": "South Dakota",
+          "01": "Alabama",
+          "46": "Vermont",
+          "90": "Middle East",
+          "19": "Louisiana",
+          "20": "Maine",
+          "21": "Maryland",
+          "22": "Massachusetts",
+          "73": "Italy",
+          "78": "Norway",
+          "79": "Philippines",
+          "84": "U. S. S. R.",
+          "65": "Cuba",
+          "67": "Dominican Repub.",
+          "29": "Nevada",
+          "34": "North Carolina",
+          "38": "Oregon",
+          "48": "Washington",
+          "05": "California",
+          "06": "Colorado",
+          "91": "Africa",
+          "13": "Idaho",
+          "15": "Indiana",
+          "61": "Outlying Area of U. S.",
+          "23": "Michigan",
+          "70": "Hungary",
+          "83": "United Kingdom",
+          "85": "Vietnam",
+          "87": "Other Asia",
+          "44": "Texas",
+          "47": "Virginia",
+          "04": "Arkansas",
+          "92": "Overseas Country Unknown",
+          "10": "Florida",
+          "16": "Iowa",
+          "60": "Puerto Rico",
+          "24": "Minnesota",
+          "71": "India",
+          "72": "Ireland",
+          "33": "New York",
+          "40": "Rhode Island",
+          "41": "South Carolina",
+          "17": "Kansas",
+          "62": "Austria",
+          "64": "China",
+          "66": "Czechoslovakia",
+          "68": "Germany",
+          "69": "Greece",
+          "28": "Nebraska",
+          "74": "Jamaica",
+          "32": "New Mexico",
+          "82": "Sweden",
+          "43": "Tennessee",
+          "00": "Not in Univ.",
+          "08": "Delaware",
+          "51": "Wyoming",
+          "99": "Otherspecify",
+          "26": "Missouri",
+          "27": "Montana",
+          "30": "New Hampshire",
+          "75": "Japan",
+          "36": "Ohio",
+          "80": "Poland",
+          "81": "Portugal",
+          "86": "Other Europe",
+          "88": "Central America",
+          "89": "South America",
+          "49": "West Virginia",
+          "07": "Connecticut",
+          "09": "District of Columbia",
+          "52": "United States Unknown State",
+          "11": "Georgia",
+          "14": "Illinois",
+          "18": "Kentucky",
+          "63": "Canada",
+          "25": "Mississippi",
+          "31": "New Jersey",
+          "77": "Mexico",
+          "35": "North Dakota"
+        }
+      }
+    },
+    "TM8600": {
+      "label": "Chk. Item T10 Cur. Marital Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Married, Spouse Present Skip to Tm8700",
+          "2": "Married, Spouse Absent Skip to Tm8700",
+          "4": "Divorced",
+          "0": "Not in Univ.",
+          "3": "Widowed",
+          "5": "Separated Skip to Tm8652"
+        }
+      }
+    },
+    "AGE": {
+      "label": "Age",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Less Than 1 Full Year",
+          "1": "1 Yr. Etc."
+        }
+      }
+    },
+    "UTM9630": {
+      "label": "Uned. Tm9630",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "207",
+            "description": "Continuous values of UTM9630"
+          }
+        ]
+      }
+    },
+    "ALTM9694": {
+      "label": "Imp. Flag for Tm9694.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9694"
+        }
+      }
+    },
+    "ALTM9452": {
+      "label": "Imp. Flag for Tm9452",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9452"
+          }
+        ]
+      }
+    },
+    "ALTM9332": {
+      "label": "Imp. Flag for Tm9332.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9332"
+          }
+        ]
+      }
+    },
+    "ALTM9574": {
+      "label": "Imp. Flag for Tm9574.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9574"
+          }
+        ]
+      }
+    },
+    "UTM9510": {
+      "label": "Uned. Tm9510",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9510"
+          }
+        ]
+      }
+    },
+    "UTM9632": {
+      "label": "Uned. Tm9632",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "46",
+            "description": "Continuous values of UTM9632"
+          }
+        ]
+      }
+    },
+    "ALTM9454": {
+      "label": "Imp. Flag for Tm9454.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9454"
+          }
+        ]
+      }
+    },
+    "ALTM9696": {
+      "label": "Imp. Flag for Tm9696.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9696"
+        }
+      }
+    },
+    "ALTM9576": {
+      "label": "Imp. Flag for Tm9576.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9576"
+          }
+        ]
+      }
+    },
+    "UTM9512": {
+      "label": "Uned. Tm9512",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9512"
+          }
+        ]
+      }
+    },
+    "UTM9634": {
+      "label": "Uned. Tm9634",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9634"
+          }
+        ]
+      }
+    },
+    "UTM9514": {
+      "label": "Uned. Tm9514",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9514"
+          }
+        ]
+      }
+    },
+    "UTM9636": {
+      "label": "Uned. Tm9636",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9636"
+          }
+        ]
+      }
+    },
+    "TM8708": {
+      "label": "Before Living Here, Where Did _ Live Dif",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "68": "Germany East and West Germany",
+          "70": "Hungary",
+          "83": "United Kingdom Includes England, Scotlan",
+          "92": "Overseas Country Unknown",
+          "71": "India",
+          "78": "Norway",
+          "80": "Poland",
+          "63": "Canada",
+          "65": "Cuba",
+          "90": "Middle East",
+          "91": "Africa",
+          "85": "Vietnam",
+          "64": "China Includes Mainland China, Hong Kong",
+          "67": "Dominican Repub.",
+          "60": "Puerto Rico",
+          "74": "Jamaica",
+          "75": "Japan",
+          "66": "Czechoslovakia",
+          "89": "South America",
+          "69": "Greece",
+          "77": "Mexico",
+          "79": "Philippines",
+          "81": "Portugal",
+          "82": "Sweden",
+          "61": "Outlying Area of U. S. Includes Guam, U.",
+          "62": "Austria",
+          "76": "Korea Includes North and South Korea",
+          "99": "Other",
+          "00": "Not in Univ.",
+          "88": "Central America",
+          "72": "Ireland Excludes Northern Ireland",
+          "73": "Italy",
+          "84": "Former U. S. S. R.",
+          "86": "Other Europe",
+          "87": "Other Asia"
+        }
+      }
+    },
+    "ALTM9692": {
+      "label": "Imp. Flag for Tm9692.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9692"
+        }
+      }
+    },
+    "ALTM9572": {
+      "label": "Imp. Flag for Tm9572.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9572"
+          }
+        ]
+      }
+    },
+    "TM8709": {
+      "label": "Date of Res. Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8709"
+        }
+      }
+    },
+    "UTM9516": {
+      "label": "Uned. Tm9516",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9516"
+          }
+        ]
+      }
+    },
+    "UTM9638": {
+      "label": "Uned. Tm9638",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "46",
+            "description": "Continuous values of UTM9638"
+          }
+        ]
+      }
+    },
+    "TM8718": {
+      "label": "Has _ Ever Lived in Another State or For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Divorce",
+          "1": "Widowhood",
+          "0": "Not in Univ."
+        }
+      }
+    },
+    "UTM9518": {
+      "label": "Uned. Tm9518",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9518"
+          }
+        ]
+      }
+    },
+    "TM8716": {
+      "label": "Date of Res.: to Year",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8716"
+          }
+        ]
+      }
+    },
+    "TM8714": {
+      "label": "Date of Res.: to Month",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8714"
+          }
+        ]
+      }
+    },
+    "TM8712": {
+      "label": "Date of Res.: From Year",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8712"
+          }
+        ]
+      }
+    },
+    "TM8710": {
+      "label": "Date of Res. From Month",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8710"
+          }
+        ]
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "UTM9660": {
+      "label": "Uned. Tm9660",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "201",
+            "description": "Continuous values of UTM9660"
+          }
+        ]
+      }
+    },
+    "UTM9540": {
+      "label": "Uned. Tm9540",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9540"
+          }
+        ]
+      }
+    },
+    "UTM9662": {
+      "label": "Uned. Tm9662",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of UTM9662"
+          }
+        ]
+      }
+    },
+    "UTM9420": {
+      "label": "Uned. Tm9420",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "405",
+            "description": "Continuous values of UTM9420"
+          }
+        ]
+      }
+    },
+    "ALTM9364": {
+      "label": "Imp. Flag for Tm9364.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9364"
+          }
+        ]
+      }
+    },
+    "UTM9542": {
+      "label": "Uned. Tm9542",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9542"
+          }
+        ]
+      }
+    },
+    "UTM9300": {
+      "label": "Uned. Tm9300",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "201",
+            "description": "Continuous values of UTM9300"
+          }
+        ]
+      }
+    },
+    "UTM9664": {
+      "label": "Uned. Tm9664",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of UTM9664"
+          }
+        ]
+      }
+    },
+    "UTM9422": {
+      "label": "Uned. Tm9422",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9422"
+          }
+        ]
+      }
+    },
+    "ALTM9486": {
+      "label": "Imp. Flag for Tm9486.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9486"
+          }
+        ]
+      }
+    },
+    "UTM9544": {
+      "label": "Uned. Tm9544",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9544"
+          }
+        ]
+      }
+    },
+    "UTM9424": {
+      "label": "Uned. Tm9424",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9424"
+          }
+        ]
+      }
+    },
+    "UTM9666": {
+      "label": "Uned. Tm9666",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9666"
+          }
+        ]
+      }
+    },
+    "ALTM9488": {
+      "label": "Imp. Flag for Tm9488.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9488"
+          }
+        ]
+      }
+    },
+    "UTM9546": {
+      "label": "Uned. Tm9546",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9546"
+          }
+        ]
+      }
+    },
+    "UTM9668": {
+      "label": "Uned. Tm9668",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9668"
+          }
+        ]
+      }
+    },
+    "UTM9426": {
+      "label": "Uned. Tm9426",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9426"
+          }
+        ]
+      }
+    },
+    "ALTM9482": {
+      "label": "Imp. Flag for Tm9482.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9482"
+          }
+        ]
+      }
+    },
+    "ALTM9362": {
+      "label": "Imp. Flag for Tm9362",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9362"
+          }
+        ]
+      }
+    },
+    "UTM9548": {
+      "label": "Uned. Tm9548",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9548"
+          }
+        ]
+      }
+    },
+    "UTM9428": {
+      "label": "Uned. Tm9428",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9428"
+          }
+        ]
+      }
+    },
+    "ALTM9484": {
+      "label": "Imp. Flag for Tm9484.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9484"
+          }
+        ]
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999944306",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "UTM9650": {
+      "label": "Uned. Tm9650",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "46",
+            "description": "Continuous values of UTM9650"
+          }
+        ]
+      }
+    },
+    "UTM9652": {
+      "label": "Uned. Tm9652",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "46",
+            "description": "Continuous values of UTM9652"
+          }
+        ]
+      }
+    },
+    "IMP6070": {
+      "label": "Imp. Flag: Tm8460 Tm8470",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "PNUM": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "962",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "ALTM9588": {
+      "label": "Imp. Flag for Tm9588.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9588"
+          }
+        ]
+      }
+    },
+    "UTM9680": {
+      "label": "Uned. Tm9680",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9680"
+          }
+        ]
+      }
+    },
+    "UTM9682": {
+      "label": "Uned. Tm9682",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9682"
+          }
+        ]
+      }
+    },
+    "UTM9684": {
+      "label": "Uned. Tm9684",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9684"
+          }
+        ]
+      }
+    },
+    "IMP8496": {
+      "label": "Imp. Flag: Tm8496",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8800": {
+      "label": "Chk. Item T25 Pers. Number: First Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999",
+            "description": "Continuous values of TM8800"
+          }
+        ]
+      }
+    },
+    "ALTM9490": {
+      "label": "Imputaiton Flag for Tm9490.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9490"
+          }
+        ]
+      }
+    },
+    "UTM9670": {
+      "label": "Uned. Tm9670",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "50",
+            "description": "Continuous values of UTM9670"
+          }
+        ]
+      }
+    },
+    "UTM9550": {
+      "label": "Uned. Tm9550",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9550"
+          }
+        ]
+      }
+    },
+    "UTM9672": {
+      "label": "Uned. Tm9672",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "40",
+            "description": "Continuous values of UTM9672"
+          }
+        ]
+      }
+    },
+    "UTM9552": {
+      "label": "Uned. Tm9552",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9552"
+          }
+        ]
+      }
+    },
+    "UTM9674": {
+      "label": "Uned. Tm9674",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "40",
+            "description": "Continuous values of UTM9674"
+          }
+        ]
+      }
+    },
+    "UTM9554": {
+      "label": "Uned. Tm9554",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9554"
+          }
+        ]
+      }
+    },
+    "UTM9676": {
+      "label": "Uned. Tm9676",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "40",
+            "description": "Continuous values of UTM9676"
+          }
+        ]
+      }
+    },
+    "UTM9556": {
+      "label": "Uned. Tm9556",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9556"
+          }
+        ]
+      }
+    },
+    "UTM9678": {
+      "label": "Uned. Tm9678",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "40",
+            "description": "Continuous values of UTM9678"
+          }
+        ]
+      }
+    },
+    "ALTM9492": {
+      "label": "Imp. Flag for Tm9492.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9492"
+          }
+        ]
+      }
+    },
+    "IMP7294": {
+      "label": "Imp. Flag: Tm8472 Tm8494",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8316": {
+      "label": "Imp. Flag Tm8316",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9580": {
+      "label": "Uned. Tm9580",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9580"
+          }
+        ]
+      }
+    },
+    "UTM9460": {
+      "label": "Uned. Tm9460",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9460"
+          }
+        ]
+      }
+    },
+    "IMP8318": {
+      "label": "Imp. Flag Tm8318",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8434": {
+      "label": "Imp. Flag: Tm8434",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "2": "Logical Assignment Based on Tm8724 Is Va",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9582": {
+      "label": "Uned. Tm9582",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9582"
+          }
+        ]
+      }
+    },
+    "IMP8436": {
+      "label": "Imp. Flag: Tm8436",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9584": {
+      "label": "Uned. Tm9584",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9584"
+          }
+        ]
+      }
+    },
+    "IMP8798": {
+      "label": "Imp. Flag: Tm8798",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9586": {
+      "label": "Uned. Tm9586",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9586"
+          }
+        ]
+      }
+    },
+    "IMP8792": {
+      "label": "Imp. Flag: Tm8792",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9588": {
+      "label": "Uned. Tm9588",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9588"
+          }
+        ]
+      }
+    },
+    "IMP8310": {
+      "label": "Imp. Flag Tm8310",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8794": {
+      "label": "Imp. Flag: Tm8794",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Logical Assignment Based on Tm8716 Is Le",
+          "2": "Imp.: Logical Assignment Based on Tm8714",
+          "1": "Imp.",
+          "4": "Logical Assignment Based on Counter",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8328": {
+      "label": "Imp. Flag Tm8328",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9690": {
+      "label": "Uned. Tm9690",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "114",
+            "description": "Continuous values of UTM9690"
+          }
+        ]
+      }
+    },
+    "ALTM9392": {
+      "label": "Imp. Flag for Tm9392.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9392"
+          }
+        ]
+      }
+    },
+    "UTM9570": {
+      "label": "Uned. Tm9570",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9570"
+          }
+        ]
+      }
+    },
+    "UTM9692": {
+      "label": "Uned. Tm9692",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of UTM9692"
+          }
+        ]
+      }
+    },
+    "UTM9450": {
+      "label": "Uned. Tm9450",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "206",
+            "description": "Continuous values of UTM9450"
+          }
+        ]
+      }
+    },
+    "IMP8324": {
+      "label": "Imp. Flag Tm8324",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9572": {
+      "label": "Uned. Tm9572",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9572"
+          }
+        ]
+      }
+    },
+    "UTM9330": {
+      "label": "Uned. Tm9330",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "203",
+            "description": "Continuous values of UTM9330"
+          }
+        ]
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core Not to Be Used for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "23",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "0": "Not a Sample Pers. in This Month",
+          "5": "Separated",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "UTM9452": {
+      "label": "Uned. Tm9452",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9452"
+          }
+        ]
+      }
+    },
+    "UTM9694": {
+      "label": "Uned. Tm9694",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of UTM9694"
+          }
+        ]
+      }
+    },
+    "IMP8326": {
+      "label": "Imp. Flag Tm8326",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8446": {
+      "label": "Imp. Flag: Tm8446",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9574": {
+      "label": "Uned. Tm9574",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9574"
+          }
+        ]
+      }
+    },
+    "UTM9332": {
+      "label": "Uned. Tm9332",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9332"
+          }
+        ]
+      }
+    },
+    "UTM9696": {
+      "label": "Uned. Tm9696",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9696"
+          }
+        ]
+      }
+    },
+    "UTM9454": {
+      "label": "Uned. Tm9454",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9454"
+          }
+        ]
+      }
+    },
+    "IMP8440": {
+      "label": "Imp. Flag: Tm8440",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp.",
+          "2": "Logical Assignment Based on Tm8724 Is Va"
+        }
+      }
+    },
+    "UTM9576": {
+      "label": "Uned. Tm9576",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9576"
+          }
+        ]
+      }
+    },
+    "UTM9698": {
+      "label": "Uned. Tm9698",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of UTM9698"
+          }
+        ]
+      }
+    },
+    "UTM9456": {
+      "label": "Uned. Tm9456",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9456"
+          }
+        ]
+      }
+    },
+    "UTM9578": {
+      "label": "Uned. Tm9578",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9578"
+          }
+        ]
+      }
+    },
+    "UTM9458": {
+      "label": "Uned. Tm9458",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9458"
+          }
+        ]
+      }
+    },
+    "ALTM9394": {
+      "label": "Imp. Flag for Tm9394.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9394"
+          }
+        ]
+      }
+    },
+    "ALTM9396": {
+      "label": "Imp. Flag for Tm9396.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9396"
+          }
+        ]
+      }
+    },
+    "UTM9480": {
+      "label": "Uned. Tm9480",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9480"
+          }
+        ]
+      }
+    },
+    "UTM9360": {
+      "label": "Uned. Tm9360",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "301",
+            "description": "Continuous values of UTM9360"
+          }
+        ]
+      }
+    },
+    "UTM9482": {
+      "label": "Uned. Tm9482",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9482"
+          }
+        ]
+      }
+    },
+    "UTM9362": {
+      "label": "Uned. Tm9362",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9362"
+          }
+        ]
+      }
+    },
+    "UTM9484": {
+      "label": "Uned. Tm9484",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9484"
+          }
+        ]
+      }
+    },
+    "IMP8334": {
+      "label": "Imp. Flag Tm8334",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9364": {
+      "label": "Uned. Tm9364",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9364"
+          }
+        ]
+      }
+    },
+    "UTM9486": {
+      "label": "Uned. Tm9486",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9486"
+          }
+        ]
+      }
+    },
+    "UTM9488": {
+      "label": "Uned. Tm9488",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9488"
+          }
+        ]
+      }
+    },
+    "IMP8332": {
+      "label": "Imp. Flag Tm8332",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP0612": {
+      "label": "Imp. Flag: Tm8506 8512",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8346": {
+      "label": "Imp. Flag Tm8346",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8342": {
+      "label": "Imp. Flag Tm8342",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8344": {
+      "label": "Imp. Flag Tm8344",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM9394": {
+      "label": "Rel. of Pers. in Row D to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9394"
+          }
+        ]
+      }
+    },
+    "TM9274": {
+      "label": "Pers. No. in Column B",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9274"
+          }
+        ]
+      }
+    },
+    "TM9392": {
+      "label": "Rel. of Pers. in Row D to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9392"
+          }
+        ]
+      }
+    },
+    "TM9272": {
+      "label": "Pers. No. in Column A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9272"
+          }
+        ]
+      }
+    },
+    "IMP8758": {
+      "label": "Imp. Flag: Tm8758",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM9390": {
+      "label": "Pers. No. in Row D Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9390"
+          }
+        ]
+      }
+    },
+    "IMP8754": {
+      "label": "Imp. Flag: Tm8754",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9266": {
+      "label": "Uned. Tm9266",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "4",
+            "description": "Continuous values of UTM9266"
+          }
+        ]
+      }
+    },
+    "RRP": {
+      "label": "Rel. to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "TM9278": {
+      "label": "Pers. No. in Column D",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1132",
+            "description": "Continuous values of TM9278"
+          }
+        ]
+      }
+    },
+    "TM9396": {
+      "label": "Rel. of Pers. in Row D to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9396"
+          }
+        ]
+      }
+    },
+    "TM9276": {
+      "label": "Pers. No. in Column C",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9276"
+          }
+        ]
+      }
+    },
+    "UTM9390": {
+      "label": "Uned. Tm9390",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "204",
+            "description": "Continuous values of UTM9390"
+          }
+        ]
+      }
+    },
+    "UTM9490": {
+      "label": "Uned. Tm9490",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9490"
+          }
+        ]
+      }
+    },
+    "UTM9492": {
+      "label": "Uned. Tm9492",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "70",
+            "description": "Continuous values of UTM9492"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM9266": {
+      "label": "Chk. Item T26 What Is the Composition of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "2",
+          "3": "3",
+          "0": "Not in Univ.",
+          "4": "4+",
+          "1": "1 Skip to Tm8638"
+        }
+      }
+    },
+    "UTM9282": {
+      "label": "Uned. Tm9282",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "406",
+            "description": "Continuous values of UTM9282"
+          }
+        ]
+      }
+    },
+    "TM9296": {
+      "label": "Pers. No. in Column M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2400",
+            "description": "Continuous values of TM9296"
+          }
+        ]
+      }
+    },
+    "TM9294": {
+      "label": "Pers. No. in Column L",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "161500",
+            "description": "Continuous values of TM9294"
+          }
+        ]
+      }
+    },
+    "UTM9284": {
+      "label": "Uned. Tm9284",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9284"
+          }
+        ]
+      }
+    },
+    "UTM9286": {
+      "label": "Uned. Tm9286",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9286"
+          }
+        ]
+      }
+    },
+    "TM9292": {
+      "label": "Pers. No. in Column K",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "500000",
+            "description": "Continuous values of TM9292"
+          }
+        ]
+      }
+    },
+    "IMP8414": {
+      "label": "Imp. Flag: Tm8414",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9288": {
+      "label": "Uned. Tm9288",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9288"
+          }
+        ]
+      }
+    },
+    "TM9290": {
+      "label": "Pers. No. in Column J",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "150000",
+            "description": "Continuous values of TM9290"
+          }
+        ]
+      }
+    },
+    "UTM9290": {
+      "label": "Uned. Tm9290",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "205",
+            "description": "Continuous values of UTM9290"
+          }
+        ]
+      }
+    },
+    "TM9298": {
+      "label": "Pers. No. in Column N",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "200000",
+            "description": "Continuous values of TM9298"
+          }
+        ]
+      }
+    },
+    "TM9284": {
+      "label": "Pers. No. in Column G",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "630000",
+            "description": "Continuous values of TM9284"
+          }
+        ]
+      }
+    },
+    "IMP8306": {
+      "label": "Imp. Flag Tm8306",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP8426": {
+      "label": "Imp. Flag: Tm8426",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "2": "Logical Assignment Based on Tm8724 Is Va",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9392": {
+      "label": "Uned. Tm9392",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9392"
+          }
+        ]
+      }
+    },
+    "IMP8308": {
+      "label": "Imp. Flag Tm8308",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM9282": {
+      "label": "Pers. No. in Column F",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9282"
+          }
+        ]
+      }
+    },
+    "UTM9272": {
+      "label": "Uned. Tm9272",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "201",
+            "description": "Continuous values of UTM9272"
+          }
+        ]
+      }
+    },
+    "IMP8428": {
+      "label": "Imp. Flag: Tm8428",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9394": {
+      "label": "Uned. Tm9394",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9394"
+          }
+        ]
+      }
+    },
+    "TM9280": {
+      "label": "Pers. No. in Column E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9280"
+          }
+        ]
+      }
+    },
+    "IMP8786": {
+      "label": "Imp. Flag: Tm8786",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9274": {
+      "label": "Uned. Tm9274",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "203",
+            "description": "Continuous values of UTM9274"
+          }
+        ]
+      }
+    },
+    "UTM9396": {
+      "label": "Uned. Tm9396",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of UTM9396"
+          }
+        ]
+      }
+    },
+    "IMP8422": {
+      "label": "Imp. Flag: Tm8422",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp.",
+          "2": "Logical Assignment Based on Tm8724 Is Va"
+        }
+      }
+    },
+    "UTM9276": {
+      "label": "Uned. Tm9276",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "403",
+            "description": "Continuous values of UTM9276"
+          }
+        ]
+      }
+    },
+    "IMP8782": {
+      "label": "Imp. Flag: Tm8782",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "UTM9278": {
+      "label": "Uned. Tm9278",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "204",
+            "description": "Continuous values of UTM9278"
+          }
+        ]
+      }
+    },
+    "IMP8420": {
+      "label": "Imp. Flag: Tm8420",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "2": "Logical Assignment Based on Tm8724 Is Va",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8780": {
+      "label": "Imp. Flag: Tm8780",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM9288": {
+      "label": "Pers. No. in Column I",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "7000",
+            "description": "Continuous values of TM9288"
+          }
+        ]
+      }
+    },
+    "TM9286": {
+      "label": "Pers. No. in Column H",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20000",
+            "description": "Continuous values of TM9286"
+          }
+        ]
+      }
+    },
+    "UTM9280": {
+      "label": "Uned. Tm9280",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "220",
+            "description": "Continuous values of UTM9280"
+          }
+        ]
+      }
+    },
+    "UTM9292": {
+      "label": "Uned. Tm9292",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "206",
+            "description": "Continuous values of UTM9292"
+          }
+        ]
+      }
+    },
+    "TM9460": {
+      "label": "Rel. of Pers. in Row F to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "250",
+            "description": "Continuous values of TM9460"
+          }
+        ]
+      }
+    },
+    "TM8492": {
+      "label": "Where Did _ Receive This Training Vocati",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "IMP8602": {
+      "label": "Imp. Flag for Tm8602",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM9582": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9582"
+          }
+        ]
+      }
+    },
+    "UTM9294": {
+      "label": "Uned. Tm9294",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "207",
+            "description": "Continuous values of UTM9294"
+          }
+        ]
+      }
+    },
+    "ITEM36B": {
+      "label": "Hshld. Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "16": "Entire HH Instit. or Temply. Ineligible",
+          "22": "Deleted Sample Adjust., Error",
+          "2": "No one home",
+          "6": "Other Type A",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "28": "Merged Hshlds. Across Panels",
+          "3": "Temply. Absent",
+          "4": "Refused",
+          "5": "Unable to locate",
+          "25": "Moved within country beyond limit",
+          "1": "Intved.",
+          "26": "All Sample Pers. Relisted on New CC"
+        }
+      }
+    },
+    "TM8490": {
+      "label": "Where Did _ Receive This Training Shelte",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9580": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9580"
+          }
+        ]
+      }
+    },
+    "UTM9296": {
+      "label": "Uned. Tm9296",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "201",
+            "description": "Continuous values of UTM9296"
+          }
+        ]
+      }
+    },
+    "IMP8720": {
+      "label": "Imp. Flag: Tm8720",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "UTM9298": {
+      "label": "Uned. Tm9298",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "114",
+            "description": "Continuous values of UTM9298"
+          }
+        ]
+      }
+    },
+    "TM8498": {
+      "label": "When Did _ Start This Most Recent Traini",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30000",
+            "description": "Continuous values of TM8498"
+          }
+        ]
+      }
+    },
+    "TM9588": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9588"
+          }
+        ]
+      }
+    },
+    "TM8496": {
+      "label": "Does _ Use This Training on _ Most Recen",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9586": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9586"
+          }
+        ]
+      }
+    },
+    "TM8494": {
+      "label": "Where Did _ Receive This Training Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP8608": {
+      "label": "Imp. Flag for Tm8608",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM9584": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9584"
+          }
+        ]
+      }
+    },
+    "IMP8734": {
+      "label": "Imp. Flag: Tm8734",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8736": {
+      "label": "Imp. Flag: Tm8736",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM9492": {
+      "label": "Rel. of Pers. in Row G to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9492"
+          }
+        ]
+      }
+    },
+    "IMP8730": {
+      "label": "Imp. Flag: Tm8730",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM9490": {
+      "label": "Rel. of Pers. in Row G to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9490"
+          }
+        ]
+      }
+    },
+    "IMP8732": {
+      "label": "Imp. Flag: Tm8732",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. Within Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "9",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "TM9482": {
+      "label": "Rel. of Pers. in Row G to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9482"
+          }
+        ]
+      }
+    },
+    "TM9362": {
+      "label": "Rel. of Pers. in Row C to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9362"
+          }
+        ]
+      }
+    },
+    "TM9480": {
+      "label": "Pers. No. in Row G Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9480"
+          }
+        ]
+      }
+    },
+    "IMP8626": {
+      "label": "Imp. Flag for Tm8626",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM9360": {
+      "label": "Pers. No. in Row C Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9360"
+          }
+        ]
+      }
+    },
+    "IMP8500": {
+      "label": "Imp. Flag: Tm8500",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "2": "Logical Assignment Based on Tm8724 Is Va",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP8502": {
+      "label": "Imp. Flag: Tm8502",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "ADDID": {
+      "label": "Cur. Add. Id This Fld. Diff. Hshlds. Wit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "94",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "RACE": {
+      "label": "Race",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 15 or Not in Sampl",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM9488": {
+      "label": "Rel. of Pers. in Row G to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9488"
+          }
+        ]
+      }
+    },
+    "TM9486": {
+      "label": "Rel. of Pers. in Row G to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9486"
+          }
+        ]
+      }
+    },
+    "TM9484": {
+      "label": "Rel. of Pers. in Row G to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9484"
+          }
+        ]
+      }
+    },
+    "TM9364": {
+      "label": "Rel. of Pers. in Row C to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9364"
+          }
+        ]
+      }
+    },
+    "TM9670": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9670"
+          }
+        ]
+      }
+    },
+    "TM8460": {
+      "label": "Type of Training Program: Classroom Trai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8346": {
+      "label": "Is _ Now Able to Do the Same Kind of Wor",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes, Able to Do Same Kind of Work",
+          "2": "No, Not Able to Do Same Kind of Work",
+          "0": "Not Appl.",
+          "3": "Did not work before limitation began"
+        }
+      }
+    },
+    "TM9556": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9556"
+          }
+        ]
+      }
+    },
+    "TM9678": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9678"
+          }
+        ]
+      }
+    },
+    "TM8468": {
+      "label": "Type of Training Program: Work Experienc",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8344": {
+      "label": "Is _ Now Able to Work Regularly or Is _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "Only occasionally or irregularly",
+          "3": "Not Able to Work End of Section",
+          "1": "Regularly"
+        }
+      }
+    },
+    "TM9554": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9554"
+          }
+        ]
+      }
+    },
+    "TM9676": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9676"
+          }
+        ]
+      }
+    },
+    "TM8466": {
+      "label": "Type of Training Program: Job Search Ass",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8342": {
+      "label": "Is _ Now Able to Work At a Full Time Job",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Full Time",
+          "3": "Not Able to Work End of Section",
+          "2": "Part Time",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM9552": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9552"
+          }
+        ]
+      }
+    },
+    "TM9674": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "96",
+            "description": "Continuous values of TM9674"
+          }
+        ]
+      }
+    },
+    "TM8464": {
+      "label": "Type of Training Program: on the Job Tra",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8340": {
+      "label": "Chk. Item T5 Did _ Usually Work 35 or Mo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM9550": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "905",
+            "description": "Continuous values of TM9550"
+          }
+        ]
+      }
+    },
+    "TM9672": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9672"
+          }
+        ]
+      }
+    },
+    "TM8462": {
+      "label": "Type of Training Program: Classroom Trai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "IMP2022": {
+      "label": "Imp. Flag Tm8320 Tm8322",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM9428": {
+      "label": "Rel. of Pers. in Row E to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9428"
+          }
+        ]
+      }
+    },
+    "TM9668": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9668"
+          }
+        ]
+      }
+    },
+    "TM9426": {
+      "label": "Rel. of Pers. in Row E to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9426"
+          }
+        ]
+      }
+    },
+    "TM8458": {
+      "label": "Rec. Job Training Sponsored By: Other Pg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8338": {
+      "label": "When Did _ Become Unable to Work At a Jo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8338"
+        }
+      }
+    },
+    "TM9548": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9548"
+          }
+        ]
+      }
+    },
+    "TM9666": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9666"
+          }
+        ]
+      }
+    },
+    "TM9424": {
+      "label": "Rel. of Pers. in Row E to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9424"
+          }
+        ]
+      }
+    },
+    "TM8456": {
+      "label": "Rec. Job Training Sponsored By: Veterans",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8336": {
+      "label": "When Did _ Become Unable to Work At a Jo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8336"
+          }
+        ]
+      }
+    },
+    "TM9546": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9546"
+          }
+        ]
+      }
+    },
+    "TM9664": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9664"
+          }
+        ]
+      }
+    },
+    "TM9422": {
+      "label": "Rel. of Pers. in Row E to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9422"
+          }
+        ]
+      }
+    },
+    "TM8454": {
+      "label": "Rec. Job Training Sponsored By: Other Pg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8334": {
+      "label": "When Did _ Become Unable to Work At a Jo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8334"
+          }
+        ]
+      }
+    },
+    "TM9544": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9544"
+          }
+        ]
+      }
+    },
+    "TM9420": {
+      "label": "Pers. No. in Row E Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9420"
+          }
+        ]
+      }
+    },
+    "TM9662": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "300",
+            "description": "Continuous values of TM9662"
+          }
+        ]
+      }
+    },
+    "TM8452": {
+      "label": "Rec. Job Training Sponsored By: Food Sta",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8332": {
+      "label": "Does _ Health or Condition Prevent _ Fro",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM9542": {
+      "label": "Rel. of Pers. in Row I to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "250",
+            "description": "Continuous values of TM9542"
+          }
+        ]
+      }
+    },
+    "TM9300": {
+      "label": "Pers. No. in Row a Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9300"
+          }
+        ]
+      }
+    },
+    "TM9660": {
+      "label": "Pers. No. in Row M Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9660"
+          }
+        ]
+      }
+    },
+    "TM8450": {
+      "label": "Rec. Job Training Sponsored By: Job Oppo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8330": {
+      "label": "Chk. Item T4 Respondent Had a Job or Bus",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM9540": {
+      "label": "Pers. No. in Row I Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9540"
+          }
+        ]
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation Grp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Intv. Month: August 1993",
+          "3": "Intv. Month: July 1993",
+          "1": "Intv. Month: September 1993",
+          "2": "Intv. Month: June 1993"
+        }
+      }
+    },
+    "TM9570": {
+      "label": "Pers. No. in Row J Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9570"
+          }
+        ]
+      }
+    },
+    "TM9692": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9692"
+          }
+        ]
+      }
+    },
+    "TM9450": {
+      "label": "Pers. No. in Row F Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9450"
+          }
+        ]
+      }
+    },
+    "TM8482": {
+      "label": "Where Did _ Receive This Training Traini",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM9690": {
+      "label": "Pers. No. in Row N Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9690"
+          }
+        ]
+      }
+    },
+    "TM8480": {
+      "label": "Where Did _ Receive This Training High S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM9578": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9578"
+          }
+        ]
+      }
+    },
+    "TM9458": {
+      "label": "Rel. of Pers. in Row F to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9458"
+          }
+        ]
+      }
+    },
+    "TM9576": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9576"
+          }
+        ]
+      }
+    },
+    "TM9456": {
+      "label": "Rel. of Pers. in Row F to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9456"
+          }
+        ]
+      }
+    },
+    "TM9698": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "662",
+            "description": "Continuous values of TM9698"
+          }
+        ]
+      }
+    },
+    "TM8488": {
+      "label": "Where Did _ Receive This Training Traini",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM9574": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9574"
+          }
+        ]
+      }
+    },
+    "TM9332": {
+      "label": "Rel. of Pers. in Row B to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "47": "Niece",
+          "10": "Natural Father Biological",
+          "99": "No response",
+          "15": "Stepmother",
+          "38": "Unknown Brother Type",
+          "40": "Grandfather",
+          "42": "Grandson",
+          "02": "Wife",
+          "98": "Not Found",
+          "22": "Adopted Son",
+          "01": "Husband",
+          "45": "Aunt",
+          "50": "Father in Law",
+          "54": "Brother in Law",
+          "19": "Unknown Mother Type",
+          "21": "Stepson",
+          "41": "Grandmother",
+          "53": "Daughter in Law",
+          "17": "Foster Mother",
+          "26": "Adopted Daughter",
+          "32": "Stepbrother",
+          "88": "Member of Column With No Responses.",
+          "46": "Nephew",
+          "51": "Mother in Law",
+          "12": "Adoptive Father",
+          "13": "Foster Father",
+          "18": "Unknown Father Type",
+          "31": "Half Brother",
+          "33": "Adoptive Brother",
+          "39": "Unknown Sister Type",
+          "55": "Sister in Law",
+          "23": "Foster Son",
+          "25": "Stepdaughter",
+          "27": "Foster Daughter",
+          "28": "Unknown Son Type",
+          "29": "Unknown Daughter Type",
+          "36": "Stepsister",
+          "44": "Uncle",
+          "52": "Son in Law",
+          "11": "Stepfather",
+          "16": "Adoptive Mother",
+          "60": "Other Rel. Cousin, Etc.",
+          "20": "Natural Son",
+          "70": "Nonrel.",
+          "30": "Full Brother",
+          "34": "Full Sister",
+          "35": "Half Sister",
+          "14": "Natural Mother",
+          "24": "Natural Daughter",
+          "37": "Adoptive Sister",
+          "43": "Granddaughter"
+        }
+      }
+    },
+    "TM9696": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9696"
+          }
+        ]
+      }
+    },
+    "TM9454": {
+      "label": "Rel. of Pers. in Row F to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9454"
+          }
+        ]
+      }
+    },
+    "TM8486": {
+      "label": "Where Did _ Receive This Training Corres",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9572": {
+      "label": "Rel. of Pers. in Row J to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9572"
+          }
+        ]
+      }
+    },
+    "TM9330": {
+      "label": "Pers. No. in Row B Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9330"
+          }
+        ]
+      }
+    },
+    "TM9694": {
+      "label": "Rel. of Pers. in Row N to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9694"
+          }
+        ]
+      }
+    },
+    "TM9452": {
+      "label": "Rel. of Pers. in Row F to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9452"
+          }
+        ]
+      }
+    },
+    "TM8484": {
+      "label": "Where Did _ Receive This Training Milita",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM9680": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9680"
+          }
+        ]
+      }
+    },
+    "TM8470": {
+      "label": "Type of Training Program: Other Program",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "IMP8704": {
+      "label": "Imp. Flag: Tm8704",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8478": {
+      "label": "Where Did _ Receive This Training Pgm. C",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8476": {
+      "label": "Where Did _ Receive This Training Junior",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM9684": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9684"
+          }
+        ]
+      }
+    },
+    "IMP8706": {
+      "label": "Imp. Flag: Tm8706",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "TM8474": {
+      "label": "Where Did _ Receive This Training Busine",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM9682": {
+      "label": "Rel. of Pers. in Row M to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9682"
+          }
+        ]
+      }
+    },
+    "IMP8708": {
+      "label": "Imp. Flag: Tm8708",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM8472": {
+      "label": "Where Did _ Receive This Training Appren",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl. or No",
+          "1": "Yes"
+        }
+      }
+    },
+    "ALTM9714": {
+      "label": "Imp. Flag for Tm9714.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9714"
+        }
+      }
+    },
+    "TM8308": {
+      "label": "Physical, Mental or Other Health Conditi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9518": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9518"
+          }
+        ]
+      }
+    },
+    "ALTM9716": {
+      "label": "Imp. Flag for Tm9716.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9716"
+        }
+      }
+    },
+    "TM8306": {
+      "label": "Respondent Health or Condition Limits Ki",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM9516": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9516"
+          }
+        ]
+      }
+    },
+    "TM9638": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9638"
+          }
+        ]
+      }
+    },
+    "ALTM9710": {
+      "label": "Imp. Flag for Tm9710.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9710"
+        }
+      }
+    },
+    "TM8428": {
+      "label": "In What Fld. of Study Did _ Receive the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "04": "Economics",
+          "05": "Education",
+          "16": "Psychology",
+          "17": "Religion or Theology",
+          "00": "Not Appl.",
+          "02": "Biology",
+          "11": "Mathematics or Statistics",
+          "01": "Agriculture or Forestry",
+          "15": "Police Science or Law Enforcement",
+          "19": "Vocational or Technical Studies",
+          "18": "Soc. Sciences History, Sociology, Politi",
+          "14": "Physical or Earth Sciences",
+          "07": "English or Journalism",
+          "20": "Other",
+          "12": "Medicine or Dentistry",
+          "03": "Bus. or Management",
+          "06": "Engineering Including Computers",
+          "08": "Home Economics",
+          "09": "Law",
+          "10": "Liberal Arts or Humanities Including Art",
+          "13": "Nursing, Pharmacy, or Health Technologie"
+        }
+      }
+    },
+    "TM8304": {
+      "label": "Chk. Item T3 Respondent Has a Physical,",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8788": {
+      "label": "Chk. Item T23 Pers. Number: Last Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "25000",
+            "description": "Continuous values of TM8788"
+          }
+        ]
+      }
+    },
+    "TM9514": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9514"
+          }
+        ]
+      }
+    },
+    "TM9636": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9636"
+          }
+        ]
+      }
+    },
+    "TM8426": {
+      "label": "When Did _ Receive the Degree Described",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8426"
+          }
+        ]
+      }
+    },
+    "ALTM9712": {
+      "label": "Imp. Flag for Tm9712.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9712"
+        }
+      }
+    },
+    "TM8302": {
+      "label": "Chk. Item T2 Respondent Has a Physical,",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8786": {
+      "label": "With Whom Does the Last Child Live Now",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "With Own Father Skip to Tm8792",
+          "5": "With Adoptive Parents Skip to Tm8792",
+          "9": "In School Skip to Tm8792",
+          "00": "Not in Univ.",
+          "12": "Deceasedskip to Tm8792",
+          "8": "In An Institution Hospital Skip to Tm879",
+          "11": "Other Skip to Tm8792",
+          "6": "Other Relatives Skip to Tm8792",
+          "7": "In Foster Care/foster Fam. Skip to Tm879",
+          "4": "With Own Grandparents Skip to Tm8792",
+          "13": "Dont Know",
+          "2": "In His/her Own Hshld. Skip to Tm8792",
+          "01": "Resides in This Hshld. Skip to Tm8788",
+          "10": "In Correctional Facility Skip to Tm8792"
+        }
+      }
+    },
+    "TM9512": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9512"
+          }
+        ]
+      }
+    },
+    "TM9634": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9634"
+          }
+        ]
+      }
+    },
+    "TM8424": {
+      "label": "When Did _ Receive the Degree Described",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8424"
+          }
+        ]
+      }
+    },
+    "TM8300": {
+      "label": "Chk. Item T1 What Is _ Age",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl., 15 or Under, 68 or Older",
+          "2": "16 to 67"
+        }
+      }
+    },
+    "TM8784": {
+      "label": "Chk. Item T22 Was _ Last Child Born on o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Widowhood",
+          "2": "Divorce",
+          "0": "Not in Univ."
+        }
+      }
+    },
+    "TM9510": {
+      "label": "Pers. No. in Row H Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9510"
+          }
+        ]
+      }
+    },
+    "TM9632": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9632"
+          }
+        ]
+      }
+    },
+    "TM8422": {
+      "label": "What Is the Highest Degree Beyond a High",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "04": "Bachelors Degree",
+          "03": "Masters Degree",
+          "06": "Vocational Certificate or Diploma",
+          "05": "Associate Degree",
+          "07": "Has Not Earned a Degree",
+          "02": "Professional Degree Such As Dentistry",
+          "01": "Ph.d. or Equivalent"
+        }
+      }
+    },
+    "TM8782": {
+      "label": "Birth Year: Last Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8782"
+          }
+        ]
+      }
+    },
+    "TM9630": {
+      "label": "Pers. No. in Row L Valid Pers. Numbers A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "988",
+            "description": "Continuous values of TM9630"
+          }
+        ]
+      }
+    },
+    "TM8420": {
+      "label": "When Did _ First Att. Coll., a Universit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8420"
+          }
+        ]
+      }
+    },
+    "TM8780": {
+      "label": "Birth Month: Last Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999",
+            "description": "Continuous values of TM8780"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Entry Add. Id Add. of the Hshld. That Th",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "94",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "IMP2224": {
+      "label": "Imp. Flag: Tm8722 Tm8724",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Logical Assignment Based on Tm8724 Is Va",
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP1012": {
+      "label": "Imp. Flag: Tm8710 Tm8712",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "2": "Imp.: Logical Assignment Based on Tm8714",
+          "0": "Not Imp.",
+          "3": "Logical Assignment Based on Tm8716 Is Le",
+          "4": "Logical Assignment Based on Counter"
+        }
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key N",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "19864",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "ALTM9702": {
+      "label": "Imp. Flag for Tm9702.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9702"
+        }
+      }
+    },
+    "TM8418": {
+      "label": "When Did _ First Att. Coll., a Universit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8418"
+          }
+        ]
+      }
+    },
+    "ALTM9704": {
+      "label": "Imp. Flag for Tm9704.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9704"
+        }
+      }
+    },
+    "TM8416": {
+      "label": "Chk. Item T7 Was _ Highest Grade Att. At",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8414": {
+      "label": "Was the High School That _ Att. Pub.; Pr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes, Respondent Lost Time",
+          "02": "Yes, Spouse Lost Time",
+          "03": "Both, Respondent and Spouse Lost Time",
+          "04": "No"
+        }
+      }
+    },
+    "ALTM9700": {
+      "label": "Imp. Flag for Tm9700.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9700"
+        }
+      }
+    },
+    "TM8778": {
+      "label": "Chk. Item T21 How Many Chld. Has _ Ever",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not in Univ.",
+          "2": "Divorce",
+          "1": "Widowhood"
+        }
+      }
+    },
+    "TM8654": {
+      "label": "Yr. _ Stopped Living With Cur. or Most R",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8654"
+          }
+        ]
+      }
+    },
+    "TM8412": {
+      "label": "When Did _ Receive a High School Diploma",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8412"
+          }
+        ]
+      }
+    },
+    "IMP3438": {
+      "label": "Imp. Flag Tm8334 Tm8338",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "TM9620": {
+      "label": "Rel. of Pers. in Row K to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9620"
+          }
+        ]
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8652": {
+      "label": "Mth. _ Stopped Living With Cur. or Most",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "500",
+            "description": "Continuous values of TM8652"
+          }
+        ]
+      }
+    },
+    "TM8410": {
+      "label": "When Did _ Receive a High School Diploma",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "850",
+            "description": "Continuous values of TM8410"
+          }
+        ]
+      }
+    },
+    "ALTM9706": {
+      "label": "Imp. Flag for Tm9706.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9706"
+        }
+      }
+    },
+    "TM8650": {
+      "label": "Chk. Item T16 Is Widowed Marked in Tm864",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Divorce",
+          "0": "Not in Univ.",
+          "1": "Widowhood"
+        }
+      }
+    },
+    "ALTM9708": {
+      "label": "Imp. Flag for Tm9708.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of ALTM9708"
+        }
+      }
+    },
+    "TM8770": {
+      "label": "Chk. Item T20 Pers. Number: Last Child I",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "206",
+            "description": "Continuous values of TM8770"
+          }
+        ]
+      }
+    },
+    "ALTM9620": {
+      "label": "Imp. Flag for Tm9620.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9620"
+          }
+        ]
+      }
+    },
+    "ALTM9614": {
+      "label": "Imp. Flag for Tm9614.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9614"
+          }
+        ]
+      }
+    },
+    "PPMIS5": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 5",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "PPMIS4": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 4",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "ALTM9616": {
+      "label": "Imp. Flag for Tm9616.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9616"
+          }
+        ]
+      }
+    },
+    "PPMIS3": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Non Intv.",
+          "1": "Intv."
+        }
+      }
+    },
+    "ALTM9610": {
+      "label": "Imp. Flag for Tm9610.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9610"
+          }
+        ]
+      }
+    },
+    "TM8328": {
+      "label": "Where Did the Accident or Injury Take Pl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Parent",
+          "2": "Child",
+          "3": "Brother/sister",
+          "4": "OTHER"
+        }
+      }
+    },
+    "PPMIS2": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 2",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "PPMIS1": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 1",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "TM8326": {
+      "label": "Was This Condition Tm8324 Caused by An A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "ALTM9612": {
+      "label": "Imp. Flag for Tm9612.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9612"
+          }
+        ]
+      }
+    },
+    "TM8448": {
+      "label": "Rec. Job Training Sponsored By: Job Trai",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl. or No"
+        }
+      }
+    },
+    "TM8324": {
+      "label": "What Health Condition Is the Main Reason",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "14": "Hernia or rupture",
+          "16": "Kidney stones or chronic kidney trouble",
+          "27": "Stroke",
+          "06": "Broken bone/fracture",
+          "08": "Cerebral palsy",
+          "11": "Epilepsy",
+          "07": "Cancer",
+          "10": "Diabetes",
+          "00": "Not Appl.",
+          "01": "Alcohol or drug problem or disorder",
+          "02": "AIDS or AIDS Related Condition (ARC)",
+          "25": "Stiffness or deformity",
+          "04": "Back or spine problems",
+          "09": "Deafness or serious trouble hearing",
+          "13": "Heart trouble",
+          "20": "Mental retardation",
+          "24": "Speech Disorder",
+          "30": "Other",
+          "12": "Head or spinal cord injury",
+          "19": "Mental or emotional problem or disorder",
+          "23": "Senility/Dementia/Alzheimers Disease",
+          "03": "Arthritis or rheumatism",
+          "26": "Stomach trouble",
+          "05": "Blindness or vision problems",
+          "29": "Tumor, cyst or growth",
+          "28": "Thyroid trouble or goiter",
+          "17": "Learning disability",
+          "22": "Paralysis of any kind",
+          "15": "High blood pressure (hypertension)",
+          "18": "Lung or respiratory trouble",
+          "21": "Missing legs, feet, arms, hands, or fingers"
+        }
+      }
+    },
+    "TM8446": {
+      "label": "Has _ Ever Rec. Training Designed to Hel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "01": "Yes",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8322": {
+      "label": "When Was the Last Time _ Worked Before _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8322"
+          }
+        ]
+      }
+    },
+    "TM8444": {
+      "label": "Chk. Item T9 Is _ 65 Yrs. of Age or Olde",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8320": {
+      "label": "When Was the Last Time _ Worked Before _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8320"
+          }
+        ]
+      }
+    },
+    "ALTM9618": {
+      "label": "Imp. Flag for Tm9618.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9618"
+          }
+        ]
+      }
+    },
+    "TM9652": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9652"
+          }
+        ]
+      }
+    },
+    "TM8442": {
+      "label": "When Was the Last Time That _ Was a Stud",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "No One in the Household"
+        }
+      }
+    },
+    "TM9650": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9650"
+          }
+        ]
+      }
+    },
+    "TM8440": {
+      "label": "When Was the Last Time That _ Was a Stud",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8440"
+          }
+        ]
+      }
+    },
+    "ALTM9604": {
+      "label": "Imp. Flag for Tm9604.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9604"
+          }
+        ]
+      }
+    },
+    "ALTM9606": {
+      "label": "Imp. Flag for Tm9606.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9606"
+          }
+        ]
+      }
+    },
+    "TM9648": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9648"
+          }
+        ]
+      }
+    },
+    "TM8438": {
+      "label": "When Was the Last Time That _ Was a Stud",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8438"
+          }
+        ]
+      }
+    },
+    "TM8318": {
+      "label": "When Was the Last Time _ Worked Before _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "300000",
+            "description": "Continuous values of TM8318"
+          }
+        ]
+      }
+    },
+    "TM9646": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9646"
+          }
+        ]
+      }
+    },
+    "TM8436": {
+      "label": "In What Fld. of Study Was _ Bachelor Deg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of TM8436"
+          }
+        ]
+      }
+    },
+    "TM8316": {
+      "label": "Was _ Emp. At the Time _ Work Limitation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "ALTM9602": {
+      "label": "Imp. Flag for Tm9602.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9602"
+          }
+        ]
+      }
+    },
+    "TM9644": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9644"
+          }
+        ]
+      }
+    },
+    "TM8434": {
+      "label": "When Did _ Receive His/her Bachelors Deg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8434"
+          }
+        ]
+      }
+    },
+    "TM8798": {
+      "label": "With Whom Does the First Child Live Now",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "With Own Grandparents Skip to Tm8792",
+          "5": "With Adoptive Parents Skip to Tm8792",
+          "7": "In Foster Care/foster Fam. Skip to Tm879",
+          "2": "In His/her Own Hshld. Skip to Tm8792",
+          "3": "With Own Father Skip to Tm8792",
+          "10": "In Correctional Facility Skip to Tm8792",
+          "11": "Other Skip to Tm8792",
+          "6": "Other Relatives Skip to Tm8792",
+          "01": "Resides in This Hshld. Skip to Tm8788",
+          "13": "Dont Know",
+          "9": "In School Skip to Tm8792",
+          "8": "In An Institution Hospital Skip to Tm879",
+          "00": "Not in Univ.",
+          "12": "Deceasedskip to Tm8792"
+        }
+      }
+    },
+    "TM8314": {
+      "label": "When Did _ Become Limited in the Kind or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8314"
+          }
+        ]
+      }
+    },
+    "TM9524": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9524"
+          }
+        ]
+      }
+    },
+    "TM9642": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9642"
+          }
+        ]
+      }
+    },
+    "TM8432": {
+      "label": "When Did _ Receive His/her Bachelors Deg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8432"
+          }
+        ]
+      }
+    },
+    "TM8312": {
+      "label": "When Did _ Become Limited in the Kind or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8312"
+          }
+        ]
+      }
+    },
+    "TM8796": {
+      "label": "Chk. Item T24 Was _ First Child Born on",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Divorce",
+          "0": "Not in Univ.",
+          "1": "Widowhood"
+        }
+      }
+    },
+    "TM9522": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9522"
+          }
+        ]
+      }
+    },
+    "TM9640": {
+      "label": "Rel. of Pers. in Row L to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "88",
+            "description": "Continuous values of TM9640"
+          }
+        ]
+      }
+    },
+    "TM8430": {
+      "label": "Chk. Item T8 Did _ Receive a Degree High",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "ALTM9608": {
+      "label": "Imp. Flag for Tm9608",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ALTM9608"
+          }
+        ]
+      }
+    },
+    "TM8310": {
+      "label": "When Did _ Become Limited in the Kind or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "375000",
+            "description": "Continuous values of TM8310"
+          }
+        ]
+      }
+    },
+    "TM8794": {
+      "label": "Birth Year: First Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8794"
+          }
+        ]
+      }
+    },
+    "TM9520": {
+      "label": "Rel. of Pers. in Row H to Pers. in Colum",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98",
+            "description": "Continuous values of TM9520"
+          }
+        ]
+      }
+    },
+    "TM8792": {
+      "label": "Birth Month: First Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of TM8792"
+          }
+        ]
+      }
+    }
+  }
+}

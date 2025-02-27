@@ -1,0 +1,326 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "EMPAVPW_F": {
+      "label": "Flag for Production workers average for year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_S": {
+      "label": "Relative standard error for estimate of total value of shipments and receipts for services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_S_F": {
+      "label": "Flag for Relative standard error for estimate of number of employees (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_S_F": {
+      "label": "Flag for Relative standard error for estimate of total value of shipments and receipts for services (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT": {
+      "label": "Total capital expenditures (new and used) ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD_S": {
+      "label": "Relative standard error for estimate of value added (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_F": {
+      "label": "Flag for Total value of shipments and receipts for services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_S": {
+      "label": "Relative standard error for estimate of number of employees (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS_TTL": {
+      "label": "Meaning of 2012 NAICS code",
+      "concept": "Industry classification",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS": {
+      "label": "NAICS code",
+      "concept": "Industry classification",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW_S": {
+      "label": "Relative standard error for estimate of production workers average for year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS_S_F": {
+      "label": "Flag for Relative standard error for estimate of production workers annual hours (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS_F": {
+      "label": "Flag for Production workers annual hours (1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT": {
+      "label": "Total cost of materials ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT_F": {
+      "label": "Flag for Total cost of materials ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD": {
+      "label": "Value added ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT": {
+      "label": "Total value of shipments and receipts for services ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD_F": {
+      "label": "Flag for Value added ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW": {
+      "label": "Production workers average for year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW": {
+      "label": "Production workers annual wages ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_F": {
+      "label": "Flag for Number of employees",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_TTL": {
+      "label": "Geographic area name",
+      "concept": "Geographic Characteristics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS_S": {
+      "label": "Relative standard error for estimate of production workers annual hours (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ST": {
+      "label": "FIPS State Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMPAVPW_S_F": {
+      "label": "Flag for Relative standard error for estimate of production workers average for year (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW_S_F": {
+      "label": "Flag for Relative standard error for estimate of production workers annual wages (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT_S": {
+      "label": "Relative standard error for estimate of total cost of materials (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW_S": {
+      "label": "Relative standard error for estimate of production workers annual wages (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT_F": {
+      "label": "Flag for Total capital expenditures (new and used) ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT_S_F": {
+      "label": "Flag for  Relative standard error of total capital expenditures (new and used) (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_S": {
+      "label": "Relative standard error for estimate of annual payroll (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP": {
+      "label": "Number of employees",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_F": {
+      "label": "Flag for Annual payroll ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOTYPE": {
+      "label": "Geography Type",
+      "concept": "Geographic Characteristics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSTMTOT_S_F": {
+      "label": "Flag for Relative standard error for estimate of total cost of materials (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HOURS": {
+      "label": "Production workers annual hours (1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VALADD_S_F": {
+      "label": "Flag for Relative standard error for estimate of value added (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANPW_F": {
+      "label": "Flag for Production workers annual wages ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_S_F": {
+      "label": "Flag for Relative standard error for estimate of annual payroll (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN": {
+      "label": "Annual payroll ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CEXTOT_S": {
+      "label": "Relative standard error of total capital expenditures (new and used) (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

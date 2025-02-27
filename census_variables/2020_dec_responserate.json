@@ -1,0 +1,224 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "COUSUB": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CINTAVG": {
+      "label": "Average Cumulative Intenet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CINTMIN": {
+      "label": "Minimum Cumulative Internet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CINTMED": {
+      "label": "Median Cumulative Internet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DMED": {
+      "label": "Median Daily Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DMIN": {
+      "label": "Minimum Daily Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DRRALL": {
+      "label": "Daily Self-Response Rate - Overall",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CAVG": {
+      "label": "Average Cumulative Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CMIN": {
+      "label": "Minimum Cumulative Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CRRINT": {
+      "label": "Cumulative Self-Response Rate - Internet",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CMED": {
+      "label": "Median Cumulative Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RESP_DATE": {
+      "label": "Most recent data cutoff for responses received, point in time response rates are calculated for",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CINTMAX": {
+      "label": "Maximum Cumulative Intenet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONCIT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DMAX": {
+      "label": "Maximum Daily Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CRRALL": {
+      "label": "Cumulative Self-Response Rate - Overall",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CD": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DINTMIN": {
+      "label": "Minimum Daily Internet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DINTAVG": {
+      "label": "Average Daily Inernet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DINTMED": {
+      "label": "Median Daily Internet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Combined codes for the reference geography",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRACT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DAVG": {
+      "label": "Average Daily Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DINTMAX": {
+      "label": "Maximum Daily Intenet Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DRRINT": {
+      "label": "Daily Self-Response Rate - Internet",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TTRACT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CMAX": {
+      "label": "Maximum Cumulative Overall Self-Response Rate",
+      "predicateType": "float",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

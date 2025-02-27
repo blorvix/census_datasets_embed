@@ -1,0 +1,144 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true,
+        "quarter": true
+      }
+    },
+    "CELL_VALUE": {
+      "label": "Amount ($1,000,000)",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "predicateType": "int",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0
+    },
+    "CATEGORY_CODE": {
+      "label": "Category code",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0,
+      "attributes": "CATEGORY_CODE_LABEL"
+    },
+    "TIME_SLOT_DATE": {
+      "label": "Quarter",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0
+    },
+    "SEASONALLY_ADJ": {
+      "label": "Seasonally adjusted code",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0,
+      "attributes": "SEASONALLY_ADJ_LABEL"
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ERROR_DATA": {
+      "label": "Error data",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "predicateType": "string",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0
+    },
+    "DATA_TYPE_CODE": {
+      "label": "Data type code",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0,
+      "attributes": "DATA_TYPE_CODE_LABEL"
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Quarterly Summary of State and Local Taxes: National Totals of State and Local Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: National Totals of State Tax Revenue: US Total 1992-2024;Quarterly Summary of State and Local Taxes: State Tax Collections by State and Type of Tax: US and States 1994-2024",
+      "predicateType": "string",
+      "group": "GS00QTC01,GS00QTC02,GS00QTC03",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PROGRAM_CODE": {
+      "label": "Category code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_LEVEL_CODE": {
+      "label": "Category code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TIME_SLOT_NAME": {
+      "label": "Quarter",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TIME_SLOT_ID": {
+      "label": "Quarter ID",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

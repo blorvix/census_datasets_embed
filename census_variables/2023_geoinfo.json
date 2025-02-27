@@ -1,0 +1,337 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "ANRC": {
+      "label": "Alaska Native Regional Corporation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EUPB": {
+      "label": "Estimates Universe Place Balance",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SLDL": {
+      "label": "State Legislative District (Lower Chamber)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRINCITY": {
+      "label": "Principal City",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UA": {
+      "label": "Urban Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SLDU": {
+      "label": "State Legislative District (Upper Chamber)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRISUBREM": {
+      "label": "American Indian Area Tribal Subdivision/Remainder",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BLKGRP": {
+      "label": "Block Group",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AREALAND": {
+      "label": "Area (Land, in square meters)",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "int",
+      "group": "GEOINFO",
+      "limit": 0
+    },
+    "AREAWATR_SQMI": {
+      "label": "Area (Water, in square miles)",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "float",
+      "group": "GEOINFO",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "American Indian Area/Alaska Native Area/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUBMCD": {
+      "label": "Subminor Civil Division",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SDELM": {
+      "label": "School District (Elementary)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SDADM": {
+      "label": "School District Administrative Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Region",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIHHTL": {
+      "label": "American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIANHHNS": {
+      "label": "American Indian Area/Alaska Native Area/Hawaiian Home Land (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AREAWATR": {
+      "label": "Area (Water, in square meters)",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "int",
+      "group": "GEOINFO",
+      "limit": 0
+    },
+    "CONCITNS": {
+      "label": "Consolidated City (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACENS": {
+      "label": "Place (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AITSNS": {
+      "label": "American Indian Tribal Subdivision (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EUCOUSUB": {
+      "label": "Estimates Universe County Subdivision",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ANRCNS": {
+      "label": "Alaska Native Regional Corporation (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACEREM": {
+      "label": "Place/Remainder",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATENS": {
+      "label": "State (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUSUB": {
+      "label": "County Subdivision",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TBLKGRP": {
+      "label": "Tribal Block Group",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INTPTLAT": {
+      "label": "Internal Point (Latitude)",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "float",
+      "group": "GEOINFO",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Division",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "Combined Statistical Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUSUBNS": {
+      "label": "County Subdivision (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONCIT": {
+      "label": "Consolidated City",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CD": {
+      "label": "Congressional District",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AREALAND_SQMI": {
+      "label": "Area (Land, in square miles)",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "float",
+      "group": "GEOINFO",
+      "limit": 0
+    },
+    "ZIPCODE": {
+      "label": "5-digit ZIP Code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Place",
+      "group": "N/A",
+      "limit": 0
+    },
+    "METDIV": {
+      "label": "Metropolitan Division",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIRES": {
+      "label": "American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SDUNI": {
+      "label": "School District (Unified)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic Identifier",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "string",
+      "group": "GEOINFO",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "TRACT": {
+      "label": "Census Tract",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SDSEC": {
+      "label": "School District (Secondary)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Metropolitan/Micropolitan Statistical Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTYNS": {
+      "label": "County (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTPLACE": {
+      "label": "Estimates Universe Place",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTATENS": {
+      "label": "Estate (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INTPTLON": {
+      "label": "Internal Point (Longitude)",
+      "concept": "Annual Geographic Information Table",
+      "predicateType": "float",
+      "group": "GEOINFO",
+      "limit": 0
+    },
+    "PUMA": {
+      "label": "Public Use Microdata Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUBMCDNS": {
+      "label": "Subminor Civil Division (ANSI)",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TTRACT": {
+      "label": "Tribal Census Tract",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ZCTA": {
+      "label": "ZIP Code Tabulation Area",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

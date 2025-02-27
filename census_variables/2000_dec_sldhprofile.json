@@ -1,0 +1,1536 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "DP1_C98": {
+      "label": "Percent!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Some other race",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C98A"
+    },
+    "DP1_C99": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C92": {
+      "label": "Percent!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!American Indian and Alaska Native",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C92A"
+    },
+    "DP1_C93": {
+      "label": "Number!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Asian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C90": {
+      "label": "Percent!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Black or African American",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C90A"
+    },
+    "DP1_C91": {
+      "label": "Number!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!American Indian and Alaska Native",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C96": {
+      "label": "Percent!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C96A"
+    },
+    "DP1_C97": {
+      "label": "Number!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Some other race",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C94": {
+      "label": "Percent!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Asian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C94A"
+    },
+    "DP1_C95": {
+      "label": "Number!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C181": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C180": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C180A"
+    },
+    "DP1_C183": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Average household size of owner-occupied unit",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C182": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Renter-occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C182A"
+    },
+    "DP1_C184": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Average household size of renter-occupied unit",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0
+    },
+    "GEOVARIANT": {
+      "label": "Geographic variant",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C178": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C178A"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C177": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C179": {
+      "label": "Number!!HOUSING TENURE!!Occupied housing units!!Owner-occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C170": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C170A"
+    },
+    "DP1_C172": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C172A"
+    },
+    "DP1_C171": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C174": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For seasonal, recreational, or occasional use",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C174A"
+    },
+    "DP1_C173": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Vacant housing units!!For seasonal, recreational, or occasional use",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C176": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Rental vacancy rate (percent)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C176A"
+    },
+    "DP1_C175": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Homeowner vacancy rate (percent)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C175A"
+    },
+    "PLACE": {
+      "label": "Place (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C56": {
+      "label": "Percent!!Total population!!RACE!!One race!!American Indian and Alaska Native",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C56A"
+    },
+    "DP1_C57": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C54": {
+      "label": "Percent!!Total population!!RACE!!One race!!Black or African American",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C54A"
+    },
+    "DP1_C55": {
+      "label": "Number!!Total population!!RACE!!One race!!American Indian and Alaska Native",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C58": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C58A"
+    },
+    "DP1_C59": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Asian Indian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "SLDL": {
+      "label": "State Legislative District (Lower Chamber)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C52": {
+      "label": "Percent!!Total population!!RACE!!One race!!White",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C52A"
+    },
+    "SLDU": {
+      "label": "State Legislative District (Upper Chamber)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C53": {
+      "label": "Number!!Total population!!RACE!!One race!!Black or African American",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C50": {
+      "label": "Percent!!Total population!!RACE!!One race",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C50A"
+    },
+    "DP1_C51": {
+      "label": "Number!!Total population!!RACE!!One race!!White",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C145": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!With own children under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C144": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C144A"
+    },
+    "DP1_C147": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Married-couple family",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C146": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!With own children under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C146A"
+    },
+    "DP1_C149": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Married-couple family!!With own children under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C148": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Married-couple family",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C148A"
+    },
+    "DP1_C141": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C140": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C140A"
+    },
+    "DP1_C143": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C142": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C142A"
+    },
+    "DP1_C67": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Korean",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C68": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Korean",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C68A"
+    },
+    "DP1_C65": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Japanese",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C66": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Japanese",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C66A"
+    },
+    "DP1_C69": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Vietnamese",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C60": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Asian Indian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C60A"
+    },
+    "DP1_C63": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Filipino",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C64": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Filipino",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C64A"
+    },
+    "DP1_C61": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Chinese",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C62": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Chinese",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C62A"
+    },
+    "DP1_C134": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!Unmarried partner",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C134A"
+    },
+    "DP1_C133": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Nonrelatives!!Unmarried partner",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C136": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C136A"
+    },
+    "DP1_C135": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C138": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C138A"
+    },
+    "DP1_C137": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Institutionalized population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C139": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In group quarters!!Noninstitutionalized population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C130": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Other relatives!!Under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C130A"
+    },
+    "DP1_C132": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Nonrelatives",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C132A"
+    },
+    "DP1_C131": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Nonrelatives",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C78": {
+      "label": "Percent!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C78A"
+    },
+    "DP1_C79": {
+      "label": "Number!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C76": {
+      "label": "Percent!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C76A"
+    },
+    "COUSUB": {
+      "label": "County Subdivision (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C77": {
+      "label": "Number!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C70": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Vietnamese",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C70A"
+    },
+    "DP1_C71": {
+      "label": "Number!!Total population!!RACE!!One race!!Asian!!Other Asian [1]",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C74": {
+      "label": "Percent!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C74A"
+    },
+    "DP1_C75": {
+      "label": "Number!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C72": {
+      "label": "Percent!!Total population!!RACE!!One race!!Asian!!Other Asian [1]",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C72A"
+    },
+    "DP1_C73": {
+      "label": "Number!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C167": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C166": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Average family size",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C169": {
+      "label": "Number!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C168": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C168A"
+    },
+    "DP1_C161": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C160": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households!!Householder living alone!!Householder 65 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C160A"
+    },
+    "DP1_C163": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals 65 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C162": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C162A"
+    },
+    "CONCIT": {
+      "label": "Consolidated City",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C165": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Average household size",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C164": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Households with individuals 65 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C164A"
+    },
+    "DP1_C89": {
+      "label": "Number!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!Black or African American",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C87": {
+      "label": "Number!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!White",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C88": {
+      "label": "Percent!!Total population!!RACE!!Race alone or in combination with one or more other races [3]!!White",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C88A"
+    },
+    "DP1_C81": {
+      "label": "Number!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander [2]",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C82": {
+      "label": "Percent!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander [2]",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C82A"
+    },
+    "DP1_C80": {
+      "label": "Percent!!Total population!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C80A"
+    },
+    "DP1_C85": {
+      "label": "Number!!Total population!!RACE!!Two or more races",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C86": {
+      "label": "Percent!!Total population!!RACE!!Two or more races",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C86A"
+    },
+    "DP1_C83": {
+      "label": "Number!!Total population!!RACE!!One race!!Some other race",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C84": {
+      "label": "Percent!!Total population!!RACE!!One race!!Some other race",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C84A"
+    },
+    "DP1_C156": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C156A"
+    },
+    "DP1_C155": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C158": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households!!Householder living alone",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C158A"
+    },
+    "DP1_C157": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households!!Householder living alone",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C159": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Nonfamily households!!Householder living alone!!Householder 65 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C150": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Married-couple family!!With own children under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C150A"
+    },
+    "DP1_C152": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Female householder, no husband present",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C152A"
+    },
+    "DP1_C151": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Female householder, no husband present",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C154": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Female householder, no husband present!!With own children under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C154A"
+    },
+    "DP1_C153": {
+      "label": "Number!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families)!!Female householder, no husband present!!With own children under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C12": {
+      "label": "Number!!Total population!!SEX AND AGE!!15 to 19 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C13": {
+      "label": "Percent!!Total population!!SEX AND AGE!!15 to 19 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C13A"
+    },
+    "DP1_C10": {
+      "label": "Number!!Total population!!SEX AND AGE!!10 to 14 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C11": {
+      "label": "Percent!!Total population!!SEX AND AGE!!10 to 14 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C11A"
+    },
+    "DP1_C16": {
+      "label": "Number!!Total population!!SEX AND AGE!!25 to 34 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C17": {
+      "label": "Percent!!Total population!!SEX AND AGE!!25 to 34 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C17A"
+    },
+    "DP1_C14": {
+      "label": "Number!!Total population!!SEX AND AGE!!20 to 24 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C15": {
+      "label": "Percent!!Total population!!SEX AND AGE!!20 to 24 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C15A"
+    },
+    "DP1_C109": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Other Hispanic or Latino",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C108": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Cuban",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C108A"
+    },
+    "DP1_C101": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C100": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C100A"
+    },
+    "DP1_C103": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Mexican",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C102": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C102A"
+    },
+    "DP1_C105": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Puerto Rican",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C104": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Mexican",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C104A"
+    },
+    "DP1_C107": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Cuban",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C106": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Puerto Rican",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C106A"
+    },
+    "DP1_C18": {
+      "label": "Number!!Total population!!SEX AND AGE!!35 to 44 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "American Indian Area/Alaska Native Area/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DP1_C19": {
+      "label": "Percent!!Total population!!SEX AND AGE!!35 to 44 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C19A"
+    },
+    "DP1_C1": {
+      "label": "Percent!!Total population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C1A"
+    },
+    "DP1_C23": {
+      "label": "Percent!!Total population!!SEX AND AGE!!55 to 59 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C23A"
+    },
+    "DP1_C2": {
+      "label": "Number!!Total population!!SEX AND AGE!!Male",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C24": {
+      "label": "Number!!Total population!!SEX AND AGE!!60 to 64 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C3": {
+      "label": "Percent!!Total population!!SEX AND AGE!!Male",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C3A"
+    },
+    "DP1_C21": {
+      "label": "Percent!!Total population!!SEX AND AGE!!45 to 54 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C21A"
+    },
+    "DP1_C4": {
+      "label": "Number!!Total population!!SEX AND AGE!!Female",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C22": {
+      "label": "Number!!Total population!!SEX AND AGE!!55 to 59 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C5": {
+      "label": "Percent!!Total population!!SEX AND AGE!!Female",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C5A"
+    },
+    "DP1_C27": {
+      "label": "Percent!!Total population!!SEX AND AGE!!65 to 74 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C27A"
+    },
+    "DP1_C6": {
+      "label": "Number!!Total population!!SEX AND AGE!!Under 5 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C28": {
+      "label": "Number!!Total population!!SEX AND AGE!!75 to 84 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C7": {
+      "label": "Percent!!Total population!!SEX AND AGE!!Under 5 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C7A"
+    },
+    "DP1_C25": {
+      "label": "Percent!!Total population!!SEX AND AGE!!60 to 64 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C25A"
+    },
+    "DP1_C8": {
+      "label": "Number!!Total population!!SEX AND AGE!!5 to 9 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C26": {
+      "label": "Number!!Total population!!SEX AND AGE!!65 to 74 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C20": {
+      "label": "Number!!Total population!!SEX AND AGE!!45 to 54 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C0": {
+      "label": "Number!!Total population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C9": {
+      "label": "Percent!!Total population!!SEX AND AGE!!5 to 9 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C9A"
+    },
+    "DP1_C29": {
+      "label": "Percent!!Total population!!SEX AND AGE!!75 to 84 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C29A"
+    },
+    "DP1_C34": {
+      "label": "Percent!!Total population!!SEX AND AGE!!18 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C34A"
+    },
+    "DP1_C35": {
+      "label": "Number!!Total population!!SEX AND AGE!!18 years and over!!Male",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C32": {
+      "label": "Number!!Total population!!SEX AND AGE!!Median age (years)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C33": {
+      "label": "Number!!Total population!!SEX AND AGE!!18 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C38": {
+      "label": "Percent!!Total population!!SEX AND AGE!!18 years and over!!Female",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C38A"
+    },
+    "DP1_C39": {
+      "label": "Number!!Total population!!SEX AND AGE!!21 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C36": {
+      "label": "Percent!!Total population!!SEX AND AGE!!18 years and over!!Male",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C36A"
+    },
+    "DP1_C37": {
+      "label": "Number!!Total population!!SEX AND AGE!!18 years and over!!Female",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C30": {
+      "label": "Number!!Total population!!SEX AND AGE!!85 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C31": {
+      "label": "Percent!!Total population!!SEX AND AGE!!85 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C31A"
+    },
+    "DP1_C123": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Child",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C122": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Spouse",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C122A"
+    },
+    "DP1_C125": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Child!!Own child under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C124": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Child",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C124A"
+    },
+    "DP1_C127": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Other relatives",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C126": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Child!!Own child under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C126A"
+    },
+    "DP1_C129": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Other relatives!!Under 18 years",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C128": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Other relatives",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C128A"
+    },
+    "DP1_C121": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Spouse",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C120": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households!!Householder",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C120A"
+    },
+    "DP1_E3": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Average family size",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C45": {
+      "label": "Number!!Total population!!SEX AND AGE!!65 years and over!!Male",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_E4": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Homeowner vacancy rate (percent)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C46": {
+      "label": "Percent!!Total population!!SEX AND AGE!!65 years and over!!Male",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C46A"
+    },
+    "DP1_E5": {
+      "label": "Percent!!HOUSING OCCUPANCY!!Total housing units!!Rental vacancy rate (percent)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C43": {
+      "label": "Number!!Total population!!SEX AND AGE!!65 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_E6": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Average household size of owner-occupied unit",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C44": {
+      "label": "Percent!!Total population!!SEX AND AGE!!65 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C44A"
+    },
+    "DP1_E7": {
+      "label": "Percent!!HOUSING TENURE!!Occupied housing units!!Average household size of renter-occupied unit",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C49": {
+      "label": "Number!!Total population!!RACE!!One race",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C47": {
+      "label": "Number!!Total population!!SEX AND AGE!!65 years and over!!Female",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C48": {
+      "label": "Percent!!Total population!!SEX AND AGE!!65 years and over!!Female",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C48A"
+    },
+    "DP1_C119": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households!!Householder",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C41": {
+      "label": "Number!!Total population!!SEX AND AGE!!62 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C42": {
+      "label": "Percent!!Total population!!SEX AND AGE!!62 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C42A"
+    },
+    "DP1_E1": {
+      "label": "Percent!!Total population!!SEX AND AGE!!Median age (years)",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_E2": {
+      "label": "Percent!!HOUSEHOLDS BY TYPE!!Total households!!Average household size",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C40": {
+      "label": "Percent!!Total population!!SEX AND AGE!!21 years and over",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C40A"
+    },
+    "DP1_C112": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C112A"
+    },
+    "DP1_C111": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C114": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C114A"
+    },
+    "DP1_C113": {
+      "label": "Number!!HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C116": {
+      "label": "Percent!!RELATIONSHIP!!Total population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C116A"
+    },
+    "DP1_C115": {
+      "label": "Number!!RELATIONSHIP!!Total population",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C118": {
+      "label": "Percent!!RELATIONSHIP!!Total population!!In households",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C118A"
+    },
+    "DP1_C117": {
+      "label": "Number!!RELATIONSHIP!!Total population!!In households",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "int",
+      "group": "DP1",
+      "limit": 0
+    },
+    "DP1_C110": {
+      "label": "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Other Hispanic or Latino",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "float",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "DP1_C110A"
+    },
+    "COUNTY": {
+      "label": "County (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "Profile of General Demographic Characteristics: 2000",
+      "predicateType": "string",
+      "group": "DP1",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "LSAD_NAME": {
+      "label": "Legal/Statistical Area Description name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

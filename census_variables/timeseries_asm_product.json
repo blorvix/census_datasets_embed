@@ -1,0 +1,110 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "GEO_TTL": {
+      "label": "label Geographic area name",
+      "concept": "Geographic Characteristics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Geographic Characteristics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRODVAL_F": {
+      "label": "Flag for product shipments value",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOTYPE": {
+      "label": "Geography Summary Level",
+      "concept": "Geographic Characteristics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRODVAL": {
+      "label": "Product shipments value ($1,000)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PSCODE": {
+      "label": "Products and services code",
+      "concept": "Economic Statistics",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRODVAL_S": {
+      "label": "Relative standard error for estimate of product shipments value (%)",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PSCODE_TTL": {
+      "label": "Meaning of Products and services code",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "US": {
+      "label": "Total for US",
+      "concept": "Selectable Geographies",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRODVAL_S_F": {
+      "label": "Flag for relative standard error for estimate of product shipments value",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

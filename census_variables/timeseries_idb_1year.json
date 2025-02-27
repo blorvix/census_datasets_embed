@@ -1,0 +1,95 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "International Database Single Year Table",
+      "predicateType": "string",
+      "group": "IDBSINGLEYEAR",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "POP": {
+      "label": "Total mid-year population",
+      "concept": "International Database Single Year Table",
+      "predicateType": "int",
+      "group": "IDBSINGLEYEAR",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GENC": {
+      "label": "GENC Standard Countries and Areas",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex (0: Both sexes, 1: Male, 2: Female)",
+      "concept": "International Database Single Year Table",
+      "predicateType": "int",
+      "group": "IDBSINGLEYEAR",
+      "limit": 0
+    },
+    "YR": {
+      "label": "Year",
+      "concept": "International Database Single Year Table",
+      "predicateType": "int",
+      "group": "IDBSINGLEYEAR",
+      "limit": 0
+    },
+    "AGE": {
+      "label": "Single year of age from 0-100+",
+      "concept": "International Database Single Year Table",
+      "predicateType": "int",
+      "group": "IDBSINGLEYEAR",
+      "limit": 0
+    }
+  }
+}

@@ -1,0 +1,1177 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "TM9670": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "0000"
+        },
+        "range": [
+          {
+            "min": "1",
+            "max": "6250",
+            "description": "$1 to $6,250"
+          }
+        ]
+      }
+    },
+    "TMETCNT": {
+      "label": "No. of Non Blank Entries Including Chk.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TMETCNT"
+          }
+        ]
+      }
+    },
+    "IMP9646": {
+      "label": "Imp. Flag for Tm9646",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP9642": {
+      "label": "Imp. Flag for Tm9642",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "RRP": {
+      "label": "Rel. to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "TM9638": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "0000"
+        },
+        "range": [
+          {
+            "min": "1",
+            "max": "6250",
+            "description": "$1 to $6,250"
+          }
+        ]
+      }
+    },
+    "TM9636": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "TM9634": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999369802",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "TM9632": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "TM9674": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9630": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9630"
+          }
+        ]
+      }
+    },
+    "TM9672": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "IMP9616": {
+      "label": "Imp. Flag for Tm9616",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP9658": {
+      "label": "Imp. Flag for Tm9658",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "ITEM36B": {
+      "label": "Hshld. Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "03": "Temply. Absent",
+          "16": "Entire HH Instit. or Temply. Ineligible",
+          "22": "Deleted Sample Adjust., Error",
+          "01": "Intved.",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "06": "Other Type A",
+          "04": "Refused",
+          "25": "Moved within country beyond limit",
+          "05": "Unable To Locate",
+          "02": "No One Home",
+          "26": "All Sample Pers. Relisted on New CC"
+        }
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "84",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "IMP9612": {
+      "label": "Imp. Flag for Tm9612",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP9654": {
+      "label": "Imp. Flag for Tm9654",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core Not to Be Used for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "22",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "0": "Not Appl. or Not a Sample Pers. in This",
+          "5": "Separated",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "PNPT": {
+      "label": "Pers. No. of Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "IMP9650": {
+      "label": "Imp. Flag for Tm9650",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key N",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "18385",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "TM9628": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "PNUM": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "862",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "TMTEDFIN": {
+      "label": "Total Amt. of Ed. Asst. Rec. During the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "06500": "Amt. From $6000 6999",
+          "09500": "Amt. From $9000 9999",
+          "04500": "Amt. From $4100 4999",
+          "07500": "Amt. From $7000 7999",
+          "00000": "Not Appl.",
+          "10500": "Amt. From $10000 10999",
+          "05500": "Amt. From $5000 5999",
+          "08500": "Amt. From $8000 8999",
+          "11000": "Amt. From $11000 +"
+        }
+      }
+    },
+    "TM9626": {
+      "label": "No Ed. Asst. Rec. During the Past 12 Mth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM9626"
+        }
+      }
+    },
+    "TM9668": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "TM9624": {
+      "label": "During the Past 12 Mths., What Was the T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9700",
+            "description": "Continuous values of TM9624"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM9666": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9622": {
+      "label": "During the Past 12 Mths., Did _ Live Awa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM9664": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9620": {
+      "label": "During the Past 12 Mths., What Was the T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "8000",
+            "description": "Continuous values of TM9620"
+          }
+        ]
+      }
+    },
+    "TM9662": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9660": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Appl.",
+          "1": "Rec."
+        }
+      }
+    },
+    "IMP9618": {
+      "label": "Imp. Flag for Tm9618",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation Group",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Intv. Month: June 1994",
+          "4": "Intv. Month: August 1994",
+          "1": "Intv. Month: September 1994",
+          "3": "Intv. Month: July 1994"
+        }
+      }
+    },
+    "IMP9624": {
+      "label": "Imp. Flag for Tm9624",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "SEX": {
+      "label": "Sex",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "IMP9622": {
+      "label": "Imp. Flag for Tm9622",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP9666": {
+      "label": "Imp. Flag for Tm9666",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP9620": {
+      "label": "Imp. Flag for Tm9620",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "26": "Michigan",
+          "28": "Mississippi",
+          "15": "Hawaii",
+          "39": "Ohio",
+          "62": "Iowa, North Dakota, South Dakota",
+          "04": "Arizona",
+          "48": "Texas",
+          "54": "West Virginia",
+          "61": "Maine, Vermont",
+          "42": "Pennsylvania",
+          "44": "Rhode Island",
+          "49": "Utah",
+          "06": "California",
+          "08": "Colorado",
+          "53": "Washington",
+          "13": "Georgia",
+          "35": "New Mexico",
+          "36": "New York",
+          "41": "Oregon",
+          "24": "Maryland",
+          "25": "Massachusetts",
+          "27": "Minnesota",
+          "17": "Illinois",
+          "20": "Kansas",
+          "29": "Missouri",
+          "51": "Virginia",
+          "33": "New Hampshire",
+          "55": "Wisconsin",
+          "34": "New Jersey",
+          "40": "Oklahoma",
+          "63": "ALASKA, IDAHO, MONTANA, WYOMING",
+          "22": "Louisiana",
+          "01": "Alabama",
+          "05": "Arkansas",
+          "09": "Connecticut",
+          "31": "Nebraska",
+          "10": "Delaware",
+          "37": "North Carolina",
+          "11": "District of Columbia",
+          "45": "South Carolina",
+          "47": "Tennessee",
+          "32": "Nevada",
+          "12": "Florida",
+          "18": "Indiana",
+          "21": "Kentucky"
+        }
+      }
+    },
+    "IMP9662": {
+      "label": "Imp. Flag for Tm9662",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. Within Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "5",
+            "max": "8",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "PPMIS5": {
+      "label": "Pers. Intv. Stat.: Intv. Month",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "PPMIS4": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 4",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "TM9618": {
+      "label": "During the Past 12 Mths. What Was the To",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "07000": "$7000 +",
+          "05500": "$5000 5999",
+          "04500": "$4000 4999",
+          "06500": "$6000 6999",
+          "00000": "Not Appl."
+        }
+      }
+    },
+    "PPMIS3": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Non Intv.",
+          "1": "Intv."
+        }
+      }
+    },
+    "PPMIS2": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 2",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "TM9616": {
+      "label": "Was _ Enrolled in a Pub. School",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "PPMIS1": {
+      "label": "Pers. Intv. Stat.: Ref. Mth. 1",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "TM9614": {
+      "label": "Chk. Item T21 Was _ Enrolled in Elementa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9658": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00100": "Percent",
+          "00000": "00000"
+        }
+      }
+    },
+    "TM9612": {
+      "label": "At What Level or Grade Was _ Enrolled If",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "03": "Coll. Yr. 1",
+          "04": "Coll. Yr. 2",
+          "10": "Technical school",
+          "00": "Not Appl.",
+          "09": "Vocational School",
+          "12": "Other or Dk",
+          "08": "Coll. Yr. 6+",
+          "05": "Coll. Yr. 3",
+          "11": "Bus. School",
+          "01": "Elementary Grades 1 8",
+          "02": "High School Grades 9 12",
+          "06": "Coll. Yr. 4",
+          "07": "Coll. Yr. 5"
+        }
+      }
+    },
+    "TM9656": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0000": "0000",
+          "0100": "Percent",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "TM9610": {
+      "label": "Was _ Enrolled in School Anytime During",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM9654": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00000": "00000",
+          "00100": "Percent"
+        }
+      }
+    },
+    "TM9652": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Appl.",
+          "1": "Rec."
+        }
+      }
+    },
+    "TM9650": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "0000"
+        },
+        "range": [
+          {
+            "min": "1",
+            "max": "6250",
+            "description": "$1 to $6,250"
+          }
+        ]
+      }
+    },
+    "AGE": {
+      "label": "Age",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Less Than 1 Full Year",
+          "001": "1 Yr. Etc."
+        }
+      }
+    },
+    "IMP9638": {
+      "label": "Imp. Flag for Tm9638",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "3.2651976E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "IMP9634": {
+      "label": "Imp. Flag for Tm9634",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP9630": {
+      "label": "Imp. Flag for Tm9630",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Imp.",
+          "1": "Imp."
+        }
+      }
+    },
+    "IMP9674": {
+      "label": "Imp. Flag for Tm9674",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "IMP9670": {
+      "label": "Imp. Flag for Tm9670",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp.",
+          "0": "Not Imp."
+        }
+      }
+    },
+    "ADDID": {
+      "label": "Cur. Add. Id This Fld. Diff. Hshlds. Wit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "84",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "TM9648": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "TM9646": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "0000"
+        },
+        "range": [
+          {
+            "min": "1",
+            "max": "6250",
+            "description": "$1 to $6,250"
+          }
+        ]
+      }
+    },
+    "RACE": {
+      "label": "Race",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "TM9644": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Appl."
+        }
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 15 or Not in Sampl",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM9642": {
+      "label": "Percent of Total Ed. Asst. Rec. During t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "0000"
+        },
+        "range": [
+          {
+            "min": "1",
+            "max": "6250",
+            "description": "$1 to $6,250"
+          }
+        ]
+      }
+    },
+    "TM9640": {
+      "label": "Ed. Asst. Rec. During the Past 12 Mths.:",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Appl.",
+          "1": "Rec."
+        }
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    }
+  }
+}

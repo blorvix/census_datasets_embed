@@ -1,0 +1,173 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ESTAB_F": {
+      "label": "Flag for Number of establishments data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ST": {
+      "label": "Total for US",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SECTOR": {
+      "label": "NAICS economic sector code",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP": {
+      "label": "Number of employees",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_F": {
+      "label": "Flag for Annual payroll data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_F": {
+      "label": "Flag for Value of business done data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS2002": {
+      "label": "2002 NAICS code",
+      "concept": "All sectors",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CENREG": {
+      "label": "Census region code",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "FIPS PLACE code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "FIPS CSA code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "ID of geography",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOTYPE": {
+      "label": "Type of geography flag",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Employer Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTAB": {
+      "label": "Number of establishments",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "OPTAX": {
+      "label": "Type of operation or tax status code",
+      "concept": "Employer Statistics",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICSDES": {
+      "label": "description of naics value",
+      "concept": "Descriptions",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MD": {
+      "label": "Metro Division Code",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN": {
+      "label": "Annual payroll ($1,000)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT": {
+      "label": "Value of business done ($1,000)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONSCITY": {
+      "label": "FIPS CONSCITY code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSA": {
+      "label": "Metropolitan/Micropolitan Statistical Area Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_F": {
+      "label": "Flag for Number of employees data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "FIPS county code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

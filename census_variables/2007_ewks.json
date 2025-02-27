@@ -1,0 +1,256 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "GEOTYPE_MEANING": {
+      "label": "Title of Geography",
+      "concept": "Economic Statistics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS2007": {
+      "label": "2007 NAICS code",
+      "concept": "Economic Statistics",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NRCPTOT": {
+      "label": "Nonemployer value of business done ($1,000)",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "OPTAX_MEANING": {
+      "label": "Title of Optax",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NESTAB_F": {
+      "label": "Flag for Number of nonemployer establishments data suppression flag",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_F": {
+      "label": "Flag for Value of business done data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CENREG": {
+      "label": "Census region code",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "FIPS CSA code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Employer Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MD": {
+      "label": "Metro Division Code",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SECTOR_MEANING": {
+      "label": "Title of Sector",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COMMREG": {
+      "label": "Puerto Rico Commercial Region code",
+      "concept": "Geographic Characteristics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT": {
+      "label": "Value of business done ($1,000)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONSCITY": {
+      "label": "FIPS CONSCITY code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSA": {
+      "label": "FIPS Metropolitan Area",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_F": {
+      "label": "Flag for Number of employees data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "FIPS county code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTAB_F": {
+      "label": "Flag for Number of establishments data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ST": {
+      "label": "Total for US",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS2002_MEANING": {
+      "label": "Title of NAICS2002",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR_MEANING": {
+      "label": "Title of Year",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SECTOR": {
+      "label": "NAICS economic sector code",
+      "concept": "Economic Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP": {
+      "label": "Number of employees",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_F": {
+      "label": "Flag for Annual payroll data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NRCPTOT_F": {
+      "label": "Flag for Nonemployer value of business done ($1,000) Data Suppression Flag",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "FIPS PLACE code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "ID of geography",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FOOTID_MEANING": {
+      "label": "Title of FootID",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOTYPE": {
+      "label": "Type of geography flag",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTAB": {
+      "label": "Number of establishments",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "OPTAX": {
+      "label": "Type of operation or tax status code",
+      "concept": "Employer Statistics",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NESTAB": {
+      "label": "Number of nonemployer establishments",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FOOTID": {
+      "label": "FootID",
+      "concept": "Economic Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN": {
+      "label": "Annual payroll ($1,000)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS2007_MEANING": {
+      "label": "Title of NAICS2007",
+      "concept": "Economic Statistics",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

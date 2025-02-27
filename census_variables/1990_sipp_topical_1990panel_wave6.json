@@ -1,0 +1,7445 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "IM8620": {
+      "label": "Imputation of Tm8620",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8620"
+          }
+        ]
+      }
+    },
+    "IM8622": {
+      "label": "Imputation of Tm8622",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8622"
+          }
+        ]
+      }
+    },
+    "IM8624": {
+      "label": "Imputation of Tm8624",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8624"
+          }
+        ]
+      }
+    },
+    "TM8508": {
+      "label": "What Is the Total Amt. That _. Was Suppo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100000",
+            "description": "Continuous values of TM8508"
+          }
+        ]
+      }
+    },
+    "TM8748": {
+      "label": "For How Many Other Pers. Did _ Make Supp",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of TM8748"
+          }
+        ]
+      }
+    },
+    "TM8506": {
+      "label": "What Is the Total Amt. That _ Was Suppos",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8506"
+          }
+        ]
+      }
+    },
+    "TM8988": {
+      "label": "Do Any of _s Chld. Between the Age of 3",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8996"
+        }
+      }
+    },
+    "TM8504": {
+      "label": "Which Chld. Living Here Are Cov. by This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Pers. No. Unknown",
+          "000": "Not Applicable"
+        }
+      }
+    },
+    "TM8746": {
+      "label": "During the Past 12 Mths., Did _ Make  Re",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Skip to Tm8800",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8744": {
+      "label": "How Much Did _ Pay for Child Support Und",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12000",
+            "description": "Continuous values of TM8744"
+          }
+        ]
+      }
+    },
+    "TM8986": {
+      "label": "Chk. Item T19 Is _ the Designated Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appilcable",
+          "2": "No Skip to Tm8986"
+        }
+      }
+    },
+    "TM8502": {
+      "label": "Which Chld. Living Here Are Cov. by This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Pers. No. Unknown",
+          "000": "Not Applicable"
+        }
+      }
+    },
+    "TM8624": {
+      "label": "Were Any Noncash Items or Srvc.s for Chi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IM6694": {
+      "label": "Imputation of Tm8566tm8594 by 4",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM6694"
+          }
+        ]
+      }
+    },
+    "TM8984": {
+      "label": "Which Chld. Are Cur. Receiving Special E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM8984"
+          }
+        ]
+      }
+    },
+    "TM8742": {
+      "label": "Were Any Child Support Payments Made Wit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm8746",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8500": {
+      "label": "Which Chld. Living Here Are Cov. by This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Pers. No. Unknown",
+          "000": "Not Applicable"
+        }
+      }
+    },
+    "TM8622": {
+      "label": "What Is the Total Amt. That _ Rec. in Ch",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "18000",
+            "description": "Continuous values of TM8622"
+          }
+        ]
+      }
+    },
+    "TM8982": {
+      "label": "Which Chld. Are Cur. Receiving Special E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM8982"
+          }
+        ]
+      }
+    },
+    "TM8740": {
+      "label": "How Much Did _ Pay in Child Support for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3500",
+            "description": "Continuous values of TM8740"
+          }
+        ]
+      }
+    },
+    "TM8620": {
+      "label": "Were Any Child Support Payments Rec. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8624",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8980": {
+      "label": "Which Chld. Are Cur. Receiving Special E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM8980"
+          }
+        ]
+      }
+    },
+    "TM8860": {
+      "label": "Chk. Item T8 Is Yes Marked for Needing A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes Go to Tm8876",
+          "2": "No Skip to Tm8890"
+        }
+      }
+    },
+    "IM8618": {
+      "label": "Imputation of Tm8618",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8618"
+          }
+        ]
+      }
+    },
+    "IM8852": {
+      "label": "Imputation of Tm8852",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8852"
+          }
+        ]
+      }
+    },
+    "IM7884": {
+      "label": "Imputation of Tm8478 Thru Tm8484",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM7884"
+          }
+        ]
+      }
+    },
+    "IM8851": {
+      "label": "Imputation of Tm8851",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8851"
+          }
+        ]
+      }
+    },
+    "IM8854": {
+      "label": "Imputation of Tm8854",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8854"
+          }
+        ]
+      }
+    },
+    "IM8853": {
+      "label": "Imputation of Tm8853",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8853"
+          }
+        ]
+      }
+    },
+    "IM8855": {
+      "label": "Imputation of Tm8855",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8855"
+          }
+        ]
+      }
+    },
+    "IM8616": {
+      "label": "Imputation of Tm8616",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8616"
+          }
+        ]
+      }
+    },
+    "TM8618": {
+      "label": "Oldest Child If _ Had to Contact the Oth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "OTHER",
+          "2": "Through a Friend",
+          "0": "Not applicable",
+          "5": "No Way of Contacting Other Parent",
+          "3": "Through a Relative",
+          "1": "Directly"
+        }
+      }
+    },
+    "TM8858": {
+      "label": "Does _ Have Any Difficulty Doing Light H",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Has Difficulty",
+          "0": "Not applicable",
+          "2": "No Difficultyskip to Tm8814"
+        }
+      }
+    },
+    "TM8616": {
+      "label": "Youngest Child If _ Had to Contact the O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Through a Relative",
+          "4": "OTHER",
+          "5": "No Way of Contacting Other Parent",
+          "1": "Directly",
+          "2": "Through a Friend",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8859": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No"
+        }
+      }
+    },
+    "TM8738": {
+      "label": "Other Than the Most Recent Support Agree",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No Skip to Tm8742"
+        }
+      }
+    },
+    "TM8614": {
+      "label": "Oldest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not applicable",
+          "01": "Other"
+        }
+      }
+    },
+    "TM8856": {
+      "label": "Does _ Have Any Difficulty Preparing Mea",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8857": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8736": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "8",
+            "description": "Continuous values of TM8736"
+          }
+        ]
+      }
+    },
+    "TM8978": {
+      "label": "Are Any of _s Chld. Between the Ages of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appilcable",
+          "1": "Yes",
+          "2": "No Skip to Tm8986"
+        }
+      }
+    },
+    "TM8612": {
+      "label": "Youngest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not applicable",
+          "01": "Other"
+        }
+      }
+    },
+    "TM8854": {
+      "label": "Does _ Have Any Difficulty Keeping Track",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8855": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8734": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Other"
+        }
+      }
+    },
+    "TM8976": {
+      "label": "Which Chld. Have Rec. Special Education",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM8976"
+          }
+        ]
+      }
+    },
+    "TM8610": {
+      "label": "Oldest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Other Parent Deceased",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8852": {
+      "label": "Does _ Have Any Difficulty Using the Toi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Has Difficulty",
+          "0": "Not applicable",
+          "2": "No Difficultyskip to Tm8814"
+        }
+      }
+    },
+    "TM8853": {
+      "label": "Does_need the Help of Another Pers. in O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8974": {
+      "label": "Which Chld. Have Rec. Special Education",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM8974"
+          }
+        ]
+      }
+    },
+    "TM8732": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Child Support Payments to Include Cash M"
+        }
+      }
+    },
+    "TM8850": {
+      "label": "Does _ Have Any Difficulty Eating",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Difficultyskip to Tm8814",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8851": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8972": {
+      "label": "Which Chld. Have Rec. Special Education",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM8972"
+          }
+        ]
+      }
+    },
+    "TM8730": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Non Custodial Parent to Pay Medical Cost"
+        }
+      }
+    },
+    "TM8970": {
+      "label": "Have Any of _s Chld. Between the Ages of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8986",
+          "0": "Not Appilcable"
+        }
+      }
+    },
+    "IM8849": {
+      "label": "Imputation of Tm8849",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8849"
+          }
+        ]
+      }
+    },
+    "IM8848": {
+      "label": "Imputation of Tm8848",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8848"
+          }
+        ]
+      }
+    },
+    "SEX": {
+      "label": "Sex of This Pers. Ed. and Imputed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "IM8841": {
+      "label": "Imputation of Tm8841",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8841"
+          }
+        ]
+      }
+    },
+    "IM8840": {
+      "label": "Imputation of Tm8840",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8840"
+          }
+        ]
+      }
+    },
+    "IM8843": {
+      "label": "Imputation of Tm8843",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8843"
+          }
+        ]
+      }
+    },
+    "IM8842": {
+      "label": "Imputation of Tm8842",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8842"
+          }
+        ]
+      }
+    },
+    "IM8845": {
+      "label": "Imputation of Tm8845",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8845"
+          }
+        ]
+      }
+    },
+    "IM8844": {
+      "label": "Imputation of Tm8844",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8844"
+          }
+        ]
+      }
+    },
+    "IM8847": {
+      "label": "Imputation of Tm8847",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8847"
+          }
+        ]
+      }
+    },
+    "IM9814": {
+      "label": "Imputation of Tm8598tm8614 by 4",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM9814"
+          }
+        ]
+      }
+    },
+    "IM8846": {
+      "label": "Imputation of Tm8846",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8846"
+          }
+        ]
+      }
+    },
+    "TM8528": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Establish Support Obligation"
+        }
+      }
+    },
+    "TM8408": {
+      "label": "Was This Agreement a Voluntary Written A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "Courtordered Agreement",
+          "1": "Voluntary Written Agreement Ratified by",
+          "3": "Other type of written agreement",
+          "4": "Nonwritten Agreement Skip to Tm8492"
+        }
+      }
+    },
+    "TM8889": {
+      "label": "How Much Was Paid for Such Help in Last",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2000",
+            "description": "Continuous values of TM8889"
+          }
+        ]
+      }
+    },
+    "TM8526": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Establish Paternity/maternity",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8406": {
+      "label": "For How Many Chld.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "4200",
+            "description": "Continuous values of TM8406"
+          }
+        ]
+      }
+    },
+    "TM8887": {
+      "label": "For How Long Has _ Needed the Help of An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "6 to 11 Mths.",
+          "3": "1 to 2 Yrs.",
+          "4": "3 to 5 Yrs.",
+          "5": "More Than 5 Yrs.",
+          "1": "Less Than 6 Mths.",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IM8850": {
+      "label": "Imputation of Tm8850",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8850"
+          }
+        ]
+      }
+    },
+    "TM8524": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Locate the Other Parent"
+        }
+      }
+    },
+    "TM8404": {
+      "label": "Have Child Support Payments Ever Been Ag",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8520",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8888": {
+      "label": "During the Past Mth. Did _ or _s Fam. Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not applicable",
+          "01": "Yes",
+          "02": "No Skip to Tm8892"
+        }
+      }
+    },
+    "TM8892I": {
+      "label": "Imputation of Tm8892",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8892I"
+          }
+        ]
+      }
+    },
+    "TM8885": {
+      "label": "Is Pers. Mentioned Before a Hshld. Membe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8885"
+          }
+        ]
+      }
+    },
+    "TM8764": {
+      "label": "How Much Did _ Pay During the Past 12 Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "19000",
+            "description": "Continuous values of TM8764"
+          }
+        ]
+      }
+    },
+    "TM8522": {
+      "label": "In What Yr. Did _ Last Ask for Help",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8522"
+          }
+        ]
+      }
+    },
+    "TM8402": {
+      "label": "Does _ Have Any Chld. in This Hshld. Und",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8700",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8886": {
+      "label": "Is Pers. Mentioned Before a Hshld. Membe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8886"
+          }
+        ]
+      }
+    },
+    "TM8883": {
+      "label": "Is Pers. Mentioned Before a Hshld. Membe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "605",
+            "description": "Continuous values of TM8883"
+          }
+        ]
+      }
+    },
+    "TM8520": {
+      "label": "For Any of _s Chld., Has _ Ever Asked a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Skip to Tm8554",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8762": {
+      "label": "Chk. Item T6 Is the Entry in Tm8748 03 o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm8800",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8884": {
+      "label": "Is Pers. Mentioned Before a Hshld. Membe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM8884"
+          }
+        ]
+      }
+    },
+    "TM8400": {
+      "label": "Chk. Item T2 Is _ the Parent of Chld. Un",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm8700",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8760": {
+      "label": "Second Pers. How Much Did _ Pay for the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "25000",
+            "description": "Continuous values of TM8760"
+          }
+        ]
+      }
+    },
+    "TM8882": {
+      "label": "Is Pers. Mentioned Before a Hshld. Membe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8880": {
+      "label": "Is Pers. Mentioned Before a Hshld. Membe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "IM8838": {
+      "label": "Imputation of Tm8838",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8838"
+          }
+        ]
+      }
+    },
+    "IM8839": {
+      "label": "Imputation of Tm8839",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8839"
+          }
+        ]
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "6.7052709E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "IM8830": {
+      "label": "Imputation of Tm8830",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8830"
+          }
+        ]
+      }
+    },
+    "IM8832": {
+      "label": "Imputation of Tm8832",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8832"
+          }
+        ]
+      }
+    },
+    "IM8834": {
+      "label": "Imputation of Tm8834",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8834"
+          }
+        ]
+      }
+    },
+    "IM8836": {
+      "label": "Imputation of Tm8836",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8836"
+          }
+        ]
+      }
+    },
+    "TM8518": {
+      "label": "Where Does the Other Parent for This Agr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not applicable",
+          "04": "Other Parent Now Deceased",
+          "01": "Same County/city",
+          "02": "Same State Different County /city",
+          "05": "Other",
+          "03": "Different State"
+        }
+      }
+    },
+    "TM8878": {
+      "label": "You Have Said That _ Needs the Help of A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "5": "Other Relative Nonrelative",
+          "6": "Friend or neighbor",
+          "7": "Paid help",
+          "0": "Not applicable",
+          "3": "SPOUSE",
+          "8": "Other nonrelative",
+          "2": "Daughter",
+          "4": "Parent",
+          "1": "Son"
+        }
+      }
+    },
+    "TM8516": {
+      "label": "What Is the Total Amt. That _ Actually R",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "6864",
+            "description": "Continuous values of TM8516"
+          }
+        ]
+      }
+    },
+    "TM8758": {
+      "label": "First Pers. How Much Did _ Pay for the S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12000",
+            "description": "Continuous values of TM8758"
+          }
+        ]
+      }
+    },
+    "TM8876": {
+      "label": "You Have Said That _ Needs the Help of A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "6": "Friend or neighbor",
+          "1": "Son",
+          "7": "Paid help",
+          "3": "SPOUSE",
+          "8": "Other nonrelative",
+          "2": "Daughter",
+          "5": "Other Relative Nonrelative",
+          "4": "Parent",
+          "9": "Did Not Receive Help Skip to Tm8892",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8513": {
+      "label": "What Is the Total Amt. That _ Was Suppos",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8513"
+        }
+      }
+    },
+    "TM8756": {
+      "label": "Second Pers. Where Was This Pers. Most O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Private home or apartment",
+          "0": "Not applicable",
+          "2": "Nursing home",
+          "3": "Someplace else"
+        }
+      }
+    },
+    "TM8998": {
+      "label": "I Have Recorded That Read the Name of Ch",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "606",
+            "description": "Continuous values of TM8998"
+          }
+        ]
+      }
+    },
+    "TM8996": {
+      "label": "Chk. Item T20 Are Any Pers. Numbers Reco",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm9022",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8754": {
+      "label": "First Pers. Where Was This Pers. Most Of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Private home or apartment",
+          "3": "Someplace else",
+          "2": "Nursing home"
+        }
+      }
+    },
+    "TM8512": {
+      "label": "What Is the Total Amt. That _ Was Suppos",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2880",
+            "description": "Continuous values of TM8512"
+          }
+        ]
+      }
+    },
+    "TM8994": {
+      "label": "Which Chld. Have Difficulty With These A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "109",
+            "description": "Continuous values of TM8994"
+          }
+        ]
+      }
+    },
+    "TM8752": {
+      "label": "Second Pers. How Is This Pers. Related t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Child under 21",
+          "5": "Child 21 or Older",
+          "6": "Other relative",
+          "1": "Parent",
+          "2": "Spouse",
+          "7": "Not related",
+          "0": "Not applicable",
+          "3": "Exspouse"
+        }
+      }
+    },
+    "TM8510": {
+      "label": "What Is the Total Amt. That _ Was Suppos",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "800",
+            "description": "Continuous values of TM8510"
+          }
+        ]
+      }
+    },
+    "TM8750": {
+      "label": "First Pers. How Is This Pers. Related to",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Exspouse",
+          "4": "Child under 21",
+          "1": "Parent",
+          "6": "Other relative",
+          "2": "Spouse",
+          "0": "Not applicable",
+          "5": "Child 21 or Older"
+        }
+      }
+    },
+    "TM8992": {
+      "label": "Which Chld. Have Difficulty With These A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "201",
+            "description": "Continuous values of TM8992"
+          }
+        ]
+      }
+    },
+    "TM8990": {
+      "label": "Which Chld. Have Difficulty With These A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "602",
+            "description": "Continuous values of TM8990"
+          }
+        ]
+      }
+    },
+    "IM8826": {
+      "label": "Imputation of Tm8826",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8826"
+          }
+        ]
+      }
+    },
+    "IM8828": {
+      "label": "Imputation of Tm8828",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8828"
+          }
+        ]
+      }
+    },
+    "IM8820": {
+      "label": "Imputation of Tm8820",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8820"
+          }
+        ]
+      }
+    },
+    "IM8822": {
+      "label": "Imputation of Tm8822",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8822"
+          }
+        ]
+      }
+    },
+    "TM8818": {
+      "label": "Because of a Health Condition or a Probl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "IM8824": {
+      "label": "Imputation of Tm8824",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8824"
+          }
+        ]
+      }
+    },
+    "TM8706": {
+      "label": "For How Many Chld. Did _ Make Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "51",
+            "description": "Continuous values of TM8706"
+          }
+        ]
+      }
+    },
+    "TM8948": {
+      "label": "Which Chld. Have Activity Limitations",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "501",
+            "description": "Continuous values of TM8948"
+          }
+        ]
+      }
+    },
+    "TM8828": {
+      "label": "Is_able to Walk Up a Flight of Stairs Wi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8946": {
+      "label": "Which Chld. Have Activity Limitations",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "602",
+            "description": "Continuous values of TM8946"
+          }
+        ]
+      }
+    },
+    "TM8704": {
+      "label": "Were Any of These Payments for the Suppo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8748",
+          "00": "Not applicable"
+        }
+      }
+    },
+    "TM8826": {
+      "label": "Does_have Any Difficulty Walking Up a Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Has Difficulty",
+          "2": "No Difficultyskip to Tm8814"
+        }
+      }
+    },
+    "TM8944": {
+      "label": "Because of a Physical,learning or Mental",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm8952",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8702": {
+      "label": "Did _ Make  Reg. Payments,lumpsum Paymen",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Lumpsum",
+          "1": "Regular",
+          "3": "Both",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8824": {
+      "label": "Is_able to Lift and Carry This Much Wgt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8894I": {
+      "label": "Imputation of Tm8894",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8894I"
+        }
+      }
+    },
+    "TM8942": {
+      "label": "Chk. Item T17 Is _the Designated Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8960"
+        }
+      }
+    },
+    "TM8700": {
+      "label": "During the Past 12 Mths. Did _ Make Any",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm8800",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8822": {
+      "label": "Does_have Any Difficuly Lifting and Carr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8940": {
+      "label": "Which of the Conditions Do You Consider",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8940"
+          }
+        ]
+      }
+    },
+    "TM8820": {
+      "label": "Is _ Able to Have His/her Speech Underst",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IM8816": {
+      "label": "Imputation of Tm8816",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8816"
+          }
+        ]
+      }
+    },
+    "IM8818": {
+      "label": "Imputation of Tm8818",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8818"
+          }
+        ]
+      }
+    },
+    "PNPT": {
+      "label": "Pers. No. of Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "IM8810": {
+      "label": "Imputation of Tm8810",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8810"
+          }
+        ]
+      }
+    },
+    "IM8812": {
+      "label": "Imputation of Tm8812",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8812"
+          }
+        ]
+      }
+    },
+    "TM8928": {
+      "label": "Does _s Health or Condition Completely P",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No"
+        }
+      }
+    },
+    "IM8814": {
+      "label": "Imputation of Tm8814",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8814"
+          }
+        ]
+      }
+    },
+    "TM8808": {
+      "label": "Has _ Used Aid Mentioned in Tm8802 or Tm",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8816": {
+      "label": "Is_able to Hear What Is Said in a Normal",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8938": {
+      "label": "Chk. Item T16 Are Two or More Conditions",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No Skip to Tm8942"
+        }
+      }
+    },
+    "TM8814": {
+      "label": "Does_have Any Difficulty Hearing Another",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8936": {
+      "label": "I Have Marked That _ Is Limited in Worki",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8936"
+          }
+        ]
+      }
+    },
+    "TM8812": {
+      "label": "Is _ Able to See the Words and Letters i",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8934": {
+      "label": "I Have Marked That _ Is Limited in Worki",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8934"
+          }
+        ]
+      }
+    },
+    "TM8810": {
+      "label": "Does _ Have Any Difficulty Seeing Words",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8932": {
+      "label": "I Have Marked That _ Is Limited in Worki",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8932"
+          }
+        ]
+      }
+    },
+    "TM8930": {
+      "label": "Chk. Item T15 Is Yes Marked in Tm8918, T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8942"
+        }
+      }
+    },
+    "IM2026": {
+      "label": "Imputation of Tm8420 Thru Tm8426",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM2026"
+          }
+        ]
+      }
+    },
+    "IM8804": {
+      "label": "Imputation of Tm8804",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8804"
+          }
+        ]
+      }
+    },
+    "IM8808": {
+      "label": "Imputation of Tm8808",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8808"
+          }
+        ]
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code From the Mst/grin File",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "63",
+            "description": "Continuous values of STATE"
+          }
+        ]
+      }
+    },
+    "IM8800": {
+      "label": "Imputation of Tm8800",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8800"
+          }
+        ]
+      }
+    },
+    "IM8802": {
+      "label": "Imputation of Tm8802",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8802"
+          }
+        ]
+      }
+    },
+    "TM8849": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8728": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Custodial Parent to Provide Health Ins."
+        }
+      }
+    },
+    "TM8608": {
+      "label": "Youngest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Other Parent Deceased"
+        }
+      }
+    },
+    "TM8847": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8968": {
+      "label": "Which Chld. Have Difficulty Doing  Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM8968"
+          }
+        ]
+      }
+    },
+    "TM8726": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Noncustodial Parent to Provide Health In",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8848": {
+      "label": "Does _ Have Any Difficulty Walking",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Has Difficulty",
+          "2": "No Difficultyskip to Tm8814"
+        }
+      }
+    },
+    "TM8606": {
+      "label": "Oldest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Different State"
+        }
+      }
+    },
+    "TM8896I": {
+      "label": "Imputation of Tm8896",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8896I"
+        }
+      }
+    },
+    "TM8845": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8724": {
+      "label": "Are These Payments Made",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not applicable",
+          "03": "Directly to the Court",
+          "05": "Other",
+          "02": "Directly to the Other Parent",
+          "04": "Directly to a Child Support Agency",
+          "01": "Through Employment Related Wage Withhold"
+        }
+      }
+    },
+    "TM8966": {
+      "label": "Which Chld. Have Difficulty Doing  Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM8966"
+          }
+        ]
+      }
+    },
+    "TM8846": {
+      "label": "Does _ Have Any Difficulty Getting Dress",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8604": {
+      "label": "Youngest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Different State"
+        }
+      }
+    },
+    "TM8843": {
+      "label": "Does _ Need the Help of Another Pers. in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8964": {
+      "label": "Which Chld. Have Difficulty Doing  Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM8964"
+          }
+        ]
+      }
+    },
+    "TM8722": {
+      "label": "How Much Did _ Pay for the Support of Th",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "10000",
+            "description": "Continuous values of TM8722"
+          }
+        ]
+      }
+    },
+    "TM8602": {
+      "label": "Oldest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Same County/city",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8844": {
+      "label": "Does _ Have Any Difficulty Taking a Bath",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Difficultyskip to Tm8814",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8841": {
+      "label": "Does_need the Help of Another Pers. in O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8962": {
+      "label": "Because of a Physical, Learning or Menta",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8970"
+        }
+      }
+    },
+    "TM8720": {
+      "label": "Is _ Still Supposed to Pay Child Support",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8600": {
+      "label": "Youngest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Same State Different County/city"
+        }
+      }
+    },
+    "TM8842": {
+      "label": "Does _ Have Any Difficulty Getting Into",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "IMP2636": {
+      "label": "Imputation of Tm8726 Thru Tm8736",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP2636"
+          }
+        ]
+      }
+    },
+    "TM8960": {
+      "label": "Chk. Item T18 Is _ the Designated Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm8986",
+          "0": "Not Appilcable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8840": {
+      "label": "Does_have Any Difficulty Getting Around",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Difficultyskip to Tm8814",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "AGE": {
+      "label": "Ed. and Imp. Age As of Last Birthday.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Less Than 1 Full Year",
+          "001": "1 Yr. Etc."
+        }
+      }
+    },
+    "TM8708": {
+      "label": "Were Any of These Payments the Result of",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8744",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8838": {
+      "label": "Does _ Have Any Difficulty Getting Aroun",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8839": {
+      "label": "Does_need the Help of Another Pers. in O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8718": {
+      "label": "In What Yr. Was the Amt. Last Changed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8718"
+          }
+        ]
+      }
+    },
+    "TM8836": {
+      "label": "Is _ Able to Use the Telephone At All",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8958": {
+      "label": "Which Chld. Have Rec. These Srvc.s",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "109",
+            "description": "Continuous values of TM8958"
+          }
+        ]
+      }
+    },
+    "TM8716": {
+      "label": "Has the Dollar Amt. Ever Been Changed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "00": "Not applicable",
+          "02": "No Skip to Tm8720"
+        }
+      }
+    },
+    "TM8834": {
+      "label": "Does _ Have Any Difficulty Using the Tel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Has Difficulty",
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8956": {
+      "label": "Which Chld. Have Rec. These Srvc.s",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "401",
+            "description": "Continuous values of TM8956"
+          }
+        ]
+      }
+    },
+    "TM8714": {
+      "label": "In What Yr. Was This Agreement First Rea",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8714"
+          }
+        ]
+      }
+    },
+    "TM8832": {
+      "label": "Is _ Able to Walk a Quarter of a Mile At",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8954": {
+      "label": "Which Chld. Have Rec. These Srvc.s",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "606",
+            "description": "Continuous values of TM8954"
+          }
+        ]
+      }
+    },
+    "TM8712": {
+      "label": "Was This Agreement a Voluntary Written A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Voluntary Written Agreement Ratified by",
+          "4": "Nonwritten Agreement Skip to Tm8738",
+          "2": "Courtordered Agreement",
+          "3": "Other type of written agreement"
+        }
+      }
+    },
+    "TM8830": {
+      "label": "Does_have Any Difficulty Walking for a Q",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Difficultyskip to Tm8814",
+          "0": "Not applicable",
+          "1": "Has Difficulty"
+        }
+      }
+    },
+    "TM8710": {
+      "label": "How Many Chld. Are Cov. by That Agreemen",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8710"
+          }
+        ]
+      }
+    },
+    "TM8952": {
+      "label": "Have Any of _s Chld. Under the Age of 6",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8960",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8950": {
+      "label": "Which Chld. Have Activity Limitations",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "109",
+            "description": "Continuous values of TM8950"
+          }
+        ]
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "IM8470": {
+      "label": "Imputation of Tm8470",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8470"
+          }
+        ]
+      }
+    },
+    "TM8904": {
+      "label": "Does _ Have a Mental Retardation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No"
+        }
+      }
+    },
+    "IM8472": {
+      "label": "Imputation of Tm8472",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8472"
+          }
+        ]
+      }
+    },
+    "TM8902": {
+      "label": "Does _ Have a Learning Disab. Such As Dy",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8900": {
+      "label": "Which If the Conditions Do You Consider",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8900"
+          }
+        ]
+      }
+    },
+    "IM8476": {
+      "label": "Imputation of Tm8476",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8476"
+          }
+        ]
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999944306",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "IM8456": {
+      "label": "Imputation of Tm8456",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8456"
+          }
+        ]
+      }
+    },
+    "IM0613": {
+      "label": "Imputation of Tm8506 Thru Tm8513",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM0613"
+          }
+        ]
+      }
+    },
+    "PNUM": {
+      "label": "Ed. Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "808",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "IM8444": {
+      "label": "Imputation of Tm8444",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8444"
+          }
+        ]
+      }
+    },
+    "IM8446": {
+      "label": "Imputation of Tm8446",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8446"
+          }
+        ]
+      }
+    },
+    "IM8448": {
+      "label": "Imputation of Tm8448",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8448"
+          }
+        ]
+      }
+    },
+    "TM8918": {
+      "label": "We Have Recorded That _s Health or Condi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes Skip to Tm8922",
+          "2": "No Skip to Tm8926"
+        }
+      }
+    },
+    "TM8888I": {
+      "label": "Imputation of Tm8888",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8888I"
+          }
+        ]
+      }
+    },
+    "TM8926": {
+      "label": "Does _ Have a Physical, Mental or Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8930"
+        }
+      }
+    },
+    "TM8806": {
+      "label": "Is Yes Marked in Tm8802 or Tm8804 Above",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Skip to Tm8810",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8876I": {
+      "label": "Imputation of Tm8876",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8876I"
+          }
+        ]
+      }
+    },
+    "TM8924": {
+      "label": "Does _s Health or Condition Prevent .. F",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "IM8450": {
+      "label": "Imputation of Tm8450",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8450"
+          }
+        ]
+      }
+    },
+    "TM8804": {
+      "label": "Does _ Use Any of the Following Aids to",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "B": "A Wheelchair",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "IM8452": {
+      "label": "Imputation of Tm8452",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8452"
+          }
+        ]
+      }
+    },
+    "TM8922": {
+      "label": "Chk. Item T14 Is Worked Code 170 Marked",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes Skip to Tm8926",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8802": {
+      "label": "Does _ Use Any of the Following Aids to",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "A": "A Cane,crutches or a Walker",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8920": {
+      "label": "Does _ Have a Physical, Mental or Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes Mark 171 on ISS",
+          "2": "No Skip to Tm8926",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IM8454": {
+      "label": "Imputation of Tm8454",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8454"
+          }
+        ]
+      }
+    },
+    "TM8800": {
+      "label": "These Next Few Questions Are About _s He",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "5": "Poor",
+          "0": "Not applicable",
+          "3": "Good",
+          "4": "Fair",
+          "1": "Excellent",
+          "2": "Very Good"
+        }
+      }
+    },
+    "IM8556": {
+      "label": "Imputation of Tm8556",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8556"
+          }
+        ]
+      }
+    },
+    "TM8908": {
+      "label": "Does _ Have Alzheimers Disease, Senility",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "IM8558": {
+      "label": "Imputation of Tm8558",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8558"
+          }
+        ]
+      }
+    },
+    "TM8906": {
+      "label": "Does _ Have a A Developmental Disab. Suc",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8887I": {
+      "label": "Imputation of Tm8887",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8887I"
+          }
+        ]
+      }
+    },
+    "TM8916": {
+      "label": "Chk. Item T13 Is Disabled Code 171 Marke",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Skip to Tm8920",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8914": {
+      "label": "Chk. Item T12 Is Disabled Code 171 Marke",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes Skip to Tm8918",
+          "0": "Not applicable",
+          "2": "No"
+        }
+      }
+    },
+    "TM8912": {
+      "label": "Chk. Item T11 What Is _.s Age",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "15 Yrs. Old Skip to Tm8942",
+          "3": "68 Yrs. Old or Older Skip to Tm8926",
+          "0": "Not applicable",
+          "2": "16 to 67 Yrs. Old"
+        }
+      }
+    },
+    "TM8910": {
+      "label": "Does _ Have a Any Other Mental or Emotio",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8878I": {
+      "label": "Imputation of Tm8878",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8878I"
+          }
+        ]
+      }
+    },
+    "IM6492": {
+      "label": "Imputation of Tm8564tm8592 by 4",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM6492"
+          }
+        ]
+      }
+    },
+    "IM8430": {
+      "label": "Imputation of Tm8430",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8430"
+          }
+        ]
+      }
+    },
+    "IM8432": {
+      "label": "Imputation of Tm8432",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8432"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat. If Marital Stat. Changed D",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "5": "Separated",
+          "0": "Not a Sample Pers. in This",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "30",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "IM8418": {
+      "label": "Imputation of Tm8418",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8418"
+          }
+        ]
+      }
+    },
+    "TM8889I": {
+      "label": "Imputation of Tm8889",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8889I"
+          }
+        ]
+      }
+    },
+    "IM8538": {
+      "label": "Imputation of Tm8538",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8538"
+          }
+        ]
+      }
+    },
+    "IM8408": {
+      "label": "Imputation of Tm8408",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8408"
+          }
+        ]
+      }
+    },
+    "IM8522": {
+      "label": "Imputation of Tm8522",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8522"
+          }
+        ]
+      }
+    },
+    "IM9612": {
+      "label": "Imputation of Tm8596tm8612 by 4",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM9612"
+          }
+        ]
+      }
+    },
+    "IM8402": {
+      "label": "Imputation of Tm8402",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8402"
+          }
+        ]
+      }
+    },
+    "IM8404": {
+      "label": "Imputation of Tm8404",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8404"
+          }
+        ]
+      }
+    },
+    "IM8406": {
+      "label": "Imputation of Tm8406",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8406"
+          }
+        ]
+      }
+    },
+    "IM4052": {
+      "label": "Imputation of Tm8540 Thru Tm8552",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM4052"
+          }
+        ]
+      }
+    },
+    "IM8518": {
+      "label": "Imputation of Tm8518",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8518"
+          }
+        ]
+      }
+    },
+    "IM8516": {
+      "label": "Imputation of Tm8516",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8516"
+          }
+        ]
+      }
+    },
+    "TM8856I": {
+      "label": "Imputation of Tm8856",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8856I"
+          }
+        ]
+      }
+    },
+    "IM8520": {
+      "label": "Imputation of Tm8520",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8520"
+          }
+        ]
+      }
+    },
+    "IMP8756": {
+      "label": "Imputation of Tm8756",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8756"
+          }
+        ]
+      }
+    },
+    "IMP8758": {
+      "label": "Imputation of Tm8758",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8758"
+          }
+        ]
+      }
+    },
+    "IMP8752": {
+      "label": "Imputation of Tm8752",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8752"
+          }
+        ]
+      }
+    },
+    "IMP8754": {
+      "label": "Imputation of Tm8754",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8754"
+          }
+        ]
+      }
+    },
+    "IMP8750": {
+      "label": "Imputation of Tm8750",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8750"
+          }
+        ]
+      }
+    },
+    "TM8858I": {
+      "label": "Imputation of Tm8858",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8858I"
+          }
+        ]
+      }
+    },
+    "RRP": {
+      "label": "Ed. Relationship to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "TM9020": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9020"
+          }
+        ]
+      }
+    },
+    "IMP8764": {
+      "label": "Imputation of Tm8764",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8764"
+          }
+        ]
+      }
+    },
+    "IMP8760": {
+      "label": "Imputation of Tm8760",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8760"
+          }
+        ]
+      }
+    },
+    "TM8857I": {
+      "label": "Imputation of Tm8857",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8857I"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of  Reg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM9026": {
+      "label": "In Which of the Past 12 Mths. Did _ Firs",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1990",
+            "description": "Continuous values of TM9026"
+          }
+        ]
+      }
+    },
+    "TM9024": {
+      "label": "Is _ Receiving Soc. Sec Disablility or S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No Skip to Tm9100"
+        }
+      }
+    },
+    "TM9022": {
+      "label": "In the Last 12 Mths., Has _ Applied for",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Skip to Tm9100",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9020I": {
+      "label": "Imputation of Tm9020",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9020I"
+          }
+        ]
+      }
+    },
+    "TM8859I": {
+      "label": "Imputation of Tm8859",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8859I"
+          }
+        ]
+      }
+    },
+    "TM8932I": {
+      "label": "Imputation of Tm8932",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8932I"
+          }
+        ]
+      }
+    },
+    "IM8040": {
+      "label": "Computation of Tm8040",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of IM8040"
+          }
+        ]
+      }
+    },
+    "I910412": {
+      "label": "Imputation of Tm9104 Thru Tm9112",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I910412"
+          }
+        ]
+      }
+    },
+    "IM8042": {
+      "label": "Imputation of Tm8042",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8042"
+          }
+        ]
+      }
+    },
+    "IM8044": {
+      "label": "Computation of Tm8044",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of IM8044"
+          }
+        ]
+      }
+    },
+    "IMP8712": {
+      "label": "Imputation of Tm8712",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8712"
+          }
+        ]
+      }
+    },
+    "TM8020": {
+      "label": "After This First Time Were There Any Oth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Chk. Item T2 Tm8400"
+        }
+      }
+    },
+    "IMP8714": {
+      "label": "Imputation of Tm8714",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8714"
+          }
+        ]
+      }
+    },
+    "IMP8710": {
+      "label": "Imputation of Tm8710",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8710"
+          }
+        ]
+      }
+    },
+    "IM8026": {
+      "label": "Imputation of Tm8026",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8026"
+          }
+        ]
+      }
+    },
+    "IM8028": {
+      "label": "Computation of Tm8028",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of IM8028"
+          }
+        ]
+      }
+    },
+    "TM9010I": {
+      "label": "Imputation of Tm9010",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9010I"
+          }
+        ]
+      }
+    },
+    "IM8032": {
+      "label": "Computation of Tm8032",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of IM8032"
+          }
+        ]
+      }
+    },
+    "TM9022I": {
+      "label": "Imputation of Tm9022",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9022I"
+          }
+        ]
+      }
+    },
+    "IM8034": {
+      "label": "Imputation of Tm8034",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8034"
+          }
+        ]
+      }
+    },
+    "IM8036": {
+      "label": "Computation of Tm8036",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of IM8036"
+          }
+        ]
+      }
+    },
+    "TM9118": {
+      "label": "How Many Nights in All Did _ Spend in a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "353",
+            "description": "Continuous values of TM9118"
+          }
+        ]
+      }
+    },
+    "TM8027": {
+      "label": "When Was the Second Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8027"
+        }
+      }
+    },
+    "TM9116": {
+      "label": "Was _ a Patient in a Psychiatric Hospita",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8028": {
+      "label": "When Was the Second Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8028"
+          }
+        ]
+      }
+    },
+    "TM9114": {
+      "label": "Was _ a Patient in a Va or Military Hosp",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "No",
+          "1": "Yes, Military",
+          "3": "Yes, Both Military and Va",
+          "0": "Not applicable",
+          "2": "Yes, Va"
+        }
+      }
+    },
+    "TM8026": {
+      "label": "What Was the Main Reason _ Did Not Work",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "03": "Taking Care of a Disabled But Nonelderly",
+          "01": "Taking Care of a Minor Child",
+          "00": "Not applicable",
+          "02": "Taking Care of An Elderly Fam. Member",
+          "04": "Other Fam. or Home Responsibilities",
+          "08": "Did Not Want to Work",
+          "05": "Own Illness or Disab.",
+          "07": "Could Not Find Work",
+          "10": "Other",
+          "06": "Ret. or Old Age",
+          "09": "Going to School"
+        }
+      }
+    },
+    "TM9112": {
+      "label": "What Was the Reason for _s Last Hospital",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Drug or Alcohol Abuse Problem or Disorde",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IMP8716": {
+      "label": "Imputation of Tm8716",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8716"
+          }
+        ]
+      }
+    },
+    "TM8024": {
+      "label": "When Was the Second Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8024"
+          }
+        ]
+      }
+    },
+    "TM9110": {
+      "label": "What Was the Reason for _s Last Hospital",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Mental or Emotional Problem or Disorder",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IMP8718": {
+      "label": "Imputation of Tm8718",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8718"
+          }
+        ]
+      }
+    },
+    "TM8022": {
+      "label": "How Many Other Times Did This Happen",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "One time",
+          "0": "Not applicable",
+          "2": "Two Times",
+          "3": "Three times"
+        }
+      }
+    },
+    "IMP8724": {
+      "label": "Imputation of Tm8724",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8724"
+          }
+        ]
+      }
+    },
+    "TM8492": {
+      "label": "Chk. Item T4 Does _ Have Any Chld. Livin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8520",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "ITEM36B": {
+      "label": "CC Item 36b Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "03": "Temply. Absent",
+          "22": "Deleted Sample Adjust., Error",
+          "12": "Under Construction, Not Ready",
+          "21": "Condemned",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "06": "Other Type a Type B Nonintv. Wave 1",
+          "10": "Occ. by Pers. With Ure",
+          "13": "Converted to Temp. Bus. or Storage",
+          "04": "Refused",
+          "16": "Entire HH Institutionalized or Temply. I",
+          "09": "Vacant",
+          "14": "Unocc. Site for Mobile Home, Trailer, or",
+          "25": "Moved within country beyond limit",
+          "15": "Permit Granted, Construction Not Started",
+          "05": "Unable To Locate",
+          "20": "Merged",
+          "01": "Intved. Type a Noninterview",
+          "02": "No One Home",
+          "26": "All Sample Pers. Relisted on New CCs",
+          "17": "Demolished",
+          "18": "House or Trailer Moved",
+          "19": "Converted to Perm. Bus. or Storage",
+          "11": "Unfit or To Be Demolished"
+        }
+      }
+    },
+    "TM8490": {
+      "label": "If _ Had to Contact the Other Parent, Ho",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Directly",
+          "0": "Not applicable",
+          "2": "Through a Friend",
+          "3": "Through a Relative",
+          "5": "No Way of Contacting the Other",
+          "4": "OTHER"
+        }
+      }
+    },
+    "IMP8720": {
+      "label": "Imputation of Tm8720",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8720"
+          }
+        ]
+      }
+    },
+    "IMP8722": {
+      "label": "Imputation of Tm8722",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8722"
+          }
+        ]
+      }
+    },
+    "IM8018": {
+      "label": "Imputation of Tm8018",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8018"
+          }
+        ]
+      }
+    },
+    "TM8934I": {
+      "label": "Imputation of Tm8934",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8934I"
+          }
+        ]
+      }
+    },
+    "TM8910I": {
+      "label": "Imputation of Tm8910",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8910I"
+          }
+        ]
+      }
+    },
+    "IM8020": {
+      "label": "Imputation of Tm8020",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8020"
+          }
+        ]
+      }
+    },
+    "IM8022": {
+      "label": "Imputation of Tm8022",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8022"
+          }
+        ]
+      }
+    },
+    "TM8018": {
+      "label": "What Was the Main Reason _ Did Not Work",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Did Not Want to Work",
+          "10": "Other",
+          "04": "Other Fam. or Home Responsibilities",
+          "01": "Taking Care of a Minor Child",
+          "05": "Own Illness or Disab.",
+          "00": "Not applicable",
+          "03": "Taking Care of a Disabled But Nonelderly",
+          "02": "Taking Care of An Elderly Fam. Member",
+          "09": "Going to School",
+          "06": "Ret. or Old Age",
+          "07": "Could Not Find Work"
+        }
+      }
+    },
+    "TM9108": {
+      "label": "What Was the Reason for _s Last Hospital",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Other Medical",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IM8024": {
+      "label": "Computation of Tm8024",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of IM8024"
+          }
+        ]
+      }
+    },
+    "TM8016": {
+      "label": "From the Time _ Was 21 Yrs. Old, When Wa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "172",
+            "description": "Continuous values of TM8016"
+          }
+        ]
+      }
+    },
+    "TM9106": {
+      "label": "What Was the Reason for _s Last Hospital",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Surgery or Operation Incl. Bone Setting",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8017": {
+      "label": "From the Time _ Was 21 Yrs. Old, When Wa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8017"
+        }
+      }
+    },
+    "TM8498": {
+      "label": "Was This Agreement a Voluntary Written A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "Courtordered Agreement",
+          "3": "Other type of written agreement",
+          "1": "Voluntary Written Agreement Ratified by"
+        }
+      }
+    },
+    "TM8014": {
+      "label": "From the Time _ Was 21 Yrs. Old, When Wa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8014"
+          }
+        ]
+      }
+    },
+    "TM9104": {
+      "label": "What Was the Reason for _s Last Hospital",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Child Birth",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8012": {
+      "label": "From the Time _ Was 21 Yrs. Old, When Wa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "400000",
+            "description": "Continuous values of TM8012"
+          }
+        ]
+      }
+    },
+    "TM8496": {
+      "label": "How Many Other Agreements",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8496"
+          }
+        ]
+      }
+    },
+    "TM9102": {
+      "label": "How Many Different Times Did _. Stay in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "61",
+            "description": "Continuous values of TM9102"
+          }
+        ]
+      }
+    },
+    "TM8010": {
+      "label": "People Spend Time Not Working At a Paid",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Chk. Item T2 Tm8400"
+        }
+      }
+    },
+    "TM8494": {
+      "label": "Other Than the Support Agreement Discuss",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8520",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM9100": {
+      "label": "During the Past 12 Mths., Was _. a Patie",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm9122",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM9130": {
+      "label": "To What Kind of Place Does _ Usually Go",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "11": "Other",
+          "05": "Hospital Emergency Room",
+          "09": "Psychiatric Hostipal",
+          "02": "Va Hospital",
+          "04": "Hospital Outpatient Clinic Not Va or Mil",
+          "06": "Company or Ind. Clinic",
+          "07": "Health Center Neighborhood Health Center",
+          "03": "Military Hospital",
+          "10": "Private Practice Psychiatrist or Other M",
+          "01": "Doctors Office or Hmo",
+          "08": "Psychiatric Clinic"
+        }
+      }
+    },
+    "TM9010": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9010"
+          }
+        ]
+      }
+    },
+    "TM8042": {
+      "label": "What Was the Main Reason _ Did Not Work",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "Taking Care of An Elderly Fam. Member",
+          "04": "Other Fam. or Home Responsibilities",
+          "05": "Own Illness or Disab.",
+          "00": "Not applicable",
+          "08": "Did Not Want to Work",
+          "07": "Could Not Find Work",
+          "09": "Going to School",
+          "01": "Taking Care of a Minor",
+          "06": "Ret. or Old Age",
+          "10": "Other",
+          "03": "Taking Care of a Disabled But Nonelderly"
+        }
+      }
+    },
+    "TM8040": {
+      "label": "When Was the Fourth Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "140000",
+            "description": "Continuous values of TM8040"
+          }
+        ]
+      }
+    },
+    "IM8488": {
+      "label": "Imputation of Tm8488",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8488"
+          }
+        ]
+      }
+    },
+    "IM8004": {
+      "label": "Imputation of Tm8004",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8004"
+          }
+        ]
+      }
+    },
+    "IM8006": {
+      "label": "Imputation of Tm8006",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8006"
+          }
+        ]
+      }
+    },
+    "IM8008": {
+      "label": "Imputation of Tm8008",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8008"
+          }
+        ]
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. Within Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "2",
+            "max": "8",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "IM8010": {
+      "label": "Imputation of Tm8010",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8010"
+          }
+        ]
+      }
+    },
+    "TM9012I": {
+      "label": "Imputation of Tm9012",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9012I"
+          }
+        ]
+      }
+    },
+    "IM8494": {
+      "label": "Imputation of Tm8494",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8494"
+          }
+        ]
+      }
+    },
+    "TM9000I": {
+      "label": "Imputation of Tm9000",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9000I"
+          }
+        ]
+      }
+    },
+    "IM8012": {
+      "label": "Imputation of Tm8012",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8012"
+          }
+        ]
+      }
+    },
+    "IM8014": {
+      "label": "Imputation of Tm8014",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8014"
+          }
+        ]
+      }
+    },
+    "IM8498": {
+      "label": "Imputation of Tm8498",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8498"
+          }
+        ]
+      }
+    },
+    "TM9138": {
+      "label": "Which Answer on This Card Best Describes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Cant Obtain Health Ins. Because of Poor",
+          "5": "Dont Believe in Health Ins.",
+          "9": "Other",
+          "4": "Too Expensive, Cant Afford Health Ins.",
+          "6": "Have Been Healthy, Not Much Sickness in",
+          "1": "Job Layoff, Job Loss, or Any Reasons Rel",
+          "7": "Able to Go to Va or Military Hospital fo",
+          "8": "Cov. by Some Other Health Plan",
+          "0": "Not applicable",
+          "2": "Emp. Does Not Offer Health Ins."
+        }
+      }
+    },
+    "TM9018": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9018"
+          }
+        ]
+      }
+    },
+    "TM9136": {
+      "label": "I Have Recorded That _ Is Not Cov. by a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "Incorrect Cov. by Some Other Plan Skip t",
+          "1": "Correct"
+        }
+      }
+    },
+    "TM9016": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9016"
+          }
+        ]
+      }
+    },
+    "TM9134": {
+      "label": "Chk. Item T22 Is Medicare Code 172 or Me",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No",
+          "1": "Yes Skip to End"
+        }
+      }
+    },
+    "IMP8738": {
+      "label": "Imputation of Tm8738",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8738"
+          }
+        ]
+      }
+    },
+    "TM9024I": {
+      "label": "Imputation of Tm9024",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9024I"
+          }
+        ]
+      }
+    },
+    "TM9014": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "604",
+            "description": "Continuous values of TM9014"
+          }
+        ]
+      }
+    },
+    "TM8046": {
+      "label": "When Was the Fourth Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8046"
+        }
+      }
+    },
+    "TM8043": {
+      "label": "When Was the Fourth Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8043"
+        }
+      }
+    },
+    "TM9132": {
+      "label": "Chk. Item T21 Is _ Cov. by a Health Ins.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not applicable",
+          "1": "Yes Skip to Next Record"
+        }
+      }
+    },
+    "IM8490": {
+      "label": "Imputation of Tm8490",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8490"
+          }
+        ]
+      }
+    },
+    "TM9012": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9012"
+          }
+        ]
+      }
+    },
+    "TM8044": {
+      "label": "When Was the Fourth Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999999",
+            "description": "Continuous values of TM8044"
+          }
+        ]
+      }
+    },
+    "IMP8746": {
+      "label": "Imputation of Tm8746",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8746"
+          }
+        ]
+      }
+    },
+    "TM8030": {
+      "label": "When Was the Second Time That _ Went 6 M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8030"
+          }
+        ]
+      }
+    },
+    "TM9120": {
+      "label": "How Many of These Nights Were in the Pas",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "123",
+            "description": "Continuous values of TM9120"
+          }
+        ]
+      }
+    },
+    "IMP8748": {
+      "label": "Imputation of Tm8748",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8748"
+          }
+        ]
+      }
+    },
+    "IMP8742": {
+      "label": "Imputation of Tm8742",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8742"
+          }
+        ]
+      }
+    },
+    "IMP8744": {
+      "label": "Imputation of Tm8744",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8744"
+          }
+        ]
+      }
+    },
+    "IMP8740": {
+      "label": "Imputation of Tm8740",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8740"
+          }
+        ]
+      }
+    },
+    "TM8936I": {
+      "label": "Imputation of Tm8936",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8936I"
+          }
+        ]
+      }
+    },
+    "TM8924I": {
+      "label": "Imputation of Tm8924",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8924I"
+          }
+        ]
+      }
+    },
+    "ADDID": {
+      "label": "Add. Id This Fld. Differentiates Househo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "83",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "IM8000": {
+      "label": "Imputation of Tm8000",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IM8000"
+        }
+      }
+    },
+    "TM9008": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9008"
+          }
+        ]
+      }
+    },
+    "TM9129": {
+      "label": "Is There a Particular Clinic, Health Cen",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "2": "No Skip to Tm9132",
+          "1": "Yes"
+        }
+      }
+    },
+    "RACE": {
+      "label": "Race of This Pers. Ed. and Imputed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "IM8002": {
+      "label": "Imputation of Tm8002",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM8002"
+          }
+        ]
+      }
+    },
+    "TM9006": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "603",
+            "description": "Continuous values of TM9006"
+          }
+        ]
+      }
+    },
+    "TM8038": {
+      "label": "When Was the Third Time That _ Went 6 Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1985",
+            "description": "Continuous values of TM8038"
+          }
+        ]
+      }
+    },
+    "TM9127": {
+      "label": "During the Past 12 Mths., How Many Visit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "93",
+            "description": "Continuous values of TM9127"
+          }
+        ]
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 15",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM9128": {
+      "label": "How Many of These Visits Were in the Pas",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM9128"
+          }
+        ]
+      }
+    },
+    "TM9004": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM9004"
+          }
+        ]
+      }
+    },
+    "TM8036": {
+      "label": "When Was the Third Time That _ Went 6 Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8036"
+          }
+        ]
+      }
+    },
+    "TM9126": {
+      "label": "How Many of These Visits or Calls Were i",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9126"
+          }
+        ]
+      }
+    },
+    "TM9002": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM9002"
+          }
+        ]
+      }
+    },
+    "TM8034": {
+      "label": "What Was the Main Reason _ Did Not Work",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Taking Care of a Minor",
+          "07": "Could Not Find Work",
+          "06": "Ret. or Old Age",
+          "10": "Other",
+          "05": "Own Illness or Disab.",
+          "00": "Not applicable",
+          "02": "Taking Care of An Elderly Fam. Member",
+          "03": "Taking Care of a Disabled But Nonelderly",
+          "04": "Other Fam. or Home Responsibilities",
+          "08": "Did Not Want to Work",
+          "09": "Going to School"
+        }
+      }
+    },
+    "I9102": {
+      "label": "Imputation of Tm9102",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9102"
+          }
+        ]
+      }
+    },
+    "TM8035": {
+      "label": "When Was the Third Time That _ Went 6 Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8035"
+        }
+      }
+    },
+    "TM9124": {
+      "label": "During the Past 12 Mths., How Many Times",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Continuous values of TM9124"
+          }
+        ]
+      }
+    },
+    "TM9000": {
+      "label": "Which Conditiion or Conditions Are Respo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM9000"
+          }
+        ]
+      }
+    },
+    "TM8032": {
+      "label": "When Was the Third Time That _ Went 6 Mt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8032"
+          }
+        ]
+      }
+    },
+    "TM9122": {
+      "label": "During the Past 4 Mths., About How Many",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "123",
+            "description": "Continuous values of TM9122"
+          }
+        ]
+      }
+    },
+    "TM8580": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Accepted Prop. Settlement in Lieu of Chi",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "I9120": {
+      "label": "Imputation of Tm9120",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9120"
+          }
+        ]
+      }
+    },
+    "TM8460": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Custodial Parent to Provide Health Ins."
+        }
+      }
+    },
+    "I9118": {
+      "label": "Imputation of Tm9118",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9118"
+          }
+        ]
+      }
+    },
+    "TM8588": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Did Not Pursue Award"
+        }
+      }
+    },
+    "I9116": {
+      "label": "Imputation of Tm9116",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9116"
+          }
+        ]
+      }
+    },
+    "TM8468": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Other"
+        }
+      }
+    },
+    "TM8586": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Do Not Want Child Support"
+        }
+      }
+    },
+    "TM8466": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "None",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "I9114": {
+      "label": "Imputation of Tm9114",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9114"
+          }
+        ]
+      }
+    },
+    "TM8584": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Do Not Want Child Support"
+        }
+      }
+    },
+    "TM9002I": {
+      "label": "Imputation of Tm9002",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9002I"
+          }
+        ]
+      }
+    },
+    "TM8464": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Child Support Payments to Include Cash M",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8582": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Accepted Prop. Settlement in Lieu of Chi"
+        }
+      }
+    },
+    "TM9026I": {
+      "label": "Imputation of Tm9026",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM9026I"
+        }
+      }
+    },
+    "TM8462": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Noncustodial Parent to Pay Medical Costs"
+        }
+      }
+    },
+    "TM8570": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Unable to Locate Parent"
+        }
+      }
+    },
+    "I9130": {
+      "label": "Imputation of Tm9130",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9130"
+          }
+        ]
+      }
+    },
+    "IM3440": {
+      "label": "Imputation of Tm8434 Thru Tm8440",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM3440"
+          }
+        ]
+      }
+    },
+    "TM8926I": {
+      "label": "Imputation of Tm8926",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8926I"
+          }
+        ]
+      }
+    },
+    "TM8902I": {
+      "label": "Imputation of Tm8902",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8902I"
+          }
+        ]
+      }
+    },
+    "IM5868": {
+      "label": "Imputation of Tm8458 Thru Tm8468",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM5868"
+          }
+        ]
+      }
+    },
+    "TM8458": {
+      "label": "What Kinds of Provisions for Health Care",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Noncustodial Parent to Provide Health In"
+        }
+      }
+    },
+    "I9129": {
+      "label": "Imputation of Tm9129",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9129"
+          }
+        ]
+      }
+    },
+    "TM8456": {
+      "label": "During the Past 12 Mths., How Many Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "3": "Some",
+          "2": "Most",
+          "4": "None",
+          "1": "All"
+        }
+      }
+    },
+    "I9128": {
+      "label": "Imputation of Tm9128",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9128"
+          }
+        ]
+      }
+    },
+    "TM8578": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Final Agreement Pending",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "I9127": {
+      "label": "Imputation of Tm9127",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9127"
+          }
+        ]
+      }
+    },
+    "I9126": {
+      "label": "Imputation of Tm9126",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9126"
+          }
+        ]
+      }
+    },
+    "TM8454": {
+      "label": "How Regularly Are Child Support Payments",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "4": "None of the time",
+          "1": "All of the time",
+          "3": "Some of the time",
+          "2": "Most of the time"
+        }
+      }
+    },
+    "TM8576": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Final Agreement Pending"
+        }
+      }
+    },
+    "I9124": {
+      "label": "Imputation of Tm9124",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9124"
+          }
+        ]
+      }
+    },
+    "TM8452": {
+      "label": "How Are the Payments Now Rec. Are They R",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "03": "Through the Welfare or Child Support Age",
+          "01": "Directly From the Other Parent",
+          "02": "Through a Court",
+          "04": "Some Other Method",
+          "00": "Not applicable"
+        }
+      }
+    },
+    "TM8574": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Father Unable to Pay"
+        }
+      }
+    },
+    "I9122": {
+      "label": "Imputation of Tm9122",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9122"
+          }
+        ]
+      }
+    },
+    "TM8450": {
+      "label": "What Is the Total Amt. That _ Actually R",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "28802",
+            "description": "Continuous values of TM8450"
+          }
+        ]
+      }
+    },
+    "TM8572": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Father Unable to Pay"
+        }
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "4",
+            "description": "Continuous values of ROTATION"
+          }
+        ]
+      }
+    },
+    "TM8482": {
+      "label": "What Is the Total Amt. of Time the Oldes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8482"
+          }
+        ]
+      }
+    },
+    "TM8480": {
+      "label": "What Is the Total Amt. of Time the Oldes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "52",
+            "description": "Continuous values of TM8480"
+          }
+        ]
+      }
+    },
+    "TM8008": {
+      "label": "During the Time That _ Has Generally Wor",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Full Time",
+          "2": "Part Time",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8006": {
+      "label": "Since Yr. Entered in Tm8002 How Many Yrs",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "240",
+            "description": "Continuous values of TM8006"
+          }
+        ]
+      }
+    },
+    "I9138": {
+      "label": "Imputation of Tm9138",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9138"
+          }
+        ]
+      }
+    },
+    "TM8488": {
+      "label": "Where Does the Other Parent for This Agr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "Same State Different County /city",
+          "01": "Same County/city",
+          "00": "Not applicable",
+          "04": "Other Parent Now Deceased",
+          "03": "Different State",
+          "05": "Other"
+        }
+      }
+    },
+    "TM8004": {
+      "label": "What Is the Main Reason _ Never Worked S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "04": "Couldnt Find Work",
+          "05": "Didnt Want to Work",
+          "02": "Ill or disabled",
+          "06": "Other Skip to Chk. Item T2 Tm8400",
+          "01": "Taking Care of Home or Fam.",
+          "03": "Going to school",
+          "00": "Not applicable"
+        }
+      }
+    },
+    "I9136": {
+      "label": "Imputation of Tm9136",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of I9136"
+          }
+        ]
+      }
+    },
+    "TM8486": {
+      "label": "What Is the Total Amt. of Time the Oldes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8486"
+          }
+        ]
+      }
+    },
+    "TM8002": {
+      "label": "In What Yr. Did _ First Work Six Straigh",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8002"
+          }
+        ]
+      }
+    },
+    "TM9016I": {
+      "label": "Imputation of Tm9016",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9016I"
+          }
+        ]
+      }
+    },
+    "TM9004I": {
+      "label": "Imputation of Tm9004",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9004I"
+          }
+        ]
+      }
+    },
+    "TM8000": {
+      "label": "Is _ 21 Yrs. of Age or Over",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Chk. Item T2",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8484": {
+      "label": "What Is the Total Amt. of Time the Oldes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8484"
+          }
+        ]
+      }
+    },
+    "IMP8702": {
+      "label": "Imputation of Tm8702",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8702"
+          }
+        ]
+      }
+    },
+    "TM8470": {
+      "label": "What Child Custody Ar",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Joint Legal with father physical custody",
+          "2": "Joint legal with mother physical custody",
+          "4": "Mother legal and physical custody",
+          "0": "Not applicable",
+          "6": "Split custody",
+          "7": "Other",
+          "1": "Joint legal and physical custody",
+          "5": "Father legal and physical custody"
+        }
+      }
+    },
+    "TM8592": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Other",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IMP8704": {
+      "label": "Imputation of Tm8704",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8704"
+          }
+        ]
+      }
+    },
+    "TM8590": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Did Not Pursue Award"
+        }
+      }
+    },
+    "IMP8700": {
+      "label": "Imputation of Tm8700",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8700"
+          }
+        ]
+      }
+    },
+    "TM8928I": {
+      "label": "Imputation of Tm8928",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8928I"
+          }
+        ]
+      }
+    },
+    "TM8904I": {
+      "label": "Imputation of Tm8904",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8904I"
+          }
+        ]
+      }
+    },
+    "TM8478": {
+      "label": "What Is the Total Amt. of Time the Oldes",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1991",
+            "description": "Continuous values of TM8478"
+          }
+        ]
+      }
+    },
+    "TM8476": {
+      "label": "Did All the Chld. Visit the Other Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8598": {
+      "label": "Oldest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Same County/city"
+        }
+      }
+    },
+    "IMP8706": {
+      "label": "Imputation of Tm8706",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8706"
+          }
+        ]
+      }
+    },
+    "TM8474": {
+      "label": "Chk. Item T3 Is More Than One Child Cov.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8478"
+        }
+      }
+    },
+    "TM8596": {
+      "label": "Youngest Child",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Same County/city",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "IMP8708": {
+      "label": "Imputation of Tm8708",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8708"
+          }
+        ]
+      }
+    },
+    "TM8472": {
+      "label": "Does the Child Support Agreement Specify",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8594": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Other",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8548": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Enforce Support Order",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8428": {
+      "label": "What Was the Dollar Amt. of That Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "20",
+            "description": "Continuous values of TM8428"
+          }
+        ]
+      }
+    },
+    "TM8546": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Establish Medical Support",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8426": {
+      "label": "What Was the Dollar Amt. of That Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "18000",
+            "description": "Continuous values of TM8426"
+          }
+        ]
+      }
+    },
+    "TM8544": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Establish Support Obligation",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM9018I": {
+      "label": "Imputation of Tm9018",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9018I"
+          }
+        ]
+      }
+    },
+    "TM8424": {
+      "label": "What Was the Dollar Amt. of That Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3000",
+            "description": "Continuous values of TM8424"
+          }
+        ]
+      }
+    },
+    "TM8542": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Establish Paternity/maternity",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8422": {
+      "label": "What Was the Dollar Amt. of That Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3800",
+            "description": "Continuous values of TM8422"
+          }
+        ]
+      }
+    },
+    "TM8540": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Locate the Other Parent",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8420": {
+      "label": "What Was the Dollar Amt. of That Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1990",
+            "description": "Continuous values of TM8420"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "82",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "TM8918I": {
+      "label": "Imputation of Tm8918",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8918I"
+          }
+        ]
+      }
+    },
+    "TM8906I": {
+      "label": "Imputation of Tm8906",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8906I"
+          }
+        ]
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "21531",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "IM2436": {
+      "label": "Imputation of Tm8524 Thru Tm8536",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IM2436"
+          }
+        ]
+      }
+    },
+    "TM8418": {
+      "label": "In What Yr. Was This Agreement First Rea",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8418"
+          }
+        ]
+      }
+    },
+    "TM8416": {
+      "label": "Which Chld. Living Here Are Cov. by That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Pers. No. Unknown",
+          "000": "Not Applicable"
+        }
+      }
+    },
+    "TM8538": {
+      "label": "Did _ Receive Any Help From the Agency",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to Tm8554",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8414": {
+      "label": "Which Chld. Living Here Are Cov. by That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Not Applicable",
+          "999": "Pers. No. Unknown"
+        }
+      }
+    },
+    "TM8898": {
+      "label": "Chk. Item T10 Are Two or More Conditions",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8902"
+        }
+      }
+    },
+    "TM8536": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Other",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8896": {
+      "label": "I Have Recorded That _ Has Difficulty Wi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8896"
+          }
+        ]
+      }
+    },
+    "TM8412": {
+      "label": "Which Chld. Living Here Are Cov. by That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Not Applicable",
+          "999": "Pers. No. Unknown"
+        }
+      }
+    },
+    "TM8534": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Modify An Order"
+        }
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8410": {
+      "label": "Which Chld. Living Here Are Cov. by That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "700",
+            "description": "Continuous values of TM8410"
+          }
+        ]
+      }
+    },
+    "TM8894": {
+      "label": "I Have Recorded That _ Has Difficulty Wi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8894"
+          }
+        ]
+      }
+    },
+    "TM8532": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Enforce Support Order",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8411": {
+      "label": "Which Chld. Living Here Are Cov. by That",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8411"
+        }
+      }
+    },
+    "TM8892": {
+      "label": "I Have Recorded That _ Has Difficulty Wi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8892"
+          }
+        ]
+      }
+    },
+    "TM8530": {
+      "label": "What Type of Help Did _ Ask For",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Establish Medical Support"
+        }
+      }
+    },
+    "TM8890": {
+      "label": "Chk. Item T9 Is Has Difficulty Marked in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appicable",
+          "2": "No Skip to Tm8902"
+        }
+      }
+    },
+    "TM8568": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Unable to Locate Parent"
+        }
+      }
+    },
+    "TM8448": {
+      "label": "What Is the Total Amt. That _ Was Suppos",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "90000",
+            "description": "Continuous values of TM8448"
+          }
+        ]
+      }
+    },
+    "TM8566": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Paternity Not Est.",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM8446": {
+      "label": "Why Not",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Other Skip to Tm8458",
+          "2": "Other Parent Not Working Skip to Tm8458",
+          "0": "Not applicable",
+          "1": "Chld. Over the Age Limit Skip to Tm8458",
+          "3": "Other Parent Deceased Skip to Tm8458"
+        }
+      }
+    },
+    "TM8564": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Paternity Not Est."
+        }
+      }
+    },
+    "TM9008I": {
+      "label": "Imputation of Tm9008",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM9008I"
+          }
+        ]
+      }
+    },
+    "TM8444": {
+      "label": "Were Any Payments Due in the Last 12 Mth",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes Skip to Tm8448",
+          "2": "No"
+        }
+      }
+    },
+    "TM8562": {
+      "label": "Oldest Child Why Were Child Support Paym",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Pers. No. Unknown",
+          "000": "Not Applicable"
+        }
+      }
+    },
+    "TM8442": {
+      "label": "What Was the Dollar Amt. for the Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8442"
+          }
+        ]
+      }
+    },
+    "TM8560": {
+      "label": "Youngest Child Why Were Child Support Pa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Pers. No. Unknown",
+          "000": "Not Applicable"
+        }
+      }
+    },
+    "TM8440": {
+      "label": "What Was the Dollar Amt. for the Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "5284",
+            "description": "Continuous values of TM8440"
+          }
+        ]
+      }
+    },
+    "TM8908I": {
+      "label": "Imputation of Tm8908",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8908I"
+          }
+        ]
+      }
+    },
+    "TM8438": {
+      "label": "What Was the Dollar Amt. for the Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2275",
+            "description": "Continuous values of TM8438"
+          }
+        ]
+      }
+    },
+    "TM8436": {
+      "label": "What Was the Dollar Amt. for the Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2060",
+            "description": "Continuous values of TM8436"
+          }
+        ]
+      }
+    },
+    "TM8558": {
+      "label": "Do All of _s Chld. Without a Child Suppo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not applicable",
+          "2": "No"
+        }
+      }
+    },
+    "TM8434": {
+      "label": "What Was the Dollar Amt. for the Agreeme",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1990",
+            "description": "Continuous values of TM8434"
+          }
+        ]
+      }
+    },
+    "TM8556": {
+      "label": "How Many Chld. Living in _s Hshld. Do No",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "700",
+            "description": "Continuous values of TM8556"
+          }
+        ]
+      }
+    },
+    "TM8432": {
+      "label": "In What Yr. Was the Amt. Last Changed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8432"
+          }
+        ]
+      }
+    },
+    "TM8554": {
+      "label": "Chk. Item T5 Are All Chld. in Hshld. Cov",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes Skip to Tm8620",
+          "0": "Not applicable",
+          "2": "No"
+        }
+      }
+    },
+    "TM8430": {
+      "label": "Has the Dollar Amt. Ever Been Changed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No Skip to Tm8444"
+        }
+      }
+    },
+    "TM8552": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Other"
+        }
+      }
+    },
+    "TM8550": {
+      "label": "What Kind of Help Did _ Receive Last Con",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Modify An Order",
+          "0": "Not applicable"
+        }
+      }
+    }
+  }
+}

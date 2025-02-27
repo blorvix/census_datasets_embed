@@ -1,0 +1,126 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "DOM": {
+      "label": "Net Domestic Migration of total Pop",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Geographic Summary Level",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STNAME": {
+      "label": "State name",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GQ": {
+      "label": "Group quarters pop total",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DEATHS": {
+      "label": "Total Deaths",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_": {
+      "label": "Estimate Date",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Census Division Code",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Census Region Code",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DENSITY": {
+      "label": "Population Density",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POP": {
+      "label": "Resident population total",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RESIDUAL": {
+      "label": "Final residual for total pop",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CTYNAME": {
+      "label": "County name",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NIM": {
+      "label": "Net International Migration",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BIRTHS": {
+      "label": "Total Births",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

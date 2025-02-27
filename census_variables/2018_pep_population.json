@@ -1,0 +1,203 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "MDIV": {
+      "label": "Metropolitan Division code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_CODE": {
+      "label": "Date",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "13": "7/1/2020 population estimate",
+          "12": "7/1/2019 population estimate",
+          "11": "7/1/2018 population estimate",
+          "10": "7/1/2017 population estimate",
+          "9": "7/1/2016 population estimate",
+          "8": "7/1/2015 population estimate",
+          "7": "7/1/2014 population estimate",
+          "6": "7/1/2013 population estimate",
+          "5": "7/1/2012 population estimate",
+          "4": "7/1/2011 population estimate",
+          "3": "7/1/2010 population estimate",
+          "2": "4/1/2010 population estimates base",
+          "1": "4/1/2010 Census Population"
+        }
+      }
+    },
+    "COUSUB": {
+      "label": "Minor Civil Division FIPS code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Summary Level",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "Geographic Name",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Place FIPS code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FUNCSTAT": {
+      "label": "Functional Status Code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Census Division Code",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "9": "Pacific",
+          "8": "Mountain",
+          "7": "West South Central",
+          "6": "East South Central",
+          "5": "South Atlantic",
+          "4": "West North Central",
+          "3": "East North Central",
+          "2": "Middle Atlantic",
+          "1": "New England"
+        }
+      }
+    },
+    "REGION": {
+      "label": "Census Regional Code",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "West",
+          "3": "South",
+          "2": "Midwest",
+          "1": "Northeast"
+        }
+      }
+    },
+    "CSA": {
+      "label": "Combined Statistical Area code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DENSITY": {
+      "label": "Population density as of July 1 of the vintage year only",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POP": {
+      "label": "Population",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Metropolitan Statistical Area/Micropolitan Statistical Area code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRIMGEOFLAG": {
+      "label": "Primitive Geography Flag(1=Yes; 0=No)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_DESC": {
+      "label": "Description of DATE values",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "N": "Civilian noninstitutionalized population",
+          "C": "Civilian population",
+          "H": "Household population",
+          "P": "Resident population plus Armed Forces overseas",
+          "R": "Resident population"
+        }
+      }
+    },
+    "CONCIT": {
+      "label": "Consolidated city FIPS code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

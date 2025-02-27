@@ -1,0 +1,194 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "PCTFEMHHPOV": {
+      "label": "People in families, Families with female householder- no spouse present, Below poverty level, Percentage",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "float",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "PCTPOV": {
+      "label": "All people, Below poverty level, Percentage",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "float",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "PCTFAMPOV": {
+      "label": "People in families, All families, Below poverty level, Percentage",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "float",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "FAMPOV": {
+      "label": "People in families, All families, Below poverty level, Count",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "POP": {
+      "label": "All people, Total",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "string",
+      "group": "HSTPOV2",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "UNRELPOV": {
+      "label": "Unrelated individuals, Below poverty level, Count",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNREL": {
+      "label": "Unrelated individuals, Total",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "FAM": {
+      "label": "People in families, All families, Total",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "FEMHH": {
+      "label": "People in families, Families with female householder- no spouse present, Total",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "PCTUNRELPOV": {
+      "label": "Unrelated individuals, Below poverty level, Percentage",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "float",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "FEMHHPOV": {
+      "label": "People in families, Families with female householder- no spouse present, Below poverty level, Count",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "FOOTNOTES": {
+      "label": "Footnotes",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "string",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "POV": {
+      "label": "All people, Below poverty level, Count",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0
+    },
+    "RACE": {
+      "label": "Race",
+      "concept": "Poverty Status of People by Family Relationship, 1959-2023",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "HSTPOV2",
+      "limit": 0,
+      "attributes": "RACE_LABEL",
+      "values": {
+        "item": {
+          "1": "All races",
+          "10": "Asian alone",
+          "11": "Asian and Pacific Islander",
+          "12": "Hispanic",
+          "13": "American Indian and Alaska Native alone or in combination",
+          "14": "American Indian and Alaska Native alone",
+          "15": "American Indian and Alaska Native",
+          "16": "Two or More Races",
+          "2": "White alone",
+          "3": "White",
+          "4": "White alone, not Hispanic",
+          "5": "White, not Hispanic",
+          "6": "Black alone or in combination",
+          "7": "Black alone",
+          "8": "Black",
+          "9": "Asian alone or in combination"
+        }
+      }
+    }
+  }
+}

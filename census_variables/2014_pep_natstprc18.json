@@ -1,0 +1,72 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "SUMLEV": {
+      "label": "Summary level",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POPEST18PLUS2014": {
+      "label": "7/1/2014 resident population estimate age 18 years and over",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PCNT_POPEST18PLU": {
+      "label": "7/1/2014 percent of state population age 18 years and over",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POPESTIMATE2014": {
+      "label": "7/1/2014 resident population estimate",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STNAME": {
+      "label": "State name",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Division name",
+      "concept": "Estimate Variables",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Region name",
+      "concept": "Estimate Variables",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

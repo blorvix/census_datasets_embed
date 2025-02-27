@@ -1,0 +1,162 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRED0_PF_PR": {
+      "label": "Percent, 0 components of social vulnerability, vs. Puerto Rico",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    },
+    "PRED3_PE": {
+      "label": "Percent, 3+ components of social vulnerability",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "float",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "PRED3_PM"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRED12_PF_PR": {
+      "label": "Percent, 1-2 components of social vulnerability, vs. Puerto Rico",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    },
+    "PRED3_PF_PR": {
+      "label": "Percent, 3+ components of social vulnerability, vs. Puerto Rico",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRED0_PF_US": {
+      "label": "Percent, 0 components of social vulnerability, vs. United States",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic Area Name",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "string",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "NAME,WATER_TRACT"
+    },
+    "TRACT": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRED3_E": {
+      "label": "Estimate, 3+ components of social vulnerability",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "PRED3_M"
+    },
+    "PRED0_PE": {
+      "label": "Percent, 0 components of social vulnerability",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "float",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "PRED0_PM"
+    },
+    "PRED12_PE": {
+      "label": "Percent, 1-2 components of social vulnerability",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "float",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "PRED12_PM"
+    },
+    "PRED3_PF_US": {
+      "label": "Percent, 3+ components of social vulnerability, vs. United States",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    },
+    "PRED12_E": {
+      "label": "Estimate, 1-2 components of social vulnerability",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "PRED12_M"
+    },
+    "POPUNI": {
+      "label": "Population Universe",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    },
+    "PRED0_E": {
+      "label": "Estimate, 0 components of social vulnerability",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0,
+      "attributes": "PRED0_M"
+    },
+    "PRED12_PF_US": {
+      "label": "Percent, 1-2 components of social vulnerability, vs. United States",
+      "concept": "Community Resilience Estimates for Puerto Rico",
+      "predicateType": "int",
+      "group": "CREPUERTORICO",
+      "limit": 0
+    }
+  }
+}

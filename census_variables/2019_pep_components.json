@@ -1,0 +1,192 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "NETMIG": {
+      "label": "Net migration in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RDEATH": {
+      "label": "Death rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DEATHS": {
+      "label": "Number of Deaths",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RDOMESTICMIG": {
+      "label": "Net domestic migration rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PERIOD_DESC": {
+      "label": "Description of Period of Change",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RNATURALINC": {
+      "label": "Natural increase rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DOMESTICMIG": {
+      "label": "Net domestic migration in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BIRTHS": {
+      "label": "Number of Births",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RNETMIG": {
+      "label": "Net migration rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "METDIV": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATURALINC": {
+      "label": "Natural increase in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "RESIDUAL": {
+      "label": "Residual for period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INTERNATIONALMIG": {
+      "label": "Net international migration in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RINTERNATIONALMIG": {
+      "label": "Net international migration rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RBIRTH": {
+      "label": "Birth rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PERIOD_CODE": {
+      "label": "Period of Change",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

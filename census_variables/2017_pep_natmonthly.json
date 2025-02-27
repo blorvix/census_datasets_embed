@@ -1,0 +1,107 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "SUMLEV": {
+      "label": "Summary Level",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "All geo names seperated by commas",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MONTHLY": {
+      "label": "Monthly",
+      "concept": "Estimates",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "POP": {
+      "label": "Population",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "concept": "Estimates",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "concept": "Estimates",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE": {
+      "label": "Race",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MONTHLY_DESC": {
+      "label": "Description of MONTHLY values",
+      "concept": "Estimates",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AGE": {
+      "label": "Age",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HISP": {
+      "label": "Hispanic Origin",
+      "concept": "Estimates",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

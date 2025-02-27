@@ -1,0 +1,1083 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "TM9670": {
+      "label": "Amt. Rec. From Tuition Reduct.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9670"
+          }
+        ]
+      }
+    },
+    "TMIFC18": {
+      "label": "Part C Imputation Flag #18 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp. Tm9674",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "TMIFC16": {
+      "label": "Part C Imputation Flag #16 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp. Tm9666",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "TMETCNT": {
+      "label": "No. of Items With Data on This Record",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "19",
+            "description": "Continuous values of TMETCNT"
+          }
+        ]
+      }
+    },
+    "TMIFC17": {
+      "label": "Part C Imputation Flag #17 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9670"
+        }
+      }
+    },
+    "TMIFC14": {
+      "label": "Part C Imputation Flag #14 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp. Tm9658",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "TMIFC15": {
+      "label": "Part C Imputation Flag #15 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9662"
+        }
+      }
+    },
+    "TMIFC3": {
+      "label": "Part C Imputation Flag #03 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imputed"
+        }
+      }
+    },
+    "RRP": {
+      "label": "Ed. Relationship to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "TMIFC4": {
+      "label": "Part C Imputation Flag #04 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imputed"
+        }
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "TMIFC1": {
+      "label": "Part C Imputation Flag #01 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imputed"
+        }
+      }
+    },
+    "TMIFC2": {
+      "label": "Part C Imputation Flag #02 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imputed"
+        }
+      }
+    },
+    "TM9638": {
+      "label": "Amt. Rec. From Coll. Work Study Program",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9638"
+          }
+        ]
+      }
+    },
+    "TM9636": {
+      "label": "Coll. Work Study Program",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Applicable",
+          "1": "Rec."
+        }
+      }
+    },
+    "TMIFC12": {
+      "label": "Part C Imputation Flag #12 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9650"
+        }
+      }
+    },
+    "TMIFC13": {
+      "label": "Part C Imputation Flag #13 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp. Tm9654",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "TM9634": {
+      "label": "Amt. Rec. From Veterans Pgms.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9634"
+          }
+        ]
+      }
+    },
+    "TMIFC9": {
+      "label": "Part C Imputation Flag #09 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9638"
+        }
+      }
+    },
+    "TMIFC10": {
+      "label": "Part C Imputation Flag #10 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9642"
+        }
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999746757",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "TMIFC11": {
+      "label": "Part C Imputation Flag #11 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9646"
+        }
+      }
+    },
+    "TM9632": {
+      "label": "Other Veterans Ed. Asst. Pgms. Include S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Applicable"
+        }
+      }
+    },
+    "TMIFC7": {
+      "label": "Part C Imputation Flag #07 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imp. Tm9630",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "TM9674": {
+      "label": "Amt. of Ed. Asst. From Other Src.s",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9674"
+          }
+        ]
+      }
+    },
+    "TMIFC8": {
+      "label": "Part C Imputation Flag #08 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not imputed",
+          "1": "Imp. Tm9634"
+        }
+      }
+    },
+    "TM9630": {
+      "label": "Amt. Rec. From Gi Bill",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9630"
+          }
+        ]
+      }
+    },
+    "TMIFC5": {
+      "label": "Part C Imputation Flag #05 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imputed",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "TM9672": {
+      "label": "Anything Else Other Than Asst. From Rela",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Applicable",
+          "1": "Rec."
+        }
+      }
+    },
+    "TMIFC6": {
+      "label": "Part C Imputation Flag #06 Imputation Fl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Imputed",
+          "0": "Not imputed"
+        }
+      }
+    },
+    "ITEM36B": {
+      "label": "CC Item 36b Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "03": "Temply. Absent",
+          "22": "Deleted Sample Adjust., Error",
+          "12": "Under Construction, Not Ready",
+          "21": "Condemned",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "06": "Other Type a Type B Nonintv. Wave 1",
+          "10": "Occ. by Pers. With Ure",
+          "13": "Converted to Temp. Bus. or Storage",
+          "04": "Refused",
+          "16": "Entire HH Institutionalized or Temply. I",
+          "09": "Vacant",
+          "14": "Unocc. Site for Mobile Home, Trailer, or",
+          "25": "Moved within country beyond limit",
+          "15": "Permit Granted, Construction Not Started",
+          "05": "Unable To Locate",
+          "20": "Merged",
+          "01": "Intved. Type a Noninterview",
+          "02": "No One Home",
+          "26": "All Sample Pers. Relisted on New CCs",
+          "17": "Demolished",
+          "18": "House or Trailer Moved",
+          "19": "Converted to Perm. Bus. or Storage",
+          "11": "Unfit or To Be Demolished"
+        }
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "53",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "24",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat. If Marital Stat. Changed D",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "5": "Separated",
+          "0": "Not a Sample Pers. in This",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "PNPT": {
+      "label": "Prson No. of Parent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "20269",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "TM9628": {
+      "label": "The Gi Bill",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Applicable"
+        }
+      }
+    },
+    "PNUM": {
+      "label": "Ed. Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "508",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "TM9626": {
+      "label": "Any Type of Ed. Asst. Rec.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM9626"
+        }
+      }
+    },
+    "TMTEDFIN": {
+      "label": "Total Amt. of Ed. Asst. During the Past",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "7000": "Amt. $6000 or More",
+          "4500": "Amt. From $4000 $4999",
+          "5500": "Amt. From $5000 $5999"
+        }
+      }
+    },
+    "TM9668": {
+      "label": "A Tuition Reduct.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Applicable",
+          "1": "Rec."
+        }
+      }
+    },
+    "TM9624": {
+      "label": "What Was the Total Cost for Room and Boa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "9000",
+            "description": "Continuous values of TM9624"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of  Reg",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM9666": {
+      "label": "Amt. of Fellowship or Scholarship",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9666"
+          }
+        ]
+      }
+    },
+    "TM9622": {
+      "label": "Did_live Away From Home While Attending",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No Skip to 9626",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM9664": {
+      "label": "A Fellowship or Scholarship",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Applicable",
+          "1": "Rec."
+        }
+      }
+    },
+    "TM9620": {
+      "label": "What Was the Total Cost Of_s Books and S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "8000",
+            "description": "Continuous values of TM9620"
+          }
+        ]
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM9662": {
+      "label": "Amt. of Emp. Asst.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9662"
+          }
+        ]
+      }
+    },
+    "TM9660": {
+      "label": "Emp. Asst.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Applicable",
+          "1": "Rec."
+        }
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "4",
+            "description": "Continuous values of ROTATION"
+          }
+        ]
+      }
+    },
+    "SEX": {
+      "label": "Sex of This Pers. Ed. and Imputed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code From the Mst/grin File",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "63",
+            "description": "Continuous values of STATE"
+          }
+        ]
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. Within Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "5",
+            "max": "5",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "TM9618": {
+      "label": "During the Past Yr. What Was the Total C",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "07000": "Amt. From $6000 or More",
+          "04500": "Amt. From $4000 to $4999",
+          "05500": "Amt. From $5000 to $5999"
+        }
+      }
+    },
+    "TM9616": {
+      "label": "Was_enrolled in a Pub. School",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes End of Interview",
+          "2": "No",
+          "0": "Not applicable"
+        }
+      }
+    },
+    "TM9614": {
+      "label": "Chk. Item T37 Was_enrolled in Elementary",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No Skip to Tm9618",
+          "0": "Not applicable",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM9658": {
+      "label": "Amt. Rec. From Jtpa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9658"
+          }
+        ]
+      }
+    },
+    "TM9612": {
+      "label": "At What Level or Grade Was_ Enrolledif E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Elementary Grades 18",
+          "03": "Coll. Yr. 1",
+          "04": "Coll. Yr. 2",
+          "10": "Technical school",
+          "09": "Vocational School",
+          "12": "Other or Dk",
+          "08": "Coll. Yr. 6+",
+          "05": "Coll. Yr. 3",
+          "11": "Bus. School",
+          "00": "Not applicable",
+          "02": "High School Grades 912",
+          "06": "Coll. Yr. 4",
+          "07": "Coll. Yr. 5"
+        }
+      }
+    },
+    "TM9656": {
+      "label": "A Jtpa Training Program",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Applicable"
+        }
+      }
+    },
+    "TM9610": {
+      "label": "Was _ Enrolled in School Anytime During",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not applicable",
+          "1": "Yes",
+          "2": "No End of Interview"
+        }
+      }
+    },
+    "TM9654": {
+      "label": "Amt. Rec. From a Guaranteed Stud. Loan",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9654"
+          }
+        ]
+      }
+    },
+    "TM9652": {
+      "label": "A Guaranteed Stud. Loan",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Marked As Rec. or Not Applicable",
+          "1": "Rec."
+        }
+      }
+    },
+    "TM9650": {
+      "label": "Amt. Rec. From a Nat. Direct Stud. Loan",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9650"
+          }
+        ]
+      }
+    },
+    "AGE": {
+      "label": "Ed. and Imp. Age As of Last Birthday.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Less Than 1 Full Year",
+          "001": "1 Yr. Etc."
+        }
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "4.933217E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "ADDID": {
+      "label": "Add. Id This Fld. Differentiates Househo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "53",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "TM9648": {
+      "label": "A Nat. Direct Stud. Loan",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Applicable"
+        }
+      }
+    },
+    "TM9646": {
+      "label": "Amt. Rec. From Seog",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9646"
+          }
+        ]
+      }
+    },
+    "RACE": {
+      "label": "Race of This Pers. Ed. and Imputed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "TM9644": {
+      "label": "A Supp. Ed. Opp. Grantseog",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Applicable"
+        }
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 15",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM9642": {
+      "label": "Amt. Rec. From Pell Grant",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM9642"
+          }
+        ]
+      }
+    },
+    "TM9640": {
+      "label": "A Pell Grant",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Rec.",
+          "0": "Not Marked As Rec. or Not Applicable"
+        }
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    }
+  }
+}

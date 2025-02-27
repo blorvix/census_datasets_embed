@@ -1,0 +1,235 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "NETMIG": {
+      "label": "Net migration in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Summary Level",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RDEATH": {
+      "label": "Death rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DEATHS": {
+      "label": "Deaths in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RDOMESTICMIG": {
+      "label": "Net domestic migration rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Census Division Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "9": "Pacific",
+          "8": "Mountain",
+          "7": "West South Central",
+          "6": "East South Central",
+          "5": "South Atlantic",
+          "4": "West North Central",
+          "3": "East North Central",
+          "2": "Middle Atlantic",
+          "1": "New England"
+        }
+      }
+    },
+    "CSA": {
+      "label": "Combined Statistical Area code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PERIOD_DESC": {
+      "label": "Description of PERIOD values",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RNATURALINC": {
+      "label": "Natural increase rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DOMESTICMIG": {
+      "label": "Net domestic migration in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "N": "Civilian noninstitutionalized population",
+          "C": "Civilian population",
+          "H": "Household population",
+          "P": "Resident population plus Armed Forces overseas",
+          "R": "Resident population"
+        }
+      }
+    },
+    "BIRTHS": {
+      "label": "Births in period",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MDIV": {
+      "label": "Metropolitan Division code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "Geographic Name",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RNETMIG": {
+      "label": "Net migration rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Census Regional Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "West",
+          "3": "South",
+          "2": "Midwest",
+          "1": "Northeast"
+        }
+      }
+    },
+    "NATURALINC": {
+      "label": "Natural increase in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RESIDUAL": {
+      "label": "Residual for period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INTERNATIONALMIG": {
+      "label": "Net international migration in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CBSA": {
+      "label": "Metropolitan Statistical Area/Micropolitan Statistical Area code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RINTERNATIONALMIG": {
+      "label": "Net international migration rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RBIRTH": {
+      "label": "Birth rate in period",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PERIOD_CODE": {
+      "label": "Period",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "11": "7/1/2019 to 6/30/2020",
+          "10": "7/1/2018 to 6/30/2019",
+          "9": "7/1/2017 to 6/30/2018",
+          "8": "7/1/2016 to 6/30/2017",
+          "7": "7/1/2015 to 6/30/2016",
+          "6": "7/1/2014 to 6/30/2015",
+          "5": "7/1/2013 to 6/30/2014",
+          "4": "7/1/2012 to 6/30/2013",
+          "3": "7/1/2011 to 6/30/2012",
+          "2": "7/1/2010 to 6/30/2011",
+          "1": "4/1/2010 to 6/30/2010"
+        }
+      }
+    }
+  }
+}

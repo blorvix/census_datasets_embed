@@ -1,0 +1,2158 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "PL001004": {
+      "label": "Total!!Population of one race!!Black or African American alone",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001003": {
+      "label": "Total!!Population of one race!!White alone",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001002": {
+      "label": "Total!!Population of one race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001001": {
+      "label": "Total",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL004073": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of six races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004070": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004072": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of six races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004071": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL001011": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Black or African American",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001010": {
+      "label": "Total!!Population of two or more races!!Population of two races",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "GEOVARIANT": {
+      "label": "Geographic variant",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001015": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001014": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001013": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001012": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; American Indian and Alaska Native",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001008": {
+      "label": "Total!!Population of one race!!Some other race alone",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001007": {
+      "label": "Total!!Population of one race!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "CD106": {
+      "label": "Congressional District (106th)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001006": {
+      "label": "Total!!Population of one race!!Asian alone",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001005": {
+      "label": "Total!!Population of one race!!American Indian and Alaska Native alone",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001009": {
+      "label": "Total!!Population of two or more races",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL004059": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004056": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004055": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004058": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004057": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004052": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004051": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004054": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004053": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004050": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004067": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004066": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004069": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004068": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004063": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004062": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004065": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004064": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Place (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL004061": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004060": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL001044": {
+      "label": "Total!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002013": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Black or African American",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001043": {
+      "label": "Total!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002014": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; American Indian and Alaska Native",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002015": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001042": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002016": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001041": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001048": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001047": {
+      "label": "Total!!Population of two or more races!!Population of four races",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002010": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Some other race alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001046": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002011": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "SLDL": {
+      "label": "State Legislative District (Lower Chamber)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001045": {
+      "label": "Total!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002012": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "SLDU": {
+      "label": "State Legislative District (Upper Chamber)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001040": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001039": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001038": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002006": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Black or African American alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002007": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!American Indian and Alaska Native alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002008": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Asian alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002009": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001055": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002024": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002025": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001054": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001053": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002026": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001052": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002027": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002020": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001059": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001058": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002021": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002022": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001057": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002023": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001056": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001051": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001050": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001049": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002017": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002018": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; American Indian and Alaska Native",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002019": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001022": {
+      "label": "Total!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001021": {
+      "label": "Total!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001020": {
+      "label": "Total!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "COUSUB": {
+      "label": "County Subdivision (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001026": {
+      "label": "Total!!Population of two or more races!!Population of three races",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001025": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001024": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001023": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001019": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001018": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001017": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001016": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; American Indian and Alaska Native",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "CONCIT": {
+      "label": "Consolidated City",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001033": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002002": {
+      "label": "Total!!Hispanic or Latino",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001032": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002003": {
+      "label": "Total!!Not Hispanic or Latino",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002004": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001031": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001030": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002005": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!White alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001037": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001036": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001035": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001034": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002001": {
+      "label": "Total",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001029": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001028": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; Asian",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001027": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; American Indian and Alaska Native",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "ANRC": {
+      "label": "Alaska Native Regional Corporation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL002057": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003025": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003026": {
+      "label": "Total!!Population of two or more races!!Population of three races",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002058": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003027": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; American Indian and Alaska Native",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002059": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003028": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003021": {
+      "label": "Total!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002053": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002054": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003022": {
+      "label": "Total!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002055": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003023": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002056": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003024": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002050": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002051": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003020": {
+      "label": "Total!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002052": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "BLKGRP": {
+      "label": "Census Block Group",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIANHH": {
+      "label": "American Indian Area/Alaska Native Area/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL003018": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003019": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003036": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002068": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL004005": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!White alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "SUBMCD": {
+      "label": "Sub-Minor Civil Division (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL003037": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002069": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL004004": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003038": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004007": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!American Indian and Alaska Native alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003039": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004006": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Black or African American alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL002064": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003032": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004001": {
+      "label": "Total",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL002065": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003033": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004003": {
+      "label": "Total!!Not Hispanic or Latino",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL002066": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003034": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003035": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004002": {
+      "label": "Total!!Hispanic or Latino",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL002067": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002060": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002061": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002062": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003030": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002063": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003031": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003029": {
+      "label": "Total!!Population of two or more races!!Population of three races!!White; Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL001066": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002035": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003003": {
+      "label": "Total!!Population of one race!!White alone",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003004": {
+      "label": "Total!!Population of one race!!Black or African American alone",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002036": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001065": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001064": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002037": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003005": {
+      "label": "Total!!Population of one race!!American Indian and Alaska Native alone",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003006": {
+      "label": "Total!!Population of one race!!Asian alone",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL001063": {
+      "label": "Total!!Population of two or more races!!Population of five races",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002038": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002031": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002032": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001069": {
+      "label": "Total!!Population of two or more races!!Population of five races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002033": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001068": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL003001": {
+      "label": "Total",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "VTD": {
+      "label": "Voting District",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL001067": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002034": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003002": {
+      "label": "Total!!Population of one race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002030": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001062": {
+      "label": "Total!!Population of two or more races!!Population of four races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001061": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001060": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL002028": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002029": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; American Indian and Alaska Native",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002046": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003014": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002047": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003015": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002048": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003016": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; American Indian and Alaska Native",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003017": {
+      "label": "Total!!Population of two or more races!!Population of two races!!Black or African American; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002049": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003010": {
+      "label": "Total!!Population of two or more races!!Population of two races",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002042": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002043": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003011": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Black or African American",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002044": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003012": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; American Indian and Alaska Native",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003013": {
+      "label": "Total!!Population of two or more races!!Population of two races!!White; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002045": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002040": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002041": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL001071": {
+      "label": "Total!!Population of two or more races!!Population of six races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL001070": {
+      "label": "Total!!Population of two or more races!!Population of six races",
+      "concept": "RACE [71]",
+      "predicateType": "int",
+      "group": "PL001",
+      "limit": 0
+    },
+    "PL003007": {
+      "label": "Total!!Population of one race!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002039": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003008": {
+      "label": "Total!!Population of one race!!Some other race alone",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003009": {
+      "label": "Total!!Population of two or more races",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004038": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003069": {
+      "label": "Total!!Population of two or more races!!Population of five races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004037": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004039": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004034": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003065": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004033": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003066": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004036": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003067": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003068": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004035": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004030": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003061": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003062": {
+      "label": "Total!!Population of two or more races!!Population of four races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004032": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003063": {
+      "label": "Total!!Population of two or more races!!Population of five races",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004031": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003064": {
+      "label": "Total!!Population of two or more races!!Population of five races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003060": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL004049": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of four races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004048": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004045": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004044": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004047": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004046": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "BLOCK": {
+      "label": "Census Block",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL004041": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004040": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004043": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004042": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003070": {
+      "label": "Total!!Population of two or more races!!Population of six races",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003071": {
+      "label": "Total!!Population of two or more races!!Population of six races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "AIHHTLI": {
+      "label": "American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL003047": {
+      "label": "Total!!Population of two or more races!!Population of four races",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004016": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004015": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003048": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Asian",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003049": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004018": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; American Indian and Alaska Native",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004017": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003043": {
+      "label": "Total!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004012": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003044": {
+      "label": "Total!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004011": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004014": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; American Indian and Alaska Native",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003045": {
+      "label": "Total!!Population of two or more races!!Population of three races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003046": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004013": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!White; Black or African American",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL002071": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL002072": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of six races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003040": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003041": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004010": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Some other race alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL002073": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of six races!!White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "PL003042": {
+      "label": "Total!!Population of two or more races!!Population of three races!!Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL002070": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of five races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73]",
+      "predicateType": "int",
+      "group": "PL002",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL004009": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Native Hawaiian and Other Pacific Islander alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004008": {
+      "label": "Total!!Not Hispanic or Latino!!Population of one race!!Asian alone",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003058": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004027": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004026": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Asian; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003059": {
+      "label": "Total!!Population of two or more races!!Population of four races!!Black or African American; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004029": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races!!White; Black or African American; American Indian and Alaska Native",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004028": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of three races",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003054": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004023": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL004022": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003055": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003056": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004025": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003057": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Asian; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004024": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!American Indian and Alaska Native; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003050": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; American Indian and Alaska Native; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003051": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004021": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; Some other race",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "PL003052": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; Asian; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL003053": {
+      "label": "Total!!Population of two or more races!!Population of four races!!White; Black or African American; Native Hawaiian and Other Pacific Islander; Some other race",
+      "concept": "RACE FOR THE POPULATION 18 YEARS AND OVER [71]",
+      "predicateType": "int",
+      "group": "PL003",
+      "limit": 0
+    },
+    "PL004020": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; Native Hawaiian and Other Pacific Islander",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "RACE [71];HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE [73];RACE FOR THE POPULATION 18 YEARS AND OVER [71];HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "string",
+      "group": "PL004,PL002,PL003,PL001",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "LSAD_NAME": {
+      "label": "Legal/Statistical Area Description name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRACT": {
+      "label": "Census Tract",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PL004019": {
+      "label": "Total!!Not Hispanic or Latino!!Population of two or more races!!Population of two races!!Black or African American; Asian",
+      "concept": "HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER [73]",
+      "predicateType": "int",
+      "group": "PL004",
+      "limit": 0
+    }
+  }
+}

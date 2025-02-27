@@ -1,0 +1,92 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "concept": "Estimate Measures",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "concept": "Estimate Measures",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEV": {
+      "label": "Summary level",
+      "concept": "Estimate Variables",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HUEST": {
+      "label": "Housing Unit Estimate",
+      "concept": "Estimate Variables",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State FIPS Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "Geography Name",
+      "concept": "Estimate Measures",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_": {
+      "label": "Estimate Date",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_DESC": {
+      "label": "Description of DATE values",
+      "concept": "Estimates",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Division code",
+      "concept": "Estimate Variables",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Region code",
+      "concept": "Estimate Variables",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County FIPS code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

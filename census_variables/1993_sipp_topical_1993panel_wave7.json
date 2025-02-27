@@ -1,0 +1,6200 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "HHTNW": {
+      "label": "Total Net Worth Total Wealth Minus Total",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3026341",
+            "description": "Continuous values of HHTNW"
+          }
+        ]
+      }
+    },
+    "IMP8078": {
+      "label": "Top. Mod. Imp. of Tm8078",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8078"
+          }
+        ]
+      }
+    },
+    "IMP8074": {
+      "label": "Top. Mod. Imp. of Tm8074",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8074"
+          }
+        ]
+      }
+    },
+    "IMP8076": {
+      "label": "Top. Mod. Imp. of Tm8076",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8076"
+          }
+        ]
+      }
+    },
+    "TM8624": {
+      "label": "How Much Principal Is Cur. Owed on This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "IMP8092": {
+      "label": "Top. Mod. Imp. of Tm8092",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8092"
+          }
+        ]
+      }
+    },
+    "IMP8091": {
+      "label": "Top. Mod. Imp. of Tm8091",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8091"
+          }
+        ]
+      }
+    },
+    "TM8612": {
+      "label": "Is This a Mortgage, Contract, or Other D",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Mobile home only",
+          "0": "Not Appl.",
+          "2": "Site only",
+          "3": "Site and home"
+        }
+      }
+    },
+    "IMP8090": {
+      "label": "Top. Mod. Imp. of Tm8080, Tm8082, Tm8084",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8090"
+          }
+        ]
+      }
+    },
+    "TM8734": {
+      "label": "What Is the Yr. of This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "Not Appl. 1982",
+          "1995": "Year"
+        }
+      }
+    },
+    "TM8610": {
+      "label": "Is There a Mortgage, Installment Loan, C",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8732": {
+      "label": "What Is the Yr. of This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1995": "Year",
+          "0000": "Not Appl. 1982"
+        }
+      }
+    },
+    "TM8730": {
+      "label": "What Is the Yr. of This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "Not Appl. 1982",
+          "1995": "Year"
+        }
+      }
+    },
+    "SEX": {
+      "label": "Sex of This Pers. Ed. and Imp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Male",
+          "2": "Female"
+        }
+      }
+    },
+    "IMP8096": {
+      "label": "Top. Mod. Imp. of Tm8096",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8096"
+          }
+        ]
+      }
+    },
+    "IMP8098": {
+      "label": "Top. Mod. Imp. of Tm8098",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8098"
+          }
+        ]
+      }
+    },
+    "TM8649": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "702",
+            "description": "Continuous values of TM8649"
+          }
+        ]
+      }
+    },
+    "TM8528": {
+      "label": "Chk. Item T10 Is This HU a Mobile Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8408": {
+      "label": "Chk. Item T4 Is One or More Yes Box Mark",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8647": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "701",
+            "description": "Continuous values of TM8647"
+          }
+        ]
+      }
+    },
+    "TM8526": {
+      "label": "Chk. Item T9 Is This the Ref. Pers. Ques",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8768": {
+      "label": "Is There Another Vehicle Which Has Not B",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8648": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8648"
+          }
+        ]
+      }
+    },
+    "TM8406": {
+      "label": "During Last Mth. Did _ Pay Any Expenses",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8766": {
+      "label": "Chk. Item T18 Is There Another Vehicle W",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8646": {
+      "label": "Pers. No. Skip to 8654",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999",
+            "description": "Continuous values of TM8646"
+          }
+        ]
+      }
+    },
+    "TM8404": {
+      "label": "During Last Mth. Did _ Pay Any Hospital",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8764": {
+      "label": "Is This Vehicle Used Primarily for Eithe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8765": {
+      "label": "Is This Vehicle Used Primarily for Eithe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8402": {
+      "label": "During Last Mth. Did _ Pay Any Dentist B",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8644": {
+      "label": "Did More Than One of the Pers. Living He",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8762": {
+      "label": "How Much Is Cur. Owed for This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "022000": "Total Amount",
+          "000000": "Not Appl. 000003"
+        }
+      }
+    },
+    "TM8763": {
+      "label": "Is This Vehicle Used Primarily for Eithe",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8642": {
+      "label": "Chk. Item T15 Composition of Household",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Brother/sister",
+          "2": "Child",
+          "4": "OTHER",
+          "0": "Not Appl.",
+          "1": "Parent"
+        }
+      }
+    },
+    "TM8400": {
+      "label": "During Last Mth. Did _ Pay Any Doctor Bi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8760": {
+      "label": "How Much Is Cur. Owed for This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000003",
+          "022000": "Total Amount"
+        }
+      }
+    },
+    "TM8761": {
+      "label": "How Much Is Cur. Owed for This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000003",
+          "022000": "Total Amount"
+        }
+      }
+    },
+    "TM8640": {
+      "label": "How Much Did This Hshld. Pay for Electri",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "400",
+            "description": "Continuous values of TM8640"
+          }
+        ]
+      }
+    },
+    "FINALWGT": {
+      "label": "Person Weight (FINALWGT)",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "is-weight": true,
+      "values": {
+        "range": [
+          {
+            "min": "0.0",
+            "max": "4.221323E8",
+            "description": "Continuous values of FINALWGT"
+          }
+        ]
+      }
+    },
+    "TM8638": {
+      "label": "How Much Was This Hshlds. Rent/mort. Pay",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8758": {
+      "label": "Is This Vehicle Owned Free and Clear or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8756": {
+      "label": "Is This Vehicle Owned Free and Clear, or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8754": {
+      "label": "Is This Vehicle Owned Free and Clear, or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8630": {
+      "label": "How Much Do You Think This Mobile Home a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "IMP8038": {
+      "label": "Top. Mod. Imp. of Tm8038",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8038"
+          }
+        ]
+      }
+    },
+    "IMP8034": {
+      "label": "Top. Mod. Imp. of Tm8034",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8034"
+          }
+        ]
+      }
+    },
+    "IMP8036": {
+      "label": "Top. Mod. Imp. of Tm8036",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IMP8036"
+        }
+      }
+    },
+    "HHINTBK": {
+      "label": "Int. Earning, Assets Held in Banking Ins",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "325000",
+            "description": "Continuous values of HHINTBK"
+          }
+        ]
+      }
+    },
+    "IMP8048": {
+      "label": "Top. Mod. Imp. of Tm8048",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8048"
+          }
+        ]
+      }
+    },
+    "PNPT": {
+      "label": "Pers. No. of Parent.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "IMP8044": {
+      "label": "Top. Mod. Imp. of Tm8044",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8044"
+          }
+        ]
+      }
+    },
+    "IMP8286": {
+      "label": "Top. Mod. Imp. of Tm8286",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8286"
+          }
+        ]
+      }
+    },
+    "IMP8288": {
+      "label": "Top. Mod. Imp. of Tm8288",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8288"
+          }
+        ]
+      }
+    },
+    "IMP7078": {
+      "label": "Top. Mod. Imp. of Tm8770 Through Tm8778",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP7078"
+          }
+        ]
+      }
+    },
+    "IMP8046": {
+      "label": "Top. Mod. Imp. of Tm8046",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IMP8046"
+        }
+      }
+    },
+    "IMP8040": {
+      "label": "Top. Mod. Imp. of Tm8040",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8040"
+          }
+        ]
+      }
+    },
+    "IMP8284": {
+      "label": "Top. Mod. Imp. of Tm8284",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8284"
+          }
+        ]
+      }
+    },
+    "IMP8042": {
+      "label": "Top. Mod. Imp. of Tm8042",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8042"
+          }
+        ]
+      }
+    },
+    "IMP8050": {
+      "label": "Top. Mod. Imp. of Tm8050",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8050"
+          }
+        ]
+      }
+    },
+    "STATE": {
+      "label": "Fips State Code From the Mst/grin File",
+      "predicateType": "long",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "26": "Michigan",
+          "28": "Mississippi",
+          "15": "Hawaii",
+          "39": "Ohio",
+          "62": "Iowa, North Dakota, South Dakota",
+          "04": "Arizona",
+          "48": "Texas",
+          "54": "West Virginia",
+          "61": "Maine, Vermont",
+          "42": "Pennsylvania",
+          "44": "Rhode Island",
+          "49": "Utah",
+          "06": "California",
+          "08": "Colorado",
+          "53": "Washington",
+          "13": "Georgia",
+          "35": "New Mexico",
+          "36": "New York",
+          "41": "Oregon",
+          "24": "Maryland",
+          "25": "Massachusetts",
+          "27": "Minnesota",
+          "17": "Illinois",
+          "20": "Kansas",
+          "29": "Missouri",
+          "51": "Virginia",
+          "33": "New Hampshire",
+          "55": "Wisconsin",
+          "34": "New Jersey",
+          "40": "Oklahoma",
+          "63": "ALASKA, IDAHO, MONTANA, WYOMING",
+          "22": "Louisiana",
+          "01": "Alabama",
+          "05": "Arkansas",
+          "09": "Connecticut",
+          "31": "Nebraska",
+          "10": "Delaware",
+          "37": "North Carolina",
+          "11": "District of Columbia",
+          "45": "South Carolina",
+          "47": "Tennessee",
+          "32": "Nevada",
+          "12": "Florida",
+          "18": "Indiana",
+          "21": "Kentucky"
+        }
+      }
+    },
+    "IMP8052": {
+      "label": "Top. Mod. Imp. of Tm8052",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8052"
+          }
+        ]
+      }
+    },
+    "IMP8054": {
+      "label": "Top. Mod. Imp. of Tm8054",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8054"
+          }
+        ]
+      }
+    },
+    "TM8728": {
+      "label": "Second Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8728"
+          }
+        ]
+      }
+    },
+    "TM8608": {
+      "label": "Chk. Item T14 Tenure of Mobile Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Rented Skip to Tm8638",
+          "3": "Occ. Without Cash Rent",
+          "0": "Not Appl.",
+          "1": "Owned"
+        }
+      }
+    },
+    "TM8726": {
+      "label": "Second Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "703",
+            "description": "Continuous values of TM8726"
+          }
+        ]
+      }
+    },
+    "TM8724": {
+      "label": "Second Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8724"
+          }
+        ]
+      }
+    },
+    "TM8722": {
+      "label": "First Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "10000",
+            "description": "Continuous values of TM8722"
+          }
+        ]
+      }
+    },
+    "TM8720": {
+      "label": "First Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "706",
+            "description": "Continuous values of TM8720"
+          }
+        ]
+      }
+    },
+    "HHVEHCL": {
+      "label": "Net Equity in Vehicles",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "98773",
+            "description": "Continuous values of HHVEHCL"
+          }
+        ]
+      }
+    },
+    "AGE": {
+      "label": "Ed. and Imp. Age As of Last Birthday.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000": "Less Than 1 Full Year",
+          "001": "1 Yr. Etc."
+        }
+      }
+    },
+    "IMP8067": {
+      "label": "Top. Mod. Imp. of Tm8067",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8067"
+          }
+        ]
+      }
+    },
+    "IMP8068": {
+      "label": "Top. Mod. Imp. of Tm8068",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8068"
+          }
+        ]
+      }
+    },
+    "TM8718": {
+      "label": "First Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1995",
+            "description": "Continuous values of TM8718"
+          }
+        ]
+      }
+    },
+    "IMP8072": {
+      "label": "Top. Mod. Imp. of Tm8072",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8072"
+          }
+        ]
+      }
+    },
+    "TM8716": {
+      "label": "How Many Cars, Trucks, or Vans Are Owned",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8716"
+          }
+        ]
+      }
+    },
+    "TM8714": {
+      "label": "Does Anyone in This Hshld. Own a Car, Va",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "PNSP": {
+      "label": "Pers. No. of Spouse.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999": "Not Applicable",
+          "000": "Not a Sample Pers. in This Month"
+        }
+      }
+    },
+    "IMP8118": {
+      "label": "Top. Mod. Imp. of Tm8118",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8118"
+          }
+        ]
+      }
+    },
+    "IMP8236": {
+      "label": "Top. Mod. Imp. of Tm8236",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8236"
+          }
+        ]
+      }
+    },
+    "IMP8598": {
+      "label": "Top. Mod. Imp. of Tm8598",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8598"
+          }
+        ]
+      }
+    },
+    "IMP8238": {
+      "label": "Top. Mod. Imp. of Tm8238",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8238"
+          }
+        ]
+      }
+    },
+    "IMP9204": {
+      "label": "Top. Mod. Imp. of Tm8292, Tm8294, Tm8296",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP9204"
+          }
+        ]
+      }
+    },
+    "IMP8116": {
+      "label": "Top. Mod. Imp. of Tm8116",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8116"
+          }
+        ]
+      }
+    },
+    "IMP8232": {
+      "label": "Top. Mod. Imp. of Tm8232",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8232"
+          }
+        ]
+      }
+    },
+    "IMP8234": {
+      "label": "Top. Mod. Imp. of Tm8234",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8234"
+          }
+        ]
+      }
+    },
+    "IMP8596": {
+      "label": "Top. Mod. Imp. of Tm8596",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8596"
+          }
+        ]
+      }
+    },
+    "IMP8233": {
+      "label": "Top. Mod. Imp. of Tm8233",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8233"
+          }
+        ]
+      }
+    },
+    "HHSTK": {
+      "label": "Equity in Stocks and Mutual Fund Shares",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1999998",
+            "description": "Continuous values of HHSTK"
+          }
+        ]
+      }
+    },
+    "TM4422": {
+      "label": "Sc4422 From the Core File",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "350000",
+            "description": "Continuous values of TM4422"
+          }
+        ]
+      }
+    },
+    "ID": {
+      "label": "Sample Unit Id. This Id. Is Created by S",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999944306",
+            "description": "Continuous values of ID"
+          }
+        ]
+      }
+    },
+    "IMP8008": {
+      "label": "Top. Mod. Imp. of Tm8008",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8008"
+          }
+        ]
+      }
+    },
+    "IMP8126": {
+      "label": "Top. Mod. Imp. of Tm8126",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8126"
+          }
+        ]
+      }
+    },
+    "IMP8246": {
+      "label": "Top. Mod. Imp. of Tm8246",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8246"
+          }
+        ]
+      }
+    },
+    "IMP8004": {
+      "label": "Top. Mod. Imp. of Tm8004",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8004"
+          }
+        ]
+      }
+    },
+    "IMP8128": {
+      "label": "Top. Mod. Imp. of Tm8128",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8128"
+          }
+        ]
+      }
+    },
+    "IMP8122": {
+      "label": "Top. Mod. Imp. of Tm8122",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8122"
+          }
+        ]
+      }
+    },
+    "IMP8242": {
+      "label": "Top. Mod. Imp. of Tm8242",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8242"
+          }
+        ]
+      }
+    },
+    "IMP8000": {
+      "label": "Top. Mod. Imp. of Tm8000",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8000"
+          }
+        ]
+      }
+    },
+    "IMP8244": {
+      "label": "Top. Mod. Imp. of Tm8244",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8244"
+          }
+        ]
+      }
+    },
+    "IMP8120": {
+      "label": "Top. Mod. Imp. of Tm8120",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8120"
+          }
+        ]
+      }
+    },
+    "IMP8240": {
+      "label": "Top. Mod. Imp. of Tm8240",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8240"
+          }
+        ]
+      }
+    },
+    "TM4414": {
+      "label": "Sc4414 From the Core File",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "285000",
+            "description": "Continuous values of TM4414"
+          }
+        ]
+      }
+    },
+    "PNUM": {
+      "label": "Ed. Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "962",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "HHTWLTH": {
+      "label": "Total Hshld. Wealth Total of HH Theq, HH",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3026341",
+            "description": "Continuous values of HHTWLTH"
+          }
+        ]
+      }
+    },
+    "HHOTAST": {
+      "label": "Other Assets Total of Morts. Held, Money",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "982364",
+            "description": "Continuous values of HHOTAST"
+          }
+        ]
+      }
+    },
+    "IMP8016": {
+      "label": "Top. Mod. Imp. of Tm8016",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8016"
+          }
+        ]
+      }
+    },
+    "IMP8012": {
+      "label": "Top. Mod. Imp. of Tm8012",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8012"
+          }
+        ]
+      }
+    },
+    "IMP8132": {
+      "label": "Top. Mod. Imp. of Tm8132",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8132"
+          }
+        ]
+      }
+    },
+    "TM4322": {
+      "label": "Sc4322 From the Core File",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100000",
+            "description": "Continuous values of TM4322"
+          }
+        ]
+      }
+    },
+    "TM8800": {
+      "label": "Chk. Item T19 Are There Any Other Vehicl",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "IMP0414": {
+      "label": "Top. Mod. Imp. of Tm8104, Tm8106, Tm8108",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP0414"
+          }
+        ]
+      }
+    },
+    "IMP8028": {
+      "label": "Top. Mod. Imp. of Tm8028",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8028"
+          }
+        ]
+      }
+    },
+    "IMP8264": {
+      "label": "Top. Mod. Imp. of Tm8264",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8264"
+          }
+        ]
+      }
+    },
+    "IMP8024": {
+      "label": "Top. Mod. Imp. of Tm8024",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8024"
+          }
+        ]
+      }
+    },
+    "IMP8260": {
+      "label": "Top. Mod. Imp. of Tm8260",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8260"
+          }
+        ]
+      }
+    },
+    "IMP8020": {
+      "label": "Top. Mod. Imp. of Tm8020",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8020"
+          }
+        ]
+      }
+    },
+    "IMP8262": {
+      "label": "Top. Mod. Imp. of Tm8262",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8262"
+          }
+        ]
+      }
+    },
+    "TM4314": {
+      "label": "Sc4314 From the Core File",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "125000",
+            "description": "Continuous values of TM4314"
+          }
+        ]
+      }
+    },
+    "IMP8316": {
+      "label": "Top. Mod. Imp. of Tm8316",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8316"
+          }
+        ]
+      }
+    },
+    "IMP8318": {
+      "label": "Top. Mod. Imp. of Tm8318",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8318"
+          }
+        ]
+      }
+    },
+    "IMP8796": {
+      "label": "Top. Mod. Imp. of Tm8796",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8796"
+          }
+        ]
+      }
+    },
+    "IMP8312": {
+      "label": "Top. Mod. Imp. of Tm8312",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8312"
+          }
+        ]
+      }
+    },
+    "IMP8798": {
+      "label": "Top. Mod. Imp. of Tm8798",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8798"
+          }
+        ]
+      }
+    },
+    "IMP8792": {
+      "label": "Top. Mod. Imp. of Tm8792",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8792"
+          }
+        ]
+      }
+    },
+    "IMP8794": {
+      "label": "Top. Mod. Imp. of Tm8794",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "4",
+            "description": "Continuous values of IMP8794"
+          }
+        ]
+      }
+    },
+    "IMP8790": {
+      "label": "Top. Mod. Imp. of Tm8790",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8790"
+          }
+        ]
+      }
+    },
+    "TM8096": {
+      "label": "Was There a Mortgage, Deed of Trust, or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "IMP8569": {
+      "label": "Top. Mod. Imp. of Tm8569",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8569"
+          }
+        ]
+      }
+    },
+    "IMP8206": {
+      "label": "Top. Mod. Imp. of Tm8206",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8206"
+          }
+        ]
+      }
+    },
+    "IMP8209": {
+      "label": "Top. Mod. Imp. of Tm8209",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8209"
+          }
+        ]
+      }
+    },
+    "TM8092": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "IMP8566": {
+      "label": "Top. Mod. Imp. of Tm8566",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IMP8566"
+        }
+      }
+    },
+    "IMP8202": {
+      "label": "Top. Mod. Imp. of Tm8202",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8202"
+          }
+        ]
+      }
+    },
+    "PINX": {
+      "label": "Pers. Index From Core",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "23",
+            "description": "Continuous values of PINX"
+          }
+        ]
+      }
+    },
+    "MS": {
+      "label": "Marital Stat.. If a Pers. Marital Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Divorced",
+          "0": "Not a Sample Pers. in This Month",
+          "5": "Separated",
+          "2": "Married, spouse absent",
+          "3": "Widowed",
+          "1": "Married, spouse present",
+          "6": "Never Married"
+        }
+      }
+    },
+    "TM8090": {
+      "label": "Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "21",
+            "description": "Continuous values of TM8090"
+          }
+        ]
+      }
+    },
+    "IMP8568": {
+      "label": "Top. Mod. Imp. of Tm8568",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8568"
+          }
+        ]
+      }
+    },
+    "TM8091": {
+      "label": "Were Any of These Prop. Attch. to or Loc",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "Yes Some Rental Prop. on Res.",
+          "1": "Yes All Rental Prop. on Res. Skip to Sc4",
+          "3": "NO"
+        }
+      }
+    },
+    "IMP8204": {
+      "label": "Top. Mod. Imp. of Tm8204",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8204"
+          }
+        ]
+      }
+    },
+    "IMP8564": {
+      "label": "Top. Mod. Imp. of Tm8564",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8564"
+          }
+        ]
+      }
+    },
+    "IMP8200": {
+      "label": "Top. Mod. Imp. of Tm8200",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8200"
+          }
+        ]
+      }
+    },
+    "TM8098": {
+      "label": "As of Last Day of Ref. Per. How Much Pri",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "A": "A",
+          "P": "P"
+        }
+      }
+    },
+    "IMP8218": {
+      "label": "Top. Mod. Imp. of Tm8218",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8218"
+          }
+        ]
+      }
+    },
+    "IMP8214": {
+      "label": "Top. Mod. Imp. of Tm8214",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8214"
+          }
+        ]
+      }
+    },
+    "IMP8216": {
+      "label": "Top. Mod. Imp. of Tm8216",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8216"
+          }
+        ]
+      }
+    },
+    "IMP8210": {
+      "label": "Top. Mod. Imp. of Tm8210",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8210"
+          }
+        ]
+      }
+    },
+    "IMP8572": {
+      "label": "Top. Mod. Imp. of Tm8572",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8572"
+          }
+        ]
+      }
+    },
+    "IMP8212": {
+      "label": "Top. Mod. Imp. of Tm8212",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8212"
+          }
+        ]
+      }
+    },
+    "IMP8574": {
+      "label": "Top. Mod. Imp. of Tm8574",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8574"
+          }
+        ]
+      }
+    },
+    "IMP8571": {
+      "label": "Top. Mod. Imp. of Tm8571",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8571"
+          }
+        ]
+      }
+    },
+    "IMP8570": {
+      "label": "Top. Mod. Imp. of Tm8570",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8570"
+          }
+        ]
+      }
+    },
+    "HHORE": {
+      "label": "Real Estate Other Than Own Home Equity i",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1080000",
+            "description": "Continuous values of HHORE"
+          }
+        ]
+      }
+    },
+    "HHTHEQ": {
+      "label": "Home Equity",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "346000",
+            "description": "Continuous values of HHTHEQ"
+          }
+        ]
+      }
+    },
+    "IMP8587": {
+      "label": "Top. Mod. Imp. of Tm8587",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8587"
+          }
+        ]
+      }
+    },
+    "IMP8589": {
+      "label": "Top. Mod. Imp. of Tm8589",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8589"
+          }
+        ]
+      }
+    },
+    "IMP8584": {
+      "label": "Top. Mod. Imp. of Tm8584",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8584"
+          }
+        ]
+      }
+    },
+    "IMP8100": {
+      "label": "Top. Mod. Imp. of Tm8100",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8100"
+          }
+        ]
+      }
+    },
+    "IMP8220": {
+      "label": "Top. Mod. Imp. of Tm8220",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8220"
+          }
+        ]
+      }
+    },
+    "IMP8586": {
+      "label": "Top. Mod. Imp. of Tm8586",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8586"
+          }
+        ]
+      }
+    },
+    "IMP8102": {
+      "label": "Top. Mod. Imp. of Tm8102",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8102"
+          }
+        ]
+      }
+    },
+    "IMP8222": {
+      "label": "Top. Mod. Imp. of Tm8222",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8222"
+          }
+        ]
+      }
+    },
+    "IMP8580": {
+      "label": "Top. Mod. Imp. of Tm8580",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8580"
+          }
+        ]
+      }
+    },
+    "IMP8582": {
+      "label": "Top. Mod. Imp. of Tm8582",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8582"
+          }
+        ]
+      }
+    },
+    "TM8064": {
+      "label": "Equipment",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8064"
+          }
+        ]
+      }
+    },
+    "IMP8756": {
+      "label": "Top. Mod. Imp. of Tm8756",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8756"
+          }
+        ]
+      }
+    },
+    "IMP8638": {
+      "label": "Top. Mod. Imp. of Tm8638",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8638"
+          }
+        ]
+      }
+    },
+    "IMP8758": {
+      "label": "Top. Mod. Imp. of Tm8758",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8758"
+          }
+        ]
+      }
+    },
+    "TM8062": {
+      "label": "Commercial Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8062"
+          }
+        ]
+      }
+    },
+    "TM8060": {
+      "label": "Farm Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1245",
+            "description": "Continuous values of TM8060"
+          }
+        ]
+      }
+    },
+    "IMP8754": {
+      "label": "Top. Mod. Imp. of Tm8754",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8754"
+          }
+        ]
+      }
+    },
+    "HHSCDBT": {
+      "label": "Secured Debt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "905999",
+            "description": "Continuous values of HHSCDBT"
+          }
+        ]
+      }
+    },
+    "IMP8630": {
+      "label": "Top. Mod. Imp. of Tm8630",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8630"
+          }
+        ]
+      }
+    },
+    "RRP": {
+      "label": "Ed. Rel. to Ref. Person",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hshld. Ref. Pers. Living Alone or With O",
+          "1": "Hshld. Ref. Pers., Living With Relatives",
+          "4": "Child of Hshld. Ref. Person",
+          "5": "Other Relative of Hshld. Ref. Person",
+          "7": "Nonrelative of Hshld. Ref. Pers. and Not",
+          "0": "Not a Sample Pers. in This Month",
+          "6": "Nonrelative of Hshld. Ref. Pers. But Rel",
+          "3": "Spouse of Hshld. Ref. Person"
+        }
+      }
+    },
+    "ETHNICTY": {
+      "label": "Eth. Origin",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "08": "Dutch",
+          "03": "Irish",
+          "06": "Scottish",
+          "07": "Polish",
+          "19": "Central or South American Spanish Speaki",
+          "10": "Norwegian",
+          "12": "Ukrainian",
+          "04": "French",
+          "39": "Dont Know",
+          "02": "English",
+          "14": "Mexicanamerican",
+          "13": "Welsh",
+          "15": "Chicano",
+          "11": "Russian",
+          "01": "German",
+          "18": "Cuban",
+          "09": "Swedish",
+          "30": "Another Grp. Not Listed",
+          "20": "Other Spanish",
+          "05": "Italian",
+          "16": "Mexican",
+          "21": "Afroamerican Black or Negro",
+          "17": "Puerto Rican"
+        }
+      }
+    },
+    "TM8067": {
+      "label": "Were Any of These Prop. Attch. to or Loc",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "Yes Some Rental Prop. on Res.",
+          "1": "Yes All Rental Prop. on Res. Skip to Sc4",
+          "3": "NO"
+        }
+      }
+    },
+    "TM8068": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "TM8066": {
+      "label": "Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8066"
+          }
+        ]
+      }
+    },
+    "TM8294": {
+      "label": "Money Market Funds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "6",
+            "description": "Continuous values of TM8294"
+          }
+        ]
+      }
+    },
+    "TM8052": {
+      "label": "As of Last Day of Ref. Per. Did _ Own An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "IMP8404": {
+      "label": "Top. Mod. Imp. Flag for Tm8404",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8404"
+          }
+        ]
+      }
+    },
+    "TM8292": {
+      "label": "Certificates of Deposit or Other Savings",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8292"
+          }
+        ]
+      }
+    },
+    "TM8050": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "IMP8406": {
+      "label": "Top. Mod. Imp. Flag for Tm8406",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8406"
+          }
+        ]
+      }
+    },
+    "IMP8764": {
+      "label": "Top. Mod. Imp. of Tm8764",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8764"
+          }
+        ]
+      }
+    },
+    "IMP8763": {
+      "label": "Top. Mod. Imp. of Tm8763",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8763"
+          }
+        ]
+      }
+    },
+    "IMP8400": {
+      "label": "Top. Mod. Imp. Flag for Tm8400",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8400"
+          }
+        ]
+      }
+    },
+    "IMP8765": {
+      "label": "Top. Mod. Imp. of Tm8765",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8765"
+          }
+        ]
+      }
+    },
+    "IMP8644": {
+      "label": "Top. Mod. Imp. of Tm8644",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8644"
+          }
+        ]
+      }
+    },
+    "IMP8402": {
+      "label": "Top. Mod. Imp. Flag for Tm8402",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8402"
+          }
+        ]
+      }
+    },
+    "IMP8760": {
+      "label": "Top. Mod. Imp. of Tm8760",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8760"
+          }
+        ]
+      }
+    },
+    "IMP8762": {
+      "label": "Top. Mod. Imp. of Tm8762",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8762"
+          }
+        ]
+      }
+    },
+    "IMP8640": {
+      "label": "Top. Mod. Imp. of Tm8640",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8640"
+          }
+        ]
+      }
+    },
+    "IMP8761": {
+      "label": "Top. Mod. Imp. of Tm8761",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8761"
+          }
+        ]
+      }
+    },
+    "IMP4042": {
+      "label": "Top. Mod. Imp. of Tm8540 Through Tm8542",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP4042"
+          }
+        ]
+      }
+    },
+    "HIGRADE": {
+      "label": "What Is the Highest Grade or Yr. of Reg.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "26",
+            "description": "Continuous values of HIGRADE"
+          }
+        ]
+      }
+    },
+    "TM8058": {
+      "label": "Other Res. Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8058"
+          }
+        ]
+      }
+    },
+    "TM8056": {
+      "label": "Vacation Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1245",
+            "description": "Continuous values of TM8056"
+          }
+        ]
+      }
+    },
+    "TM8298": {
+      "label": "Municipal or Corp. Bonds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8298"
+          }
+        ]
+      }
+    },
+    "TM8296": {
+      "label": "U.S. Gov. Securities",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8296"
+          }
+        ]
+      }
+    },
+    "TM8054": {
+      "label": "How Many Prop. Did _ Own Jointly With _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "23",
+            "description": "Continuous values of TM8054"
+          }
+        ]
+      }
+    },
+    "IMP8658": {
+      "label": "Top. Mod. Imp. of Tm8658",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IMP8658"
+        }
+      }
+    },
+    "TM8086": {
+      "label": "Commercial Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8086"
+          }
+        ]
+      }
+    },
+    "IMP8657": {
+      "label": "Top. Mod. Imp. of Tm8657",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8657"
+          }
+        ]
+      }
+    },
+    "IMP8418": {
+      "label": "Top. Mod. Imp. Flag for Tm8418",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8418"
+          }
+        ]
+      }
+    },
+    "IMP8539": {
+      "label": "Top. Mod. Imp. of Tm8539",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8539"
+          }
+        ]
+      }
+    },
+    "TM8084": {
+      "label": "Farm Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8084"
+          }
+        ]
+      }
+    },
+    "IMP8538": {
+      "label": "Top. Mod. Imp. of Tm8538",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8538"
+          }
+        ]
+      }
+    },
+    "IMP8654": {
+      "label": "Top. Mod. Imp. of Tm8654",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IMP8654"
+        }
+      }
+    },
+    "TM8082": {
+      "label": "Other Res. Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8082"
+          }
+        ]
+      }
+    },
+    "IMP8656": {
+      "label": "Top. Mod. Imp. of Tm8656",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8656"
+          }
+        ]
+      }
+    },
+    "TM8080": {
+      "label": "Vacation Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "3",
+            "description": "Continuous values of TM8080"
+          }
+        ]
+      }
+    },
+    "IMP8650": {
+      "label": "Top. Mod. Imp. of Tm8650",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8650"
+          }
+        ]
+      }
+    },
+    "IMP8652": {
+      "label": "Top. Mod. Imp. of Tm8652",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8652"
+          }
+        ]
+      }
+    },
+    "IMP8410": {
+      "label": "Top. Mod. Imp. Flag for Tm8410",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8410"
+          }
+        ]
+      }
+    },
+    "IMP8651": {
+      "label": "Top. Mod. Imp. of Tm8651",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8651"
+          }
+        ]
+      }
+    },
+    "FILLHH": {
+      "label": "Filler",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of FILLHH"
+        }
+      }
+    },
+    "TM8088": {
+      "label": "Equipment",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8088"
+          }
+        ]
+      }
+    },
+    "TM8074": {
+      "label": "As of Last Day of Ref. Per. How Much Pri",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "IMP8426": {
+      "label": "Top. Mod. Imp. Flag for Tm8426",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of IMP8426"
+          }
+        ]
+      }
+    },
+    "IMP8308": {
+      "label": "Top. Mod. Imp. of Tm8308",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8308"
+          }
+        ]
+      }
+    },
+    "TM8072": {
+      "label": "Was There a Mortgage, Deed of Trust, or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "IMP8428": {
+      "label": "Top. Mod. Imp. Flag for Tm8428",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8428"
+          }
+        ]
+      }
+    },
+    "IMP8788": {
+      "label": "Top. Mod. Imp. of Tm8788",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8788"
+          }
+        ]
+      }
+    },
+    "IMP8424": {
+      "label": "Top. Mod. Imp. Flag for Tm8424",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8424"
+          }
+        ]
+      }
+    },
+    "IMP8666": {
+      "label": "Top. Mod. Imp. of Tm8666",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8666"
+          }
+        ]
+      }
+    },
+    "IMP8540": {
+      "label": "Top. Mod. Imp. of Tm8540",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8540"
+          }
+        ]
+      }
+    },
+    "IMP8660": {
+      "label": "Top. Mod. Imp. of Tm8660",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8660"
+          }
+        ]
+      }
+    },
+    "IMP8542": {
+      "label": "Top. Mod. Imp. of Tm8542",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of IMP8542"
+        }
+      }
+    },
+    "IMP8420": {
+      "label": "Top. Mod. Imp. Flag for Tm8420",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of IMP8420"
+          }
+        ]
+      }
+    },
+    "TM8078": {
+      "label": "How Many Prop. Did _ Own in _ Own Name",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "23",
+            "description": "Continuous values of TM8078"
+          }
+        ]
+      }
+    },
+    "IMP8309": {
+      "label": "Top. Mod. Imp. of Tm8309",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8309"
+          }
+        ]
+      }
+    },
+    "TM8076": {
+      "label": "As of Last Day of Ref. Per. Did _ Own An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "01": "Yes",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8020": {
+      "label": "As of Last Day of Ref. Per. What Percent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "100",
+            "description": "Continuous values of TM8020"
+          }
+        ]
+      }
+    },
+    "TM8262": {
+      "label": "For How Many Yrs. Has _ Contributed to _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "22",
+            "description": "Continuous values of TM8262"
+          }
+        ]
+      }
+    },
+    "IMP8714": {
+      "label": "Top. Mod. Imp. of Tm8714",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8714"
+          }
+        ]
+      }
+    },
+    "TM8260": {
+      "label": "Does _ Have An Individual Ret. Acct. An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "FILLMED": {
+      "label": "Filler",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of FILLMED"
+        }
+      }
+    },
+    "TM8028": {
+      "label": "As of Last Day of Ref. Per. What Is the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl.",
+          "000000001": "Value Combined With Tm8008 for Pub. Use"
+        }
+      }
+    },
+    "TM8268": {
+      "label": "Certificates of Deposit or Other Saving",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8268"
+          }
+        ]
+      }
+    },
+    "IMP8716": {
+      "label": "Top. Mod. Imp. of Tm8716",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8716"
+          }
+        ]
+      }
+    },
+    "TM8024": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000001": "Value Combined With Tm8008 for Pub. Use",
+          "000000000": "Not Appl."
+        }
+      }
+    },
+    "TM8264": {
+      "label": "As of Last Day of Ref. Per., What Is the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8022": {
+      "label": "Chk. Item S14 Has the Information in Tm8",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8130": {
+      "label": "Chk. Item A20 Is ISS Code 150 Marked in",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "ITEM36B": {
+      "label": "CC Item 36b Intv. Stat. Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "24": "Moved, Add. Unknown",
+          "03": "Temply. Absent",
+          "16": "Entire HH Instit. or Temply. Ineligible",
+          "22": "Deleted Sample Adjust., Error",
+          "21": "Condemned",
+          "01": "Intved.",
+          "23": "Entire Hshld. Deceased, Moved Out of Cou",
+          "06": "Other Type A",
+          "10": "Occ. by Pers. With Ure",
+          "12": "Under Constr., Not Ready",
+          "04": "Refused",
+          "09": "Vacant",
+          "25": "Moved within country beyond limit",
+          "05": "Unable To Locate",
+          "13": "Conv. to Temp. Bus. or Storage",
+          "14": "Unocc. Site for Mobile Home, Trailer, or",
+          "20": "Merged",
+          "02": "No One Home",
+          "15": "Permit Granted, Constr. Not Started",
+          "17": "Demolished",
+          "18": "House or Trailer Moved",
+          "28": "Merged HHLDS across panels",
+          "11": "Unfit or To Be Demolished",
+          "26": "All Sample Pers. Relisted on New CC",
+          "19": "Conv. to Perm. Bus. or Storage"
+        }
+      }
+    },
+    "TM8018": {
+      "label": "Chk. Item S13 Is Sc2222 2 Equal 1 Is Sol",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8016": {
+      "label": "Was _ Self Emp. in This Bus. As of Last",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8258": {
+      "label": "Chk. Item T2 Is _ 21 Yrs. of Age or Olde",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8012": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 00000001",
+          "000240000": "Total Amt. Skip to Sc2262"
+        }
+      }
+    },
+    "TM8132": {
+      "label": "As of Last Day of Ref. Per. What Was _ E",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "TM8284": {
+      "label": "Does _ Have a Keogh Acct. in _ Own Name",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8042": {
+      "label": "Besides the Stocks or Mutual Fund Shares",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "IMP8734": {
+      "label": "Top. Mod. Imp. of Tm8734",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8734"
+          }
+        ]
+      }
+    },
+    "TM8282": {
+      "label": "Dk",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8282"
+          }
+        ]
+      }
+    },
+    "TM8040": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "IMP8610": {
+      "label": "Top. Mod. Imp. of Tm8610",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8610"
+          }
+        ]
+      }
+    },
+    "IMP8730": {
+      "label": "Top. Mod. Imp. of Tm8730",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8730"
+          }
+        ]
+      }
+    },
+    "TM8280": {
+      "label": "Other Assets",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8280"
+          }
+        ]
+      }
+    },
+    "IMP8612": {
+      "label": "Top. Mod. Imp. of Tm8612",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8612"
+          }
+        ]
+      }
+    },
+    "IMP8732": {
+      "label": "Top. Mod. Imp. of Tm8732",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8732"
+          }
+        ]
+      }
+    },
+    "WAVE": {
+      "label": "Wave No. for Panel",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "9",
+            "description": "Continuous values of WAVE"
+          }
+        ]
+      }
+    },
+    "TM8048": {
+      "label": "Was Any Debt or Margin Acct. Held Agains",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8288": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8044": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "TM8286": {
+      "label": "For How Many Yrs. Has _ Contributed to _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "30",
+            "description": "Continuous values of TM8286"
+          }
+        ]
+      }
+    },
+    "TM8272": {
+      "label": "U.S. Gov. Securities",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "13",
+            "description": "Continuous values of TM8272"
+          }
+        ]
+      }
+    },
+    "IMP8624": {
+      "label": "Top. Mod. Imp. of Tm8624",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP8624"
+          }
+        ]
+      }
+    },
+    "TM8270": {
+      "label": "Money Market Funds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8270"
+          }
+        ]
+      }
+    },
+    "ADDID": {
+      "label": "Add. Id. This Fld. Diff. Hshlds. Within",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "94",
+            "description": "Continuous values of ADDID"
+          }
+        ]
+      }
+    },
+    "TMCARVL2": {
+      "label": "Present Car Value Hshld. Recode of Asset",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "33900",
+            "description": "Continuous values of TMCARVL2"
+          }
+        ]
+      }
+    },
+    "TMCARVL1": {
+      "label": "Present Car Value Hshld. Recode of Asset",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "33900",
+            "description": "Continuous values of TMCARVL1"
+          }
+        ]
+      }
+    },
+    "TMCARVL3": {
+      "label": "Present Car Value Hshld. Recode of Asset",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "29000",
+            "description": "Continuous values of TMCARVL3"
+          }
+        ]
+      }
+    },
+    "RACE": {
+      "label": "Race of This Pers. Ed. and Imp.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "Asian or Pacific Islander",
+          "1": "White",
+          "2": "Black",
+          "3": "American Indian, Eskimo or Aleut"
+        }
+      }
+    },
+    "TM8038": {
+      "label": "Was Any Debt or Margin Acct. Held Agains",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "INTVW": {
+      "label": "Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Nonintv. Type Z Refusal",
+          "4": "Nonintv. Type Z Other",
+          "0": "Not Appl. Chld. Under 15",
+          "1": "Intv. Self",
+          "2": "Intv. Proxy"
+        }
+      }
+    },
+    "TM8278": {
+      "label": "Stocks or Mutual Fund Shares",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "50",
+            "description": "Continuous values of TM8278"
+          }
+        ]
+      }
+    },
+    "TM8276": {
+      "label": "U.S. Savings Bonds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8276"
+          }
+        ]
+      }
+    },
+    "TM8034": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "TM8032": {
+      "label": "Chk. Item A14 Intv. Stat. of _ Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "No Spouse in Household",
+          "0": "Not Appl.",
+          "2": "Intv. for Spouse Not Yet Conducted",
+          "3": "Intv. for Spouse Already Conducted Skip"
+        }
+      }
+    },
+    "TM8274": {
+      "label": "Municipal or Corp. Bonds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1992",
+            "description": "Continuous values of TM8274"
+          }
+        ]
+      }
+    },
+    "TM8580": {
+      "label": "What Is the Cur. Annual Int. Rate on Thi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "9999": "Int. Rate Percent",
+          "0000": "Not Appl. 0001"
+        }
+      }
+    },
+    "TM8108": {
+      "label": "Farm Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "11",
+            "description": "Continuous values of TM8108"
+          }
+        ]
+      }
+    },
+    "TM8106": {
+      "label": "Other Res. Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8106"
+          }
+        ]
+      }
+    },
+    "TM8104": {
+      "label": "Vacation Home",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8104"
+          }
+        ]
+      }
+    },
+    "TM8589": {
+      "label": "Was This Mort. Obtained Through An Fha o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "Yes Va",
+          "03": "No",
+          "01": "Yes Fha"
+        }
+      }
+    },
+    "TM8102": {
+      "label": "How Many Prop. Did _ Own Jointly With Ot",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "10",
+            "description": "Continuous values of TM8102"
+          }
+        ]
+      }
+    },
+    "TM8586": {
+      "label": "Is the Int. Rate Variable, That Is, Can",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8587": {
+      "label": "Was This Mort. Obtained Through An Fha o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes Fha",
+          "02": "Yes Va",
+          "03": "No"
+        }
+      }
+    },
+    "TM8100": {
+      "label": "Did _ Own Any Rental Prop. Jointly With",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8584": {
+      "label": "Is the Int. Rate Variable, That Is, Can",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8222": {
+      "label": "How Much Was Owed on Any Other Debt Not",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8582": {
+      "label": "What Is the Cur. Annual Int. Rate on Thi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "9999": "Int. Rate Percent",
+          "0000": "Not Appl. 0001"
+        }
+      }
+    },
+    "TM8220": {
+      "label": "Did _ and _ Husband/wife Together Owe An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "HHIRA": {
+      "label": "Ira and Keogh Accts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "460500",
+            "description": "Continuous values of HHIRA"
+          }
+        ]
+      }
+    },
+    "TM8570": {
+      "label": "In What Yr. Was This Mort. Loan Obtained",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "Not Appl. Skip to Tm8574 0001 0095, 1900",
+          "1995": "Yr. Skip to Tm8574"
+        }
+      }
+    },
+    "HHINTOT": {
+      "label": "Int. Earning, Assets Held in Other Insti",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "949997",
+            "description": "Continuous values of HHINTOT"
+          }
+        ]
+      }
+    },
+    "TM8218": {
+      "label": "How Much Was Owed As of Last Day of Ref.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8216": {
+      "label": "Did _ and _ Husband/wife Together Owe An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8214": {
+      "label": "How Much Was Owed on Store Bills or Cred",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8578": {
+      "label": "What Is the Total No. of Yrs. Over Which",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "54",
+            "description": "Continuous values of TM8578"
+          }
+        ]
+      }
+    },
+    "TM8212": {
+      "label": "As of Last Day of Ref. Per. Did _ and _",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8576": {
+      "label": "What Is the Total No. of Yrs. Over Which",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "50",
+            "description": "Continuous values of TM8576"
+          }
+        ]
+      }
+    },
+    "TM8210": {
+      "label": "What Is Your Best Est. of the Amt. of Mo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8574": {
+      "label": "What Was the Amt. of the Mort. Loan When",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000001": "Value Combined With Tm8008 for Pub. Use",
+          "000000000": "Not Appl."
+        }
+      }
+    },
+    "TM8571": {
+      "label": "In What Mth. Was This Mort. Loan Obtaine",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8571"
+          }
+        ]
+      }
+    },
+    "TM8572": {
+      "label": "What Was the Amt. of the Mort. Loan When",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "ROTATION": {
+      "label": "Rotation",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "4",
+            "description": "Continuous values of ROTATION"
+          }
+        ]
+      }
+    },
+    "TM8240": {
+      "label": "As of Last Day of Ref. Per. Did _ Owe An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "IMP5666": {
+      "label": "Top. Mod. Imp. of Tm8056, Tm8058, Tm8060",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP5666"
+          }
+        ]
+      }
+    },
+    "HHUSDBT": {
+      "label": "U.S.cured Debt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1031999",
+            "description": "Continuous values of HHUSDBT"
+          }
+        ]
+      }
+    },
+    "TM8128": {
+      "label": "As of Last Day of Ref. Per. How Much Pri",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "TM8008": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "TM8126": {
+      "label": "As of Last Day of Ref. Per. How Much Pr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "TM8006": {
+      "label": "Chk. Item S56.2 Has the Information in T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8246": {
+      "label": "How Much Was Owed on Other Debts",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8004": {
+      "label": "As of Last Day of Ref. Per. What Percent",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "240",
+            "description": "Continuous values of TM8004"
+          }
+        ]
+      }
+    },
+    "TM8122": {
+      "label": "As of the Last Day of Ref. Per. What Wa",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "TM8244": {
+      "label": "As of Last Day of Ref. Per., Did _ Owe A",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "01": "Yes",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8002": {
+      "label": "Chk. Item S6.1 Is Sc2222 1 Equal 1 Is So",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8120": {
+      "label": "As of Last Day of Ref. Per. How Much Pr",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "TM8242": {
+      "label": "How Much Was Owed As of Last Day of Ref.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8000": {
+      "label": "Was _ Self Emp. in This Bus. As of Last",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "HHDEBT": {
+      "label": "Total Debt",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1812521",
+            "description": "Continuous values of HHDEBT"
+          }
+        ]
+      }
+    },
+    "TM8592": {
+      "label": "Chk. Item T12 Is There Another Loan or M",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "IMP6880": {
+      "label": "Top. Mod. Imp. of Tm8268, Tm8270, Tm8272",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of IMP6880"
+          }
+        ]
+      }
+    },
+    "FILLAL": {
+      "label": "Filler",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of FILLAL"
+        }
+      }
+    },
+    "HHBEQ": {
+      "label": "Bus. Equity",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "987200",
+            "description": "Continuous values of HHBEQ"
+          }
+        ]
+      }
+    },
+    "TM8238": {
+      "label": "How Much Was Owed on Store Bills or Cred",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8118": {
+      "label": "Was There a Mortgage, Deed of Trust, or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8236": {
+      "label": "As of Last Day of Ref. Per. Did _ Owe An",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8116": {
+      "label": "As of Last Day of Ref. Per. What Was the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "TM8234": {
+      "label": "Did _ Have Any Debts, Such As Credit Car",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "01": "Yes",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8598": {
+      "label": "What Is the Cur. Value of This Prop.; Th",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000346000": "Total Amt. Skip to Tm8638",
+          "000000000": "Not Appl. Skip to Tm8638 00000001"
+        }
+      }
+    },
+    "TM8114": {
+      "label": "Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "662",
+            "description": "Continuous values of TM8114"
+          }
+        ]
+      }
+    },
+    "TM8232": {
+      "label": "Besides Any Checking Accts. Owned Joint",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8112": {
+      "label": "Equipment",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Continuous values of TM8112"
+        }
+      }
+    },
+    "TM8233": {
+      "label": "What Is Your Best Est. of the Amt. of Mo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8596": {
+      "label": "How Much Principal Is Cur. Owed on All t",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl.",
+          "000000001": "Value Combined With Tm8008 for Pub. Use"
+        }
+      }
+    },
+    "TM8594": {
+      "label": "Chk. Item T13 Are There 3 or More Morts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Yes",
+          "2": "No"
+        }
+      }
+    },
+    "TM8110": {
+      "label": "Commercial Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "24",
+            "description": "Continuous values of TM8110"
+          }
+        ]
+      }
+    },
+    "TM8308": {
+      "label": "Does _ Have Any Life Ins. Include Grp. P",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116"
+        }
+      }
+    },
+    "TM8309": {
+      "label": "What Is the Face Value of All Life Ins.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl. 000000001",
+          "000750000": "Total Amt. Skip to Tm8012"
+        }
+      }
+    },
+    "TM8306": {
+      "label": "Dk",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8306"
+          }
+        ]
+      }
+    },
+    "TM8428": {
+      "label": "Is It Likely That _ Will Be Able to Work",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8788": {
+      "label": "If This Vehicle Were Sold, What Would It",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8304": {
+      "label": "Other Assets",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8304"
+          }
+        ]
+      }
+    },
+    "TM8426": {
+      "label": "Has _ Been Prevented From Working for th",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8786": {
+      "label": "Second Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "701",
+            "description": "Continuous values of TM8786"
+          }
+        ]
+      }
+    },
+    "ATSUM05": {
+      "label": "Money Market Funds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM05"
+          }
+        ]
+      }
+    },
+    "TM8302": {
+      "label": "Stocks or Mutual Fund Shares",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8302"
+          }
+        ]
+      }
+    },
+    "TM8666": {
+      "label": "What Is the Total Value of _ Equity in T",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000240000": "Total Amt. Skip to Sc2262",
+          "000000000": "Not Appl. 00000001"
+        }
+      }
+    },
+    "ATSUM04": {
+      "label": "Now Accts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM04"
+          }
+        ]
+      }
+    },
+    "TM8424": {
+      "label": "Does _ Health or Condition Prevent _ Fro",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8784": {
+      "label": "Second Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "703",
+            "description": "Continuous values of TM8784"
+          }
+        ]
+      }
+    },
+    "TM8542": {
+      "label": "How Many Morts., Home Equity Loans, or O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "7",
+            "description": "Continuous values of TM8542"
+          }
+        ]
+      }
+    },
+    "ATSUM07": {
+      "label": "Municipal or Corp. Bonds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM07"
+          }
+        ]
+      }
+    },
+    "TM8300": {
+      "label": "U.S. Savings Bonds",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8300"
+          }
+        ]
+      }
+    },
+    "TM8664": {
+      "label": "Which Pers. in This Hshld. Is the Second",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "702",
+            "description": "Continuous values of TM8664"
+          }
+        ]
+      }
+    },
+    "TM8422": {
+      "label": "Chk. Item T7 Is Worked Code 170 Marked o",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "ATSUM06": {
+      "label": "U.S. Gov. Securities",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM06"
+          }
+        ]
+      }
+    },
+    "HHMORTG": {
+      "label": "Total Debt Owed on Home for a Mobile Hom",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "190002",
+            "description": "Continuous values of HHMORTG"
+          }
+        ]
+      }
+    },
+    "TM8540": {
+      "label": "Is There a Mortgage, Home, Equity Loan,",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "00": "Not Appl.",
+          "02": "No Skip to Tm8116",
+          "01": "Yes"
+        }
+      }
+    },
+    "ATSUM01": {
+      "label": "Savings Accts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM01"
+          }
+        ]
+      }
+    },
+    "TM8782": {
+      "label": "First Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1993",
+            "description": "Continuous values of TM8782"
+          }
+        ]
+      }
+    },
+    "TM8662": {
+      "label": "Which Pers. in This Hshld. Is the First",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "701",
+            "description": "Continuous values of TM8662"
+          }
+        ]
+      }
+    },
+    "TM8420": {
+      "label": "Does _ Have a Physical, Mental, or Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8780": {
+      "label": "First Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "999",
+            "description": "Continuous values of TM8780"
+          }
+        ]
+      }
+    },
+    "ATSUM03": {
+      "label": "Certificates of Deposit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM03"
+          }
+        ]
+      }
+    },
+    "TM8660": {
+      "label": "Do You or Anyone in This Hshld. Own Any",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "ATSUM02": {
+      "label": "Money Market Accts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM02"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Ed. Entry Add. Id Add. of the Hshld. Tha",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "94",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "ATSUM09": {
+      "label": "Stocks or Mutual Fund",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM09"
+          }
+        ]
+      }
+    },
+    "ATSUM08": {
+      "label": "Other Int. Earning Assets",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM08"
+          }
+        ]
+      }
+    },
+    "SUSEQNUM": {
+      "label": "Seq. No. of Sample Unit Prim. Sort Key",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "19864",
+            "description": "Continuous values of SUSEQNUM"
+          }
+        ]
+      }
+    },
+    "TM8418": {
+      "label": "We Have Recorded That _ Health or Condit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "ATSUM10": {
+      "label": "Rental Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM10"
+          }
+        ]
+      }
+    },
+    "TM8539": {
+      "label": "In What Yr. Was This Home Purch.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0000": "Not Appl. 0001 0095, 1900",
+          "1995": "Year"
+        }
+      }
+    },
+    "TM8416": {
+      "label": "Is Disabled Code 171 Marked on the CC fo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "0": "Not Appl.",
+          "2": "No"
+        }
+      }
+    },
+    "TM8658": {
+      "label": "Chk. Item T17 Is This Res. in a Pub. Hou",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "Neither Pub. Nor Subsidized",
+          "0": "Not Appl.",
+          "1": "In a Pub. Housing Proj. Skip to Tm8714",
+          "2": "Subsidized Skip to Tm8714"
+        }
+      }
+    },
+    "TM8538": {
+      "label": "In What Mth. Was This Home Purch.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1450",
+            "description": "Continuous values of TM8538"
+          }
+        ]
+      }
+    },
+    "TM8656": {
+      "label": "Last Month, Did Anyone Here Pay for the",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "0": "Not Appl.",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8657": {
+      "label": "What Was the Total Cost of These Care Ar",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8536": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1994",
+            "description": "Continuous values of TM8536"
+          }
+        ]
+      }
+    },
+    "TM8778": {
+      "label": "No Skip to Sc4800",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8778"
+          }
+        ]
+      }
+    },
+    "TM8654": {
+      "label": "No. of Pers. in Household",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8412": {
+      "label": "Chk. Item T5 What Is _ Age",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "3": "68 Yrs. Old or Older Skip to Tm8526",
+          "1": "15 Yrs. Old Skip to Tm8526",
+          "0": "Not Appl.",
+          "2": "16 67 Yrs. Old"
+        }
+      }
+    },
+    "ATSUM16": {
+      "label": "Checking Accts. W/o Int.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM16"
+          }
+        ]
+      }
+    },
+    "TM8776": {
+      "label": "Other",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of TM8776"
+          }
+        ]
+      }
+    },
+    "TM8413": {
+      "label": "Chk. Item T6 What Is Marked in Item 18a",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Yes in Item 18a Skip to Tm8418",
+          "3": "No in Item 18a Skip to Chk. Item T9 or S",
+          "0": "Not Appl.",
+          "1": "Item 18a Is Blank"
+        }
+      }
+    },
+    "ATSUM15": {
+      "label": "Sale of Bus. or Prop.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM15"
+          }
+        ]
+      }
+    },
+    "TM8534": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "6000",
+            "description": "Continuous values of TM8534"
+          }
+        ]
+      }
+    },
+    "ATSUM18": {
+      "label": "Ira Accts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM18"
+          }
+        ]
+      }
+    },
+    "GRDCMPL": {
+      "label": "Did He/she Complete That Grade",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "TM8652": {
+      "label": "How Much Did This Pers. Pay",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8410": {
+      "label": "Not Counting Amounts Already Reported by",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8774": {
+      "label": "Recreational Vehicle Rv",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8774"
+          }
+        ]
+      }
+    },
+    "TM8532": {
+      "label": "Pers. Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1300",
+            "description": "Continuous values of TM8532"
+          }
+        ]
+      }
+    },
+    "ATSUM17": {
+      "label": "U. S. Savings Bond E, Ee",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM17"
+          }
+        ]
+      }
+    },
+    "TM8650": {
+      "label": "How Much Did This Pers. Pay",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "ATSUM12": {
+      "label": "Royalties",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM12"
+          }
+        ]
+      }
+    },
+    "TM8651": {
+      "label": "How Much Did This Pers. Pay",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8772": {
+      "label": "Boat",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "2",
+            "description": "Continuous values of TM8772"
+          }
+        ]
+      }
+    },
+    "TM8530": {
+      "label": "Chk. Item T11 Tenure",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "1": "Owned or being bought",
+          "3": "Occ. Without Cash Payment Skip to Tm8640",
+          "2": "Rented for Cash Skip to Tm8638"
+        }
+      }
+    },
+    "ATSUM11": {
+      "label": "Morts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM11"
+          }
+        ]
+      }
+    },
+    "ATSUM14": {
+      "label": "Self Emp. Owns Business",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM14"
+          }
+        ]
+      }
+    },
+    "TM8770": {
+      "label": "Motorcycle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "206",
+            "description": "Continuous values of TM8770"
+          }
+        ]
+      }
+    },
+    "ATSUM13": {
+      "label": "Other Financial Investments",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM13"
+          }
+        ]
+      }
+    },
+    "ATSUM19": {
+      "label": "Keogh Accts.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM19"
+          }
+        ]
+      }
+    },
+    "PPMIS5": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "TM8209": {
+      "label": "As of Last Day of Ref. Per. Did _ Own Jo",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "PPMIS4": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "ATSUM20": {
+      "label": "Real Estate",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1",
+            "max": "1",
+            "description": "Continuous values of ATSUM20"
+          }
+        ]
+      }
+    },
+    "PPMIS3": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Non Intv.",
+          "1": "Intv."
+        }
+      }
+    },
+    "PPMIS2": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "PPMIS1": {
+      "label": "Mthly. Pers. Intv. Stat.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Intv.",
+          "2": "Non Intv."
+        }
+      }
+    },
+    "TM8208": {
+      "label": "Chk. Item T1 Intv. Stat. of _ Spouse",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "0": "Not Appl.",
+          "2": "Intv. for Spouse Not Yet Conducted",
+          "3": "Intv. for Spouse Already Conducted Skip",
+          "1": "No Spouse in Hshld. Skip to Tm8232"
+        }
+      }
+    },
+    "TM8568": {
+      "label": "In What Yr. Was This Mort. Loan Obtained",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1995": "Yr. Skip to Tm8572",
+          "0": "Not Appl. Skip to Tm8572 0001 0095, 1900"
+        }
+      }
+    },
+    "TM8206": {
+      "label": "What Was the Face Value of the U.S. Savi",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000025",
+          "015000": "Total Amount"
+        }
+      }
+    },
+    "TM8569": {
+      "label": "In What Mth. Was This Mort. Loan Obtaine",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "12",
+            "description": "Continuous values of TM8569"
+          }
+        ]
+      }
+    },
+    "TM8566": {
+      "label": "How Much Principal Is Cur. Owed on This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not Appl.",
+          "000000001": "Value Combined With Tm8008 for Pub. Use"
+        }
+      }
+    },
+    "TM8204": {
+      "label": "Did _ Own Any U.S. Savings Bonds As of L",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8564": {
+      "label": "How Much Principal Is Cur. Owed on This",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000750000": "Total Amt. Skip to Tm8012",
+          "000000000": "Not Appl. 000000001"
+        }
+      }
+    },
+    "TM8202": {
+      "label": "How Much Was Owed to _ If Shared, Count",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000000": "Not in Univ. 000000001",
+          "999999999": "Total Amount"
+        }
+      }
+    },
+    "TM8200": {
+      "label": "As of Last Day of Ref. Per. Did Anyone O",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Yes",
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl."
+        }
+      }
+    },
+    "TM8790": {
+      "label": "If This Vehicle Were Sold, What Would It",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8318": {
+      "label": "What Is the Face Value of the Life Ins.",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. 000001",
+          "999999": "Total Amt. Tm8200"
+        }
+      }
+    },
+    "TM8316": {
+      "label": "Are Any of _ Life Ins. Policies Provided",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "Yes",
+          "2": "No",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8314": {
+      "label": "Is Worked Marked on the ISS",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "No",
+          "1": "Yes",
+          "0": "Not Appl."
+        }
+      }
+    },
+    "TM8798": {
+      "label": "How Much Is Cur. Owed for This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "000000": "Not Appl. Skip to Sc4800 000003",
+          "056000": "Total Amt. Skip to Sc4800"
+        }
+      }
+    },
+    "TM8312": {
+      "label": "What Type of Life Ins. Does _ Have",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "01": "Term Only",
+          "03": "Both Types",
+          "00": "Not Appl.",
+          "02": "Whole Life Only"
+        }
+      }
+    },
+    "TM8796": {
+      "label": "How Much Is Cur. Owed for This Vehicle",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "999999": "Total Amt. Tm8200",
+          "000000": "Not Appl. 000001"
+        }
+      }
+    },
+    "TM8794": {
+      "label": "Is This Vehicle Owned Free and Clear or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "00": "Not Appl.",
+          "01": "Yes"
+        }
+      }
+    },
+    "TM8792": {
+      "label": "Is This Vehicle Owned Free and Clear or",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "02": "No Skip to Tm8116",
+          "01": "Yes",
+          "00": "Not Appl."
+        }
+      }
+    }
+  }
+}

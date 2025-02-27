@@ -1,0 +1,250 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "Y10_GRADS_EARN": {
+      "label": "Count of Employed Graduates in Year 10",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y10_GRADS_EARN"
+    },
+    "GRAD_COHORT_YEARS": {
+      "label": "Number of Graduation Cohort Years",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_GRAD_COHORT_YEARS"
+    },
+    "Y1_P50_EARNINGS": {
+      "label": "Earnings 50th Percentile in Year 1 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y1_EARNINGS"
+    },
+    "Y10_IPEDS_COUNT": {
+      "label": "Count of IPEDS Reported Graduates of Programs Included in Year 10 Earnings",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y10_IPEDS_COUNT"
+    },
+    "AGG_LEVEL_PSEO": {
+      "label": "Aggregation Level",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_AGG_LEVEL_PSEO"
+    },
+    "CIPCODE": {
+      "label": "CIP Code",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_CIPCODE"
+    },
+    "Y10_P25_EARNINGS": {
+      "label": "Earnings 25th Percentile in Year 10 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y10_EARNINGS"
+    },
+    "Y5_IPEDS_COUNT": {
+      "label": "Count of IPEDS Reported Graduates of Programs Included in Year 5 Earnings",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y5_IPEDS_COUNT"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "INST_STATE": {
+      "label": "FIPS Code of State of the Institution",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_INST_STATE"
+    },
+    "Y10_P50_EARNINGS": {
+      "label": "Earnings 50th Percentile in Year 10 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y10_EARNINGS"
+    },
+    "Y1_P25_EARNINGS": {
+      "label": "Earnings 25th Percentile in Year 1 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y1_EARNINGS"
+    },
+    "Y1_P75_EARNINGS": {
+      "label": "Earnings 75th Percentile in Year 1 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y1_EARNINGS"
+    },
+    "Y5_P25_EARNINGS": {
+      "label": "Earnings 25th Percentile in Year 5 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y5_EARNINGS"
+    },
+    "INSTITUTION": {
+      "label": "Institution",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_INSTITUTION"
+    },
+    "GRAD_COHORT": {
+      "label": "First Year of Graduation Cohort",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_GRAD_COHORT"
+    },
+    "Y1_IPEDS_COUNT": {
+      "label": "Count of IPEDS Reported Graduates of Programs Included in Year 1 Earnings",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y1_IPEDS_COUNT"
+    },
+    "Y10_P75_EARNINGS": {
+      "label": "Earnings 75th Percentile in Year 10 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y10_EARNINGS"
+    },
+    "INST_LEVEL": {
+      "label": "Institution Level",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_INST_LEVEL"
+    },
+    "Y5_P75_EARNINGS": {
+      "label": "Earnings 75th Percentile in Year 5 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y5_EARNINGS"
+    },
+    "GEO_ID": {
+      "label": "Geographic Identifier Code",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CIP_LEVEL": {
+      "label": "CIP Code Level",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_CIP_LEVEL"
+    },
+    "DEGREE_LEVEL": {
+      "label": "Degree Level",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "LABEL_DEGREE_LEVEL"
+    },
+    "Y5_P50_EARNINGS": {
+      "label": "Earnings 50th Percentile in Year 5 (2022 Dollars)",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y5_EARNINGS"
+    },
+    "Y5_GRADS_EARN": {
+      "label": "Count of Employed Graduates in Year 5",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y5_GRADS_EARN"
+    },
+    "Y1_GRADS_EARN": {
+      "label": "Count of Employed Graduates in Year 1",
+      "concept": "Post-Secondary Employment Outcomes (PSEO) Earnings",
+      "predicateType": "int",
+      "group": "PSEOEARNINGS",
+      "limit": 0,
+      "attributes": "STATUS_Y1_GRADS_EARN"
+    }
+  }
+}

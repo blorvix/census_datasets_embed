@@ -1,0 +1,306 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "NRCPTOT": {
+      "label": "Nonemployer value of business done ($1,000)",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS2012_TTL": {
+      "label": "Title of NAICS2012",
+      "concept": "Industry classification",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_S": {
+      "label": "Standard error for estimate of value of business done (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_S_F": {
+      "label": "Flag for Standard error for estimate of number of employees (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYQTR1_F": {
+      "label": "Flag for Total first quarter payroll data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_S_F": {
+      "label": "Flag for Standard error for estimate of value of business done (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYQTR1_S": {
+      "label": "Standard error for estimate of first-quarter payroll (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NESTAB_F": {
+      "label": "Flag for Number of nonemployer establishments data suppression flag",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT_F": {
+      "label": "Flag for Value of business done data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_S": {
+      "label": "Standard error for estimate of number of employees (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FOOTID_GEO": {
+      "label": "FootID of geography",
+      "concept": "Geographic Characteristics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CENREG": {
+      "label": "Census region code",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CSA": {
+      "label": "Combined Statistical Area Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Employer Statistics",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MD": {
+      "label": "Metro Division Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FOOTID_NAICS": {
+      "label": "FootID of NAICS",
+      "concept": "Industry classification",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RCPTOT": {
+      "label": "Value of business done ($1,000)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYQTR1_S_F": {
+      "label": "Flag for Standard error for estimate of first-quarter payroll (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CONSCITY": {
+      "label": "FIPS CONSCITY code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "MSA": {
+      "label": "Metropolitan/Micropolitan Statistical Area",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP_F": {
+      "label": "Flag for Number of employees data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "FIPS county code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_TTL": {
+      "label": "Title of geography",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTAB_F": {
+      "label": "Flag for Number of establishments data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "OPTAX_TTL": {
+      "label": "Title of Optax",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ST": {
+      "label": "FIPS State Code",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYQTR1": {
+      "label": "Total first quarter payroll",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_S": {
+      "label": "Standard error for estimate of annual payroll (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "EMP": {
+      "label": "Number of employees",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_F": {
+      "label": "Flag for Annual payroll data suppression flag",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NRCPTOT_F": {
+      "label": "Flag for Nonemployer value of business done ($1,000) Data Suppression Flag",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "FIPS Place code",
+      "concept": "Selectable Geographies",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NAICS2012": {
+      "label": "NAICS2012 industry code",
+      "concept": "Industry classification",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "ID of geography",
+      "concept": "Geographic Characteristics",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PLANREG": {
+      "label": "Puerto Rico planning area code",
+      "concept": "Geographic Characteristics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOTYPE": {
+      "label": "Type of geography flag",
+      "concept": "Selectable Geographies",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ESTAB": {
+      "label": "Number of establishments",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "OPTAX": {
+      "label": "Type of operation or tax status code",
+      "concept": "Employer Statistics",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NESTAB": {
+      "label": "Number of nonemployer establishments",
+      "concept": "Non Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN_S_F": {
+      "label": "Flag for Standard error for estimate of annual payroll (%)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_COMP": {
+      "label": "Geographic component code",
+      "concept": "Geographic Characteristics",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PAYANN": {
+      "label": "Annual payroll ($1,000)",
+      "concept": "Employer Statistics",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

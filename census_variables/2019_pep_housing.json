@@ -1,0 +1,102 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "DATE_CODE": {
+      "label": "Estimate Date",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "April 1, 2010 Census population or housing unit count",
+          "2": "April 1, 2010 population or housing unit estimates base",
+          "3": "July 1, 2010 population or housing unit estimate",
+          "4": "July 1, 2011 population or housing unit estimate",
+          "5": "July 1, 2012 population or housing unit estimate",
+          "6": "July 1, 2013 population or housing unit estimate",
+          "7": "July 1, 2014 population or housing unit estimate",
+          "8": "July 1, 2015 population or housing unit estimate",
+          "9": "July 1, 2016 population or housing unit estimate",
+          "10": "July 1, 2017 population or housing unit estimate",
+          "11": "July 1, 2018 population or housing unit estimate",
+          "12": "July 1, 2019 population or housing unit estimate"
+        }
+      }
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HUEST": {
+      "label": "Housing Unit Estimate",
+      "group": "N/A",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DATE_DESC": {
+      "label": "Description of DATE values",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

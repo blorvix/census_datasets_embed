@@ -1,0 +1,323 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "PBG007003": {
+      "label": "Total!!Foreign born",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG009006": {
+      "label": "Total!!1980 to 1989!!1980 to 1985",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007002": {
+      "label": "Total!!Native",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG009007": {
+      "label": "Total!!Before 1980",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007024": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)!!Year of entry before 1980",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007005": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen!!Year of entry 2000 to March 2010",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "COUSUB": {
+      "label": "County Subdivision (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PBG009004": {
+      "label": "Total!!1980 to 1989",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007004": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG009005": {
+      "label": "Total!!1980 to 1989!!1986 to 1989",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007007": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen!!Year of entry 1980 to 1989",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007006": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen!!Year of entry 1990 to 1999",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007009": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen!!Year of entry 1980 to 1989!!1980 to 1985",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007008": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen!!Year of entry 1980 to 1989!!1986 to 1989",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ZCTA5": {
+      "label": "Zip Code Tabulation Area (Five-Digit)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UA": {
+      "label": "Urban Area",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BLKGRP": {
+      "label": "Census Block Group",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PBG009002": {
+      "label": "Total!!2000 to March 2010",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007021": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)!!Year of entry 1980 to 1989",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "UR": {
+      "label": "Urban/Rural Flag",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PBG009003": {
+      "label": "Total!!1990 to 1999",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007020": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)!!Year of entry 1990 to 1999",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007001": {
+      "label": "Total",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007023": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)!!Year of entry 1980 to 1989!!1980 to 1985",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "COUNTY": {
+      "label": "County (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PBG009001": {
+      "label": "Total",
+      "concept": "YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "int",
+      "group": "PBG9",
+      "limit": 0
+    },
+    "PBG007022": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)!!Year of entry 1980 to 1989!!1986 to 1989",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007014": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)!!Year of entry 1980 to 1989",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "GEOVARIANT": {
+      "label": "Geographic variant",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PBG007013": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)!!Year of entry 1990 to 1999",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007016": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)!!Year of entry 1980 to 1989!!1980 to 1985",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007015": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)!!Year of entry 1980 to 1989!!1986 to 1989",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007018": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007017": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)!!Year of entry before 1980",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007019": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (temporary resident)!!Year of entry 2000 to March 2010",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PLACE": {
+      "label": "Place (FIPS)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geography",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY;YEAR OF ENTRY FOR THE FOREIGN-BORN POPULATION",
+      "predicateType": "string",
+      "group": "PBG9,PBG7",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "LSAD_NAME": {
+      "label": "Legal/Statistical Area Description name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "TRACT": {
+      "label": "Census Tract",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PBG007010": {
+      "label": "Total!!Foreign born!!Naturalized U.S. citizen!!Year of entry before 1980",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007012": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)!!Year of entry 2000 to March 2010",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    },
+    "PBG007011": {
+      "label": "Total!!Foreign born!!Not a U.S. citizen or national (permanent resident)",
+      "concept": "NATIVITY BY CITIZENSHIP STATUS BY YEAR OF ENTRY",
+      "predicateType": "int",
+      "group": "PBG7",
+      "limit": 0
+    }
+  }
+}

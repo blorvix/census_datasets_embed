@@ -1,0 +1,210 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "V3A": {
+      "label": "Vius Table 3A Indicator",
+      "concept": "All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS213A",
+      "limit": 0
+    },
+    "V1A": {
+      "label": "Vius Table 1A Indicator",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS211A",
+      "limit": 0
+    },
+    "VEHTYPE": {
+      "label": "Vehicle type code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211A",
+      "limit": 0,
+      "attributes": "VEHTYPE_LABEL"
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VMILE": {
+      "label": "Vehicle miles (millions)",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "VMILE_F"
+    },
+    "TCONFIG": {
+      "label": "Trailer configuration code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211A",
+      "limit": 0,
+      "attributes": "TCONFIG_LABEL"
+    },
+    "VCOUNT": {
+      "label": "Number of vehicles (thousands)",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "VCOUNT_F"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRICHAR": {
+      "label": "Primary characteristic code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "PRICHAR_LABEL"
+    },
+    "VMILE_S": {
+      "label": "Coefficient of variation for vehicle miles (%)",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "VMILE_S_F"
+    },
+    "PRIVALUE": {
+      "label": "Primary value code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "PRIVALUE_LABEL"
+    },
+    "V2A": {
+      "label": "Vius Table 2A Indicator",
+      "concept": "All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS212A",
+      "limit": 0
+    },
+    "AMILE_S": {
+      "label": "Coefficient of variation for average miles per vehicle (%)",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "AMILE_S_F"
+    },
+    "VCOUNT_S": {
+      "label": "Coefficient of variation for number of vehicles (%)",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "VCOUNT_S_F"
+    },
+    "GVWR": {
+      "label": "Gross vehicle weight rating",
+      "concept": "All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213A",
+      "limit": 0,
+      "attributes": "GVWR_LABEL"
+    },
+    "AMILE": {
+      "label": "Average miles per vehicle (thousands)",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "AMILE_F"
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "GEO_ID_F,NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SECCHAR": {
+      "label": "Secondary characteristic code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "SECCHAR_LABEL"
+    },
+    "BTYPE": {
+      "label": "Body type code",
+      "concept": "All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS212A",
+      "limit": 0,
+      "attributes": "BTYPE_LABEL"
+    },
+    "BUSE": {
+      "label": "Business use code",
+      "concept": "All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS212A",
+      "limit": 0,
+      "attributes": "BUSE_LABEL"
+    },
+    "SECVALUE": {
+      "label": "Secondary value code",
+      "concept": "All Vehicles by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State, Business Use, and Body Type for the U.S. (excluding New Hampshire) and States: 2021;All Vehicles by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211A,VIUS213A,VIUS212A",
+      "limit": 0,
+      "attributes": "SECVALUE_LABEL"
+    }
+  }
+}

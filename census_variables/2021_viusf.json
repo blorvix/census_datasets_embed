@@ -1,0 +1,185 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "VEHTYPE": {
+      "label": "Vehicle type code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211F",
+      "limit": 0,
+      "attributes": "VEHTYPE_LABEL"
+    },
+    "V3F": {
+      "label": "Vius Table 3F Indicator",
+      "concept": "Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS213F",
+      "limit": 0
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "V1F": {
+      "label": "Vius Table 1F Indicator",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS211F",
+      "limit": 0
+    },
+    "VMILE": {
+      "label": "Vehicle miles (millions)",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "VMILE_F"
+    },
+    "TCONFIG": {
+      "label": "Trailer configuration code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS211F",
+      "limit": 0,
+      "attributes": "TCONFIG_LABEL"
+    },
+    "VCOUNT": {
+      "label": "Number of vehicles (thousands)",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "VCOUNT_F"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PRICHAR": {
+      "label": "Primary characteristic code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "PRICHAR_LABEL"
+    },
+    "VMILE_S": {
+      "label": "Coefficient of variation for vehicle miles (%)",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "VMILE_S_F"
+    },
+    "PRIVALUE": {
+      "label": "Primary value code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "PRIVALUE_LABEL"
+    },
+    "AMILE_S": {
+      "label": "Coefficient of variation for average miles per vehicle (%)",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "AMILE_S_F"
+    },
+    "VCOUNT_S": {
+      "label": "Coefficient of variation for number of vehicles (%)",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "VCOUNT_S_F"
+    },
+    "GVWR": {
+      "label": "Gross vehicle weight rating",
+      "concept": "Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213F",
+      "limit": 0,
+      "attributes": "GVWR_LABEL"
+    },
+    "AMILE": {
+      "label": "Average miles per vehicle (thousands)",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "float",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "AMILE_F"
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "predicateType": "string",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "GEO_ID_F,NAME"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SECCHAR": {
+      "label": "Secondary characteristic code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "SECCHAR_LABEL"
+    },
+    "SECVALUE": {
+      "label": "Secondary value code",
+      "concept": "Commercial Activity for Large Trucks by Registration State, Vehicle Type, and Trailer Configuration for the U.S. (excluding New Hampshire) and States: 2021;Commercial Activity for Large Trucks by Registration State and Vehicle Size for the U.S. (excluding New Hampshire) and States: 2021",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "VIUS213F,VIUS211F",
+      "limit": 0,
+      "attributes": "SECVALUE_LABEL"
+    }
+  }
+}

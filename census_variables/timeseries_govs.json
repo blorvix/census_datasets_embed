@@ -1,0 +1,354 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true
+      }
+    },
+    "PT_HRS": {
+      "label": "Part-Time Hours",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "PT_HRS_F"
+    },
+    "PT_PAY": {
+      "label": "Part-Time Payroll",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "PT_PAY_F"
+    },
+    "TOT_EMP": {
+      "label": "Total Full-Time and Part-Time Employment",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "TOT_EMP_F"
+    },
+    "FT_EMP": {
+      "label": "Full-Time Employment",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "FT_EMP_F"
+    },
+    "RANK": {
+      "label": "Rank",
+      "concept": "States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022",
+      "predicateType": "int",
+      "group": "GS00SS08,GS00SS09",
+      "limit": 0,
+      "attributes": "RANK_F"
+    },
+    "AMOUNT_FORMATTED": {
+      "label": "Amount",
+      "concept": "Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016",
+      "predicateType": "string",
+      "group": "CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,CG00ORG01,CG00ORG10,GS00PP01,CG00ORG11",
+      "limit": 0,
+      "attributes": "AMOUNT_FORMATTED_F"
+    },
+    "NATION": {
+      "label": "Nation",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "concept": "Population, Enrollment, and Personal Income: US and State: 2012 - 2022;Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;State Tax Collections Detailed Table: US and States 2016 - 2023;State Tax Collections by Category: US and States 2016 - 2023;Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023;State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023;State Government Finances: US and States: 2012 - 2022;Income and Apportionment of State-Administered Lottery Funds: US and States: 2012 - 2022;Summary of Public Elementary-Secondary School System Finances: US and State: 2012 - 2022;Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Percentage Distribution of Public Elementary-Secondary School System Revenue by Source: US and State: 2012 - 2022;Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Capital Outlay and Other Expenditure of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Indebtedness and Debt Transactions of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "predicateType": "string",
+      "group": "GS00SS01,GS00SS02,GS00SS03,CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,GS00SG01,CG00ORG01,GS00SG02,GS00TC01,CG00ORG10,GS00TC02,GS00SS08,GS00SS09,GS00EP03,GS00SS04,GS00SS05,GS00SS11A,GS00EP01,GS00SS06,GS00SS11B,GS00EP02,GS00SS07,GS00SS11C,GS00SS12,GS00SS13,GS00SS14,GS00PP02,GS00PP01,GS00LF01,CG00ORG11,GS00SS10C,GS00SS15,GS00SS16,GS00SS17,GS00SS10A,GS00SS10B",
+      "limit": 0
+    },
+    "AMOUNT": {
+      "label": "Amount",
+      "concept": "Population, Enrollment, and Personal Income: US and State: 2012 - 2022;Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;State Tax Collections Detailed Table: US and States 2016 - 2023;State Tax Collections by Category: US and States 2016 - 2023;Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023;State Government Finances: US and States: 2012 - 2022;Income and Apportionment of State-Administered Lottery Funds: US and States: 2012 - 2022;Summary of Public Elementary-Secondary School System Finances: US and State: 2012 - 2022;Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Capital Outlay and Other Expenditure of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Indebtedness and Debt Transactions of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "predicateType": "int",
+      "group": "GS00SS01,GS00SS02,CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,GS00SG01,CG00ORG01,GS00SG02,GS00TC01,CG00ORG10,GS00TC02,GS00SS08,GS00SS04,GS00SS05,GS00SS06,GS00SS07,GS00SS12,GS00SS13,GS00PP02,GS00LF01,CG00ORG11,GS00SS10C,GS00SS15,GS00SS16,GS00SS17,GS00SS10A,GS00SS10B",
+      "limit": 0,
+      "attributes": "AMOUNT_F"
+    },
+    "AMOUNT_PER": {
+      "label": "Percentage of Revenue",
+      "concept": "Percentage Distribution of Public Elementary-Secondary School System Revenue by Source: US and State: 2012 - 2022",
+      "predicateType": "float",
+      "group": "GS00SS03",
+      "limit": 0,
+      "attributes": "AMOUNT_PER_F"
+    },
+    "TOT_EMP_CV": {
+      "label": "Total Full-Time and Part-Time Employment Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "TOT_EMP_CV_F"
+    },
+    "TOT_PAY_CV": {
+      "label": "Total Full-Time and Part-Time Payroll Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "TOT_PAY_CV_F"
+    },
+    "COG_VARIABLE": {
+      "label": "COG Variable",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AMOUNT_CV": {
+      "label": "Coefficent of Variation for Amount (percent)",
+      "concept": "State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00PP02,GS00PP01,GS00LF01",
+      "limit": 0,
+      "attributes": "AMOUNT_CV_F"
+    },
+    "PT_EMP": {
+      "label": "Part-Time Employment",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "PT_EMP_F"
+    },
+    "SDELM": {
+      "label": "School District (Elementary)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GOVTYPE": {
+      "label": "Type of Government",
+      "concept": "Population, Enrollment, and Personal Income: US and State: 2012 - 2022;Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;State Tax Collections Detailed Table: US and States 2016 - 2023;State Tax Collections by Category: US and States 2016 - 2023;Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023;State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023;State Government Finances: US and States: 2012 - 2022;Income and Apportionment of State-Administered Lottery Funds: US and States: 2012 - 2022;Summary of Public Elementary-Secondary School System Finances: US and State: 2012 - 2022;Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Percentage Distribution of Public Elementary-Secondary School System Revenue by Source: US and State: 2012 - 2022;Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Capital Outlay and Other Expenditure of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Indebtedness and Debt Transactions of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00SS01,GS00SS02,GS00SS03,CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,GS00SG01,CG00ORG01,GS00SG02,GS00TC01,CG00ORG10,GS00TC02,GS00SS08,GS00SS09,GS00EP03,GS00SS04,GS00SS05,GS00SS11A,GS00EP01,GS00SS06,GS00SS11B,GS00EP02,GS00SS07,GS00SS11C,GS00SS12,GS00SS13,GS00SS14,GS00PP02,GS00PP01,GS00LF01,CG00ORG11,GS00SS10C,GS00SS15,GS00SS16,GS00SS17,GS00SS10A,GS00SS10B",
+      "limit": 0,
+      "attributes": "GOVTYPE_LABEL"
+    },
+    "TOT_PAY": {
+      "label": "Total Full-Time and Part-Time Payroll",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "TOT_PAY_F"
+    },
+    "AGG_DESC": {
+      "label": "Aggregate Description",
+      "concept": "Population, Enrollment, and Personal Income: US and State: 2012 - 2022;Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;State Tax Collections Detailed Table: US and States 2016 - 2023;State Tax Collections by Category: US and States 2016 - 2023;Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023;State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023;State Government Finances: US and States: 2012 - 2022;Income and Apportionment of State-Administered Lottery Funds: US and States: 2012 - 2022;Summary of Public Elementary-Secondary School System Finances: US and State: 2012 - 2022;Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Percentage Distribution of Public Elementary-Secondary School System Revenue by Source: US and State: 2012 - 2022;Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Capital Outlay and Other Expenditure of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Indebtedness and Debt Transactions of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00SS01,GS00SS02,GS00SS03,CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,GS00SG01,CG00ORG01,GS00SG02,GS00TC01,CG00ORG10,GS00TC02,GS00SS08,GS00SS09,GS00EP03,GS00SS04,GS00SS05,GS00SS11A,GS00EP01,GS00SS06,GS00SS11B,GS00EP02,GS00SS07,GS00SS11C,GS00SS12,GS00SS13,GS00SS14,GS00PP02,GS00PP01,GS00LF01,CG00ORG11,GS00SS10C,GS00SS15,GS00SS16,GS00SS17,GS00SS10A,GS00SS10B",
+      "limit": 0,
+      "attributes": "AGG_DESC_LABEL"
+    },
+    "FT_PAY": {
+      "label": "Full-Time Payroll",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "FT_PAY_F"
+    },
+    "AMOUNT_DISTRIBUTION": {
+      "label": "Amount Distribution",
+      "concept": "Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022",
+      "predicateType": "float",
+      "group": "GS00SS14",
+      "limit": 0,
+      "attributes": "AMOUNT_DISTRIBUTION_F"
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "FTE": {
+      "label": "Full-Time Equivalent Employment",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "int",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "FTE_F"
+    },
+    "ENROLLSZE": {
+      "label": "Enrollment Size",
+      "concept": "Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00SS11A,GS00SS11B,GS00SS11C,GS00SS10C,GS00SS10A,GS00SS10B",
+      "limit": 0,
+      "attributes": "ENROLLSZE_LABEL"
+    },
+    "PT_HRS_CV": {
+      "label": "Part-Time Hours Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "PT_HRS_CV_F"
+    },
+    "AMOUNT_PUPIL": {
+      "label": "Finance",
+      "concept": "Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022",
+      "predicateType": "float",
+      "group": "GS00SS11A,GS00SS11B,GS00SS11C",
+      "limit": 0,
+      "attributes": "AMOUNT_PUPIL_F"
+    },
+    "AMOUNT_CHANGE": {
+      "label": "Percent Change",
+      "concept": "Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022",
+      "predicateType": "float",
+      "group": "GS00SS17",
+      "limit": 0,
+      "attributes": "AMOUNT_CHANGE_F"
+    },
+    "FTE_CV": {
+      "label": "Full-Time Equivalent Employment Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "FTE_CV_F"
+    },
+    "STATE": {
+      "label": "State",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SVY_COMP": {
+      "label": "Survey Component",
+      "concept": "Population, Enrollment, and Personal Income: US and State: 2012 - 2022;Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;State Tax Collections Detailed Table: US and States 2016 - 2023;State Tax Collections by Category: US and States 2016 - 2023;Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023;State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023;State Government Finances: US and States: 2012 - 2022;Income and Apportionment of State-Administered Lottery Funds: US and States: 2012 - 2022;Summary of Public Elementary-Secondary School System Finances: US and State: 2012 - 2022;Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Percentage Distribution of Public Elementary-Secondary School System Revenue by Source: US and State: 2012 - 2022;Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Capital Outlay and Other Expenditure of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Indebtedness and Debt Transactions of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00SS01,GS00SS02,GS00SS03,CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,GS00SG01,CG00ORG01,GS00SG02,GS00TC01,CG00ORG10,GS00TC02,GS00SS08,GS00SS09,GS00EP03,GS00SS04,GS00SS05,GS00SS11A,GS00EP01,GS00SS06,GS00SS11B,GS00EP02,GS00SS07,GS00SS11C,GS00SS12,GS00SS13,GS00SS14,GS00PP02,GS00PP01,GS00LF01,CG00ORG11,GS00SS10C,GS00SS15,GS00SS16,GS00SS17,GS00SS10A,GS00SS10B",
+      "limit": 0,
+      "attributes": "SVY_COMP_LABEL"
+    },
+    "FT_PAY_CV": {
+      "label": "Full-Time Payroll Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "FT_PAY_CV_F"
+    },
+    "FT_EMP_CV": {
+      "label": "Full-Time Employment Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "FT_EMP_CV_F"
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "PT_EMP_CV": {
+      "label": "Part-Time Employment Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "PT_EMP_CV_F"
+    },
+    "PT_PAY_CV": {
+      "label": "Part-Time Payroll Coefficient of Variation",
+      "concept": "State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023",
+      "predicateType": "float",
+      "group": "GS00EP03,GS00EP01,GS00EP02",
+      "limit": 0,
+      "attributes": "PT_PAY_CV_F"
+    },
+    "EXPENDTYPE": {
+      "label": "Type of Expenditure",
+      "concept": "Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00SS04,GS00SS11B,GS00SS13,GS00SS15,GS00SS10B",
+      "limit": 0,
+      "attributes": "EXPENDTYPE_LABEL"
+    },
+    "FINSRC": {
+      "label": "Finance Source",
+      "concept": "Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "GS00SS02,GS00SS11A,GS00SS12,GS00SS14,GS00SS10A",
+      "limit": 0,
+      "attributes": "FINSRC_LABEL"
+    },
+    "AMOUNT_PI": {
+      "label": "Total Per $1000 Personal Income",
+      "concept": "States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022",
+      "predicateType": "float",
+      "group": "GS00SS09",
+      "limit": 0,
+      "attributes": "AMOUNT_PI_F"
+    },
+    "SDUNI": {
+      "label": "School District (Unified)",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Population, Enrollment, and Personal Income: US and State: 2012 - 2022;Per Pupil Current Spending (PPCS) Amounts and 1-Year Percentage Changes for PPCS of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;State Tax Collections Detailed Table: US and States 2016 - 2023;State Tax Collections by Category: US and States 2016 - 2023;Government Units: US and State: Census Years 1942 - 2022;Local Governments by Type: US and State: 2012 - 2022;General-Purpose Local Governments by State: US and State: Census Years 1942 - 2022;Special-Purpose Local Governments: US and State: Census Years 1942 - 2022;County Governments by Population-Size Group: US and State: 2012 - 2022;Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Population of Subcounty General-Purpose Governments by Population-Size Group: US and State: 2012 - 2022;Special District Governments by Function: US and State: 2012 - 2022;Public School Systems by Type of Organization: US and State: 2012 - 2022;Elementary and Secondary School Systems by Enrollment-Size Group: US and State: 2012 - 2022;Public School Systems by Grade Coverage: US and State: 2012 - 2022;State and Local Government Employment and Payroll Data: US and States: 2017 - 2023;State Government Employment and Payroll Data: US and States: 2017 - 2023;Local Government Employment and Payroll Data: US and States: 2017 - 2023;State and Local Government Finances by Level of Government: US and States: 2017 - 2022;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2012 - 2016;State and Locally-Administered Defined Benefit Pension Systems: US and States: 2017 - 2023;State Government Finances: US and States: 2012 - 2022;Income and Apportionment of State-Administered Lottery Funds: US and States: 2012 - 2022;Summary of Public Elementary-Secondary School System Finances: US and State: 2012 - 2022;Revenue for Public Elementary-Secondary School Systems by Revenue Source: US and State: 2012 - 2022;Percentage Distribution of Public Elementary-Secondary School System Revenue by Source: US and State: 2012 - 2022;Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Capital Outlay and Other Expenditure of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;Indebtedness and Debt Transactions of Public Elementary-Secondary School Systems: US and State: 2012 - 2022;States Ranked According to Per Pupil Public Elementary-Secondary School System Finance Amounts: US and State: 2012 - 2022;States Ranked According to Relation of Public Elementary-Secondary School System Finance Amounts to $1,000 Personal Income: US and State: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Revenue: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Expenditure: 2012 - 2022;Per Pupil Amounts of Public Elementary-Secondary Education School System Finances by Enrollment-Size Groups - Debt: 2012 - 2022;Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Expenditure of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022;Percentage Distribution of Revenue of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012- 2022;Per Pupil Amounts for Current Spending of Public Elementary-Secondary School Systems in the United States: Fiscal Year 2012 - 2022",
+      "predicateType": "string",
+      "group": "GS00SS01,GS00SS02,GS00SS03,CG00ORG09,CG00ORG08,CG00ORG07,CG00ORG06,CG00ORG05,CG00ORG04,CG00ORG03,CG00ORG02,GS00SG01,CG00ORG01,GS00SG02,GS00TC01,CG00ORG10,GS00TC02,GS00SS08,GS00SS09,GS00EP03,GS00SS04,GS00SS05,GS00SS11A,GS00EP01,GS00SS06,GS00SS11B,GS00EP02,GS00SS07,GS00SS11C,GS00SS12,GS00SS13,GS00SS14,GS00PP02,GS00PP01,GS00LF01,CG00ORG11,GS00SS10C,GS00SS15,GS00SS16,GS00SS17,GS00SS10A,GS00SS10B",
+      "limit": 0,
+      "attributes": "GEO_ID_F,NAME"
+    },
+    "SDSEC": {
+      "label": "School District (Secondary)",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

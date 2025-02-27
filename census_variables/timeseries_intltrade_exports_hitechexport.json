@@ -1,0 +1,291 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true,
+        "month": true
+      }
+    },
+    "CNT_WGT_YR": {
+      "label": "Year-to-Date Containerized Vessel Shipping Weight",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "MONTH": {
+      "label": "Month",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DF": {
+      "label": "Domestic or Foreign Code",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0,
+      "attributes": "DF_LABEL"
+    },
+    "SUMMARY_LVL": {
+      "label": "Detail or Country Grouping indicator",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COMM_LVL": {
+      "label": "4-character aggregation levels for commodity code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CC_YR": {
+      "label": "Year-to-Date Card Count",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "CNT_VAL_MO": {
+      "label": "Containerized Vessel Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "AIR_WGT_MO": {
+      "label": "Air Shipping Weight",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "VES_WGT_MO": {
+      "label": "Vessel Shipping Weight",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "USITC": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CNT_VAL_YR": {
+      "label": "Year-to-Date Containerized Vessel Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DISTRICT": {
+      "label": "District Code",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "string",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0,
+      "attributes": "DISTRICT_LABEL"
+    },
+    "YEAR": {
+      "label": "Year",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMMARY_LVL2": {
+      "label": "Variables being summarized",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIR_WGT_YR": {
+      "label": "Year-to-Date Air Shipping Weight",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "CNT_WGT_MO": {
+      "label": "Containerized Vessel Shipping Weight",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "VES_WGT_YR": {
+      "label": "Year-to-Date Vessel Shipping Weight",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "USITCHISTORY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HITECH_DESC": {
+      "label": "40-character Advanced Technology Products code Description",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "WORLD": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "HITECH": {
+      "label": "Advanced Technology Products code",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0,
+      "attributes": "HITECH_LABEL",
+      "values": {
+        "item": {
+          "-": "Total For All Commodities",
+          "00": "Not Advanced Technology",
+          "01": "Biotechnology",
+          "02": "Life Science",
+          "03": "Opto-Electronics",
+          "04": "Information and Communications",
+          "05": "Electronics",
+          "06": "Flexible Manufacturing",
+          "07": "Advanced Materials",
+          "08": "Aerospace",
+          "09": "Weapons",
+          "10": "Nuclear Technology"
+        }
+      }
+    },
+    "USITCREG": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "ALL_VAL_MO": {
+      "label": "Total Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "AIR_VAL_MO": {
+      "label": "Air Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "ALL_VAL_YR": {
+      "label": "Year-to-Date Total Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "string",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "CC_MO": {
+      "label": "Card Count",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LAST_UPDATE": {
+      "label": "Date of Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VES_VAL_MO": {
+      "label": "Vessel Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "CTY_CODE": {
+      "label": "Country Code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "CTY_NAME"
+    },
+    "DIST_NAME": {
+      "label": "District Name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VES_VAL_YR": {
+      "label": "Year-to-Date Vessel Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    },
+    "AIR_VAL_YR": {
+      "label": "Year-to-Date Air Value",
+      "concept": "Monthly Exports by Advanced Technology Products code",
+      "predicateType": "int",
+      "group": "IT00EXPORTHITECH",
+      "limit": 0
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "variables": {
+    "PANEL": {
+      "label": "SIPP Panel Year",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1990",
+            "max": "1990",
+            "description": "Continuous values of PANEL"
+          }
+        ]
+      }
+    },
+    "PNUM": {
+      "label": "Person Number",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "101",
+            "max": "407",
+            "description": "Continuous values of PNUM"
+          }
+        ]
+      }
+    },
+    "ENTRY": {
+      "label": "Entry Address ID",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "11",
+            "max": "43",
+            "description": "Continuous values of ENTRY"
+          }
+        ]
+      }
+    },
+    "SUID": {
+      "label": "Sample Unit Identifier",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "1074034",
+            "max": "999944306",
+            "description": "Continuous values of SUID"
+          }
+        ]
+      }
+    },
+    "TOBD90": {
+      "label": "Type of OASDI Benefit",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "1": "All Ret. Wkrs., excl. Dually Entitled FM",
+          "4": "Aged Dually Entitled Wife",
+          "3": "Aged Wife",
+          "6": "Aged Dually Entitled Widow",
+          "9": "Mtch not in cur pay or no MBR or no Mtc",
+          "0": "Not in Sample in January 1990",
+          "2": "Disabled Workers",
+          "5": "Aged Widow",
+          "7": "All Other"
+        }
+      }
+    },
+    "SSAYOD": {
+      "label": "MBR/SSR Year of Death",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "range": [
+          {
+            "min": "0",
+            "max": "1996",
+            "description": "Continuous values of SSAYOD"
+          }
+        ]
+      }
+    }
+  }
+}

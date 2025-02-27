@@ -1,0 +1,220 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "DATE_CODE": {
+      "label": "Date",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "13": "7/1/2020 population estimate",
+          "12": "7/1/2019 population estimate",
+          "11": "7/1/2018 population estimate",
+          "10": "7/1/2017 population estimate",
+          "9": "7/1/2016 population estimate",
+          "8": "7/1/2015 population estimate",
+          "7": "7/1/2014 population estimate",
+          "6": "7/1/2013 population estimate",
+          "5": "7/1/2012 population estimate",
+          "4": "7/1/2011 population estimate",
+          "3": "7/1/2010 population estimate",
+          "2": "4/1/2010 population estimates base",
+          "1": "4/1/2010 Census Population"
+        }
+      }
+    },
+    "SUMLEV": {
+      "label": "Summary Level",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Female",
+          "1": "Male",
+          "0": "Both Sexes"
+        }
+      }
+    },
+    "STATE": {
+      "label": "State FIPS code",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEONAME": {
+      "label": "Geographic Name",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DIVISION": {
+      "label": "Census Division Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "9": "Pacific",
+          "8": "Mountain",
+          "7": "West South Central",
+          "6": "East South Central",
+          "5": "South Atlantic",
+          "4": "West North Central",
+          "3": "East North Central",
+          "2": "Middle Atlantic",
+          "1": "New England"
+        }
+      }
+    },
+    "AGE_DESC": {
+      "label": "Description of AGE values",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "REGION": {
+      "label": "Census Regional Code",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "4": "West",
+          "3": "South",
+          "2": "Midwest",
+          "1": "Northeast"
+        }
+      }
+    },
+    "POP": {
+      "label": "Population",
+      "group": "N/A",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "NATION": {
+      "label": "National",
+      "group": "N/A",
+      "limit": 0
+    },
+    "LASTUPDATE": {
+      "label": "Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "RACE": {
+      "label": "Race",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "11": "Native Hawaiian and Other Pacific Islander alone or in combination",
+          "10": "Asian alone or in combination",
+          "9": "American Indian and Alaska Native alone or in combination",
+          "8": "Black alone or in combination",
+          "7": "White alone or in combination",
+          "6": "Two or more races",
+          "5": "Native Hawaiian and Other Pacific Islander alone",
+          "4": "Asian alone",
+          "3": "American Indian and Alaska Native alone",
+          "2": "Black alone",
+          "1": "White alone",
+          "0": "All races"
+        }
+      }
+    },
+    "DATE_DESC": {
+      "label": "Description of DATE values",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "UNIVERSE": {
+      "label": "Universe",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "N": "Civilian noninstitutionalized population",
+          "C": "Civilian population",
+          "H": "Household population",
+          "P": "Resident population plus Armed Forces overseas",
+          "R": "Resident population"
+        }
+      }
+    },
+    "AGE": {
+      "label": "Age",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "100": "100+ Years"
+        },
+        "range": [
+          {
+            "min": "0",
+            "max": "99",
+            "description": "Years"
+          }
+        ]
+      }
+    },
+    "HISP": {
+      "label": "Hispanic Origin",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0,
+      "values": {
+        "item": {
+          "2": "Hispanic",
+          "1": "Non Hispanic",
+          "0": "Both Hispanic origins"
+        }
+      }
+    }
+  }
+}

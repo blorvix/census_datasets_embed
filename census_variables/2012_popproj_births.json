@@ -1,0 +1,36 @@
+{
+  "variables": {
+    "RACE_HISP": {
+      "label": "Race and Hispanic origin group",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year of projection",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SEX": {
+      "label": "Sex",
+      "concept": "Estimate Variables",
+      "required": "default displayed",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    },
+    "BIRTHS": {
+      "label": "Number of births in the previous year",
+      "concept": "Estimate Variables",
+      "required": "true",
+      "predicateType": "int",
+      "group": "N/A",
+      "limit": 0
+    }
+  }
+}

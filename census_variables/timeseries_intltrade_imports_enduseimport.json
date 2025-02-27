@@ -1,0 +1,631 @@
+{
+  "variables": {
+    "for": {
+      "label": "Census API FIPS 'for' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-for",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "in": {
+      "label": "Census API FIPS 'in' clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "fips-in",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true
+    },
+    "ucgid": {
+      "label": "Uniform Census Geography Identifier clause",
+      "concept": "Census API Geography Specification",
+      "predicateType": "ucgid",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "hasGeoCollectionSupport": true
+    },
+    "time": {
+      "label": "ISO-8601 Date/Time value",
+      "concept": "Census API Date/Time Specification",
+      "required": "true",
+      "predicateType": "datetime",
+      "group": "N/A",
+      "limit": 0,
+      "predicateOnly": true,
+      "datetime": {
+        "year": true,
+        "month": true
+      }
+    },
+    "CNT_WGT_YR": {
+      "label": "Year-to-Date Containerized Vessel Shipping Weight",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "MONTH": {
+      "label": "Month",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "SUMMARY_LVL": {
+      "label": "Detail or Country Grouping indicator",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "COMM_LVL": {
+      "label": "4-character aggregation levels for commodity code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "COMM_LVL_LABEL"
+    },
+    "CC_YR": {
+      "label": "Year-to-Date Card Count",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CNT_VAL_MO": {
+      "label": "Containerized Vessel Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CON_CHA_MO": {
+      "label": "Imports for Consumption, Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CNT_VAL_YR": {
+      "label": "Year-to-Date Containerized Vessel Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "YEAR": {
+      "label": "Year",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VES_CHA_MO": {
+      "label": "Vessel Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CNT_WGT_MO": {
+      "label": "Containerized Vessel Shipping Weight",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "USITCHISTORY": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "WORLD": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "USITCREG": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VES_CHA_YR": {
+      "label": "Year-to-Date Vessel Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "SUMLEVEL": {
+      "label": "Summary Level code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CC_MO": {
+      "label": "Card Count",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "LAST_UPDATE": {
+      "label": "Date of Last Update",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VES_VAL_MO": {
+      "label": "Vessel Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CNT_CHA_MO": {
+      "label": "Containerized Vessel Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "DIST_NAME": {
+      "label": "District Name",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "VES_VAL_YR": {
+      "label": "Year-to-Date Vessel Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CNT_CHA_YR": {
+      "label": "Year-to-Date Containerized Vessel Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "I_ENDUSE_LDESC": {
+      "label": "150-character Import ENDUSE Code Description",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CON_CIF_MO": {
+      "label": "Imports for Consumption, CIF Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CON_VAL_MO": {
+      "label": "Imports for Consumption, Total Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "GEN_CIF_MO": {
+      "label": "General Imports, CIF Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CON_CIF_YR": {
+      "label": "Year-to-Date Imports for Consumption, CIF Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "I_ENDUSE": {
+      "label": "Import Enduse code",
+      "concept": "Monthly Imports by End-use code",
+      "required": "default displayed",
+      "predicateType": "string",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0,
+      "attributes": "I_ENDUSE_LABEL",
+      "values": {
+        "item": {
+          "-": "Total Imports For All End-Use Codes",
+          "0": "Foods, Feeds, and Beverages",
+          "00": "Agricultural",
+          "000": "Green Coffee, Cocoa Beans, and Cane Sugar",
+          "00000": "Green Coffee",
+          "00010": "Cocoa Beans",
+          "00020": "Cane and Beet Sugar",
+          "001": "Other Agricultural Foods",
+          "00100": "Meat Products",
+          "00110": "Dairy Products and Eggs",
+          "00120": "Fruits, Frozen Juices",
+          "00130": "Vegetables",
+          "00140": "Nuts",
+          "00150": "Food Oils, Oilseeds",
+          "00160": "Bakery Products",
+          "00170": "Tea, Spices, Etc.",
+          "00180": "Other Foods",
+          "00190": "Wine, Beer, and Related Products",
+          "002": "Feedstuff and Foodgrains",
+          "00200": "Feedstuff and Foodgrains",
+          "01": "Nonagricultural Products",
+          "010": "Nonagricultural Products",
+          "01000": "Fish and Shellfish",
+          "01010": "Alcoholic Beverages, Excluding Wine",
+          "01020": "Nonagricultural Foods, Etc.",
+          "1": "Industrial Supplies and Materials",
+          "10": "Fuels and Lubricants",
+          "100": "Petroleum and Products, Excluding Gas",
+          "10000": "Crude Oil",
+          "10010": "Fuel Oil",
+          "10020": "Petroleum Products, Other",
+          "10030": "Liquefied Petroleum Gases",
+          "101": "Fuels, N.E.S.-Coal and Gas",
+          "10100": "Coal and Related Fuels",
+          "10110": "Gas-Natural",
+          "103": "Nuclear Fuel Materials and Fuels",
+          "10300": "Nuclear Fuel Materials",
+          "104": "Electric Energy",
+          "10400": "Electric Energy",
+          "11": "Paper and Paper Base Stocks",
+          "110": "Paper Base Stocks",
+          "11000": "Pulpwood and Woodpulp",
+          "111": "Newsprint and Other Paper Products",
+          "11100": "Newsprint",
+          "11110": "Paper and Paper Products",
+          "12": "Agricultural Products, Textile Supplies and Chemicals",
+          "120": "Agricultural Products",
+          "12000": "Cotton, Natural Fibers",
+          "12030": "Hides and Skins",
+          "12050": "Natural Rubber",
+          "12060": "Farming Materials, Livestock",
+          "12070": "Tobacco, Waxes, Etc.",
+          "121": "Textile Supplies and Related Materials",
+          "12100": "Cotton Cloth, Fabrics",
+          "12110": "Wool, Silk, Etc.",
+          "12135": "Synthetic Cloth",
+          "12140": "Hair, Waste Materials",
+          "12150": "Finished Textile Supplies",
+          "12160": "Leather and Furs",
+          "123": "Other Materials, Except Chemicals",
+          "12320": "Materials, Excluding Chemicals",
+          "125": "Chemicals, Excluding Medicinals and Food Additives",
+          "12500": "Plastic Materials",
+          "12510": "Chemicals-Fertilizers",
+          "12530": "Chemicals-Inorganic",
+          "12540": "Chemicals-Organic",
+          "12550": "Chemicals-Other, N.E.C.",
+          "13": "Selected Building Materials, Except Metals",
+          "130": "Lumber and Other Unfinished Building Materials",
+          "13000": "Lumber",
+          "13010": "Plywood and Veneers",
+          "13020": "Stone, Sand, Cement, Etc.",
+          "131": "Building Materials, Finished",
+          "13100": "Glass-Plate, Sheet, Etc.",
+          "13110": "Shingles, Wallboard",
+          "13120": "Nontextile Floor Tiles",
+          "14": "Unfinished Metals Associated With Durable Goods Output",
+          "140": "Steelmaking and Ferroalloying Materials-Unmanufactured",
+          "14000": "Steelmaking Materials",
+          "141": "Iron and Steel Mill Products-Semifinished",
+          "14100": "Iron and Steel Mill Products",
+          "142": "Major Nonferrous Metals-Crude and Semifinished",
+          "14200": "Bauxite and Aluminum",
+          "14220": "Copper",
+          "14240": "Nickel",
+          "14250": "Tin",
+          "14260": "Zinc",
+          "14270": "Nonmonetary Gold",
+          "14280": "Other Precious Metals",
+          "14290": "Nonferrous Metals, Other",
+          "15": "Finished Metals Associated With Durable Goods Output",
+          "150": "Iron and Steel Products, Except Advanced Manufactures",
+          "15000": "Iron and Steel Products, N.E.C.",
+          "151": "Iron and Steel Manufactures-Advanced",
+          "15100": "Iron and Steel, Advanced",
+          "152": "Finished Metal Shapes and Advanced Manufactures, Except Steel",
+          "15200": "Finished Metal Shapes",
+          "16": "Nonmetals Associated With Durable Goods Output",
+          "160": "Unfinished",
+          "16040": "Sulfur, Nonmetallic Minerals",
+          "16050": "Synthetic Rubber--Primary",
+          "161": "Finished",
+          "16110": "Blank Tapes, Audio and Visual",
+          "16120": "Industrial Supplies, Other",
+          "2": "Capital Goods, Except Automotive",
+          "20": "Electric Generating, and Electric Equipment and Parts Equipment and Parts",
+          "200": "Electric and Electric Generating Equipment",
+          "20000": "Generators, Accessories",
+          "20005": "Electric Apparatus",
+          "21": "Nonelectrical Machinery, Except Consumer-Type",
+          "210": "Oil Drilling, Mining and Construction Machinery",
+          "21000": "Drilling and Oilfield Equipment",
+          "21010": "Specialized Mining",
+          "21030": "Excavating Machinery",
+          "21040": "Nonfarm Tractors and Parts",
+          "211": "Industrial and Service Machinery, N.E.C.",
+          "21100": "Industrial Engines",
+          "21110": "Food, Tobacco Machinery",
+          "21120": "Metalworking Machine Tools",
+          "21130": "Textile, Sewing Machines",
+          "21140": "Wood, Glass, Plastic",
+          "21150": "Pulp and Paper Machinery",
+          "21160": "Measuring, Testing, Control Instruments",
+          "21170": "Materials Handling Equipment",
+          "21180": "Industrial Machines, Other",
+          "21190": "Photo, Service Industry Machinery",
+          "212": "Agricultural Machinery and Equipment",
+          "21200": "Agricultural Machinery, Equipment",
+          "213": "Computers, Peripherals and Semiconductors",
+          "21300": "Computers",
+          "21301": "Computer Accessories",
+          "21320": "Semiconductors",
+          "214": "Telecommunications Equipment",
+          "21400": "Telecommunications Equipment",
+          "215": "Business Machinery and Equipment, Except Computers and Related Products",
+          "21500": "Business Machines and Equipment",
+          "216": "Scientific, Hospital and Medical Machinery",
+          "21600": "Laboratory Testing Instruments",
+          "21610": "Medicinal Equipment",
+          "22": "Transportation Equipment and Spacecraft, Except Automotive",
+          "220": "Civilian Aircraft, Engines and Parts",
+          "22000": "Civilian Aircraft",
+          "22010": "Parts-Civilian Aircraft",
+          "22020": "Engines-Civilian Aircraft",
+          "221": "Railway Transportation Equipment",
+          "22100": "Railway Transportation Equipment",
+          "222": "Vessels, Except Military and Pleasure Craft, Miscellaneous Vehicles",
+          "22200": "Vessels, Except Scrap",
+          "22210": "Commercial Vessels, Other",
+          "22220": "Marine Engines, Parts",
+          "223": "Spacecraft, Engines and Parts, Except Military",
+          "22300": "Spacecraft, Excluding Military",
+          "3": "Automotive Vehicles, Parts, and Engines",
+          "30": "Automotive Vehicles, Parts, and Engines",
+          "300": "Passenger Cars, New and Used",
+          "30000": "Passenger Cars, New and Used",
+          "301": "Trucks, Buses, and Special Purpose Vehicles",
+          "30100": "Trucks, Buses, and Special Purpose Vehicles",
+          "30110": "Bodies and Chassis For Trucks and Buses",
+          "302": "Parts, Engines, Bodies, and Chassis",
+          "30200": "Engines and Engine Parts",
+          "30210": "Bodies and Chassis For Passenger Cars",
+          "30220": "Automotive Tires and Tubes",
+          "30230": "Other Parts and Accessories of Vehicles",
+          "4": "Consumer Goods",
+          "40": "Nondurables, Manufactured-Except Rugs",
+          "400": "Apparel, Footwear, and Household Goods",
+          "40000": "Apparel, Household Goods - Cotton",
+          "40010": "Apparel, Household Goods - Wool",
+          "40020": "Apparel, Textiles, Nonwool Or Cotton",
+          "40030": "Apparel,Household Goods-Nontextile",
+          "40040": "Footwear",
+          "40050": "Camping Apparel and Gear",
+          "401": "Other Consumer Nondurables",
+          "40100": "Pharmaceutical Preparations",
+          "40110": "Books, Printed Matter",
+          "40120": "Toiletries and Cosmetics",
+          "40140": "Other Consumer Nondurables",
+          "41": "Durables, Manufactured-Except Automotive",
+          "410": "Household Goods",
+          "41000": "Furniture, Household Goods, Etc.",
+          "41010": "Glassware, Chinaware",
+          "41020": "Cookware, Cutlery, Tools",
+          "41030": "Household Appliances",
+          "41040": "Rugs",
+          "41050": "Cell Phones and Other Household Goods, N.E.C.",
+          "411": "Recreational Equipment and Materials",
+          "41100": "Motorcycles and Parts",
+          "41110": "Pleasure Boats and Motors",
+          "41120": "Toys, Games, and Sporting Goods",
+          "41130": "Photo Equipment",
+          "41140": "Musical Instruments",
+          "412": "Home Entertainment Equipment",
+          "41200": "Televisions and Video Equipment",
+          "41210": "Stereo Equipment, Etc",
+          "41220": "Recorded Media",
+          "413": "Coins, Gems, Jewelry, and Collectibles",
+          "41300": "Numismatic Coins",
+          "41310": "Jewelry",
+          "41320": "Artwork, Antiques, Stamps, Etc.",
+          "42": "Consumer Durables and Nondurables-Unmanufactured",
+          "420": "Nondurables-Unmanufactured",
+          "42000": "Nursery Stock, Etc.",
+          "421": "Durables-Unmanufactured",
+          "42100": "Gem Diamonds",
+          "42110": "Gem Stones, Other",
+          "5": "Other Goods",
+          "50": "Imports, N.E.S.",
+          "500": "Imports, N.E.S.",
+          "50000": "Military Aircraft and Parts",
+          "50010": "Other Military Equipment",
+          "50020": "U.S. Goods Returned, and Reimports",
+          "50030": "Minimum Value Shipments",
+          "50040": "Other (Movies, Miscellaneous Imports, and Special Transactions)"
+        }
+      }
+    },
+    "VES_WGT_MO": {
+      "label": "Vessel Shipping Weight",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "AIR_WGT_MO": {
+      "label": "Air Shipping Weight",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "USITC": {
+      "label": "Geography",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CON_VAL_YR": {
+      "label": "Year-to-Date Imports for Consumption, Total Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "GEN_CIF_YR": {
+      "label": "Year-to-Date General Imports, CIF Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "GEOCOMP": {
+      "label": "GEO_ID Component",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "DISTRICT": {
+      "label": "District Code",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "string",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0,
+      "attributes": "DISTRICT_LABEL"
+    },
+    "GEN_VAL_YR": {
+      "label": "Year-to-Date General Imports, Total Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "SUMMARY_LVL2": {
+      "label": "Variables being summarized",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "AIR_CHA_YR": {
+      "label": "Year-to-Date Air Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "AIR_WGT_YR": {
+      "label": "Year-to-Date Air Shipping Weight",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "VES_WGT_YR": {
+      "label": "Year-to-Date Vessel Shipping Weight",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "GEN_VAL_MO": {
+      "label": "General Imports, Total Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "AIR_CHA_MO": {
+      "label": "Air Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "I_ENDUSE_SDESC": {
+      "label": "50-character Import ENDUSE Description",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0
+    },
+    "CAL_DUT_YR": {
+      "label": "Year-to-Date Imports for Consumption, Calculated Duty",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "AIR_VAL_MO": {
+      "label": "Air Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "GEN_CHA_YR": {
+      "label": "Year-to-Date General Imports, Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CAL_DUT_MO": {
+      "label": "Imports for Consumption, Calculated Duty",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "GEO_ID": {
+      "label": "Geographic identifier code",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "string",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0,
+      "attributes": "NAME"
+    },
+    "GEN_CHA_MO": {
+      "label": "General Imports, Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CON_CHA_YR": {
+      "label": "Year-to-Date Imports for Consumption, Charges",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "DUT_VAL_YR": {
+      "label": "Year-to-Date Imports for Consumption, Dutiable Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "CTY_CODE": {
+      "label": "Country Code",
+      "predicateType": "string",
+      "group": "N/A",
+      "limit": 0,
+      "attributes": "CTY_NAME"
+    },
+    "DUT_VAL_MO": {
+      "label": "Imports for Consumption, Dutiable Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    },
+    "AIR_VAL_YR": {
+      "label": "Year-to-Date Air Value",
+      "concept": "Monthly Imports by End-use code",
+      "predicateType": "int",
+      "group": "IT00IMPORTSENDUSE",
+      "limit": 0
+    }
+  }
+}
