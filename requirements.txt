@@ -1,3 +1,4 @@
 BeautifulSoup4
-langchain-chroma>=0.1.2
+langchain-chroma
 requests
+langchain-ollama
