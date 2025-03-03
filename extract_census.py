@@ -49,8 +49,8 @@ def extract_dataset_info(item):
         'description': item['Description'],
         'year': item['Vintage'] if item['Vintage'] != 'N/A' else None,
         'dataset_name': item['Dataset Name'].replace('› ', '/'),
-        'variables_json_url': item['Variable List']['href'][:-4] + 'json',
-        'data_api_url': item['API Base URL']['href']
+        'variables_json_url': (item['Variable List']['href'][:-4] + 'json').replace('http', 'https'),
+        'data_api_url': item['API Base URL']['href'].replace('http', 'https')
     }
 
     extracted_info['category'] = (extracted_info['year'] + '/' if extracted_info['year'] != None else '') + extracted_info['dataset_name']
@@ -85,7 +85,7 @@ def main():
         extracted_item = extract_dataset_info(item)
         if extracted_item['category'] in INVALID_CATEGORIES:
             continue
-        download_variables_json(extracted_item['variables_json_url'], extracted_item['category'])
+        # download_variables_json(extracted_item['variables_json_url'], extracted_item['category'])
         datasets_list.append(extracted_item)
 
     with open(CENSUS_JSON_FILE_PATH, 'w') as file:

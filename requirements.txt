@@ -2,3 +2,6 @@ BeautifulSoup4
 langchain-chroma
 requests
 langchain-ollama
+transformers
+plotly
+pandas
