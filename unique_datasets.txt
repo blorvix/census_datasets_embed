@@ -1,0 +1,386 @@
+abscb		2017, 2018, 2019, 2020, 2021, 2022
+abscbo		2017, 2018, 2019, 2020, 2021, 2022
+abscs		2017, 2018, 2019, 2020, 2021, 2022
+absmcb		2020, 2021, 2022
+absnesd		2018, 2019, 2020, 2021
+absnesdo		2018, 2019, 2020, 2021
+abstcb		2018
+acs/acs1		2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs1/cprofile		2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs1/profile		2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs1/pums		2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs1/pumspr		2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs1/sdataprofile/cd119		2023
+acs/acs1/spp		2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs1/subject		2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/acs3		2007, 2008, 2009, 2011, 2012, 2013
+acs/acs3/cprofile		2012, 2013
+acs/acs3/profile		2007, 2008, 2009, 2010, 2011, 2012, 2013
+acs/acs3/spp		2009, 2010, 2011, 2012, 2013
+acs/acs3/subject		2010, 2011, 2012, 2013
+acs/acs5		2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+acs/acs5/aian		2010, 2015, 2021
+acs/acs5/aianprofile		2010, 2015, 2021
+acs/acs5/cprofile		2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+acs/acs5/eeo		2018
+acs/acs5/profile		2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+acs/acs5/pums		2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+acs/acs5/pumspr		2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+acs/acs5/spt		2010, 2015, 2021
+acs/acs5/sptprofile		2010, 2021
+acs/acs5/subject		2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+acs/acsse		2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023
+acs/flows		2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+acs1/cd113		2011
+acs1/cd115		2015
+acs5		2009
+ase/csa		2014, 2015, 2016
+ase/cscb		2014, 2015, 2016
+ase/cscbo		2014, 2015, 2016
+cbp		1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+cfsarea		2012, 2017
+cfsexport		2012, 2017
+cfshazmat		2012, 2017
+cfsprelim		2012, 2017
+cfspum/cfspumdest		2012, 2017
+cfspum/cfspumorig		2012, 2017
+cfstemp		2017
+cps/arts		2013 feb, 2014 feb, 2015 feb, 2016 feb, 2018 feb, 2020 feb
+cps/asec		1992 mar, 1993 mar, 1994 mar, 1995 mar, 1996 mar, 1997 mar, 1998 mar, 1999 mar, 2000 mar, 2001 mar, 2002 mar, 2003 mar, 2004 mar, 2005 mar, 2006 mar, 2007 mar, 2008 mar, 2009 mar, 2010 mar, 2011 mar, 2012 mar, 2013 mar, 2014 mar, 2015 mar, 2016 mar, 2017 mar, 2018 mar, 2019 mar, 2020 mar, 2021 mar, 2022 mar, 2023 mar, 2024 mar
+cps/basic		1989 apr, 1989 aug, 1989 dec, 1989 feb, 1989 jan, 1989 jul, 1989 jun, 1989 mar, 1989 may, 1989 nov, 1989 oct, 1989 sep, 1990 apr, 1990 aug, 1990 dec, 1990 feb, 1990 jan, 1990 jul, 1990 jun, 1990 mar, 1990 may, 1990 nov, 1990 oct, 1990 sep, 1991 apr, 1991 aug, 1991 dec, 1991 feb, 1991 jan, 1991 jul, 1991 jun, 1991 mar, 1991 may, 1991 nov, 1991 oct, 1991 sep, 1992 apr, 1992 aug, 1992 dec, 1992 feb, 1992 jan, 1992 jul, 1992 jun, 1992 mar, 1992 may, 1992 nov, 1992 oct, 1992 sep, 1993 apr, 1993 aug, 1993 dec, 1993 feb, 1993 jan, 1993 jul, 1993 jun, 1993 mar, 1993 may, 1993 nov, 1993 oct, 1993 sep, 1994 apr, 1994 aug, 1994 dec, 1994 feb, 1994 jan, 1994 jul, 1994 jun, 1994 mar, 1994 may, 1994 nov, 1994 oct, 1994 sep, 1995 apr, 1995 aug, 1995 dec, 1995 feb, 1995 jan, 1995 jul, 1995 jun, 1995 mar, 1995 may, 1995 nov, 1995 oct, 1995 sep, 1996 apr, 1996 aug, 1996 dec, 1996 feb, 1996 jan, 1996 jul, 1996 jun, 1996 mar, 1996 may, 1996 nov, 1996 oct, 1996 sep, 1997 apr, 1997 aug, 1997 dec, 1997 feb, 1997 jan, 1997 jul, 1997 jun, 1997 mar, 1997 may, 1997 nov, 1997 oct, 1997 sep, 1998 apr, 1998 aug, 1998 dec, 1998 feb, 1998 jan, 1998 jul, 1998 jun, 1998 mar, 1998 may, 1998 nov, 1998 oct, 1998 sep, 1999 apr, 1999 aug, 1999 dec, 1999 feb, 1999 jan, 1999 jul, 1999 jun, 1999 mar, 1999 may, 1999 nov, 1999 oct, 1999 sep, 2000 apr, 2000 aug, 2000 dec, 2000 feb, 2000 jan, 2000 jul, 2000 jun, 2000 mar, 2000 may, 2000 nov, 2000 oct, 2000 sep, 2001 apr, 2001 aug, 2001 dec, 2001 feb, 2001 jan, 2001 jul, 2001 jun, 2001 mar, 2001 may, 2001 nov, 2001 oct, 2001 sep, 2002 apr, 2002 aug, 2002 dec, 2002 feb, 2002 jan, 2002 jul, 2002 jun, 2002 mar, 2002 may, 2002 nov, 2002 oct, 2002 sep, 2003 apr, 2003 aug, 2003 dec, 2003 feb, 2003 jan, 2003 jul, 2003 jun, 2003 mar, 2003 may, 2003 nov, 2003 oct, 2003 sep, 2004 apr, 2004 aug, 2004 dec, 2004 feb, 2004 jan, 2004 jul, 2004 jun, 2004 mar, 2004 may, 2004 nov, 2004 oct, 2004 sep, 2005 apr, 2005 aug, 2005 dec, 2005 feb, 2005 jan, 2005 jul, 2005 jun, 2005 mar, 2005 may, 2005 nov, 2005 oct, 2005 sep, 2006 apr, 2006 aug, 2006 dec, 2006 feb, 2006 jan, 2006 jul, 2006 jun, 2006 mar, 2006 may, 2006 nov, 2006 oct, 2006 sep, 2007 apr, 2007 aug, 2007 dec, 2007 feb, 2007 jan, 2007 jul, 2007 jun, 2007 mar, 2007 may, 2007 nov, 2007 oct, 2007 sep, 2008 apr, 2008 aug, 2008 dec, 2008 feb, 2008 jan, 2008 jul, 2008 jun, 2008 mar, 2008 may, 2008 nov, 2008 oct, 2008 sep, 2009 apr, 2009 aug, 2009 dec, 2009 feb, 2009 jan, 2009 jul, 2009 jun, 2009 mar, 2009 may, 2009 nov, 2009 oct, 2009 sep, 2010 apr, 2010 aug, 2010 dec, 2010 feb, 2010 jan, 2010 jul, 2010 jun, 2010 mar, 2010 may, 2010 nov, 2010 oct, 2010 sep, 2011 apr, 2011 aug, 2011 dec, 2011 feb, 2011 jan, 2011 jul, 2011 jun, 2011 mar, 2011 may, 2011 nov, 2011 oct, 2011 sep, 2012 apr, 2012 aug, 2012 dec, 2012 feb, 2012 jan, 2012 jul, 2012 jun, 2012 mar, 2012 may, 2012 nov, 2012 oct, 2012 sep, 2013 apr, 2013 aug, 2013 dec, 2013 feb, 2013 jan, 2013 jul, 2013 jun, 2013 mar, 2013 may, 2013 nov, 2013 oct, 2013 sep, 2014 apr, 2014 aug, 2014 dec, 2014 feb, 2014 jan, 2014 jul, 2014 jun, 2014 mar, 2014 may, 2014 nov, 2014 oct, 2014 sep, 2015 apr, 2015 aug, 2015 dec, 2015 feb, 2015 jan, 2015 jul, 2015 jun, 2015 mar, 2015 may, 2015 nov, 2015 oct, 2015 sep, 2016 apr, 2016 aug, 2016 dec, 2016 feb, 2016 jan, 2016 jul, 2016 jun, 2016 mar, 2016 may, 2016 nov, 2016 oct, 2016 sep, 2017 apr, 2017 aug, 2017 dec, 2017 feb, 2017 jan, 2017 jul, 2017 jun, 2017 mar, 2017 may, 2017 nov, 2017 oct, 2017 sep, 2018 apr, 2018 aug, 2018 dec, 2018 feb, 2018 jan, 2018 jul, 2018 jun, 2018 mar, 2018 may, 2018 nov, 2018 oct, 2018 sep, 2019 apr, 2019 aug, 2019 dec, 2019 feb, 2019 jan, 2019 jul, 2019 jun, 2019 mar, 2019 may, 2019 nov, 2019 oct, 2019 sep, 2020 apr, 2020 aug, 2020 dec, 2020 feb, 2020 jan, 2020 jul, 2020 jun, 2020 mar, 2020 may, 2020 nov, 2020 oct, 2020 sep, 2021 apr, 2021 aug, 2021 dec, 2021 feb, 2021 jan, 2021 jul, 2021 jun, 2021 mar, 2021 may, 2021 nov, 2021 oct, 2021 sep, 2022 apr, 2022 aug, 2022 dec, 2022 feb, 2022 jan, 2022 jul, 2022 jun, 2022 mar, 2022 may, 2022 nov, 2022 oct, 2022 sep, 2023 apr, 2023 aug, 2023 dec, 2023 feb, 2023 jan, 2023 jul, 2023 jun, 2023 mar, 2023 may, 2023 nov, 2023 oct, 2023 sep, 2024 apr, 2024 aug, 2024 dec, 2024 feb, 2024 jan, 2024 jul, 2024 jun, 2024 mar, 2024 may, 2024 nov, 2024 oct, 2024 sep, 2025 jan
+cps/civic		2008 nov, 2009 nov, 2010 nov, 2011 nov, 2013 nov
+cps/contworker		1995 feb, 1997 feb, 1999 feb, 2001 feb, 2005 feb, 2017 may
+cps/disability		2012 may, 2019 jul, 2021 jul
+cps/dwjt		1996 feb, 1998 feb, 2000 feb, 2002 jan, 2004 jan, 2006 jan, 2008 jan, 2010 jan, 2012 jan, 2014 jan, 2016 jan, 2018 jan, 2020 jan, 2022 jan, 2024 jan
+cps/fertility		1998 jun, 2000 jun, 2002 jun, 2004 jun, 2006 jun, 2008 jun, 2010 jun, 2012 jun, 2014 jun, 2016 jun, 2018 jun, 2020 jun, 2022 jun
+cps/foodsec		1995 apr, 1997 apr, 1998 aug, 1999 apr, 2000 sep, 2001 apr, 2001 dec, 2002 dec, 2003 dec, 2004 dec, 2005 dec, 2006 dec, 2007 dec, 2008 dec, 2009 dec, 2010 dec, 2011 dec, 2012 dec, 2013 dec, 2014 dec, 2015 dec, 2016 dec, 2017 dec, 2018 dec, 2019 dec, 2020 dec, 2021 dec, 2022 dec, 2023 dec
+cps/immigration		2008 aug
+cps/internet		1994 nov, 1997 oct, 1998 dec, 2000 aug, 2001 sep, 2003 oct, 2007 oct, 2009 oct, 2010 oct, 2011 jul, 2012 oct, 2013 jul, 2015 jul, 2017 nov, 2019 nov, 2021 nov, 2023 nov
+cps/library		2002 oct
+cps/marital		1995 jun
+cps/pubarts		2002 aug, 2012 jul, 2017 jul, 2022 jul
+cps/race		1995 may
+cps/school		1994 oct, 1995 oct, 1996 oct, 1997 oct, 1998 oct, 1999 oct, 2000 oct, 2001 oct, 2002 oct, 2003 oct, 2004 oct, 2005 oct, 2006 oct, 2007 oct, 2008 oct, 2009 oct, 2010 oct, 2011 oct, 2012 oct, 2013 oct, 2014 oct, 2015 oct, 2016 oct, 2017 oct, 2018 oct, 2019 oct, 2020 oct, 2021 oct, 2022 oct, 2023 oct
+cps/tobacco		2006 aug, 2006 may, 2007 jan, 2010 aug, 2010 may, 2011 jan, 2014 jul, 2015 jan, 2015 may, 2018 jul, 2019 jan, 2019 may, 2022 sep
+cps/unbank		2009 jan, 2011 jun, 2013 jun, 2015 jun, 2017 jun, 2019 jun, 2021 jun, 2023 jun
+cps/vets		1995 aug, 1997 sep, 1999 sep, 2001 aug, 2003 aug, 2005 aug, 2007 aug, 2009 aug, 2010 jul, 2011 aug, 2012 aug, 2013 aug, 2014 aug, 2015 aug, 2016 aug, 2017 aug, 2018 aug, 2019 aug, 2020 aug, 2021 aug, 2022 aug, 2023 aug
+cps/volunteer		2002 sep, 2003 sep, 2004 sep, 2005 sep, 2006 sep, 2007 sep, 2008 sep, 2009 sep, 2010 sep, 2011 sep, 2012 sep, 2013 sep, 2014 sep, 2015 sep, 2019 sep, 2021 sep, 2023 sep
+cps/voting		1994 nov, 1996 nov, 1998 nov, 2000 nov, 2002 nov, 2004 nov, 2006 nov, 2008 nov, 2010 nov, 2012 nov, 2014 nov, 2016 nov, 2018 nov, 2020 nov, 2022 nov
+cps/worksched		1997 may, 2001 may, 2004 may
+cre		2019, 2021, 2022, 2023
+crepuertorico		2019, 2021, 2022
+dec/aian		2000, 2010
+dec/aianprofile		2000
+dec/as		2000, 2010
+dec/asyoe		2010
+dec/cd110h		2000
+dec/cd110hprofile		2000
+dec/cd110s		2000
+dec/cd110sprofile		2000
+dec/cd113		2010
+dec/cd113profile		2010
+dec/cd115		2010
+dec/cd115profile		2010
+dec/cd116		2010
+dec/cd118		2020
+dec/cd119		2020
+dec/cqr		2000
+dec/crosstabas		2020
+dec/crosstabgu		2020
+dec/crosstabmp		2020
+dec/crosstabvi		2020
+dec/ddhca		2020
+dec/ddhcb		2020
+dec/dhc		2020
+dec/dhcas		2020
+dec/dhcgu		2020
+dec/dhcmp		2020
+dec/dhcvi		2020
+dec/dp		2020
+dec/dpas		2020
+dec/dpgu		2020
+dec/dpmp		2020
+dec/dpvi		2020
+dec/gu		2000, 2010
+dec/guyoe		2010
+dec/mp		2000, 2010
+dec/mpyoe		2010
+dec/pes		2020
+dec/pl		2000, 2010, 2020
+dec/plnat		2010
+dec/responserate		2010, 2020
+dec/sdhc		2020
+dec/selfresponserate		2020
+dec/sf1		2000, 2010
+dec/sf2		2000, 2010
+dec/sf2profile		2000
+dec/sf3		2000
+dec/sf3profile		2000
+dec/sf4		2000
+dec/sf4profile		2000
+dec/sldh		2000
+dec/sldhprofile		2000
+dec/slds		2000
+dec/sldsprofile		2000
+dec/vi		2000, 2010
+ecn/islandareas		2012, 2017, 2022
+ecn/islandareas/comp		2012, 2017, 2022
+ecn/islandareas/ind		2012, 2017, 2022
+ecn/islandareas/lines		2012
+ecn/islandareas/napcs		2017, 2022
+ecnadbnprop		2017
+ecnadmben		2012, 2017
+ecnbasic		2012, 2017, 2022
+ecnbranddeal		2012, 2017
+ecnbridge1		2012, 2017
+ecnbridge2		2012, 2017
+ecnbrordeal		2012, 2017
+ecncashadv		2012
+ecnccard		2012, 2017
+ecnclcust		2012, 2017
+ecncomm		2012, 2017
+ecncomp		2012, 2017
+ecnconact		2012, 2017
+ecnconcess		2012
+ecncrfin		2012, 2017
+ecndirprem		2017
+ecndissmed		2012, 2017
+ecnecomm		2022
+ecnelmenu		2017
+ecnempfunc		2012, 2017
+ecnentsup		2012, 2017
+ecneoyinv		2012, 2017
+ecneoyinvwh		2012, 2017
+ecnequip		2012
+ecnexpnrg		2012, 2017
+ecnexpsvc		2012, 2017
+ecnflspace		2012, 2017
+ecnfoodsvc		2012, 2017
+ecnfran		2012, 2017
+ecngrant		2012, 2017
+ecnguest		2012
+ecnguestsize		2012
+ecnhosp		2012, 2017
+ecnhotel		2017
+ecninstr		2017
+ecninvval		2012, 2017
+ecnipa		2012
+ecnkob		2012, 2017
+ecnlabor		2012, 2017
+ecnlifomfg		2012, 2017
+ecnlifomine		2012, 2017
+ecnlifoval		2012
+ecnlines		2012
+ecnloan		2012, 2017
+ecnloccons		2017
+ecnlocmfg		2012, 2017
+ecnlocmine		2012, 2017
+ecnmargin		2012, 2017
+ecnmatfuel		2012, 2017
+ecnmealcost		2012
+ecnmenutype		2012
+ecnnapcsind		2017
+ecnnapcsprd		2017
+ecnpatient		2012, 2017
+ecnpetrfac		2012, 2017
+ecnpetrprod		2012, 2017
+ecnpetrrec		2012, 2017
+ecnpetrstat		2012, 2017
+ecnprofit		2012, 2017
+ecnpurelec		2012, 2017
+ecnpurgas		2017
+ecnpurmode		2012, 2017
+ecnrdacq		2012
+ecnrdofc		2012, 2017
+ecnseat		2012
+ecnsize		2012, 2017
+ecnsocial		2012, 2017
+ecntype		2012, 2017, 2022
+ecntypepayer		2017
+ecntypop		2012, 2017, 2022
+ecnvalcon		2012, 2017
+ewks		1997, 2002, 2007, 2012
+geoinfo		2023
+intltrade/imp_exp		2014, 2015, 2016, 2017, 2018
+language		2013
+nonemp		1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+pdb/blockgroup		2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023
+pdb/statecounty		2020
+pdb/tract		2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023
+pep/agesex		2014
+pep/agespecial5		2014
+pep/agespecial6		2014
+pep/agespecialpr		2014
+pep/charage		2015, 2016, 2017, 2018, 2019
+pep/charagegroups		2015, 2016, 2017, 2018, 2019
+pep/cochar5		2013, 2014
+pep/cochar6		2013, 2014
+pep/components		2015, 2016, 2017, 2018, 2019
+pep/cty		2013, 2014
+pep/housing		2013, 2014, 2015, 2016, 2017, 2018, 2019
+pep/int_charage		2000
+pep/int_charagegroups		1990, 2000
+pep/int_housingunits		2000
+pep/int_natcivpop		1990
+pep/int_natmonthly		2000
+pep/int_natresafo		1990
+pep/int_natrespop		1990
+pep/int_population		2000
+pep/monthlynatchar5		2013, 2014
+pep/monthlynatchar6		2013, 2014
+pep/natmonthly		2015, 2016, 2017, 2018, 2019, 2021
+pep/natstprc		2013, 2014
+pep/natstprc18		2013, 2014
+pep/population		2015, 2016, 2017, 2018, 2019, 2021
+pep/prcagesex		2013, 2014
+pep/prm		2013, 2014
+pep/prmagesex		2013, 2014
+pep/projagegroups		2014
+pep/projbirths		2014
+pep/projdeaths		2014
+pep/projnat		2014
+pep/projnim		2014
+pep/projpop		2014
+pep/stchar5		2013, 2014
+pep/stchar6		2013, 2014
+pep/subcty		2013, 2014
+popproj/agegroups		2017
+popproj/births		2012, 2017
+popproj/deaths		2012, 2017
+popproj/nat		2017
+popproj/nim		2012, 2017
+popproj/pop		2012, 2017
+pubschlfin		2012
+rhfs		2015, 2018, 2021
+sbo/cs		2012
+sbo/cscb		2012
+sbo/cscbo		2012
+sipp		2022, 2023
+sipp/benefit/panel		1990, 1991
+sipp/core/panel/wave1		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave10		1996, 2004, 2008
+sipp/core/panel/wave11		1996, 2004, 2008
+sipp/core/panel/wave12		1996, 2004, 2008
+sipp/core/panel/wave13		2008
+sipp/core/panel/wave14		2008
+sipp/core/panel/wave15		2008
+sipp/core/panel/wave16		2008
+sipp/core/panel/wave2		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave3		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave4		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave5		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave6		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave7		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave8		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/core/panel/wave9		1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave1		1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave10		1996, 2008
+sipp/topical/panel/wave11		1996, 2008
+sipp/topical/panel/wave12		1996
+sipp/topical/panel/wave13		2008
+sipp/topical/panel/wave2		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave3		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave4		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave5		1991, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave6		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave7		1990, 1991, 1992, 1993, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave8		1990, 1996, 2001, 2004, 2008
+sipp/topical/panel/wave9		1992, 1993, 1996, 2001, 2008
+sipp/topicaled/panel/wave5		1990, 1992, 1993
+sipp/topicaled/panel/wave8		1991, 1992, 1993
+sipp/topicaledex/panel/wave5		1990, 1991, 1992, 1993
+sipp/topicaledex/panel/wave8		1990, 1991, 1992, 1993
+sipp/topicalex/panel/wave3		1993
+sipp/topicalex/panel/wave6		1992
+sipp/topicalres/panel/wave5		1990, 1992, 1993
+sipp/topicalres/panel/wave8		1991, 1992, 1993, 2001
+surname		2000, 2010
+timeseries/asm/area2012		
+timeseries/asm/area2017		
+timeseries/asm/benchmark2017		
+timeseries/asm/industry		
+timeseries/asm/product		
+timeseries/asm/state		
+timeseries/asm/value2012		
+timeseries/asm/value2017		
+timeseries/bds		
+timeseries/eits/advm3		
+timeseries/eits/bfs		
+timeseries/eits/ftd		
+timeseries/eits/ftdadv		
+timeseries/eits/hv		
+timeseries/eits/m3		
+timeseries/eits/marts		
+timeseries/eits/mhs		
+timeseries/eits/mhs2		
+timeseries/eits/mrts		
+timeseries/eits/mrtsadv		
+timeseries/eits/mtis		
+timeseries/eits/mwts		
+timeseries/eits/mwtsadv		
+timeseries/eits/qfr		
+timeseries/eits/qpr		
+timeseries/eits/qss		
+timeseries/eits/qtax		
+timeseries/eits/resconst		
+timeseries/eits/ressales		
+timeseries/eits/vip		
+timeseries/govs		
+timeseries/healthins/sahie		
+timeseries/hhpulse		
+timeseries/hps		
+timeseries/idb/1year		
+timeseries/idb/5year		
+timeseries/intltrade/exports/enduse		
+timeseries/intltrade/exports/enduseexport		
+timeseries/intltrade/exports/hitech		
+timeseries/intltrade/exports/hitechexport		
+timeseries/intltrade/exports/hs		
+timeseries/intltrade/exports/hsexport		
+timeseries/intltrade/exports/naics		
+timeseries/intltrade/exports/naicsexport		
+timeseries/intltrade/exports/porths		
+timeseries/intltrade/exports/porthsexport		
+timeseries/intltrade/exports/sitc		
+timeseries/intltrade/exports/sitcexport		
+timeseries/intltrade/exports/statehs		
+timeseries/intltrade/exports/statehsexport		
+timeseries/intltrade/exports/statenaics		
+timeseries/intltrade/exports/statenaicsexport		
+timeseries/intltrade/exports/usda		
+timeseries/intltrade/exports/usdaexport		
+timeseries/intltrade/imports/enduse		
+timeseries/intltrade/imports/enduseimport		
+timeseries/intltrade/imports/hitech		
+timeseries/intltrade/imports/hitechimport		
+timeseries/intltrade/imports/hs		
+timeseries/intltrade/imports/hsimport		
+timeseries/intltrade/imports/naics		
+timeseries/intltrade/imports/naicsimport		
+timeseries/intltrade/imports/porths		
+timeseries/intltrade/imports/porthsimport		
+timeseries/intltrade/imports/sitc		
+timeseries/intltrade/imports/sitcimport		
+timeseries/intltrade/imports/statehs		
+timeseries/intltrade/imports/statehsimport		
+timeseries/intltrade/imports/statenaics		
+timeseries/intltrade/imports/statenaicsimport		
+timeseries/intltrade/imports/usda		
+timeseries/intltrade/imports/usdaimport		
+timeseries/poverty/histpov2		
+timeseries/poverty/saipe		
+timeseries/poverty/saipe/schdist		
+timeseries/pseo/earnings		
+timeseries/pseo/flows		
+timeseries/qwi/rh		
+timeseries/qwi/sa		
+timeseries/qwi/se		
+timeseries/soma		
+viusa		2021
+viusb		2021
+viusc		2021
+viusd		2021
+viuse		2021
+viusf		2021
+viuspuf		2021
+zbp		1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018

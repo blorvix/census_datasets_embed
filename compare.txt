@@ -1,0 +1,1424 @@
+Dataset Name: cbp
+  Category: 1986/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1987/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1988/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1989/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1990/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1991/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1992/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1993/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1994/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1995/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1996/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1997/cbp, File Size: 4091 bytes, variables length: 22
+  Category: 1998/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 1999/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 2000/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 2001/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 2002/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 2003/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 2004/cbp, File Size: 4282 bytes, variables length: 23
+  Category: 2005/cbp, File Size: 5522 bytes, variables length: 29
+  Category: 2006/cbp, File Size: 5522 bytes, variables length: 29
+  Category: 2007/cbp, File Size: 5522 bytes, variables length: 29
+  Category: 2008/cbp, File Size: 5887 bytes, variables length: 31
+  Category: 2009/cbp, File Size: 6297 bytes, variables length: 33
+  Category: 2010/cbp, File Size: 6297 bytes, variables length: 33
+  Category: 2011/cbp, File Size: 6263 bytes, variables length: 33
+  Category: 2012/cbp, File Size: 376586 bytes, variables length: 28
+  Category: 2013/cbp, File Size: 376677 bytes, variables length: 29
+  Category: 2014/cbp, File Size: 376855 bytes, variables length: 29
+  Category: 2015/cbp, File Size: 376677 bytes, variables length: 29
+  Category: 2016/cbp, File Size: 376677 bytes, variables length: 29
+  Category: 2017/cbp, File Size: 380407 bytes, variables length: 28
+  Category: 2018/cbp, File Size: 378370 bytes, variables length: 28
+  Category: 2019/cbp, File Size: 377193 bytes, variables length: 28
+  Category: 2020/cbp, File Size: 377193 bytes, variables length: 28
+  Category: 2021/cbp, File Size: 385999 bytes, variables length: 28
+  Category: 2022/cbp, File Size: 392885 bytes, variables length: 28
+Dataset Name: cps/basic/apr
+  Category: 1989/cps/basic/apr, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/apr, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/apr, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/apr, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/apr, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/apr, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/apr, File Size: 370481 bytes, variables length: 350
+  Category: 1996/cps/basic/apr, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/apr, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/apr, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/apr, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/apr, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/apr, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/apr, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/apr, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/apr, File Size: 403583 bytes, variables length: 365
+  Category: 2005/cps/basic/apr, File Size: 403386 bytes, variables length: 357
+  Category: 2006/cps/basic/apr, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/apr, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/apr, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/apr, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/apr, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/apr, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/apr, File Size: 427227 bytes, variables length: 379
+  Category: 2013/cps/basic/apr, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/apr, File Size: 411605 bytes, variables length: 387
+  Category: 2015/cps/basic/apr, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/apr, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/apr, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/apr, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/apr, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/apr, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/apr, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/apr, File Size: 423722 bytes, variables length: 396
+  Category: 2023/cps/basic/apr, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/apr, File Size: 421088 bytes, variables length: 397
+Dataset Name: cps/basic/aug
+  Category: 1989/cps/basic/aug, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/aug, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/aug, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/aug, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/aug, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/aug, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/aug, File Size: 371328 bytes, variables length: 352
+  Category: 1996/cps/basic/aug, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/aug, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/aug, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/aug, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/aug, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/aug, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/aug, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/aug, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/aug, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/aug, File Size: 406922 bytes, variables length: 361
+  Category: 2006/cps/basic/aug, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/aug, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/aug, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/aug, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/aug, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/aug, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/aug, File Size: 405298 bytes, variables length: 378
+  Category: 2013/cps/basic/aug, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/aug, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/aug, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/aug, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/aug, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/aug, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/aug, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/aug, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/aug, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/aug, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/aug, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/aug, File Size: 424216 bytes, variables length: 401
+Dataset Name: cps/basic/dec
+  Category: 1989/cps/basic/dec, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/dec, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/dec, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/dec, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/dec, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/dec, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/dec, File Size: 373912 bytes, variables length: 353
+  Category: 1996/cps/basic/dec, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/dec, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/dec, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/dec, File Size: 383061 bytes, variables length: 364
+  Category: 2000/cps/basic/dec, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/dec, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/dec, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/dec, File Size: 403792 bytes, variables length: 366
+  Category: 2004/cps/basic/dec, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/dec, File Size: 408083 bytes, variables length: 364
+  Category: 2006/cps/basic/dec, File Size: 406954 bytes, variables length: 361
+  Category: 2007/cps/basic/dec, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/dec, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/dec, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/dec, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/dec, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/dec, File Size: 405298 bytes, variables length: 378
+  Category: 2013/cps/basic/dec, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/dec, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/dec, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/dec, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/dec, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/dec, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/dec, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/dec, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/dec, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/dec, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/dec, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/dec, File Size: 424216 bytes, variables length: 401
+Dataset Name: cps/basic/feb
+  Category: 1989/cps/basic/feb, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/feb, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/feb, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/feb, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/feb, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/feb, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/feb, File Size: 369770 bytes, variables length: 349
+  Category: 1996/cps/basic/feb, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/feb, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/feb, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/feb, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/feb, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/feb, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/feb, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/feb, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/feb, File Size: 403824 bytes, variables length: 366
+  Category: 2005/cps/basic/feb, File Size: 403386 bytes, variables length: 357
+  Category: 2006/cps/basic/feb, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/feb, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/feb, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/feb, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/feb, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/feb, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/feb, File Size: 427227 bytes, variables length: 379
+  Category: 2013/cps/basic/feb, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/feb, File Size: 413019 bytes, variables length: 388
+  Category: 2015/cps/basic/feb, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/feb, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/feb, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/feb, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/feb, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/feb, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/feb, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/feb, File Size: 423722 bytes, variables length: 396
+  Category: 2023/cps/basic/feb, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/feb, File Size: 421088 bytes, variables length: 397
+Dataset Name: cps/basic/jan
+  Category: 1989/cps/basic/jan, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/jan, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/jan, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/jan, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/jan, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/jan, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/jan, File Size: 369770 bytes, variables length: 349
+  Category: 1996/cps/basic/jan, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/jan, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/jan, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/jan, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/jan, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/jan, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/jan, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/jan, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/jan, File Size: 403824 bytes, variables length: 366
+  Category: 2005/cps/basic/jan, File Size: 404097 bytes, variables length: 358
+  Category: 2006/cps/basic/jan, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/jan, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/jan, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/jan, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/jan, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/jan, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/jan, File Size: 427227 bytes, variables length: 379
+  Category: 2013/cps/basic/jan, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/jan, File Size: 413019 bytes, variables length: 388
+  Category: 2015/cps/basic/jan, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/jan, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/jan, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/jan, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/jan, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/jan, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/jan, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/jan, File Size: 423722 bytes, variables length: 396
+  Category: 2023/cps/basic/jan, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/jan, File Size: 421088 bytes, variables length: 397
+  Category: 2025/cps/basic/jan, File Size: 425202 bytes, variables length: 401
+Dataset Name: cps/basic/jul
+  Category: 1989/cps/basic/jul, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/jul, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/jul, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/jul, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/jul, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/jul, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/jul, File Size: 370481 bytes, variables length: 350
+  Category: 1996/cps/basic/jul, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/jul, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/jul, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/jul, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/jul, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/jul, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/jul, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/jul, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/jul, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/jul, File Size: 403386 bytes, variables length: 357
+  Category: 2006/cps/basic/jul, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/jul, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/jul, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/jul, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/jul, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/jul, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/jul, File Size: 405298 bytes, variables length: 378
+  Category: 2013/cps/basic/jul, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/jul, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/jul, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/jul, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/jul, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/jul, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/jul, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/jul, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/jul, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/jul, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/jul, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/jul, File Size: 424216 bytes, variables length: 401
+Dataset Name: cps/basic/jun
+  Category: 1989/cps/basic/jun, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/jun, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/jun, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/jun, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/jun, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/jun, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/jun, File Size: 370481 bytes, variables length: 350
+  Category: 1996/cps/basic/jun, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/jun, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/jun, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/jun, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/jun, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/jun, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/jun, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/jun, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/jun, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/jun, File Size: 403386 bytes, variables length: 357
+  Category: 2006/cps/basic/jun, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/jun, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/jun, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/jun, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/jun, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/jun, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/jun, File Size: 406024 bytes, variables length: 379
+  Category: 2013/cps/basic/jun, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/jun, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/jun, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/jun, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/jun, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/jun, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/jun, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/jun, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/jun, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/jun, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/jun, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/jun, File Size: 424216 bytes, variables length: 401
+Dataset Name: cps/basic/mar
+  Category: 1989/cps/basic/mar, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/mar, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/mar, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/mar, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/mar, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/mar, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/mar, File Size: 370481 bytes, variables length: 350
+  Category: 1996/cps/basic/mar, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/mar, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/mar, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/mar, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/mar, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/mar, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/mar, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/mar, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/mar, File Size: 403824 bytes, variables length: 366
+  Category: 2005/cps/basic/mar, File Size: 403386 bytes, variables length: 357
+  Category: 2006/cps/basic/mar, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/mar, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/mar, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/mar, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/mar, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/mar, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/mar, File Size: 427227 bytes, variables length: 379
+  Category: 2013/cps/basic/mar, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/mar, File Size: 413019 bytes, variables length: 388
+  Category: 2015/cps/basic/mar, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/mar, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/mar, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/mar, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/mar, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/mar, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/mar, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/mar, File Size: 423722 bytes, variables length: 396
+  Category: 2023/cps/basic/mar, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/mar, File Size: 421088 bytes, variables length: 397
+Dataset Name: cps/basic/may
+  Category: 1989/cps/basic/may, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/may, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/may, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/may, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/may, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/may, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/may, File Size: 370481 bytes, variables length: 350
+  Category: 1996/cps/basic/may, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/may, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/may, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/may, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/may, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/may, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/may, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/may, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/may, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/may, File Size: 403386 bytes, variables length: 357
+  Category: 2006/cps/basic/may, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/may, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/may, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/may, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/may, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/may, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/may, File Size: 406024 bytes, variables length: 379
+  Category: 2013/cps/basic/may, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/may, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/may, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/may, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/may, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/may, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/may, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/may, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/may, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/may, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/may, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/may, File Size: 421088 bytes, variables length: 397
+Dataset Name: cps/basic/nov
+  Category: 1989/cps/basic/nov, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/nov, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/nov, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/nov, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/nov, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/nov, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/nov, File Size: 373912 bytes, variables length: 353
+  Category: 1996/cps/basic/nov, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/nov, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/nov, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/nov, File Size: 383061 bytes, variables length: 364
+  Category: 2000/cps/basic/nov, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/nov, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/nov, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/nov, File Size: 403792 bytes, variables length: 366
+  Category: 2004/cps/basic/nov, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/nov, File Size: 408083 bytes, variables length: 364
+  Category: 2006/cps/basic/nov, File Size: 406954 bytes, variables length: 361
+  Category: 2007/cps/basic/nov, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/nov, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/nov, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/nov, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/nov, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/nov, File Size: 405298 bytes, variables length: 378
+  Category: 2013/cps/basic/nov, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/nov, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/nov, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/nov, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/nov, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/nov, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/nov, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/nov, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/nov, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/nov, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/nov, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/nov, File Size: 424216 bytes, variables length: 401
+Dataset Name: cps/basic/oct
+  Category: 1989/cps/basic/oct, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/oct, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/oct, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/oct, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/oct, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/oct, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/oct, File Size: 373912 bytes, variables length: 353
+  Category: 1996/cps/basic/oct, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/oct, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/oct, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/oct, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/oct, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/oct, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/oct, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/oct, File Size: 403792 bytes, variables length: 366
+  Category: 2004/cps/basic/oct, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/oct, File Size: 406922 bytes, variables length: 361
+  Category: 2006/cps/basic/oct, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/oct, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/oct, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/oct, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/oct, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/oct, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/oct, File Size: 405298 bytes, variables length: 378
+  Category: 2013/cps/basic/oct, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/oct, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/oct, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/oct, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/oct, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/oct, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/oct, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/oct, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/oct, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/oct, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/oct, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/oct, File Size: 424216 bytes, variables length: 401
+Dataset Name: cps/basic/sep
+  Category: 1989/cps/basic/sep, File Size: 153742 bytes, variables length: 238
+  Category: 1990/cps/basic/sep, File Size: 153742 bytes, variables length: 238
+  Category: 1991/cps/basic/sep, File Size: 153742 bytes, variables length: 238
+  Category: 1992/cps/basic/sep, File Size: 153976 bytes, variables length: 237
+  Category: 1993/cps/basic/sep, File Size: 153976 bytes, variables length: 237
+  Category: 1994/cps/basic/sep, File Size: 369770 bytes, variables length: 349
+  Category: 1995/cps/basic/sep, File Size: 359992 bytes, variables length: 351
+  Category: 1996/cps/basic/sep, File Size: 373919 bytes, variables length: 353
+  Category: 1997/cps/basic/sep, File Size: 373420 bytes, variables length: 352
+  Category: 1998/cps/basic/sep, File Size: 381700 bytes, variables length: 363
+  Category: 1999/cps/basic/sep, File Size: 381201 bytes, variables length: 362
+  Category: 2000/cps/basic/sep, File Size: 383093 bytes, variables length: 364
+  Category: 2001/cps/basic/sep, File Size: 383093 bytes, variables length: 364
+  Category: 2002/cps/basic/sep, File Size: 383125 bytes, variables length: 364
+  Category: 2003/cps/basic/sep, File Size: 403714 bytes, variables length: 366
+  Category: 2004/cps/basic/sep, File Size: 398437 bytes, variables length: 355
+  Category: 2005/cps/basic/sep, File Size: 406922 bytes, variables length: 361
+  Category: 2006/cps/basic/sep, File Size: 408115 bytes, variables length: 364
+  Category: 2007/cps/basic/sep, File Size: 411717 bytes, variables length: 365
+  Category: 2008/cps/basic/sep, File Size: 411717 bytes, variables length: 365
+  Category: 2009/cps/basic/sep, File Size: 421927 bytes, variables length: 378
+  Category: 2010/cps/basic/sep, File Size: 423267 bytes, variables length: 379
+  Category: 2011/cps/basic/sep, File Size: 427197 bytes, variables length: 379
+  Category: 2012/cps/basic/sep, File Size: 405298 bytes, variables length: 378
+  Category: 2013/cps/basic/sep, File Size: 406171 bytes, variables length: 380
+  Category: 2014/cps/basic/sep, File Size: 411493 bytes, variables length: 387
+  Category: 2015/cps/basic/sep, File Size: 406260 bytes, variables length: 381
+  Category: 2016/cps/basic/sep, File Size: 406290 bytes, variables length: 381
+  Category: 2017/cps/basic/sep, File Size: 406290 bytes, variables length: 381
+  Category: 2018/cps/basic/sep, File Size: 406320 bytes, variables length: 381
+  Category: 2019/cps/basic/sep, File Size: 406320 bytes, variables length: 381
+  Category: 2020/cps/basic/sep, File Size: 423127 bytes, variables length: 392
+  Category: 2021/cps/basic/sep, File Size: 423692 bytes, variables length: 396
+  Category: 2022/cps/basic/sep, File Size: 420863 bytes, variables length: 396
+  Category: 2023/cps/basic/sep, File Size: 421203 bytes, variables length: 397
+  Category: 2024/cps/basic/sep, File Size: 424216 bytes, variables length: 401
+Dataset Name: pep/int_charagegroups
+  Category: 1990/pep/int_charagegroups, File Size: 1879 bytes, variables length: 10
+  Category: 2000/pep/int_charagegroups, File Size: 3429 bytes, variables length: 18
+Dataset Name: cps/asec/mar
+  Category: 1992/cps/asec/mar, File Size: 329397 bytes, variables length: 551
+  Category: 1993/cps/asec/mar, File Size: 329118 bytes, variables length: 550
+  Category: 1994/cps/asec/mar, File Size: 348131 bytes, variables length: 562
+  Category: 1995/cps/asec/mar, File Size: 360615 bytes, variables length: 557
+  Category: 1996/cps/asec/mar, File Size: 384914 bytes, variables length: 610
+  Category: 1997/cps/asec/mar, File Size: 384914 bytes, variables length: 610
+  Category: 1998/cps/asec/mar, File Size: 381804 bytes, variables length: 606
+  Category: 1999/cps/asec/mar, File Size: 386233 bytes, variables length: 620
+  Category: 2000/cps/asec/mar, File Size: 390988 bytes, variables length: 625
+  Category: 2001/cps/asec/mar, File Size: 415264 bytes, variables length: 684
+  Category: 2002/cps/asec/mar, File Size: 415296 bytes, variables length: 684
+  Category: 2003/cps/asec/mar, File Size: 434954 bytes, variables length: 681
+  Category: 2004/cps/asec/mar, File Size: 434654 bytes, variables length: 680
+  Category: 2005/cps/asec/mar, File Size: 449188 bytes, variables length: 699
+  Category: 2006/cps/asec/mar, File Size: 446448 bytes, variables length: 692
+  Category: 2007/cps/asec/mar, File Size: 457607 bytes, variables length: 701
+  Category: 2008/cps/asec/mar, File Size: 457380 bytes, variables length: 694
+  Category: 2009/cps/asec/mar, File Size: 467563 bytes, variables length: 707
+  Category: 2010/cps/asec/mar, File Size: 467561 bytes, variables length: 692
+  Category: 2011/cps/asec/mar, File Size: 468792 bytes, variables length: 706
+  Category: 2012/cps/asec/mar, File Size: 467819 bytes, variables length: 704
+  Category: 2013/cps/asec/mar, File Size: 449743 bytes, variables length: 705
+  Category: 2014/cps/asec/mar, File Size: 448109 bytes, variables length: 700
+  Category: 2015/cps/asec/mar, File Size: 453507 bytes, variables length: 705
+  Category: 2016/cps/asec/mar, File Size: 445131 bytes, variables length: 692
+  Category: 2017/cps/asec/mar, File Size: 450083 bytes, variables length: 698
+  Category: 2018/cps/asec/mar, File Size: 450105 bytes, variables length: 698
+  Category: 2019/cps/asec/mar, File Size: 620424 bytes, variables length: 1012
+  Category: 2020/cps/asec/mar, File Size: 651321 bytes, variables length: 1055
+  Category: 2021/cps/asec/mar, File Size: 643569 bytes, variables length: 1044
+  Category: 2022/cps/asec/mar, File Size: 645321 bytes, variables length: 1059
+  Category: 2023/cps/asec/mar, File Size: 643012 bytes, variables length: 1052
+  Category: 2024/cps/asec/mar, File Size: 642076 bytes, variables length: 1051
+Dataset Name: cps/internet/nov
+  Category: 1994/cps/internet/nov, File Size: 389584 bytes, variables length: 390
+  Category: 2017/cps/internet/nov, File Size: 441037 bytes, variables length: 495
+  Category: 2019/cps/internet/nov, File Size: 445033 bytes, variables length: 495
+  Category: 2021/cps/internet/nov, File Size: 459165 bytes, variables length: 502
+  Category: 2023/cps/internet/nov, File Size: 476125 bytes, variables length: 559
+Dataset Name: cps/school/oct
+  Category: 1994/cps/school/oct, File Size: 415623 bytes, variables length: 436
+  Category: 1995/cps/school/oct, File Size: 427488 bytes, variables length: 447
+  Category: 1996/cps/school/oct, File Size: 422150 bytes, variables length: 438
+  Category: 1997/cps/school/oct, File Size: 393628 bytes, variables length: 399
+  Category: 1998/cps/school/oct, File Size: 399134 bytes, variables length: 404
+  Category: 1999/cps/school/oct, File Size: 433531 bytes, variables length: 496
+  Category: 2000/cps/school/oct, File Size: 400013 bytes, variables length: 404
+  Category: 2001/cps/school/oct, File Size: 408020 bytes, variables length: 425
+  Category: 2002/cps/school/oct, File Size: 401789 bytes, variables length: 406
+  Category: 2003/cps/school/oct, File Size: 421217 bytes, variables length: 407
+  Category: 2004/cps/school/oct, File Size: 457303 bytes, variables length: 516
+  Category: 2005/cps/school/oct, File Size: 425697 bytes, variables length: 405
+  Category: 2006/cps/school/oct, File Size: 425540 bytes, variables length: 405
+  Category: 2007/cps/school/oct, File Size: 429142 bytes, variables length: 406
+  Category: 2008/cps/school/oct, File Size: 429142 bytes, variables length: 406
+  Category: 2009/cps/school/oct, File Size: 439352 bytes, variables length: 419
+  Category: 2010/cps/school/oct, File Size: 440692 bytes, variables length: 420
+  Category: 2011/cps/school/oct, File Size: 444622 bytes, variables length: 420
+  Category: 2012/cps/school/oct, File Size: 422723 bytes, variables length: 419
+  Category: 2013/cps/school/oct, File Size: 423596 bytes, variables length: 421
+  Category: 2014/cps/school/oct, File Size: 428918 bytes, variables length: 428
+  Category: 2015/cps/school/oct, File Size: 423685 bytes, variables length: 422
+  Category: 2016/cps/school/oct, File Size: 423715 bytes, variables length: 422
+  Category: 2017/cps/school/oct, File Size: 423715 bytes, variables length: 422
+  Category: 2018/cps/school/oct, File Size: 423745 bytes, variables length: 422
+  Category: 2019/cps/school/oct, File Size: 422688 bytes, variables length: 422
+  Category: 2020/cps/school/oct, File Size: 439495 bytes, variables length: 433
+  Category: 2021/cps/school/oct, File Size: 440060 bytes, variables length: 437
+  Category: 2022/cps/school/oct, File Size: 437231 bytes, variables length: 437
+  Category: 2023/cps/school/oct, File Size: 437571 bytes, variables length: 438
+Dataset Name: cps/voting/nov
+  Category: 1994/cps/voting/nov, File Size: 372503 bytes, variables length: 355
+  Category: 1996/cps/voting/nov, File Size: 378669 bytes, variables length: 362
+  Category: 1998/cps/voting/nov, File Size: 386607 bytes, variables length: 372
+  Category: 2000/cps/voting/nov, File Size: 388000 bytes, variables length: 373
+  Category: 2002/cps/voting/nov, File Size: 388204 bytes, variables length: 374
+  Category: 2004/cps/voting/nov, File Size: 403991 bytes, variables length: 364
+  Category: 2006/cps/voting/nov, File Size: 412520 bytes, variables length: 370
+  Category: 2008/cps/voting/nov, File Size: 417283 bytes, variables length: 374
+  Category: 2010/cps/voting/nov, File Size: 428903 bytes, variables length: 388
+  Category: 2012/cps/voting/nov, File Size: 410934 bytes, variables length: 387
+  Category: 2014/cps/voting/nov, File Size: 417067 bytes, variables length: 396
+  Category: 2016/cps/voting/nov, File Size: 411864 bytes, variables length: 390
+  Category: 2018/cps/voting/nov, File Size: 411894 bytes, variables length: 390
+  Category: 2020/cps/voting/nov, File Size: 428762 bytes, variables length: 401
+  Category: 2022/cps/voting/nov, File Size: 426623 bytes, variables length: 406
+Dataset Name: zbp
+  Category: 1994/zbp, File Size: 3343 bytes, variables length: 17
+  Category: 1995/zbp, File Size: 3345 bytes, variables length: 17
+  Category: 1996/zbp, File Size: 3345 bytes, variables length: 17
+  Category: 1997/zbp, File Size: 3345 bytes, variables length: 17
+  Category: 1998/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 1999/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2000/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2001/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2002/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2003/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2004/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2005/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2006/zbp, File Size: 3354 bytes, variables length: 17
+  Category: 2007/zbp, File Size: 3991 bytes, variables length: 20
+  Category: 2008/zbp, File Size: 3991 bytes, variables length: 20
+  Category: 2009/zbp, File Size: 3991 bytes, variables length: 20
+  Category: 2010/zbp, File Size: 3991 bytes, variables length: 20
+  Category: 2011/zbp, File Size: 3991 bytes, variables length: 20
+  Category: 2012/zbp, File Size: 378318 bytes, variables length: 16
+  Category: 2013/zbp, File Size: 378318 bytes, variables length: 16
+  Category: 2014/zbp, File Size: 378318 bytes, variables length: 16
+  Category: 2015/zbp, File Size: 378318 bytes, variables length: 16
+  Category: 2016/zbp, File Size: 378318 bytes, variables length: 16
+  Category: 2017/zbp, File Size: 393777 bytes, variables length: 22
+  Category: 2018/zbp, File Size: 393609 bytes, variables length: 21
+Dataset Name: cps/contworker/feb
+  Category: 1995/cps/contworker/feb, File Size: 482440 bytes, variables length: 541
+  Category: 1997/cps/contworker/feb, File Size: 492095 bytes, variables length: 552
+  Category: 1999/cps/contworker/feb, File Size: 499876 bytes, variables length: 562
+  Category: 2001/cps/contworker/feb, File Size: 501951 bytes, variables length: 565
+  Category: 2005/cps/contworker/feb, File Size: 597466 bytes, variables length: 557
+Dataset Name: cps/foodsec/apr
+  Category: 1995/cps/foodsec/apr, File Size: 411358 bytes, variables length: 439
+  Category: 1997/cps/foodsec/apr, File Size: 424447 bytes, variables length: 460
+  Category: 1999/cps/foodsec/apr, File Size: 434533 bytes, variables length: 475
+  Category: 2001/cps/foodsec/apr, File Size: 437194 bytes, variables length: 476
+Dataset Name: cps/vets/aug
+  Category: 1995/cps/vets/aug, File Size: 383633 bytes, variables length: 372
+  Category: 2001/cps/vets/aug, File Size: 417174 bytes, variables length: 453
+  Category: 2003/cps/vets/aug, File Size: 437573 bytes, variables length: 455
+  Category: 2005/cps/vets/aug, File Size: 441302 bytes, variables length: 451
+  Category: 2007/cps/vets/aug, File Size: 448370 bytes, variables length: 461
+  Category: 2009/cps/vets/aug, File Size: 458580 bytes, variables length: 474
+  Category: 2011/cps/vets/aug, File Size: 465131 bytes, variables length: 479
+  Category: 2012/cps/vets/aug, File Size: 443232 bytes, variables length: 478
+  Category: 2013/cps/vets/aug, File Size: 444105 bytes, variables length: 480
+  Category: 2014/cps/vets/aug, File Size: 449427 bytes, variables length: 487
+  Category: 2015/cps/vets/aug, File Size: 444365 bytes, variables length: 482
+  Category: 2016/cps/vets/aug, File Size: 444395 bytes, variables length: 482
+  Category: 2017/cps/vets/aug, File Size: 444395 bytes, variables length: 482
+  Category: 2018/cps/vets/aug, File Size: 444425 bytes, variables length: 482
+  Category: 2019/cps/vets/aug, File Size: 443794 bytes, variables length: 482
+  Category: 2020/cps/vets/aug, File Size: 460601 bytes, variables length: 493
+  Category: 2021/cps/vets/aug, File Size: 457562 bytes, variables length: 476
+  Category: 2022/cps/vets/aug, File Size: 453984 bytes, variables length: 473
+  Category: 2023/cps/vets/aug, File Size: 454204 bytes, variables length: 474
+Dataset Name: cps/dwjt/feb
+  Category: 1996/cps/dwjt/feb, File Size: 507410 bytes, variables length: 438
+  Category: 1998/cps/dwjt/feb, File Size: 460719 bytes, variables length: 435
+  Category: 2000/cps/dwjt/feb, File Size: 515031 bytes, variables length: 447
+Dataset Name: cps/internet/oct
+  Category: 1997/cps/internet/oct, File Size: 411752 bytes, variables length: 464
+  Category: 2003/cps/internet/oct, File Size: 454034 bytes, variables length: 504
+  Category: 2007/cps/internet/oct, File Size: 414359 bytes, variables length: 373
+  Category: 2009/cps/internet/oct, File Size: 425399 bytes, variables length: 388
+  Category: 2010/cps/internet/oct, File Size: 436628 bytes, variables length: 420
+  Category: 2012/cps/internet/oct, File Size: 431222 bytes, variables length: 452
+Dataset Name: cps/vets/sep
+  Category: 1997/cps/vets/sep, File Size: 386165 bytes, variables length: 374
+  Category: 1999/cps/vets/sep, File Size: 390356 bytes, variables length: 383
+Dataset Name: cps/worksched/may
+  Category: 1997/cps/worksched/may, File Size: 396966 bytes, variables length: 397
+  Category: 2001/cps/worksched/may, File Size: 401957 bytes, variables length: 405
+  Category: 2004/cps/worksched/may, File Size: 420508 bytes, variables length: 405
+Dataset Name: ewks
+  Category: 1997/ewks, File Size: 4537 bytes, variables length: 25
+  Category: 2002/ewks, File Size: 4515 bytes, variables length: 25
+  Category: 2007/ewks, File Size: 6836 bytes, variables length: 37
+  Category: 2012/ewks, File Size: 8589 bytes, variables length: 44
+Dataset Name: nonemp
+  Category: 1997/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 1998/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 1999/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2000/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2001/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2002/nonemp, File Size: 2391 bytes, variables length: 13
+  Category: 2003/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2004/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2005/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2006/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2007/nonemp, File Size: 2431 bytes, variables length: 13
+  Category: 2008/nonemp, File Size: 3882 bytes, variables length: 20
+  Category: 2009/nonemp, File Size: 4038 bytes, variables length: 21
+  Category: 2010/nonemp, File Size: 4038 bytes, variables length: 21
+  Category: 2011/nonemp, File Size: 4038 bytes, variables length: 21
+  Category: 2012/nonemp, File Size: 375743 bytes, variables length: 26
+  Category: 2013/nonemp, File Size: 375743 bytes, variables length: 26
+  Category: 2014/nonemp, File Size: 375743 bytes, variables length: 26
+  Category: 2015/nonemp, File Size: 375743 bytes, variables length: 26
+  Category: 2016/nonemp, File Size: 375743 bytes, variables length: 26
+  Category: 2017/nonemp, File Size: 375854 bytes, variables length: 26
+  Category: 2018/nonemp, File Size: 378886 bytes, variables length: 22
+  Category: 2019/nonemp, File Size: 375228 bytes, variables length: 22
+  Category: 2020/nonemp, File Size: 384034 bytes, variables length: 22
+  Category: 2021/nonemp, File Size: 384429 bytes, variables length: 22
+  Category: 2022/nonemp, File Size: 433042 bytes, variables length: 22
+Dataset Name: cps/fertility/jun
+  Category: 1998/cps/fertility/jun, File Size: 402997 bytes, variables length: 416
+  Category: 2000/cps/fertility/jun, File Size: 387537 bytes, variables length: 371
+  Category: 2002/cps/fertility/jun, File Size: 387299 bytes, variables length: 371
+  Category: 2004/cps/fertility/jun, File Size: 402611 bytes, variables length: 362
+  Category: 2006/cps/fertility/jun, File Size: 412305 bytes, variables length: 371
+  Category: 2008/cps/fertility/jun, File Size: 415853 bytes, variables length: 372
+  Category: 2010/cps/fertility/jun, File Size: 427441 bytes, variables length: 386
+  Category: 2012/cps/fertility/jun, File Size: 410789 bytes, variables length: 389
+  Category: 2014/cps/fertility/jun, File Size: 416258 bytes, variables length: 397
+  Category: 2016/cps/fertility/jun, File Size: 411093 bytes, variables length: 391
+  Category: 2018/cps/fertility/jun, File Size: 410617 bytes, variables length: 391
+  Category: 2020/cps/fertility/jun, File Size: 426722 bytes, variables length: 402
+  Category: 2022/cps/fertility/jun, File Size: 424458 bytes, variables length: 406
+Dataset Name: dec/aian
+  Category: 2000/dec/aian, File Size: 2535380 bytes, variables length: 7898
+  Category: 2010/dec/aian, File Size: 636001 bytes, variables length: 1557
+Dataset Name: dec/as
+  Category: 2000/dec/as, File Size: 1758034 bytes, variables length: 6359
+  Category: 2010/dec/as, File Size: 1544022 bytes, variables length: 5842
+Dataset Name: dec/gu
+  Category: 2000/dec/gu, File Size: 1782363 bytes, variables length: 6440
+  Category: 2010/dec/gu, File Size: 1660714 bytes, variables length: 6298
+Dataset Name: dec/mp
+  Category: 2000/dec/mp, File Size: 1781342 bytes, variables length: 6411
+  Category: 2010/dec/mp, File Size: 1610114 bytes, variables length: 6085
+Dataset Name: dec/pl
+  Category: 2000/dec/pl, File Size: 98038 bytes, variables length: 312
+  Category: 2010/dec/pl, File Size: 111007 bytes, variables length: 319
+  Category: 2020/dec/pl, File Size: 111108 bytes, variables length: 338
+Dataset Name: dec/sf1
+  Category: 2000/dec/sf1, File Size: 2096937 bytes, variables length: 8144
+  Category: 2010/dec/sf1, File Size: 2355107 bytes, variables length: 9000
+Dataset Name: dec/sf2
+  Category: 2000/dec/sf2, File Size: 418746 bytes, variables length: 793
+  Category: 2010/dec/sf2, File Size: 654272 bytes, variables length: 1557
+Dataset Name: dec/vi
+  Category: 2000/dec/vi, File Size: 2590733 bytes, variables length: 9071
+  Category: 2010/dec/vi, File Size: 2466933 bytes, variables length: 9365
+Dataset Name: cps/foodsec/dec
+  Category: 2001/cps/foodsec/dec, File Size: 437215 bytes, variables length: 476
+  Category: 2002/cps/foodsec/dec, File Size: 435961 bytes, variables length: 476
+  Category: 2003/cps/foodsec/dec, File Size: 456241 bytes, variables length: 478
+  Category: 2004/cps/foodsec/dec, File Size: 450889 bytes, variables length: 467
+  Category: 2005/cps/foodsec/dec, File Size: 464274 bytes, variables length: 482
+  Category: 2006/cps/foodsec/dec, File Size: 462526 bytes, variables length: 479
+  Category: 2007/cps/foodsec/dec, File Size: 467955 bytes, variables length: 488
+  Category: 2008/cps/foodsec/dec, File Size: 470914 bytes, variables length: 490
+  Category: 2009/cps/foodsec/dec, File Size: 481073 bytes, variables length: 503
+  Category: 2010/cps/foodsec/dec, File Size: 478608 bytes, variables length: 496
+  Category: 2011/cps/foodsec/dec, File Size: 478276 bytes, variables length: 496
+  Category: 2012/cps/foodsec/dec, File Size: 456301 bytes, variables length: 495
+  Category: 2013/cps/foodsec/dec, File Size: 456684 bytes, variables length: 497
+  Category: 2014/cps/foodsec/dec, File Size: 462006 bytes, variables length: 504
+  Category: 2015/cps/foodsec/dec, File Size: 456773 bytes, variables length: 498
+  Category: 2016/cps/foodsec/dec, File Size: 456803 bytes, variables length: 498
+  Category: 2017/cps/foodsec/dec, File Size: 456803 bytes, variables length: 498
+  Category: 2018/cps/foodsec/dec, File Size: 456833 bytes, variables length: 498
+  Category: 2019/cps/foodsec/dec, File Size: 459277 bytes, variables length: 497
+  Category: 2020/cps/foodsec/dec, File Size: 476084 bytes, variables length: 508
+  Category: 2021/cps/foodsec/dec, File Size: 477386 bytes, variables length: 512
+  Category: 2022/cps/foodsec/dec, File Size: 471818 bytes, variables length: 512
+  Category: 2023/cps/foodsec/dec, File Size: 475021 bytes, variables length: 513
+Dataset Name: cps/dwjt/jan
+  Category: 2002/cps/dwjt/jan, File Size: 515333 bytes, variables length: 447
+  Category: 2004/cps/dwjt/jan, File Size: 553988 bytes, variables length: 447
+  Category: 2006/cps/dwjt/jan, File Size: 565848 bytes, variables length: 464
+  Category: 2008/cps/dwjt/jan, File Size: 561881 bytes, variables length: 446
+  Category: 2010/cps/dwjt/jan, File Size: 573431 bytes, variables length: 460
+  Category: 2012/cps/dwjt/jan, File Size: 507586 bytes, variables length: 460
+  Category: 2014/cps/dwjt/jan, File Size: 493378 bytes, variables length: 469
+  Category: 2016/cps/dwjt/jan, File Size: 486620 bytes, variables length: 462
+  Category: 2018/cps/dwjt/jan, File Size: 447838 bytes, variables length: 462
+  Category: 2020/cps/dwjt/jan, File Size: 467358 bytes, variables length: 473
+  Category: 2022/cps/dwjt/jan, File Size: 468085 bytes, variables length: 477
+  Category: 2024/cps/dwjt/jan, File Size: 465068 bytes, variables length: 478
+Dataset Name: cps/volunteer/sep
+  Category: 2002/cps/volunteer/sep, File Size: 421994 bytes, variables length: 437
+  Category: 2003/cps/volunteer/sep, File Size: 441238 bytes, variables length: 431
+  Category: 2004/cps/volunteer/sep, File Size: 436880 bytes, variables length: 422
+  Category: 2005/cps/volunteer/sep, File Size: 446107 bytes, variables length: 429
+  Category: 2006/cps/volunteer/sep, File Size: 448687 bytes, variables length: 435
+  Category: 2007/cps/volunteer/sep, File Size: 455071 bytes, variables length: 442
+  Category: 2008/cps/volunteer/sep, File Size: 454535 bytes, variables length: 441
+  Category: 2009/cps/volunteer/sep, File Size: 464745 bytes, variables length: 454
+  Category: 2010/cps/volunteer/sep, File Size: 466085 bytes, variables length: 455
+  Category: 2011/cps/volunteer/sep, File Size: 470380 bytes, variables length: 455
+  Category: 2012/cps/volunteer/sep, File Size: 448481 bytes, variables length: 454
+  Category: 2013/cps/volunteer/sep, File Size: 449354 bytes, variables length: 456
+  Category: 2014/cps/volunteer/sep, File Size: 454676 bytes, variables length: 463
+  Category: 2015/cps/volunteer/sep, File Size: 449443 bytes, variables length: 457
+  Category: 2019/cps/volunteer/sep, File Size: 417843 bytes, variables length: 406
+  Category: 2021/cps/volunteer/sep, File Size: 435621 bytes, variables length: 422
+  Category: 2023/cps/volunteer/sep, File Size: 433785 bytes, variables length: 424
+Dataset Name: acs/acs1/pums
+  Category: 2004/acs/acs1/pums, File Size: 233044 bytes, variables length: 249
+  Category: 2005/acs/acs1/pums, File Size: 283514 bytes, variables length: 428
+  Category: 2006/acs/acs1/pums, File Size: 326565 bytes, variables length: 425
+  Category: 2007/acs/acs1/pums, File Size: 326860 bytes, variables length: 425
+  Category: 2008/acs/acs1/pums, File Size: 349531 bytes, variables length: 471
+  Category: 2009/acs/acs1/pums, File Size: 369565 bytes, variables length: 478
+  Category: 2010/acs/acs1/pums, File Size: 372602 bytes, variables length: 479
+  Category: 2011/acs/acs1/pums, File Size: 375388 bytes, variables length: 488
+  Category: 2012/acs/acs1/pums, File Size: 378778 bytes, variables length: 490
+  Category: 2013/acs/acs1/pums, File Size: 386445 bytes, variables length: 511
+  Category: 2014/acs/acs1/pums, File Size: 388257 bytes, variables length: 516
+  Category: 2015/acs/acs1/pums, File Size: 388295 bytes, variables length: 516
+  Category: 2016/acs/acs1/pums, File Size: 392403 bytes, variables length: 511
+  Category: 2017/acs/acs1/pums, File Size: 393464 bytes, variables length: 511
+  Category: 2018/acs/acs1/pums, File Size: 397426 bytes, variables length: 515
+  Category: 2019/acs/acs1/pums, File Size: 399367 bytes, variables length: 518
+  Category: 2021/acs/acs1/pums, File Size: 490389 bytes, variables length: 525
+  Category: 2022/acs/acs1/pums, File Size: 500109 bytes, variables length: 525
+  Category: 2023/acs/acs1/pums, File Size: 505144 bytes, variables length: 525
+Dataset Name: acs/acs1
+  Category: 2005/acs/acs1, File Size: 9955030 bytes, variables length: 26407
+  Category: 2006/acs/acs1, File Size: 10378036 bytes, variables length: 27446
+  Category: 2007/acs/acs1, File Size: 11041327 bytes, variables length: 29021
+  Category: 2008/acs/acs1, File Size: 11265333 bytes, variables length: 29666
+  Category: 2009/acs/acs1, File Size: 12682584 bytes, variables length: 33671
+  Category: 2010/acs/acs1, File Size: 8910275 bytes, variables length: 34275
+  Category: 2011/acs/acs1, File Size: 8957974 bytes, variables length: 34453
+  Category: 2012/acs/acs1, File Size: 12979598 bytes, variables length: 34393
+  Category: 2013/acs/acs1, File Size: 12339516 bytes, variables length: 32751
+  Category: 2014/acs/acs1, File Size: 11949698 bytes, variables length: 31554
+  Category: 2015/acs/acs1, File Size: 11980141 bytes, variables length: 31610
+  Category: 2016/acs/acs1, File Size: 12001683 bytes, variables length: 31671
+  Category: 2017/acs/acs1, File Size: 12731893 bytes, variables length: 33624
+  Category: 2018/acs/acs1, File Size: 13379591 bytes, variables length: 35528
+  Category: 2019/acs/acs1, File Size: 13473208 bytes, variables length: 35555
+  Category: 2021/acs/acs1, File Size: 13769553 bytes, variables length: 36428
+  Category: 2022/acs/acs1, File Size: 13845706 bytes, variables length: 36635
+  Category: 2023/acs/acs1, File Size: 13917209 bytes, variables length: 36724
+Dataset Name: acs/acs1/profile
+  Category: 2005/acs/acs1/profile, File Size: 204650 bytes, variables length: 621
+  Category: 2006/acs/acs1/profile, File Size: 213772 bytes, variables length: 646
+  Category: 2007/acs/acs1/profile, File Size: 445663 bytes, variables length: 1291
+  Category: 2008/acs/acs1/profile, File Size: 448993 bytes, variables length: 1297
+  Category: 2009/acs/acs1/profile, File Size: 454150 bytes, variables length: 1311
+  Category: 2010/acs/acs1/profile, File Size: 352095 bytes, variables length: 1343
+  Category: 2011/acs/acs1/profile, File Size: 352055 bytes, variables length: 1343
+  Category: 2012/acs/acs1/profile, File Size: 434524 bytes, variables length: 1343
+  Category: 2013/acs/acs1/profile, File Size: 466900 bytes, variables length: 1355
+  Category: 2014/acs/acs1/profile, File Size: 466900 bytes, variables length: 1355
+  Category: 2015/acs/acs1/profile, File Size: 471309 bytes, variables length: 1366
+  Category: 2016/acs/acs1/profile, File Size: 471349 bytes, variables length: 1365
+  Category: 2017/acs/acs1/profile, File Size: 474630 bytes, variables length: 1377
+  Category: 2018/acs/acs1/profile, File Size: 467801 bytes, variables length: 1372
+  Category: 2019/acs/acs1/profile, File Size: 461803 bytes, variables length: 1378
+  Category: 2021/acs/acs1/profile, File Size: 464423 bytes, variables length: 1382
+  Category: 2022/acs/acs1/profile, File Size: 465797 bytes, variables length: 1386
+  Category: 2023/acs/acs1/profile, File Size: 467870 bytes, variables length: 1389
+Dataset Name: acs/acs1/pumspr
+  Category: 2005/acs/acs1/pumspr, File Size: 283047 bytes, variables length: 428
+  Category: 2006/acs/acs1/pumspr, File Size: 327058 bytes, variables length: 426
+  Category: 2007/acs/acs1/pumspr, File Size: 327353 bytes, variables length: 426
+  Category: 2008/acs/acs1/pumspr, File Size: 349009 bytes, variables length: 469
+  Category: 2009/acs/acs1/pumspr, File Size: 369560 bytes, variables length: 478
+  Category: 2010/acs/acs1/pumspr, File Size: 372597 bytes, variables length: 479
+  Category: 2011/acs/acs1/pumspr, File Size: 375383 bytes, variables length: 488
+  Category: 2012/acs/acs1/pumspr, File Size: 378772 bytes, variables length: 490
+  Category: 2013/acs/acs1/pumspr, File Size: 386501 bytes, variables length: 511
+  Category: 2014/acs/acs1/pumspr, File Size: 388313 bytes, variables length: 516
+  Category: 2015/acs/acs1/pumspr, File Size: 388351 bytes, variables length: 516
+  Category: 2016/acs/acs1/pumspr, File Size: 392459 bytes, variables length: 511
+  Category: 2017/acs/acs1/pumspr, File Size: 393520 bytes, variables length: 511
+  Category: 2018/acs/acs1/pumspr, File Size: 397482 bytes, variables length: 515
+  Category: 2019/acs/acs1/pumspr, File Size: 399426 bytes, variables length: 518
+  Category: 2021/acs/acs1/pumspr, File Size: 490454 bytes, variables length: 525
+  Category: 2022/acs/acs1/pumspr, File Size: 500174 bytes, variables length: 525
+  Category: 2023/acs/acs1/pumspr, File Size: 505209 bytes, variables length: 525
+Dataset Name: cps/tobacco/aug
+  Category: 2006/cps/tobacco/aug, File Size: 487947 bytes, variables length: 532
+  Category: 2010/cps/tobacco/aug, File Size: 618653 bytes, variables length: 702
+Dataset Name: cps/tobacco/may
+  Category: 2006/cps/tobacco/may, File Size: 487947 bytes, variables length: 532
+  Category: 2010/cps/tobacco/may, File Size: 618670 bytes, variables length: 702
+  Category: 2015/cps/tobacco/may, File Size: 543605 bytes, variables length: 606
+  Category: 2019/cps/tobacco/may, File Size: 561826 bytes, variables length: 641
+Dataset Name: acs/acs3
+  Category: 2007/acs/acs3, File Size: 11043587 bytes, variables length: 29027
+  Category: 2008/acs/acs3, File Size: 10708348 bytes, variables length: 28082
+  Category: 2009/acs/acs3, File Size: 11325088 bytes, variables length: 29795
+  Category: 2011/acs/acs3, File Size: 12951138 bytes, variables length: 34366
+  Category: 2012/acs/acs3, File Size: 12931613 bytes, variables length: 34306
+  Category: 2013/acs/acs3, File Size: 12254692 bytes, variables length: 32566
+Dataset Name: acs/acs3/profile
+  Category: 2007/acs/acs3/profile, File Size: 451488 bytes, variables length: 1291
+  Category: 2008/acs/acs3/profile, File Size: 454926 bytes, variables length: 1297
+  Category: 2009/acs/acs3/profile, File Size: 460171 bytes, variables length: 1311
+  Category: 2010/acs/acs3/profile, File Size: 416542 bytes, variables length: 1343
+  Category: 2011/acs/acs3/profile, File Size: 416542 bytes, variables length: 1343
+  Category: 2012/acs/acs3/profile, File Size: 416542 bytes, variables length: 1343
+  Category: 2013/acs/acs3/profile, File Size: 448918 bytes, variables length: 1355
+Dataset Name: cps/tobacco/jan
+  Category: 2007/cps/tobacco/jan, File Size: 491123 bytes, variables length: 532
+  Category: 2011/cps/tobacco/jan, File Size: 622517 bytes, variables length: 702
+  Category: 2015/cps/tobacco/jan, File Size: 543605 bytes, variables length: 606
+  Category: 2019/cps/tobacco/jan, File Size: 560595 bytes, variables length: 638
+Dataset Name: acs/acs1/spp
+  Category: 2008/acs/acs1/spp, File Size: 426044 bytes, variables length: 627
+  Category: 2009/acs/acs1/spp, File Size: 429114 bytes, variables length: 637
+  Category: 2010/acs/acs1/spp, File Size: 355544 bytes, variables length: 631
+  Category: 2011/acs/acs1/spp, File Size: 412938 bytes, variables length: 631
+  Category: 2012/acs/acs1/spp, File Size: 413003 bytes, variables length: 631
+  Category: 2013/acs/acs1/spp, File Size: 427353 bytes, variables length: 637
+  Category: 2014/acs/acs1/spp, File Size: 427353 bytes, variables length: 637
+  Category: 2015/acs/acs1/spp, File Size: 429077 bytes, variables length: 641
+  Category: 2016/acs/acs1/spp, File Size: 431541 bytes, variables length: 641
+  Category: 2017/acs/acs1/spp, File Size: 447063 bytes, variables length: 641
+  Category: 2018/acs/acs1/spp, File Size: 432505 bytes, variables length: 637
+  Category: 2019/acs/acs1/spp, File Size: 430967 bytes, variables length: 638
+  Category: 2021/acs/acs1/spp, File Size: 557379 bytes, variables length: 638
+  Category: 2022/acs/acs1/spp, File Size: 557373 bytes, variables length: 638
+  Category: 2023/acs/acs1/spp, File Size: 557333 bytes, variables length: 635
+Dataset Name: cps/civic/nov
+  Category: 2008/cps/civic/nov, File Size: 424412 bytes, variables length: 393
+  Category: 2009/cps/civic/nov, File Size: 428003 bytes, variables length: 394
+  Category: 2010/cps/civic/nov, File Size: 429343 bytes, variables length: 395
+  Category: 2011/cps/civic/nov, File Size: 438149 bytes, variables length: 404
+  Category: 2013/cps/civic/nov, File Size: 416493 bytes, variables length: 403
+Dataset Name: acs/acs3/spp
+  Category: 2009/acs/acs3/spp, File Size: 429192 bytes, variables length: 637
+  Category: 2010/acs/acs3/spp, File Size: 412938 bytes, variables length: 631
+  Category: 2011/acs/acs3/spp, File Size: 412938 bytes, variables length: 631
+  Category: 2012/acs/acs3/spp, File Size: 412938 bytes, variables length: 631
+  Category: 2013/acs/acs3/spp, File Size: 427288 bytes, variables length: 637
+Dataset Name: acs/acs5
+  Category: 2009/acs/acs5, File Size: 4245339 bytes, variables length: 11282
+  Category: 2010/acs/acs5, File Size: 7986948 bytes, variables length: 20963
+  Category: 2011/acs/acs5, File Size: 8032202 bytes, variables length: 21071
+  Category: 2012/acs/acs5, File Size: 8536085 bytes, variables length: 22567
+  Category: 2013/acs/acs5, File Size: 8599520 bytes, variables length: 22754
+  Category: 2014/acs/acs5, File Size: 8602351 bytes, variables length: 22670
+  Category: 2015/acs/acs5, File Size: 8659786 bytes, variables length: 22810
+  Category: 2016/acs/acs5, File Size: 8676908 bytes, variables length: 22858
+  Category: 2017/acs/acs5, File Size: 9525631 bytes, variables length: 25111
+  Category: 2018/acs/acs5, File Size: 10176827 bytes, variables length: 27037
+  Category: 2019/acs/acs5, File Size: 10252673 bytes, variables length: 27080
+  Category: 2020/acs/acs5, File Size: 10531873 bytes, variables length: 27892
+  Category: 2021/acs/acs5, File Size: 10542217 bytes, variables length: 27927
+  Category: 2022/acs/acs5, File Size: 10639065 bytes, variables length: 28193
+  Category: 2023/acs/acs5, File Size: 10684165 bytes, variables length: 28299
+Dataset Name: acs/acs5/profile
+  Category: 2009/acs/acs5/profile, File Size: 461029 bytes, variables length: 1318
+  Category: 2010/acs/acs5/profile, File Size: 353058 bytes, variables length: 1351
+  Category: 2011/acs/acs5/profile, File Size: 435956 bytes, variables length: 1355
+  Category: 2012/acs/acs5/profile, File Size: 435865 bytes, variables length: 1354
+  Category: 2013/acs/acs5/profile, File Size: 468332 bytes, variables length: 1367
+  Category: 2014/acs/acs5/profile, File Size: 468332 bytes, variables length: 1367
+  Category: 2015/acs/acs5/profile, File Size: 472613 bytes, variables length: 1377
+  Category: 2016/acs/acs5/profile, File Size: 472781 bytes, variables length: 1377
+  Category: 2017/acs/acs5/profile, File Size: 486886 bytes, variables length: 1383
+  Category: 2018/acs/acs5/profile, File Size: 468910 bytes, variables length: 1384
+  Category: 2019/acs/acs5/profile, File Size: 462782 bytes, variables length: 1388
+  Category: 2020/acs/acs5/profile, File Size: 465368 bytes, variables length: 1392
+  Category: 2021/acs/acs5/profile, File Size: 465368 bytes, variables length: 1392
+  Category: 2022/acs/acs5/profile, File Size: 466742 bytes, variables length: 1396
+  Category: 2023/acs/acs5/profile, File Size: 469106 bytes, variables length: 1399
+Dataset Name: acs/acs5/pums
+  Category: 2009/acs/acs5/pums, File Size: 327607 bytes, variables length: 408
+  Category: 2010/acs/acs5/pums, File Size: 429913 bytes, variables length: 413
+  Category: 2011/acs/acs5/pums, File Size: 429899 bytes, variables length: 413
+  Category: 2012/acs/acs5/pums, File Size: 541684 bytes, variables length: 489
+  Category: 2013/acs/acs5/pums, File Size: 561189 bytes, variables length: 496
+  Category: 2014/acs/acs5/pums, File Size: 497333 bytes, variables length: 494
+  Category: 2015/acs/acs5/pums, File Size: 500153 bytes, variables length: 503
+  Category: 2016/acs/acs5/pums, File Size: 381938 bytes, variables length: 488
+  Category: 2017/acs/acs5/pums, File Size: 392956 bytes, variables length: 514
+  Category: 2018/acs/acs5/pums, File Size: 396963 bytes, variables length: 518
+  Category: 2019/acs/acs5/pums, File Size: 399280 bytes, variables length: 521
+  Category: 2020/acs/acs5/pums, File Size: 398619 bytes, variables length: 520
+  Category: 2021/acs/acs5/pums, File Size: 491851 bytes, variables length: 522
+  Category: 2022/acs/acs5/pums, File Size: 589586 bytes, variables length: 525
+  Category: 2023/acs/acs5/pums, File Size: 507971 bytes, variables length: 521
+Dataset Name: acs/acs5/pumspr
+  Category: 2009/acs/acs5/pumspr, File Size: 327979 bytes, variables length: 409
+  Category: 2010/acs/acs5/pumspr, File Size: 430285 bytes, variables length: 414
+  Category: 2011/acs/acs5/pumspr, File Size: 430271 bytes, variables length: 414
+  Category: 2012/acs/acs5/pumspr, File Size: 542053 bytes, variables length: 490
+  Category: 2013/acs/acs5/pumspr, File Size: 561558 bytes, variables length: 497
+  Category: 2014/acs/acs5/pumspr, File Size: 497702 bytes, variables length: 495
+  Category: 2015/acs/acs5/pumspr, File Size: 500522 bytes, variables length: 504
+  Category: 2016/acs/acs5/pumspr, File Size: 382307 bytes, variables length: 489
+  Category: 2017/acs/acs5/pumspr, File Size: 393325 bytes, variables length: 515
+  Category: 2018/acs/acs5/pumspr, File Size: 397332 bytes, variables length: 519
+  Category: 2019/acs/acs5/pumspr, File Size: 399649 bytes, variables length: 522
+  Category: 2020/acs/acs5/pumspr, File Size: 398681 bytes, variables length: 520
+  Category: 2021/acs/acs5/pumspr, File Size: 491919 bytes, variables length: 522
+  Category: 2022/acs/acs5/pumspr, File Size: 589654 bytes, variables length: 525
+  Category: 2023/acs/acs5/pumspr, File Size: 508039 bytes, variables length: 521
+Dataset Name: acs/acs1/cprofile
+  Category: 2010/acs/acs1/cprofile, File Size: 1002660 bytes, variables length: 2909
+  Category: 2011/acs/acs1/cprofile, File Size: 1132670 bytes, variables length: 3314
+  Category: 2012/acs/acs1/cprofile, File Size: 1132586 bytes, variables length: 3311
+  Category: 2013/acs/acs1/cprofile, File Size: 1221971 bytes, variables length: 3344
+  Category: 2014/acs/acs1/cprofile, File Size: 1222333 bytes, variables length: 3344
+  Category: 2015/acs/acs1/cprofile, File Size: 1228754 bytes, variables length: 3370
+  Category: 2016/acs/acs1/cprofile, File Size: 1228690 bytes, variables length: 3369
+  Category: 2017/acs/acs1/cprofile, File Size: 1236898 bytes, variables length: 3395
+  Category: 2018/acs/acs1/cprofile, File Size: 1190408 bytes, variables length: 3391
+  Category: 2019/acs/acs1/cprofile, File Size: 1192812 bytes, variables length: 3403
+  Category: 2021/acs/acs1/cprofile, File Size: 1198340 bytes, variables length: 3413
+  Category: 2022/acs/acs1/cprofile, File Size: 1201890 bytes, variables length: 3423
+  Category: 2023/acs/acs1/cprofile, File Size: 1207277 bytes, variables length: 3435
+Dataset Name: acs/acs1/subject
+  Category: 2010/acs/acs1/subject, File Size: 4271777 bytes, variables length: 14338
+  Category: 2011/acs/acs1/subject, File Size: 5649877 bytes, variables length: 14353
+  Category: 2012/acs/acs1/subject, File Size: 5647966 bytes, variables length: 14341
+  Category: 2013/acs/acs1/subject, File Size: 5848449 bytes, variables length: 14505
+  Category: 2014/acs/acs1/subject, File Size: 5848449 bytes, variables length: 14505
+  Category: 2015/acs/acs1/subject, File Size: 6596509 bytes, variables length: 16546
+  Category: 2016/acs/acs1/subject, File Size: 6597585 bytes, variables length: 16546
+  Category: 2017/acs/acs1/subject, File Size: 7296928 bytes, variables length: 18346
+  Category: 2018/acs/acs1/subject, File Size: 7719736 bytes, variables length: 18342
+  Category: 2019/acs/acs1/subject, File Size: 7806969 bytes, variables length: 18436
+  Category: 2021/acs/acs1/subject, File Size: 7813528 bytes, variables length: 18452
+  Category: 2022/acs/acs1/subject, File Size: 7813533 bytes, variables length: 18452
+  Category: 2023/acs/acs1/subject, File Size: 7894264 bytes, variables length: 18647
+Dataset Name: acs/acs3/subject
+  Category: 2010/acs/acs3/subject, File Size: 5706754 bytes, variables length: 14556
+  Category: 2011/acs/acs3/subject, File Size: 5716971 bytes, variables length: 14571
+  Category: 2012/acs/acs3/subject, File Size: 5715083 bytes, variables length: 14559
+  Category: 2013/acs/acs3/subject, File Size: 5917846 bytes, variables length: 14723
+Dataset Name: acs/acs5/aian
+  Category: 2010/acs/acs5/aian, File Size: 2043532 bytes, variables length: 4913
+  Category: 2015/acs/acs5/aian, File Size: 1040990 bytes, variables length: 2405
+  Category: 2021/acs/acs5/aian, File Size: 1117738 bytes, variables length: 2243
+Dataset Name: acs/acs5/aianprofile
+  Category: 2010/acs/acs5/aianprofile, File Size: 577592 bytes, variables length: 1173
+  Category: 2015/acs/acs5/aianprofile, File Size: 662514 bytes, variables length: 1357
+  Category: 2021/acs/acs5/aianprofile, File Size: 799978 bytes, variables length: 1373
+Dataset Name: acs/acs5/spt
+  Category: 2010/acs/acs5/spt, File Size: 2044501 bytes, variables length: 4922
+  Category: 2015/acs/acs5/spt, File Size: 1042103 bytes, variables length: 2415
+  Category: 2021/acs/acs5/spt, File Size: 1118876 bytes, variables length: 2255
+Dataset Name: acs/acs5/sptprofile
+  Category: 2010/acs/acs5/sptprofile, File Size: 578700 bytes, variables length: 1183
+  Category: 2021/acs/acs5/sptprofile, File Size: 801116 bytes, variables length: 1385
+Dataset Name: acs/acs5/subject
+  Category: 2010/acs/acs5/subject, File Size: 5328415 bytes, variables length: 13480
+  Category: 2011/acs/acs5/subject, File Size: 5339269 bytes, variables length: 13498
+  Category: 2012/acs/acs5/subject, File Size: 5574960 bytes, variables length: 14150
+  Category: 2013/acs/acs5/subject, File Size: 5942025 bytes, variables length: 14734
+  Category: 2014/acs/acs5/subject, File Size: 5942025 bytes, variables length: 14734
+  Category: 2015/acs/acs5/subject, File Size: 6605386 bytes, variables length: 16559
+  Category: 2016/acs/acs5/subject, File Size: 6605754 bytes, variables length: 16559
+  Category: 2017/acs/acs5/subject, File Size: 7932501 bytes, variables length: 18780
+  Category: 2018/acs/acs5/subject, File Size: 7929319 bytes, variables length: 18820
+  Category: 2019/acs/acs5/subject, File Size: 7971397 bytes, variables length: 18811
+  Category: 2020/acs/acs5/subject, File Size: 7972603 bytes, variables length: 18813
+  Category: 2021/acs/acs5/subject, File Size: 7977890 bytes, variables length: 18827
+  Category: 2022/acs/acs5/subject, File Size: 7977895 bytes, variables length: 18827
+  Category: 2023/acs/acs5/subject, File Size: 8093474 bytes, variables length: 19117
+Dataset Name: acs/flows
+  Category: 2010/acs/flows, File Size: 11023 bytes, variables length: 56
+  Category: 2011/acs/flows, File Size: 10829 bytes, variables length: 55
+  Category: 2012/acs/flows, File Size: 10800 bytes, variables length: 55
+  Category: 2013/acs/flows, File Size: 14080 bytes, variables length: 69
+  Category: 2014/acs/flows, File Size: 14052 bytes, variables length: 69
+  Category: 2015/acs/flows, File Size: 14223 bytes, variables length: 70
+  Category: 2016/acs/flows, File Size: 10896 bytes, variables length: 66
+  Category: 2017/acs/flows, File Size: 8500 bytes, variables length: 46
+  Category: 2018/acs/flows, File Size: 8543 bytes, variables length: 46
+  Category: 2019/acs/flows, File Size: 8679 bytes, variables length: 46
+  Category: 2020/acs/flows, File Size: 8679 bytes, variables length: 46
+  Category: 2021/acs/flows, File Size: 8747 bytes, variables length: 46
+  Category: 2022/acs/flows, File Size: 8713 bytes, variables length: 46
+Dataset Name: dec/responserate
+  Category: 2010/dec/responserate, File Size: 2404 bytes, variables length: 18
+  Category: 2020/dec/responserate, File Size: 5539 bytes, variables length: 38
+Dataset Name: cps/internet/jul
+  Category: 2011/cps/internet/jul, File Size: 473025 bytes, variables length: 528
+  Category: 2013/cps/internet/jul, File Size: 437565 bytes, variables length: 479
+  Category: 2015/cps/internet/jul, File Size: 439309 bytes, variables length: 489
+Dataset Name: cps/unbank/jun
+  Category: 2011/cps/unbank/jun, File Size: 452022 bytes, variables length: 429
+  Category: 2013/cps/unbank/jun, File Size: 460679 bytes, variables length: 516
+  Category: 2015/cps/unbank/jun, File Size: 443056 bytes, variables length: 473
+  Category: 2017/cps/unbank/jun, File Size: 447265 bytes, variables length: 484
+  Category: 2019/cps/unbank/jun, File Size: 443946 bytes, variables length: 503
+  Category: 2021/cps/unbank/jun, File Size: 481536 bytes, variables length: 568
+  Category: 2023/cps/unbank/jun, File Size: 478332 bytes, variables length: 567
+Dataset Name: acs/acs3/cprofile
+  Category: 2012/acs/acs3/cprofile, File Size: 383524 bytes, variables length: 1165
+  Category: 2013/acs/acs3/cprofile, File Size: 469607 bytes, variables length: 1339
+Dataset Name: cfsarea
+  Category: 2012/cfsarea, File Size: 543070 bytes, variables length: 36
+  Category: 2017/cfsarea, File Size: 510805 bytes, variables length: 35
+Dataset Name: cfsexport
+  Category: 2012/cfsexport, File Size: 481569 bytes, variables length: 29
+  Category: 2017/cfsexport, File Size: 482761 bytes, variables length: 30
+Dataset Name: cfshazmat
+  Category: 2012/cfshazmat, File Size: 513156 bytes, variables length: 40
+  Category: 2017/cfshazmat, File Size: 511884 bytes, variables length: 40
+Dataset Name: cfspum/cfspumdest
+  Category: 2012/cfspum/cfspumdest, File Size: 42352 bytes, variables length: 24
+  Category: 2017/cfspum/cfspumdest, File Size: 42349 bytes, variables length: 24
+Dataset Name: cfspum/cfspumorig
+  Category: 2012/cfspum/cfspumorig, File Size: 42352 bytes, variables length: 24
+  Category: 2017/cfspum/cfspumorig, File Size: 42349 bytes, variables length: 24
+Dataset Name: cps/pubarts/jul
+  Category: 2012/cps/pubarts/jul, File Size: 540609 bytes, variables length: 693
+  Category: 2017/cps/pubarts/jul, File Size: 502081 bytes, variables length: 623
+  Category: 2022/cps/pubarts/jul, File Size: 489964 bytes, variables length: 558
+Dataset Name: ecn/islandareas
+  Category: 2012/ecn/islandareas, File Size: 461230 bytes, variables length: 196
+  Category: 2017/ecn/islandareas, File Size: 447607 bytes, variables length: 98
+  Category: 2022/ecn/islandareas, File Size: 506903 bytes, variables length: 105
+Dataset Name: ecn/islandareas/comp
+  Category: 2012/ecn/islandareas/comp, File Size: 375682 bytes, variables length: 20
+  Category: 2017/ecn/islandareas/comp, File Size: 376200 bytes, variables length: 20
+  Category: 2022/ecn/islandareas/comp, File Size: 433971 bytes, variables length: 20
+Dataset Name: ecn/islandareas/ind
+  Category: 2012/ecn/islandareas/ind, File Size: 516992 bytes, variables length: 223
+  Category: 2017/ecn/islandareas/ind, File Size: 491090 bytes, variables length: 201
+  Category: 2022/ecn/islandareas/ind, File Size: 533701 bytes, variables length: 163
+Dataset Name: ecnadmben
+  Category: 2012/ecnadmben, File Size: 377480 bytes, variables length: 15
+  Category: 2017/ecnadmben, File Size: 375511 bytes, variables length: 20
+Dataset Name: ecnbasic
+  Category: 2012/ecnbasic, File Size: 484586 bytes, variables length: 167
+  Category: 2017/ecnbasic, File Size: 452761 bytes, variables length: 173
+  Category: 2022/ecnbasic, File Size: 503714 bytes, variables length: 130
+Dataset Name: ecnbranddeal
+  Category: 2012/ecnbranddeal, File Size: 375294 bytes, variables length: 12
+  Category: 2017/ecnbranddeal, File Size: 374768 bytes, variables length: 19
+Dataset Name: ecnbridge1
+  Category: 2012/ecnbridge1, File Size: 744760 bytes, variables length: 14
+  Category: 2017/ecnbridge1, File Size: 374739 bytes, variables length: 18
+Dataset Name: ecnbridge2
+  Category: 2012/ecnbridge2, File Size: 744760 bytes, variables length: 14
+  Category: 2017/ecnbridge2, File Size: 374739 bytes, variables length: 18
+Dataset Name: ecnbrordeal
+  Category: 2012/ecnbrordeal, File Size: 374949 bytes, variables length: 12
+  Category: 2017/ecnbrordeal, File Size: 374745 bytes, variables length: 19
+Dataset Name: ecnccard
+  Category: 2012/ecnccard, File Size: 375010 bytes, variables length: 12
+  Category: 2017/ecnccard, File Size: 374596 bytes, variables length: 19
+Dataset Name: ecnclcust
+  Category: 2012/ecnclcust, File Size: 421659 bytes, variables length: 19
+  Category: 2017/ecnclcust, File Size: 379978 bytes, variables length: 21
+Dataset Name: ecncomm
+  Category: 2012/ecncomm, File Size: 377560 bytes, variables length: 16
+  Category: 2017/ecncomm, File Size: 376838 bytes, variables length: 21
+Dataset Name: ecncomp
+  Category: 2012/ecncomp, File Size: 373576 bytes, variables length: 12
+  Category: 2017/ecncomp, File Size: 374312 bytes, variables length: 18
+Dataset Name: ecnconact
+  Category: 2012/ecnconact, File Size: 377454 bytes, variables length: 16
+  Category: 2017/ecnconact, File Size: 376640 bytes, variables length: 22
+Dataset Name: ecncrfin
+  Category: 2012/ecncrfin, File Size: 375798 bytes, variables length: 14
+  Category: 2017/ecncrfin, File Size: 375433 bytes, variables length: 21
+Dataset Name: ecndissmed
+  Category: 2012/ecndissmed, File Size: 375864 bytes, variables length: 14
+  Category: 2017/ecndissmed, File Size: 374943 bytes, variables length: 19
+Dataset Name: ecnempfunc
+  Category: 2012/ecnempfunc, File Size: 377776 bytes, variables length: 14
+  Category: 2017/ecnempfunc, File Size: 375556 bytes, variables length: 15
+Dataset Name: ecnentsup
+  Category: 2012/ecnentsup, File Size: 421558 bytes, variables length: 19
+  Category: 2017/ecnentsup, File Size: 375438 bytes, variables length: 20
+Dataset Name: ecneoyinv
+  Category: 2012/ecneoyinv, File Size: 377245 bytes, variables length: 18
+  Category: 2017/ecneoyinv, File Size: 377064 bytes, variables length: 24
+Dataset Name: ecneoyinvwh
+  Category: 2012/ecneoyinvwh, File Size: 376742 bytes, variables length: 20
+  Category: 2017/ecneoyinvwh, File Size: 377219 bytes, variables length: 25
+Dataset Name: ecnexpnrg
+  Category: 2012/ecnexpnrg, File Size: 374500 bytes, variables length: 12
+  Category: 2017/ecnexpnrg, File Size: 373862 bytes, variables length: 17
+Dataset Name: ecnexpsvc
+  Category: 2012/ecnexpsvc, File Size: 417923 bytes, variables length: 20
+  Category: 2017/ecnexpsvc, File Size: 375531 bytes, variables length: 21
+Dataset Name: ecnflspace
+  Category: 2012/ecnflspace, File Size: 376322 bytes, variables length: 17
+  Category: 2017/ecnflspace, File Size: 375152 bytes, variables length: 19
+Dataset Name: ecnfoodsvc
+  Category: 2012/ecnfoodsvc, File Size: 375348 bytes, variables length: 12
+  Category: 2017/ecnfoodsvc, File Size: 374276 bytes, variables length: 18
+Dataset Name: ecnfran
+  Category: 2012/ecnfran, File Size: 375593 bytes, variables length: 14
+  Category: 2017/ecnfran, File Size: 374527 bytes, variables length: 20
+Dataset Name: ecngrant
+  Category: 2012/ecngrant, File Size: 376362 bytes, variables length: 15
+  Category: 2017/ecngrant, File Size: 375630 bytes, variables length: 20
+Dataset Name: ecnhosp
+  Category: 2012/ecnhosp, File Size: 376461 bytes, variables length: 15
+  Category: 2017/ecnhosp, File Size: 375660 bytes, variables length: 21
+Dataset Name: ecninvval
+  Category: 2012/ecninvval, File Size: 375569 bytes, variables length: 15
+  Category: 2017/ecninvval, File Size: 374756 bytes, variables length: 20
+Dataset Name: ecnkob
+  Category: 2012/ecnkob, File Size: 373572 bytes, variables length: 12
+  Category: 2017/ecnkob, File Size: 373651 bytes, variables length: 17
+Dataset Name: ecnlabor
+  Category: 2012/ecnlabor, File Size: 376809 bytes, variables length: 15
+  Category: 2017/ecnlabor, File Size: 376262 bytes, variables length: 20
+Dataset Name: ecnlifomfg
+  Category: 2012/ecnlifomfg, File Size: 376600 bytes, variables length: 18
+  Category: 2017/ecnlifomfg, File Size: 375611 bytes, variables length: 23
+Dataset Name: ecnlifomine
+  Category: 2012/ecnlifomine, File Size: 376447 bytes, variables length: 18
+  Category: 2017/ecnlifomine, File Size: 375518 bytes, variables length: 23
+Dataset Name: ecnloan
+  Category: 2012/ecnloan, File Size: 375791 bytes, variables length: 14
+  Category: 2017/ecnloan, File Size: 375217 bytes, variables length: 21
+Dataset Name: ecnlocmfg
+  Category: 2012/ecnlocmfg, File Size: 373210 bytes, variables length: 12
+  Category: 2017/ecnlocmfg, File Size: 373841 bytes, variables length: 17
+Dataset Name: ecnlocmine
+  Category: 2012/ecnlocmine, File Size: 374254 bytes, variables length: 19
+  Category: 2017/ecnlocmine, File Size: 382510 bytes, variables length: 16
+Dataset Name: ecnmargin
+  Category: 2012/ecnmargin, File Size: 377082 bytes, variables length: 17
+  Category: 2017/ecnmargin, File Size: 376918 bytes, variables length: 23
+Dataset Name: ecnmatfuel
+  Category: 2012/ecnmatfuel, File Size: 401964 bytes, variables length: 13
+  Category: 2017/ecnmatfuel, File Size: 401330 bytes, variables length: 18
+Dataset Name: ecnpatient
+  Category: 2012/ecnpatient, File Size: 376814 bytes, variables length: 15
+  Category: 2017/ecnpatient, File Size: 375674 bytes, variables length: 20
+Dataset Name: ecnpetrfac
+  Category: 2012/ecnpetrfac, File Size: 377383 bytes, variables length: 17
+  Category: 2017/ecnpetrfac, File Size: 376606 bytes, variables length: 19
+Dataset Name: ecnpetrprod
+  Category: 2012/ecnpetrprod, File Size: 378215 bytes, variables length: 17
+  Category: 2017/ecnpetrprod, File Size: 376735 bytes, variables length: 19
+Dataset Name: ecnpetrrec
+  Category: 2012/ecnpetrrec, File Size: 377426 bytes, variables length: 17
+  Category: 2017/ecnpetrrec, File Size: 376639 bytes, variables length: 19
+Dataset Name: ecnpetrstat
+  Category: 2012/ecnpetrstat, File Size: 376516 bytes, variables length: 16
+  Category: 2017/ecnpetrstat, File Size: 376635 bytes, variables length: 19
+Dataset Name: ecnprofit
+  Category: 2012/ecnprofit, File Size: 376405 bytes, variables length: 15
+  Category: 2017/ecnprofit, File Size: 375997 bytes, variables length: 20
+Dataset Name: ecnpurelec
+  Category: 2012/ecnpurelec, File Size: 374992 bytes, variables length: 13
+  Category: 2017/ecnpurelec, File Size: 374373 bytes, variables length: 18
+Dataset Name: ecnpurmode
+  Category: 2012/ecnpurmode, File Size: 375594 bytes, variables length: 13
+  Category: 2017/ecnpurmode, File Size: 374803 bytes, variables length: 19
+Dataset Name: ecnrdofc
+  Category: 2012/ecnrdofc, File Size: 376614 bytes, variables length: 15
+  Category: 2017/ecnrdofc, File Size: 375661 bytes, variables length: 20
+Dataset Name: ecnsize
+  Category: 2012/ecnsize, File Size: 586747 bytes, variables length: 59
+  Category: 2017/ecnsize, File Size: 390789 bytes, variables length: 35
+Dataset Name: ecnsocial
+  Category: 2012/ecnsocial, File Size: 376346 bytes, variables length: 15
+  Category: 2017/ecnsocial, File Size: 375740 bytes, variables length: 20
+Dataset Name: ecntype
+  Category: 2012/ecntype, File Size: 375380 bytes, variables length: 18
+  Category: 2017/ecntype, File Size: 378488 bytes, variables length: 28
+  Category: 2022/ecntype, File Size: 435962 bytes, variables length: 30
+Dataset Name: ecntypop
+  Category: 2012/ecntypop, File Size: 376742 bytes, variables length: 17
+  Category: 2017/ecntypop, File Size: 376177 bytes, variables length: 22
+  Category: 2022/ecntypop, File Size: 433051 bytes, variables length: 22
+Dataset Name: ecnvalcon
+  Category: 2012/ecnvalcon, File Size: 377576 bytes, variables length: 11
+  Category: 2017/ecnvalcon, File Size: 373618 bytes, variables length: 16
+Dataset Name: popproj/births
+  Category: 2012/popproj/births, File Size: 877 bytes, variables length: 4
+  Category: 2017/popproj/births, File Size: 2379 bytes, variables length: 14
+Dataset Name: popproj/deaths
+  Category: 2012/popproj/deaths, File Size: 15441 bytes, variables length: 90
+  Category: 2017/popproj/deaths, File Size: 2536 bytes, variables length: 15
+Dataset Name: popproj/nim
+  Category: 2012/popproj/nim, File Size: 16824 bytes, variables length: 90
+  Category: 2017/popproj/nim, File Size: 2520 bytes, variables length: 15
+Dataset Name: popproj/pop
+  Category: 2012/popproj/pop, File Size: 15990 bytes, variables length: 91
+  Category: 2017/popproj/pop, File Size: 2959 bytes, variables length: 18
+Dataset Name: cps/arts/feb
+  Category: 2013/cps/arts/feb, File Size: 417664 bytes, variables length: 408
+  Category: 2014/cps/arts/feb, File Size: 424913 bytes, variables length: 416
+  Category: 2015/cps/arts/feb, File Size: 417753 bytes, variables length: 409
+  Category: 2016/cps/arts/feb, File Size: 418751 bytes, variables length: 411
+  Category: 2018/cps/arts/feb, File Size: 420557 bytes, variables length: 415
+  Category: 2020/cps/arts/feb, File Size: 446183 bytes, variables length: 453
+Dataset Name: pep/housing
+  Category: 2013/pep/housing, File Size: 1843 bytes, variables length: 11
+  Category: 2014/pep/housing, File Size: 1843 bytes, variables length: 11
+  Category: 2015/pep/housing, File Size: 2045 bytes, variables length: 12
+  Category: 2016/pep/housing, File Size: 2225 bytes, variables length: 13
+  Category: 2017/pep/housing, File Size: 2081 bytes, variables length: 12
+  Category: 2018/pep/housing, File Size: 2587 bytes, variables length: 15
+  Category: 2019/pep/housing, File Size: 2918 bytes, variables length: 13
+Dataset Name: pep/natstprc
+  Category: 2013/pep/natstprc, File Size: 2678 bytes, variables length: 15
+  Category: 2014/pep/natstprc, File Size: 2651 bytes, variables length: 15
+Dataset Name: pep/natstprc18
+  Category: 2013/pep/natstprc18, File Size: 1812 bytes, variables length: 10
+  Category: 2014/pep/natstprc18, File Size: 1882 bytes, variables length: 10
+Dataset Name: pep/subcty
+  Category: 2013/pep/subcty, File Size: 2384 bytes, variables length: 14
+  Category: 2014/pep/subcty, File Size: 2153 bytes, variables length: 13
+Dataset Name: acs/acsse
+  Category: 2014/acs/acsse, File Size: 130387 bytes, variables length: 371
+  Category: 2015/acs/acsse, File Size: 129008 bytes, variables length: 368
+  Category: 2016/acs/acsse, File Size: 128986 bytes, variables length: 368
+  Category: 2017/acs/acsse, File Size: 129359 bytes, variables length: 371
+  Category: 2018/acs/acsse, File Size: 110374 bytes, variables length: 366
+  Category: 2019/acs/acsse, File Size: 111248 bytes, variables length: 368
+  Category: 2021/acs/acsse, File Size: 111251 bytes, variables length: 368
+  Category: 2022/acs/acsse, File Size: 111534 bytes, variables length: 369
+  Category: 2023/acs/acsse, File Size: 111462 bytes, variables length: 366
+Dataset Name: ase/csa
+  Category: 2014/ase/csa, File Size: 388219 bytes, variables length: 42
+  Category: 2015/ase/csa, File Size: 385858 bytes, variables length: 26
+  Category: 2016/ase/csa, File Size: 385858 bytes, variables length: 26
+Dataset Name: ase/cscb
+  Category: 2014/ase/cscb, File Size: 553491 bytes, variables length: 108
+  Category: 2015/ase/cscb, File Size: 570142 bytes, variables length: 69
+  Category: 2016/ase/cscb, File Size: 558944 bytes, variables length: 67
+Dataset Name: ase/cscbo
+  Category: 2014/ase/cscbo, File Size: 405273 bytes, variables length: 50
+  Category: 2015/ase/cscbo, File Size: 401580 bytes, variables length: 28
+  Category: 2016/ase/cscbo, File Size: 404032 bytes, variables length: 29
+Dataset Name: cps/tobacco/jul
+  Category: 2014/cps/tobacco/jul, File Size: 548838 bytes, variables length: 612
+  Category: 2018/cps/tobacco/jul, File Size: 562736 bytes, variables length: 653
+Dataset Name: intltrade/imp_exp
+  Category: 2014/intltrade/imp_exp, File Size: 8308 bytes, variables length: 42
+  Category: 2015/intltrade/imp_exp, File Size: 8308 bytes, variables length: 42
+  Category: 2016/intltrade/imp_exp, File Size: 9896 bytes, variables length: 50
+  Category: 2017/intltrade/imp_exp, File Size: 8308 bytes, variables length: 42
+  Category: 2018/intltrade/imp_exp, File Size: 8311 bytes, variables length: 42
+Dataset Name: acs/acs5/cprofile
+  Category: 2015/acs/acs5/cprofile, File Size: 491698 bytes, variables length: 1351
+  Category: 2016/acs/acs5/cprofile, File Size: 491726 bytes, variables length: 1351
+  Category: 2017/acs/acs5/cprofile, File Size: 500110 bytes, variables length: 1357
+  Category: 2018/acs/acs5/cprofile, File Size: 482139 bytes, variables length: 1357
+  Category: 2019/acs/acs5/cprofile, File Size: 485813 bytes, variables length: 1362
+  Category: 2020/acs/acs5/cprofile, File Size: 488465 bytes, variables length: 1366
+  Category: 2021/acs/acs5/cprofile, File Size: 488481 bytes, variables length: 1366
+  Category: 2022/acs/acs5/cprofile, File Size: 489856 bytes, variables length: 1369
+  Category: 2023/acs/acs5/cprofile, File Size: 492121 bytes, variables length: 1375
+Dataset Name: pdb/blockgroup
+  Category: 2015/pdb/blockgroup, File Size: 85555 bytes, variables length: 345
+  Category: 2016/pdb/blockgroup, File Size: 85850 bytes, variables length: 347
+  Category: 2018/pdb/blockgroup, File Size: 85965 bytes, variables length: 347
+  Category: 2019/pdb/blockgroup, File Size: 71806 bytes, variables length: 351
+  Category: 2020/pdb/blockgroup, File Size: 71742 bytes, variables length: 350
+  Category: 2021/pdb/blockgroup, File Size: 72452 bytes, variables length: 350
+  Category: 2022/pdb/blockgroup, File Size: 60305 bytes, variables length: 292
+  Category: 2023/pdb/blockgroup, File Size: 73410 bytes, variables length: 355
+Dataset Name: pdb/tract
+  Category: 2015/pdb/tract, File Size: 145876 bytes, variables length: 569
+  Category: 2016/pdb/tract, File Size: 143026 bytes, variables length: 559
+  Category: 2018/pdb/tract, File Size: 114419 bytes, variables length: 456
+  Category: 2019/pdb/tract, File Size: 111022 bytes, variables length: 529
+  Category: 2020/pdb/tract, File Size: 110054 bytes, variables length: 529
+  Category: 2021/pdb/tract, File Size: 112038 bytes, variables length: 529
+  Category: 2022/pdb/tract, File Size: 98597 bytes, variables length: 470
+  Category: 2023/pdb/tract, File Size: 112348 bytes, variables length: 530
+Dataset Name: pep/charage
+  Category: 2015/pep/charage, File Size: 3239 bytes, variables length: 18
+  Category: 2016/pep/charage, File Size: 3224 bytes, variables length: 18
+  Category: 2017/pep/charage, File Size: 3221 bytes, variables length: 18
+  Category: 2018/pep/charage, File Size: 5742 bytes, variables length: 20
+  Category: 2019/pep/charage, File Size: 7572 bytes, variables length: 18
+Dataset Name: pep/charagegroups
+  Category: 2015/pep/charagegroups, File Size: 3150 bytes, variables length: 18
+  Category: 2016/pep/charagegroups, File Size: 3151 bytes, variables length: 18
+  Category: 2017/pep/charagegroups, File Size: 3150 bytes, variables length: 18
+  Category: 2018/pep/charagegroups, File Size: 7433 bytes, variables length: 20
+  Category: 2019/pep/charagegroups, File Size: 2879 bytes, variables length: 18
+Dataset Name: pep/components
+  Category: 2015/pep/components, File Size: 4399 bytes, variables length: 25
+  Category: 2016/pep/components, File Size: 5161 bytes, variables length: 29
+  Category: 2017/pep/components, File Size: 5161 bytes, variables length: 29
+  Category: 2018/pep/components, File Size: 5905 bytes, variables length: 31
+  Category: 2019/pep/components, File Size: 4517 bytes, variables length: 31
+Dataset Name: pep/natmonthly
+  Category: 2015/pep/natmonthly, File Size: 2548 bytes, variables length: 14
+  Category: 2016/pep/natmonthly, File Size: 2551 bytes, variables length: 14
+  Category: 2017/pep/natmonthly, File Size: 2548 bytes, variables length: 14
+  Category: 2018/pep/natmonthly, File Size: 12712 bytes, variables length: 15
+  Category: 2019/pep/natmonthly, File Size: 13252 bytes, variables length: 16
+  Category: 2021/pep/natmonthly, File Size: 6186 bytes, variables length: 15
+Dataset Name: pep/population
+  Category: 2015/pep/population, File Size: 3256 bytes, variables length: 19
+  Category: 2016/pep/population, File Size: 4014 bytes, variables length: 23
+  Category: 2017/pep/population, File Size: 4014 bytes, variables length: 23
+  Category: 2018/pep/population, File Size: 5249 bytes, variables length: 25
+  Category: 2019/pep/population, File Size: 5450 bytes, variables length: 26
+  Category: 2021/pep/population, File Size: 11170 bytes, variables length: 53
+Dataset Name: rhfs
+  Category: 2015/rhfs, File Size: 81268 bytes, variables length: 19
+  Category: 2018/rhfs, File Size: 91725 bytes, variables length: 19
+  Category: 2021/rhfs, File Size: 86221 bytes, variables length: 19
+Dataset Name: abscb
+  Category: 2017/abscb, File Size: 455247 bytes, variables length: 44
+  Category: 2018/abscb, File Size: 454364 bytes, variables length: 40
+  Category: 2019/abscb, File Size: 454389 bytes, variables length: 40
+  Category: 2020/abscb, File Size: 459769 bytes, variables length: 41
+  Category: 2021/abscb, File Size: 459819 bytes, variables length: 41
+  Category: 2022/abscb, File Size: 461022 bytes, variables length: 45
+Dataset Name: abscbo
+  Category: 2017/abscbo, File Size: 435434 bytes, variables length: 29
+  Category: 2018/abscbo, File Size: 434779 bytes, variables length: 25
+  Category: 2019/abscbo, File Size: 434792 bytes, variables length: 25
+  Category: 2020/abscbo, File Size: 434792 bytes, variables length: 25
+  Category: 2021/abscbo, File Size: 434818 bytes, variables length: 25
+  Category: 2022/abscbo, File Size: 435803 bytes, variables length: 29
+Dataset Name: abscs
+  Category: 2017/abscs, File Size: 451538 bytes, variables length: 34
+  Category: 2018/abscs, File Size: 450845 bytes, variables length: 30
+  Category: 2019/abscs, File Size: 450908 bytes, variables length: 30
+  Category: 2020/abscs, File Size: 454382 bytes, variables length: 31
+  Category: 2021/abscs, File Size: 454510 bytes, variables length: 31
+  Category: 2022/abscs, File Size: 455764 bytes, variables length: 35
+Dataset Name: ecn/islandareas/napcs
+  Category: 2017/ecn/islandareas/napcs, File Size: 1267926 bytes, variables length: 30
+  Category: 2022/ecn/islandareas/napcs, File Size: 1503941 bytes, variables length: 26
+Dataset Name: absnesd
+  Category: 2018/absnesd, File Size: 397728 bytes, variables length: 36
+  Category: 2019/absnesd, File Size: 400360 bytes, variables length: 37
+  Category: 2020/absnesd, File Size: 402820 bytes, variables length: 37
+  Category: 2021/absnesd, File Size: 412039 bytes, variables length: 38
+Dataset Name: absnesdo
+  Category: 2018/absnesdo, File Size: 385448 bytes, variables length: 23
+  Category: 2019/absnesdo, File Size: 385448 bytes, variables length: 23
+  Category: 2020/absnesdo, File Size: 385865 bytes, variables length: 23
+  Category: 2021/absnesdo, File Size: 392525 bytes, variables length: 24
+Dataset Name: cps/disability/jul
+  Category: 2019/cps/disability/jul, File Size: 432711 bytes, variables length: 459
+  Category: 2021/cps/disability/jul, File Size: 450130 bytes, variables length: 474
+Dataset Name: cre
+  Category: 2019/cre, File Size: 3425 bytes, variables length: 17
+  Category: 2021/cre, File Size: 3437 bytes, variables length: 17
+  Category: 2022/cre, File Size: 3564 bytes, variables length: 17
+  Category: 2023/cre, File Size: 3392 bytes, variables length: 17
+Dataset Name: absmcb
+  Category: 2020/absmcb, File Size: 446560 bytes, variables length: 39
+  Category: 2021/absmcb, File Size: 449630 bytes, variables length: 41
+  Category: 2022/absmcb, File Size: 454561 bytes, variables length: 45
+Dataset Name: sipp
+  Category: 2022/sipp, File Size: 3088679 bytes, variables length: 5240
+  Category: 2023/sipp, File Size: 2966859 bytes, variables length: 5202
